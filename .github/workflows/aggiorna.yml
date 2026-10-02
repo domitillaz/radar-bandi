@@ -1,0 +1,84 @@
+name: Aggiorna radar bandi
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: aggiorna
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Collettori
+        working-directory: data
+        run: |
+          rm -f falliti.txt
+          for c in lazioinnova fundingtenders; do
+            python ../collettori/${c}_collector.py || echo "$c" >> falliti.txt
+          done
+
+      - name: Rilevanza
+        working-directory: data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            python ../agente_rilevanza.py bandi*.json || echo "rilevanza" >> falliti.txt
+          else
+            python ../filtro_parole_chiave.py bandi*.json || echo "rilevanza" >> falliti.txt
+          fi
+
+      - name: Digest e stato
+        id: digest
+        run: python digest.py
+
+      - name: Riepilogo nel log
+        run: cat digest.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Apri un issue col digest
+        if: steps.digest.outputs.invia == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Radar bandi $(date +%F)" --body-file digest.md
+
+      - name: Salva i dati nel repository
+        run: |
+          git config user.name "radar-bandi"
+          git config user.email "radar-bandi@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Aggiornamento dati $(date +%F)"
+          git push
+
+      - name: Prepara il sito
+        run: |
+          mkdir site && cp index.html site/ && cp -r data site/
+          rm -f site/data/rilevanza_cache.json site/data/visti.json site/data/falliti.txt
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
