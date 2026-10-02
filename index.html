@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar bandi – Ingegneria biomedica</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+:root{--bg:#eef2f4;--surface:#fff;--ink:#14272e;--mute:#5b6f77;--line:#d5dee2;--accent:#0e6b7a;
+--ok:#1d7a4a;--okbg:#e1f3e8;--warn:#8a5a00;--warnbg:#fdf0cf;--none:#5b6f77;--nonebg:#e8edef;--hi:#0e6b7a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3}}
+:root[data-theme="dark"]{--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "Instrument Sans",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px}
+h1{font:600 28px/1.15 Fraunces,Georgia,serif;margin:0 0 6px}
+.sub{color:var(--mute);margin:0 0 16px;max-width:70ch}
+.demo{background:var(--warnbg);color:var(--warn);border-radius:6px;padding:8px 12px;margin-bottom:16px;font-weight:500}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+input,select,button{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+input[type=search]{flex:1;min-width:180px}
+button{cursor:pointer}button:hover{border-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sum{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 12px;color:var(--mute)}
+.sum b{color:var(--ink)}
+.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:860px}
+th{text-align:left;font-weight:600;color:var(--mute);padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+th button{all:unset;cursor:pointer}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
+.sc{font:600 18px Fraunces,Georgia,serif;color:var(--hi)}
+.t{font-weight:600}.e{color:var(--mute);font-size:13px}
+.tag{display:inline-block;border-radius:4px;padding:1px 7px;font-size:12px;font-weight:600;margin-top:3px}
+.confermato{background:var(--okbg);color:var(--ok)}
+.da_verificare{background:var(--warnbg);color:var(--warn)}
+.non_presente{background:var(--nonebg);color:var(--none)}
+.det td{background:var(--bg);font-size:13.5px}
+.det dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 14px}
+.det dt{color:var(--mute)}.det dd{margin:0}
+.det q{font-style:italic}
+.empty{padding:28px;text-align:center;color:var(--mute)}
+.foot{color:var(--mute);font-size:13px;margin-top:16px;max-width:80ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Radar bandi</h1>
+<p class="sub">Bandi europei, nazionali, regionali e privati per il gruppo di ingegneria biomedica: machine learning su dati biomedici, sensoristica, lab-on-chip, organ-on-chip, microfluidica.</p>
+<div class="demo" id="demo">Mostrati i soli dati di Lazio Innova letti il 2 ottobre 2026; per l'Europa carica bandi_europa.json. I destinatari non compaiono nell'elenco: restano "non presente" finché il collettore non legge le schede dei singoli bandi.</div>
+<div class="bar">
+<input type="search" id="q" placeholder="Cerca per titolo o ente" aria-label="Cerca">
+<select id="fc" aria-label="Canale"><option value="">Tutti i canali</option><option>Europa</option><option>Nazionale</option><option>Regionale</option><option>Privati</option></select>
+<select id="fs" aria-label="Stato dati"><option value="">Tutti gli stati</option><option value="da_verificare">Con campi da verificare</option><option value="confermato">Solo confermati</option></select>
+<label class="e">Carica i file .json <input type="file" id="file" accept=".json" multiple></label>
+<button id="theme" type="button">Cambia tema</button>
+</div>
+<p class="sum" id="sum"></p>
+<div class="tw"><table>
+<thead><tr>
+<th><button data-k="rel">Rilevanza</button></th><th>Bando</th><th><button data-k="can">Canale</button></th>
+<th><button data-k="sca">Scadenza</button></th><th>Università ammessa?</th><th>Completezza dati</th></tr></thead>
+<tbody id="tb"></tbody></table></div>
+<p class="foot">Clicca una riga per vedere la citazione dalla fonte e il link. "Confermato" significa che la citazione è stata trovata parola per parola nella pagina; "da verificare" significa che serve un controllo manuale; "non presente" significa che la fonte non lo dice. La rilevanza è un giudizio del modello, non un dato estratto.</p>
+</div>
+<script>
+const day=86400000, now=Date.now();
+const iso=n=>new Date(now+n*day).toISOString().slice(0,10);
+const F=(v,s,c,m)=>({valore:v,stato:s,citazione:c||null,motivo:m||null});
+const U="https://www.lazioinnova.it/bandi-aperti/";
+const ND=F(null,"non_presente",null,"Non riportata nella pagina elenco: va letta nella scheda del bando");
+const NA=F(null,"non_presente",null,"L'elenco non indica i destinatari");
+const R="Regionale",E="Regione Lazio / Lazio Innova";
+let DATA=[
+{id:1,canale:R,ente:E,titolo:"Scuola Volonté, bando per l'ammissione degli allievi",url:U,rilevanza:null,scadenza:F("2026-10-15","confermato","candidature online entro il 15 ottobre 2026"),durata:ND,budget:ND,ammissibilita:NA},
+{id:2,canale:R,ente:E,titolo:"Sostegno al servizio di psicologia scolastica e agli sportelli di ascolto",url:U,rilevanza:null,scadenza:F("2026-12-01","confermato","dalle ore 9:00 del 22 ottobre alle ore 17.00 del 1° dicembre 2026"),durata:ND,budget:ND,ammissibilita:NA},
+{id:3,canale:R,ente:E,titolo:"Basket Bond Lazio",url:U,rilevanza:null,scadenza:F("2027-09-30","confermato","manifestazioni d’interesse prorogate al 30 settembre 2027"),durata:ND,budget:ND,ammissibilita:NA},
+{id:4,canale:R,ente:E,titolo:"Partecipazione di imprese turistiche e DMO a «Lazio delle Eccellenze»",url:U,rilevanza:null,scadenza:F("2026-10-01","confermato","scadenza prorogata alle ore 18.00 del 1° ottobre 2026"),durata:ND,budget:ND,ammissibilita:NA},
+{id:5,canale:R,ente:E,titolo:"Iniziative presso lo stand della Regione Lazio a Più libri Più Liberi 2026",url:U,rilevanza:null,scadenza:F("2026-09-30","confermato","entro le ore 23.59 del 30 settembre 2026"),durata:ND,budget:ND,ammissibilita:NA},
+{id:6,canale:R,ente:E,titolo:"Basket Bond Lazio: contributo sui costi di emissione sostenuti dalle Pmi",url:U,rilevanza:null,scadenza:F(null,"non_presente",null,"L'elenco indica solo la piattaforma di presentazione, nessuna data"),durata:ND,budget:ND,ammissibilita:NA},
+{id:7,canale:R,ente:E,titolo:"Integrazione e potenziamento interventi PAR GOL Lazio (target PNRR)",url:U,rilevanza:null,scadenza:F(null,"da_verificare",null,"La pagina dice «fino a esaurimento risorse» e modalità diverse per linea d'azione: nessuna data"),durata:ND,budget:ND,ammissibilita:NA}
+];
+const $=id=>document.getElementById(id);
+let sortK="sca",asc=true,open=new Set();
+const lab={confermato:"confermato",da_verificare:"da verificare",non_presente:"non presente"};
+function cell(f,fmt){
+ if(!f||f.stato==="non_presente")return `<span class="tag non_presente">non presente</span>`;
+ const v=f.valore==null?"—":(fmt?fmt(f.valore):f.valore);
+ return `${esc(v)}<br><span class="tag ${f.stato}">${lab[f.stato]}</span>`;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function dl(v){const d=Math.ceil((new Date(v)-now)/day);return isNaN(d)?"":d<0?" (scaduto)":` (tra ${d} giorni)`}
+function dfmt(v){const d=new Date(v);return isNaN(d)?esc(v):d.toLocaleDateString("it-IT",{day:"numeric",month:"short",year:"numeric"})+dl(v)}
+function flds(b){return [b.scadenza,b.ammissibilita]}
+function miss(b){return [["scadenza",b.scadenza],["ammissibilità",b.ammissibilita]].filter(([n,f])=>!f||f.stato!=="confermato").map(([n])=>n)}
+function dati(b){const m=miss(b);return m.length?`<span class="tag da_verificare">da verificare</span><br><span class="e">mancano o incerti: ${m.join(", ")}</span>`:`<span class="tag confermato">completi</span>`}
+function render(){
+ const q=$("q").value.toLowerCase(),c=$("fc").value,s=$("fs").value;
+ let r=DATA.filter(b=>(!q||(b.titolo+b.ente).toLowerCase().includes(q))&&(!c||b.canale===c)&&
+  (!s||(s==="da_verificare"?flds(b).some(f=>f&&f.stato==="da_verificare"):flds(b).every(f=>!f||f.stato==="confermato"))));
+ const key={rel:b=>-((b.rilevanza&&b.rilevanza.punteggio)||0),can:b=>b.canale,sca:b=>b.scadenza&&b.scadenza.valore?b.scadenza.valore:"9999"}[sortK];
+ r.sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:0)*(asc?1:-1)});
+ const nv=DATA.filter(b=>flds(b).some(f=>f&&f.stato==="da_verificare")).length;
+ $("sum").innerHTML=`<span><b>${DATA.length}</b> bandi</span><span><b>${nv}</b> con campi da verificare</span><span><b>${r.length}</b> mostrati</span>`;
+ $("tb").innerHTML=r.length?r.map(b=>{
+  const o=open.has(b.id);
+  return `<tr class="row" data-id="${b.id}" tabindex="0" aria-expanded="${o}"><td>${b.rilevanza&&b.rilevanza.punteggio!=null?`<span class="sc">${b.rilevanza.punteggio}</span>/10<br><span class="tag non_presente">${b.rilevanza.stato==='parole_chiave'?'parole chiave':'stima del modello'}</span>`:b.rilevanza?`<span class="tag da_verificare">da verificare</span>`:`<span class="e">da valutare</span>`}</td>
+  <td><div class="t">${esc(b.titolo)}</div><div class="e">${esc(b.ente)}</div></td><td>${esc(b.canale)}</td>
+  <td>${cell(b.scadenza,dfmt)}</td><td>${cell(b.ammissibilita)}</td><td>${dati(b)}</td></tr>`+
+  (o?`<tr class="det"><td colspan="6"><dl>
+  <dt>Rilevanza</dt><dd>${b.rilevanza?esc(b.rilevanza.motivazione)+(b.rilevanza.evidenze||[]).map(x=>'<br><q>'+esc(x)+'</q>').join(''):'non ancora valutata'}</dd>${b.rilevanza&&b.rilevanza.destinatari&&b.rilevanza.destinatari.valore!=='non_indicato'?`<dt>Destinatari</dt><dd>${esc(b.rilevanza.destinatari.valore.replace('_',' '))}${b.rilevanza.destinatari.citazione?': <q>'+esc(b.rilevanza.destinatari.citazione)+'</q>':''}</dd>`:''}
+  ${[["Scadenza",b.scadenza],["Ammissibilità",b.ammissibilita]].map(([n,f])=>`<dt>${n}</dt><dd>${f&&f.citazione?`<q>${esc(f.citazione)}</q>`:f&&f.motivo?esc(f.motivo):"nessuna citazione disponibile"}</dd>`).join("")}
+  ${b.trovato_con?`<dt>Trovato con</dt><dd>${esc(b.trovato_con.join(", "))}</dd>`:""}<dt>Fonte</dt><dd>${b.url&&b.url!=="#"?`<a href="${esc(b.url)}" rel="noopener">${esc(b.url)}</a>`:"link non disponibile nei dati di esempio"}</dd></dl></td></tr>`:"");
+ }).join(""):`<tr><td colspan="6" class="empty">Nessun bando corrisponde ai filtri. Cancella la ricerca o scegli un altro canale.</td></tr>`;
+}
+$("tb").addEventListener("click",e=>{const t=e.target.closest("tr.row");if(!t||e.target.closest("a"))return;const i=+t.dataset.id;open.has(i)?open.delete(i):open.add(i);render()});
+$("tb").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){const t=e.target.closest("tr.row");if(t){e.preventDefault();t.click()}}});
+["q","fc","fs"].forEach(i=>$(i).addEventListener("input",render));
+document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.k;asc=sortK===k?!asc:true;sortK=k;render()}));
+$("theme").addEventListener("click",()=>{const d=document.documentElement,dark=getComputedStyle(d).getPropertyValue("--bg").trim()==="#0e1a1f";d.dataset.theme=dark?"light":"dark"});
+$("file").addEventListener("change",async e=>{
+ const fs=[...e.target.files];if(!fs.length)return;
+ try{let all=[],err=[];
+  for(const f of fs){const j=JSON.parse(await f.text());all=all.concat(Array.isArray(j)?j:j.bandi);if(j.errori)err=err.concat(j.errori)}
+  DATA=all.map((b,i)=>({id:i+1,...b}));open.clear();
+  $("demo").textContent=err.length?"Attenzione, copertura incompleta: "+err.join("; "):"Dati caricati da "+fs.length+" file.";
+  $("demo").style.display="block";render()
+ }catch(err){$("demo").textContent="File non valido: serve un JSON con un elenco di bandi.";$("demo").style.display="block"}});
+(async()=>{
+ const get=async n=>{try{const r=await fetch(n,{cache:"no-store"});return r.ok?await r.json():null}catch(e){return null}};
+ const st=await get("data/stato.json");
+ const js=(await Promise.all(((st&&st.file)||["bandi.json","bandi_europa.json"]).map(n=>get("data/"+n)))).filter(Boolean);
+ if(!js.length)return;
+ DATA=js.flatMap(j=>j.bandi).map((b,i)=>({id:i+1,...b}));
+ const msg=[];
+ if(st&&st.falliti&&st.falliti.length)msg.push("fonti non aggiornate nell'ultima esecuzione: "+st.falliti.join(", "));
+ js.forEach(j=>(j.errori||[]).forEach(x=>msg.push(x)));
+ $("demo").textContent=(st&&st.aggiornato?"Ultimo aggiornamento: "+st.aggiornato.slice(0,16).replace("T"," ")+" UTC. ":"")+(msg.length?"Attenzione, copertura incompleta: "+msg.join("; "):"Nessun errore segnalato nell'ultima esecuzione.");
+ $("demo").style.display="block";open.clear();render();
+})();
+render();
+</script>
+</body>
+</html>
