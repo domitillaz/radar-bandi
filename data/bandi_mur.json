@@ -33,14 +33,18 @@
         "citazione": null,
         "motivo": "Il testo letto non indica i destinatari"
       },
-      "testo_fonte": "La partnership europea SBEP ha pubblicato l’avviso di pre-informazione della quarta Call transnazionale 2026. La pubblicazione del bando è prevista il 14 settembre 2026.",
+      "testo_fonte": "Ricerca Internazionale Navigazione principale Motore di ricerca interno Menu dei contenuti Contenuti Piede pagina Salta menu Navigazione principale Ricerca Internazionale Spazio Europeo della Ricerca Accordi bilaterali e multilaterali Ricerca Spaziale Salta il Motore di Ricerca Interno Home » 2026 » SBEP - Preannuncio quarta call transazionale 2026 SBEP - Preannuncio quarta call transazionale 2026 Spazio Europeo della Ricerca La partnership europea SBEP ha pubblicato l'avviso di pre-informazione della quarta Call transnazionale 2026. La pubblicazione del bando è prevista il 14 settembre 2026 Consulta la pagina dedicata Salta il menu dei Contenuti del sito Evidenza Protocolli di intesa Programmazione congiunta Normativa prog. internazionali Infrastrutture di ricerca EU partnership 2021-27 Novità Dall'Italia Dall'Europa Dal mondo Servizi Glossario Contatti Richiesta pubblicazione Pagina a cura di: Direzione generale dell’internazionalizzazione e della comunicazione - Ufficio III Largo Antonio Ruberti n. 1 – 00153 Roma Privacy",
       "rilevanza": {
-        "punteggio": null,
-        "stato": "da_verificare",
-        "motivazione": "Nessun termine trovato, ma il testo è troppo corto per escludere la pertinenza",
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
         "temi": [],
         "evidenze": [],
-        "destinatari": null
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
       }
     },
     {
