@@ -35,7 +35,7 @@ jobs:
         working-directory: data
         run: |
           rm -f falliti.txt
-          for c in lazioinnova fundingtenders; do
+          for c in lazioinnova fundingtenders mur; do
             python ../collettori/${c}_collector.py || echo "$c" >> falliti.txt
           done
 
