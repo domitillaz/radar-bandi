@@ -67,6 +67,13 @@ def scadenza(r, grezzo):
     if len({d for _, d in date}) > 1:
         s, d = max(date, key=lambda x: x[1])
         return campo(d.isoformat(), "da_verificare", s, "Più scadenze (cut-off multipli o due fasi): verificare quale vale per te")
+    ident = str((meta(r, "identifier") or [""])[0]).lower()
+    modello = " ".join(str(x) for x in meta(r, "deadlineModel")).lower()
+    if "two-stage" in ident or "two-stage" in modello or "two stage" in modello:
+        return campo(date[0][1].isoformat(), "da_verificare", date[0][0],
+                     "Procedura a due fasi: la data riguarda probabilmente solo la prima fase")
+    if "multiple" in modello:
+        return campo(date[0][1].isoformat(), "da_verificare", date[0][0], "Più cut-off: verificare quale vale per te")
     return verifica(campo(date[0][1].isoformat(), "confermato", date[0][0]), grezzo)
 
 
@@ -84,7 +91,7 @@ def durata(r):
 
 
 def main(debug=False):
-    trovati, errori = {}, []
+    trovati, errori, campi = {}, [], None
     for parola in PAROLE:
         try:
             dati = cerca(parola)
@@ -93,6 +100,10 @@ def main(debug=False):
             continue
         if debug and parola == PAROLE[0]:
             print(json.dumps((dati.get("results") or [])[:1], indent=2, ensure_ascii=False)[:3000])
+        if campi is None and dati.get("results"):  # nomi e valori di esempio dei campi, per migliorare il parser
+            r0 = dati["results"][0]
+            campi = {"_chiavi_record": list(r0.keys()),
+                     **{f"metadata.{k}": str(v)[:200] for k, v in (r0.get("metadata") or {}).items()}}
         for r in dati.get("results") or []:
             ident = (meta(r, "identifier") or [r.get("reference")])[0]
             if not ident:
@@ -100,6 +111,9 @@ def main(debug=False):
             voce = trovati.setdefault(ident, {"r": r, "parole": []})
             voce["parole"].append(parola)
         time.sleep(1)
+    if campi:
+        with open("campi_api.json", "w", encoding="utf-8") as f:
+            json.dump(campi, f, ensure_ascii=False, indent=2)
     if not trovati and errori:
         raise SystemExit("Tutte le ricerche sono fallite: " + "; ".join(errori))
     oggi = dt.date.today().isoformat()

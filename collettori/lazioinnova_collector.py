@@ -34,6 +34,21 @@ def testo(html):
     return pulisci(BeautifulSoup(html, "html.parser").get_text(" ", strip=True))
 
 
+def testo_pagina(html):
+    """Testo del contenuto principale: toglie menu, intestazioni e piè di pagina.
+    Se il risultato è troppo corto (struttura insolita) usa tutto il testo della pagina.
+    Non si tolgono i <form>: nelle pagine .aspx avvolgono l'intero contenuto."""
+    soup = BeautifulSoup(html, "html.parser")
+    for t in soup(["script", "style"]):
+        t.decompose()
+    completo = pulisci((soup.body or soup).get_text(" ", strip=True))
+    for t in soup(["nav", "header", "footer", "aside"]):
+        t.decompose()
+    nodo = soup.find("main") or soup.find("article") or soup.body or soup
+    t = pulisci(nodo.get_text(" ", strip=True))
+    return t if len(t) >= 300 else completo
+
+
 def campo(valore, stato, citazione=None, motivo=None):
     return {"valore": valore, "stato": stato, "citazione": citazione, "motivo": motivo}
 
@@ -87,7 +102,7 @@ def main():
         scheda = ""
         if link:
             try:
-                scheda = testo(scarica(url))
+                scheda = testo_pagina(scarica(url))
             except requests.RequestException:
                 pass
         bandi.append({

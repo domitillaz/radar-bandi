@@ -44,6 +44,21 @@ def scarica(url):
     return r.text
 
 
+def testo_pagina(html):
+    """Testo del contenuto principale: toglie menu, intestazioni e piè di pagina.
+    Se il risultato è troppo corto (struttura insolita) usa tutto il testo della pagina.
+    Non si tolgono i <form>: nelle pagine .aspx avvolgono l'intero contenuto."""
+    soup = BeautifulSoup(html, "html.parser")
+    for t in soup(["script", "style"]):
+        t.decompose()
+    completo = pulisci((soup.body or soup).get_text(" ", strip=True))
+    for t in soup(["nav", "header", "footer", "aside"]):
+        t.decompose()
+    nodo = soup.find("main") or soup.find("article") or soup.body or soup
+    t = pulisci(nodo.get_text(" ", strip=True))
+    return t if len(t) >= 300 else completo
+
+
 def campo(valore, stato, citazione=None, motivo=None):
     return {"valore": valore, "stato": stato, "citazione": citazione, "motivo": motivo}
 
@@ -144,11 +159,16 @@ def main():
             visti.add(titolo)
             scheda = ""
             scad = verifica(scadenza(titolo, resto), resto)
-            if scad["stato"] == "non_presente" and link != url and not PREANNUNCIO.search(titolo):
-                try:  # la scadenza è spesso nella pagina di dettaglio
+            v = scad["valore"]
+            if v and dt.date.fromisoformat(v) < oggi:
+                scartati["scaduto"] += 1
+                continue
+            if link != url:  # il testo della scheda serve a scadenza, rilevanza e destinatari
+                try:
                     time.sleep(1)
-                    scheda = pulisci(BeautifulSoup(scarica(link), "html.parser").get_text(" ", strip=True))
-                    scad = verifica(scadenza(titolo, scheda), scheda)
+                    scheda = testo_pagina(scarica(link))
+                    if scad["stato"] == "non_presente" and not PREANNUNCIO.search(titolo):
+                        scad = verifica(scadenza(titolo, scheda), scheda)
                 except requests.RequestException:
                     pass
             v = scad["valore"]
