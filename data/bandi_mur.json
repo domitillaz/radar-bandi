@@ -1,0 +1,170 @@
+{
+  "generato": "2026-10-05",
+  "errori": [],
+  "bandi": [
+    {
+      "canale": "Nazionale",
+      "ente": "MUR",
+      "titolo": "SBEP - Preannuncio quarta call transazionale 2026",
+      "url": "http://www.ricercainternazionale.mur.gov.it/notizie/2026/sbep-preannuncio-quarta-call-transazionale-2026.aspx",
+      "data_lettura": "2026-10-05",
+      "data_pubblicazione": "2026-07-27",
+      "scadenza": {
+        "valore": null,
+        "stato": "da_verificare",
+        "citazione": null,
+        "motivo": "Preannuncio: la data nel testo è di pubblicazione, non di scadenza"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratta"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratto"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il testo letto non indica i destinatari"
+      },
+      "testo_fonte": "La partnership europea SBEP ha pubblicato l’avviso di pre-informazione della quarta Call transnazionale 2026. La pubblicazione del bando è prevista il 14 settembre 2026.",
+      "rilevanza": {
+        "punteggio": null,
+        "stato": "da_verificare",
+        "motivazione": "Nessun termine trovato, ma il testo è troppo corto per escludere la pertinenza",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": null
+      }
+    },
+    {
+      "canale": "Nazionale",
+      "ente": "MUR",
+      "titolo": "Bando Prin 2022 PNRR",
+      "url": "https://prin.mur.gov.it/",
+      "data_lettura": "2026-10-05",
+      "data_pubblicazione": null,
+      "scadenza": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Nessuna data nel testo"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratta"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratto"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il testo letto non indica i destinatari"
+      },
+      "testo_fonte": "- Decreto Direttoriale n. 1409 del 14-9-2022 Accesso MUR Accesso CNVR Accesso CdV",
+      "rilevanza": {
+        "punteggio": null,
+        "stato": "da_verificare",
+        "motivazione": "Nessun termine trovato, ma il testo è troppo corto per escludere la pertinenza",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": null
+      }
+    },
+    {
+      "canale": "Nazionale",
+      "ente": "MUR",
+      "titolo": "Bando Prin 2022 - Decreto Direttoriale n. 104 del 02-02-2022",
+      "url": "https://prin.mur.gov.it/",
+      "data_lettura": "2026-10-05",
+      "data_pubblicazione": null,
+      "scadenza": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Nessuna data nel testo"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratta"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratto"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il testo letto non indica i destinatari"
+      },
+      "testo_fonte": "Accesso MUR Accesso CNVR Accesso CdV Accesso revisori",
+      "rilevanza": {
+        "punteggio": null,
+        "stato": "da_verificare",
+        "motivazione": "Nessun termine trovato, ma il testo è troppo corto per escludere la pertinenza",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": null
+      }
+    },
+    {
+      "canale": "Nazionale",
+      "ente": "MUR",
+      "titolo": "Bando PRIN 2015 – Estrazione unità di ricerca da assoggettare a verifica amministrativo-contabile -",
+      "url": "https://prin.mur.gov.it/",
+      "data_lettura": "2026-10-05",
+      "data_pubblicazione": null,
+      "scadenza": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Nessuna data nel testo"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratta"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratto"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il testo letto non indica i destinatari"
+      },
+      "testo_fonte": "Comunicazione ed elenco unità Decreto di proroga per le verifiche degli audit PRIN 2015 -",
+      "rilevanza": {
+        "punteggio": null,
+        "stato": "da_verificare",
+        "motivazione": "Nessun termine trovato, ma il testo è troppo corto per escludere la pertinenza",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": null
+      }
+    }
+  ]
+}

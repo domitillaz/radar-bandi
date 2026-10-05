@@ -143,54 +143,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "DIGITAL-JU-CHIPS-2026-AI1-SG: AI chip demonstrators for EU compute infrastructure",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai1-sg",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "organ-on-chip",
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2026-10-27",
-        "stato": "confermato",
-        "citazione": "2026-10-27T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: The expected outcomes of this topic are : Functional demonstrators of working AI chip prototypes (PCB-level) designed by EU fabless companies and physically integrated with their system partners. Validation of AI chip solutions on a common EU evaluation platform (provided by the Topic X.B consortium), delivering comparative evidence on key performance indicators. A shortlist of European AI chip solutions awarded the AI Compute Excellence label and qualified to proceed to full rack development under Topic X.A2. AI chip demonstrators for EU compute infrastructure",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "DIGITAL-JU-CHIPS-2026-SG-JAPAN: International collaboration EU and Japan on semiconductors",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-sg-japan",
       "data_lettura": "2026-10-05",
@@ -223,6 +175,54 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Projects are expected to contribute to the following expected outcomes: Advanced heterogeneous integration, particularly in 2.5D and 3D packaging and integrated photonics, to support AI functionalities. Standardised chiplet interfaces, enabling interoperability and fostering a dynamic chiplet ecosystem Expected outcomes should have direct and immediate impact on European industry. Furthermore, proposed projects should demonstrate solutions across laboratory and pilot environments, with verification in semiconductor manufacturing use cases. The centre of gravity of envisaged work should address Technology Readiness Levels 5-7. Proposals also need to facilitate knowledge transfer and promote stakeholder engagement through industry workshops, publications, and networking events. International collaboration EU and Japan on semiconductors",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "DIGITAL-JU-CHIPS-2026-AI1-SG: AI chip demonstrators for EU compute infrastructure",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai1-sg",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "organ-on-chip",
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2026-10-27",
+        "stato": "confermato",
+        "citazione": "2026-10-27T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: The expected outcomes of this topic are : Functional demonstrators of working AI chip prototypes (PCB-level) designed by EU fabless companies and physically integrated with their system partners. Validation of AI chip solutions on a common EU evaluation platform (provided by the Topic X.B consortium), delivering comparative evidence on key performance indicators. A shortlist of European AI chip solutions awarded the AI Compute Excellence label and qualified to proceed to full rack development under Topic X.A2. AI chip demonstrators for EU compute infrastructure",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -1393,102 +1393,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-01-BIODIV-03: Technical innovation to protect ecosystems and to scale up their restoration",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-03",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "organ-on-chip",
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2027-09-22",
-        "stato": "confermato",
-        "citazione": "2027-09-22T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: activities of protection and restoration of ecosystems by stakeholders become easier and more effective; conditions to scale up the implementation of the EU Nature Restoration Regulation by stakeholders are improved, thus improving ecosystem services including for climate mitigation and adaptation. Scope: Ecosystem restoration strategies for nature restoration and climate change mitigation require a coordinated and coherent set of human interventions and management practices (e.g. temporal protection of plants or removing invasive species, including their seeds) for which there is usually no dedicated mean like specific machinery, equipment or other technical innovations (like for example specific lures for invasive alien species). The most common practice is the use of agricultural machinery or equipment, but this is not always effective. With target 4 of the EU biodiversity strategy for 2030, the EU took the following commitments: significant areas of degraded and carbon-rich ecosystems are restored; habitats and species show no deterioration in conservation trend and status, and at least 30% reach favourable conservation status or at least show a positive trend. According to the EU Nature Restoration Regulation, Member States shall put in place effective and area-based restoration measures with the aim to jointly cover, as a Union target, at least 20 % of land areas and at least 20 % of sea areas by 2030, and all ecosystems in need of restoration by 2050. This is reflected in target 2 of the Kunming-Montreal Global Biodiversity Framework. The European Climate Law requires Member States to adopt and implement national adaptation strategies and plans in which they should promote Nature-based Solutions and ecosystem-based adaptation. These policies and legislations have reached the implementation stage in the EU and worldwide. Successful proposals are expected to: design, develop and test technical innovations corresponding to identified needs for specific ecosystems protection and/or restoration activities. A wide range of possible innovations can be proposed, including new or adapted machines, low techs, digital innovations or combinations of them to be used in a wide range of ecosystem types, including terrestrial, freshwater and marine; pay attention to effectiveness, simplicity of use, durability and environmental sustainability and responsibility (including alertness to potential risks, trade-offs and the unintended consequences as a result of the use of technological innovations). This topic is particularly relevant for SMEs. Proposals should foresee appropriate resources to ensure close cooperation with the EC Knowledge Centre for Biodiversity (KCBD) and its Science Service. null Activities are expected to achieve TRL 6-7 by the end of the project – see General Annex B. Technical innovation to protect ecosystems and to scale up their restoration",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-01-BIODIV-06: Living labs driving transformative change via knowledge integration and inclusive governance",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-06",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "organ-on-chip",
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-09-22",
-        "stato": "confermato",
-        "citazione": "2027-09-22T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all the following expected outcomes: society and decision-makers are provided with enhanced governance frameworks that integrate knowledge across ecosystems (terrestrial, freshwater and marine) and/or societal challenges, helping overcome institutional barriers, power asymmetries, and policy fragmentation to accelerate transformative change towards a nature positive economy and support EU climate goals; practitioners and public authorities co-create and have access to living labs as innovation hubs for testing, and scaling both governance and socio-economic models that integrate diverse knowledge systems, actively engage stakeholders and support bottom-up and participatory approaches. Scope: As nature positive actions gain momentum and biodiversity is increasingly integrated into policies, it is essential to ensure governance frameworks can support large-scale, coordinated implementation. Relevant stakeholders should be actively involved in shaping new solutions adapted to different and local contexts. Living labs have the potential to empower a green transition and a transformative change towards nature positive society and economy by developing solutions in a co-creative manner and involving actors in real life settings to achieve large-scale impact and foster collaboration between sectors and communities. Proposals should align with key policies including the European Green Deal and the EU biodiversity strategy for 2030, the Sustainable Development Goals, the Kunming-Montreal Global Biodiversity Framework (GBF), the Paris Agreement, the European Climate Law and the One Health approach. Proposals should: establish living labs as real-world testing environments to experiment with policy solutions, stakeholder engagement, and new economic models, while strengthening collective capacities and well-being, and identifying and overcoming barriers that limit participation in living labs; develop inclusive, intersectional and adaptive governance strategies that foster systemic transformative change, based on both biodiversity and socio-economic metrics and emphasising equity and sustainability. In particular, actions are expected to: conduct a comprehensive review and analysis of policies related to both direct and indirect drivers of biodiversity loss, with the aim of identifying conflicting or competing objectives and informing more coherent, nature positive policy frameworks; analyse the legal, financial and institutional barriers to inclusive governance in Europe, including the assessment of political and economic obstacles and of active strategies by actors and develop proposals to pilot and test innovative policy instruments, such as citizens’ assemblies, participatory budgeting and, if and when relevant, nature credits as proposed in the Nature Credits Roadmap [1] , to foster transformative change; develop multi-level governance models and policy proposals to integrate all relevant nature positive actions (including protection and restoration of ecosystems, Nature-based Solutions, circular economy, sustainable bioeconomy, regenerative agriculture, agroecology, agroforestry, bioremediation, etc.) into all relevant EU policies and strategies in a synergetic and coherent way; identify relevant existing EU funded communities of practices, such as the Nature-based Solutions hubs, the circular economy hubs and the adaptation hubs, and group them per ecosystem or societal challenge; set-up living labs to co-develop enabling pathways for transformative change and test them to ensure positive impacts on the ground, drawing on best practices (including emerging nature positive actions), identifying knowledge gaps and addressing research and innovation needs in collaboration with all relevant stakeholders; develop digital tools to synthesise and visualise diverse knowledge sources and create decision-support systems for inclusive governance, in view to inform all stakeholders about all existing nature positive actions per ecosystem or societal challenge and to propose the best options in terms of both biodiversity and socio-economic gains for a specific and/or local context (e.g. surface area, available budget, main challenge, specific regional area). Proposals should address Area A: living labs per ecosystem (marine, freshwater, terrestrial (including agriculture, forestry, cities)) or Area B: living labs per societal challenge (climate change, water, food, health, pollution, spatial planning). The area (A or B) should be clearly indicated on the application. Proposals should ensure close collaboration with the other project selected under this topic. They should also offer training for policymakers, community leaders, and researchers on co-governance and knowledge integration and develop educational materials and ensure coordination and exchanges between all living labs. Proposals should adopt interdisciplinary approaches and ensure policymakers, business leaders and stakeholders co-create, experiment, and validate new solutions in an open, user-centred way. Solutions should be adapted to the environmental, socio-economic, and cultural contexts of each living lab, considering both cultural and natural heritage. Scaling and transferability challenges should be addressed through collaborative approaches combining scientific knowledge with local expertise. In this respect, particular attention could be paid to the specific characteristics of the outermost regions. The gender dimension should also be integrated. Proposals must implement the multi-actor approach, involving a range of stakeholders, including when relevant farmers, foresters and land managers, fishing and aquaculture communities, spatial planners and landscape architects, tourism actors, water governance bodies, business leaders, energy producers, local authorities, NGOs and youth organisations, to ensure that the knowledge and needs from various sectors are integrated and the results are impactful. Proposals should seek to address knowledge gaps identified by IPBES assessments and, if relevant, provide recommendations to policymakers. They should build on existing knowledge from and ensure complementarity with other relevant EU-funded projects under Horizon Europe Work Programmes [2] , including Biodiversa+ and NetworkNaturePLUS, and foresee appropriate resources to ensure close cooperation with the EC Knowledge Centre for Biodiversity (KCBD) and its Science Service. This topic requires the effective contribution of SSH disciplines to collect and validate both technical and socio-economic data. [1] EUR-Lex - 52025DC0374 - EN - EUR-Lex [2] EU-funded projects leading the way to transformative change for biodiversity - European Commission , https://erc.europa.eu/projects-statistics/mapping-erc-frontier-research/frontier-research-transformative-change and https://www.biodiversa.eu/2024/06/11/2024-2025-joint-call/ Living labs driving transformative change via knowledge integration and inclusive governance",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL6-2027-01-BIODIV-02: Science-policy support to the implementation of EU and global biodiversity policies and strategies",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-02",
       "data_lettura": "2026-10-05",
@@ -1725,6 +1629,102 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-01-BIODIV-03: Technical innovation to protect ecosystems and to scale up their restoration",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-03",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "organ-on-chip",
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2027-09-22",
+        "stato": "confermato",
+        "citazione": "2027-09-22T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: activities of protection and restoration of ecosystems by stakeholders become easier and more effective; conditions to scale up the implementation of the EU Nature Restoration Regulation by stakeholders are improved, thus improving ecosystem services including for climate mitigation and adaptation. Scope: Ecosystem restoration strategies for nature restoration and climate change mitigation require a coordinated and coherent set of human interventions and management practices (e.g. temporal protection of plants or removing invasive species, including their seeds) for which there is usually no dedicated mean like specific machinery, equipment or other technical innovations (like for example specific lures for invasive alien species). The most common practice is the use of agricultural machinery or equipment, but this is not always effective. With target 4 of the EU biodiversity strategy for 2030, the EU took the following commitments: significant areas of degraded and carbon-rich ecosystems are restored; habitats and species show no deterioration in conservation trend and status, and at least 30% reach favourable conservation status or at least show a positive trend. According to the EU Nature Restoration Regulation, Member States shall put in place effective and area-based restoration measures with the aim to jointly cover, as a Union target, at least 20 % of land areas and at least 20 % of sea areas by 2030, and all ecosystems in need of restoration by 2050. This is reflected in target 2 of the Kunming-Montreal Global Biodiversity Framework. The European Climate Law requires Member States to adopt and implement national adaptation strategies and plans in which they should promote Nature-based Solutions and ecosystem-based adaptation. These policies and legislations have reached the implementation stage in the EU and worldwide. Successful proposals are expected to: design, develop and test technical innovations corresponding to identified needs for specific ecosystems protection and/or restoration activities. A wide range of possible innovations can be proposed, including new or adapted machines, low techs, digital innovations or combinations of them to be used in a wide range of ecosystem types, including terrestrial, freshwater and marine; pay attention to effectiveness, simplicity of use, durability and environmental sustainability and responsibility (including alertness to potential risks, trade-offs and the unintended consequences as a result of the use of technological innovations). This topic is particularly relevant for SMEs. Proposals should foresee appropriate resources to ensure close cooperation with the EC Knowledge Centre for Biodiversity (KCBD) and its Science Service. null Activities are expected to achieve TRL 6-7 by the end of the project – see General Annex B. Technical innovation to protect ecosystems and to scale up their restoration",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-01-BIODIV-06: Living labs driving transformative change via knowledge integration and inclusive governance",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-06",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "organ-on-chip",
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-09-22",
+        "stato": "confermato",
+        "citazione": "2027-09-22T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all the following expected outcomes: society and decision-makers are provided with enhanced governance frameworks that integrate knowledge across ecosystems (terrestrial, freshwater and marine) and/or societal challenges, helping overcome institutional barriers, power asymmetries, and policy fragmentation to accelerate transformative change towards a nature positive economy and support EU climate goals; practitioners and public authorities co-create and have access to living labs as innovation hubs for testing, and scaling both governance and socio-economic models that integrate diverse knowledge systems, actively engage stakeholders and support bottom-up and participatory approaches. Scope: As nature positive actions gain momentum and biodiversity is increasingly integrated into policies, it is essential to ensure governance frameworks can support large-scale, coordinated implementation. Relevant stakeholders should be actively involved in shaping new solutions adapted to different and local contexts. Living labs have the potential to empower a green transition and a transformative change towards nature positive society and economy by developing solutions in a co-creative manner and involving actors in real life settings to achieve large-scale impact and foster collaboration between sectors and communities. Proposals should align with key policies including the European Green Deal and the EU biodiversity strategy for 2030, the Sustainable Development Goals, the Kunming-Montreal Global Biodiversity Framework (GBF), the Paris Agreement, the European Climate Law and the One Health approach. Proposals should: establish living labs as real-world testing environments to experiment with policy solutions, stakeholder engagement, and new economic models, while strengthening collective capacities and well-being, and identifying and overcoming barriers that limit participation in living labs; develop inclusive, intersectional and adaptive governance strategies that foster systemic transformative change, based on both biodiversity and socio-economic metrics and emphasising equity and sustainability. In particular, actions are expected to: conduct a comprehensive review and analysis of policies related to both direct and indirect drivers of biodiversity loss, with the aim of identifying conflicting or competing objectives and informing more coherent, nature positive policy frameworks; analyse the legal, financial and institutional barriers to inclusive governance in Europe, including the assessment of political and economic obstacles and of active strategies by actors and develop proposals to pilot and test innovative policy instruments, such as citizens’ assemblies, participatory budgeting and, if and when relevant, nature credits as proposed in the Nature Credits Roadmap [1] , to foster transformative change; develop multi-level governance models and policy proposals to integrate all relevant nature positive actions (including protection and restoration of ecosystems, Nature-based Solutions, circular economy, sustainable bioeconomy, regenerative agriculture, agroecology, agroforestry, bioremediation, etc.) into all relevant EU policies and strategies in a synergetic and coherent way; identify relevant existing EU funded communities of practices, such as the Nature-based Solutions hubs, the circular economy hubs and the adaptation hubs, and group them per ecosystem or societal challenge; set-up living labs to co-develop enabling pathways for transformative change and test them to ensure positive impacts on the ground, drawing on best practices (including emerging nature positive actions), identifying knowledge gaps and addressing research and innovation needs in collaboration with all relevant stakeholders; develop digital tools to synthesise and visualise diverse knowledge sources and create decision-support systems for inclusive governance, in view to inform all stakeholders about all existing nature positive actions per ecosystem or societal challenge and to propose the best options in terms of both biodiversity and socio-economic gains for a specific and/or local context (e.g. surface area, available budget, main challenge, specific regional area). Proposals should address Area A: living labs per ecosystem (marine, freshwater, terrestrial (including agriculture, forestry, cities)) or Area B: living labs per societal challenge (climate change, water, food, health, pollution, spatial planning). The area (A or B) should be clearly indicated on the application. Proposals should ensure close collaboration with the other project selected under this topic. They should also offer training for policymakers, community leaders, and researchers on co-governance and knowledge integration and develop educational materials and ensure coordination and exchanges between all living labs. Proposals should adopt interdisciplinary approaches and ensure policymakers, business leaders and stakeholders co-create, experiment, and validate new solutions in an open, user-centred way. Solutions should be adapted to the environmental, socio-economic, and cultural contexts of each living lab, considering both cultural and natural heritage. Scaling and transferability challenges should be addressed through collaborative approaches combining scientific knowledge with local expertise. In this respect, particular attention could be paid to the specific characteristics of the outermost regions. The gender dimension should also be integrated. Proposals must implement the multi-actor approach, involving a range of stakeholders, including when relevant farmers, foresters and land managers, fishing and aquaculture communities, spatial planners and landscape architects, tourism actors, water governance bodies, business leaders, energy producers, local authorities, NGOs and youth organisations, to ensure that the knowledge and needs from various sectors are integrated and the results are impactful. Proposals should seek to address knowledge gaps identified by IPBES assessments and, if relevant, provide recommendations to policymakers. They should build on existing knowledge from and ensure complementarity with other relevant EU-funded projects under Horizon Europe Work Programmes [2] , including Biodiversa+ and NetworkNaturePLUS, and foresee appropriate resources to ensure close cooperation with the EC Knowledge Centre for Biodiversity (KCBD) and its Science Service. This topic requires the effective contribution of SSH disciplines to collect and validate both technical and socio-economic data. [1] EUR-Lex - 52025DC0374 - EN - EUR-Lex [2] EU-funded projects leading the way to transformative change for biodiversity - European Commission , https://erc.europa.eu/projects-statistics/mapping-erc-frontier-research/frontier-research-transformative-change and https://www.biodiversa.eu/2024/06/11/2024-2025-joint-call/ Living labs driving transformative change via knowledge integration and inclusive governance",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL6-2027-02-FARM2FORK-02-two-stage: Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-02-two-stage",
       "data_lettura": "2026-10-05",
@@ -1863,6 +1863,53 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-02-FARM2FORK-05: Enhancing farmer's profitability and resilience through innovations for diversified crops and value chains",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-05",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "organ-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-09-23",
+        "stato": "confermato",
+        "citazione": "2027-09-23T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: farmers are able to transition to diversified, resilient and innovative cropping systems, increasing their sustainability, competitiveness and promoting biodiversity conservation as well as climate adaptation and mitigation; profitability of farming is boosted through the adoption of diversified cropping systems and the development of local value chains as well as through the valorisation of crops by-products; awareness and knowledge/data exchange among actors on the benefits of diversified cropping systems for farmers and for downstream value chains across Europe is increased. Scope: Crop diversification supports farmers resilience to external shocks, be it economic, climatic, or market related. By reducing dependency on a single farmed crop, farmers can strengthen their competitiveness in an ever-changing agricultural landscape. The temporal and spatial diversification of crops through e.g. rotation and associations, are drivers for low-input, resource-efficient farming systems that can fulfil the need to produce food, feed, industrial products (e.g. bioenergy, biomaterials, biochemicals) and other ecosystems services. These diversified and low-input farming systems will emerge if clear benefits to farmers and society are demonstrated and if the downstream value chains are properly organized. Proposals should: develop, test and showcase innovative solutions as well as business and cooperation models with a focus on activities addressing the challenges to support farmers in diversifying their crop production, enhancing profitability, resilience and sustainability; assess the viability and impact of the practical implementation of the proposed innovations on the overall sustainability of farmers activities and businesses (economic, social and environmental). The climate change mitigation and biodiversity protection and restoration potential of the proposed innovations should be analysed; describe an exploitation pathway tailor-made for the developed innovations through the different necessary steps (e.g. market research, regulatory approvals and licensing, IP management etc.) in order to accelerate exploitation of the results; provide support to farmers to transition to crop diversification, addressing the specific challenges of the sector and designing strategies to overcome them. Create diverse practice-oriented dissemination materials, such as audiovisuals, brochures, presentations, that showcase innovations in a creative way, incorporating artistic elements for engaging storytelling. Activities must fall under the concept of the multi-actor approach and allow for adequate involvement of SMEs, technology developers, farmers and consumers. The involvement of farmers SMEs is crucial and should be fostered through targeted calls and financial support to third parties, particularly for SMEs developing and testing the proposed innovative solutions. Proposals should address various farming systems/approaches, one of which should be organic farming. Proposals should allocate adequate resources to collaborate with topic projects funded under other topics in this work programme, in particular \"HORIZON-CL6-2027-02-FARM2FORK-03. Proposals should clearly explain how they will build on and not duplicate past and ongoing EU-funded R&amp;I activities, including relevant projects and activities funded under the Horizon Europe Partnership ‘Agroecology’ and the EU Mission Soil. The projects under this topic are relevant to the EU policies related to the EU Vision for Agriculture and Food, the EU Action Plan for the Development of Organic Production [1] and the Common Agricultural Policy. [1] https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021DC0141R%2801%29 Enhancing farmer's profitability and resilience through innovations for diversified crops and value chains",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-MISS-2027-06-SOIL-CANCER: Living labs to monitor and mitigate carcinogenic substances in and originating from soils: Evaluating their effects on human cancer risks",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-06-soil-cancer",
       "data_lettura": "2026-10-05",
@@ -1895,53 +1942,6 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Activities under this topic will directly progress towards the goal of the Mission Soil to set up 100 living labs and lighthouses to lead the transition to healthy soils by 2030. Activities will also contribute to the goal of the Cancer Mission, i.e.: ‘to improve the lives of more than 3 million people by 2030, through prevention, cure and for those affected by cancer including their families, to live longer and better’. Activities should also contribute to meeting the European Green Deal ambitions and targets and more specifically those of the EU Biodiversity Strategy for 2030 , the EU Soil Strategy for 2030, the proposal for a Soil Monitoring and Resilience Directive , the Zero Pollution Action Plan , the Europe's Beating Cancer Plan , the One Health approach, the European Health Data Space , the Chemicals Strategy for Sustainabilit y, the European Chemicals Industry Action Plan , as well as to the Sustainable Development Goals [1] . Project results are expected to contribute to all the following expected outcomes: increased capacities for participatory, interdisciplinary and transdisciplinary research and innovation to co-create, and co-implement economically viable soil health solutions tailored to soils contaminated with or at risk of contamination by carcinogenic substances; enhanced understanding of the environmental pathways through which these substances affect humans and the food chain, and the links (drivers and processes) between carcinogenic substances [2] in soil and cancer incidence, mortality and prevalence in humans. Scope: Environmental and occupational cancer risks are estimated to contribute to over 10% of the total cancer burden in Europe, with soil pollution by carcinogenic substances, such as PFAS, and heavy metals like arsenic and cadmium, posing significant concerns for human and environmental health [3] . However, the complex relationships between land management practices, soil parent material, soil properties, and presence of carcinogenic substances remain largely unknown. Moreover, significant knowledge gaps exist regarding biomonitoring, the bioaccumulation and transfer processes of soil pollutants into the food chain, water, and air, the pathways of human exposure and the impact of such exposure on cancer incidence, mortality and prevalence. Projects under this topic are intended to expand and complement the network of Mission Soil living labs and lighthouses initiated with projects funded under Work Programmes 2023, 2024 and 2025 of the Mission Soil, with the aim of gradually establishing 100 living labs and lighthouses to lead the transition towards healthy soils by 2030. The Mission Soil proposes a novel approach to research and innovation in the area of soil health, including the implementation of living labs. Living labs have the potential to facilitate a green and fair transition by involving multiple actors in real-life sites within a local/regional setting to co-create soil health solutions and achieve large-scale impacts on soil health and soil governance. Living labs are long-term collaborations between multiple actors to address common soil health challenges in real-life sites at local or regional level (10 to 20 sites in each living lab). Living labs can address soil health challenges in or across different land uses (agricultural, (peri-)urban, (post)-industrial, forest and (semi-)natural). Depending on the level at which each living lab operates and the specific context (e.g. land use covered, or soil health challenge addressed), applicants can exceptionally propose living labs with fewer sites. Individual sites can be farms, forest holdings, urban green areas, industrial areas, etc. Sites that are exemplary in their performance in terms of soil health improvement and serve as places for demonstration of solutions, training and communication are lighthouses. Lighthouse sites can be part of a living lab or be situated outside a living lab. Projects funded under this topic are expected to kick-start the participatory process. If building on existing processes, the new proposed living labs should complement the existing network of Mission Soil Living Labs and deliver unique project results. While on average, projects run for around four years, the duration of the projects under this topic should accommodate longer timescales required to establish participatory processes and/or for soil processes to take place. Actors working on common shared soil health challenges within and across the living labs of the same project, will be able to compare results, exchange good practices, validate methodologies, replicate actions and solutions and benefit from cross-fertilisation, thereby accelerating the transition towards the shared objective of improving soil health. Proposals should: support the establishment of four to five research-and-innovation-centred living labs to work together across different land uses to: 1) deliver research-based remediation solutions for soil contamination by carcinogenic substances; 2) investigate links between carcinogenic substances [2] in soil and transfer of pollutants from soil to humans (e.g. via air, water, or the food chain), and long-term impact on cancer incidence, mortality and prevalence in humans. Proposed solutions should be adapted to the different environmental, socio-economic and cultural contexts in which the living labs are operating. Living labs should be located in at least three different Member States and/or Associated Countries. Special attention should be given to their regions with the greatest need (hotspots of carcinogenic substances [5] ). Proposals should explain the rationale and mechanism for cooperation within and across the living labs. establish an interdisciplinary, participatory and multi-actor approach in the living labs to co-implement locally adapted solutions to isolate, immobilise, reduce and/or eliminate carcinogenic substances to and from soils, and to monitor how these solutions affect the pathways of carcinogenic substances in soils within the soil-water-air nexus and its mobility and uptake in the food chain; establish for each living lab a baseline of the soil conditions (both naturally occurring and exogenous contaminants) to allow an accurate monitoring of soil health improvements over time and across the different sites of the living lab, as well as the impact of research-based remediation solutions on pathways of soil carcinogenic substances within the soil-water-air nexus and its mobility and uptake in the food chain. The set of soil health indicators/descriptors presented in the proposal for a Directive on Soil Monitoring and Resilience should be used as a basis; proposals may complement with additional indicators tailored to the addressed soil health challenge(s), pedoclimatic conditions, land use, and other local/regional factors; analyse bioavailable fractions of contaminants, their potential bioaccumulation in crops; identify most critical exposure pathways of carcinogenic substances in soils within the soil-water-air nexus and its mobility and uptake in the food chain; analyse its correlation with the incidence and prevalence of cancer in humans across the different sites of the living labs using biomonitoring of contaminants (individually and in combination) in humans [6] , combine this research with model l ing and desk research, integrating environmental pollution data with health outcome data, for example using biomonitoring data from the European Human Biomonitoring Initiative ( HBM4EU ) or the Partnership for the Assessment of Risks from Chemicals ( PARC) , from regional or national cancer registries and in collaboration with local health authorities, research institutions, and community organizations; demonstrate the technical, social, economic, cultural and environmental viability of the proposed solutions, as well as their potential scalability and transferability to diverse contexts; identify high perf",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-02-FARM2FORK-05: Enhancing farmer's profitability and resilience through innovations for diversified crops and value chains",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-05",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "organ-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-09-23",
-        "stato": "confermato",
-        "citazione": "2027-09-23T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: farmers are able to transition to diversified, resilient and innovative cropping systems, increasing their sustainability, competitiveness and promoting biodiversity conservation as well as climate adaptation and mitigation; profitability of farming is boosted through the adoption of diversified cropping systems and the development of local value chains as well as through the valorisation of crops by-products; awareness and knowledge/data exchange among actors on the benefits of diversified cropping systems for farmers and for downstream value chains across Europe is increased. Scope: Crop diversification supports farmers resilience to external shocks, be it economic, climatic, or market related. By reducing dependency on a single farmed crop, farmers can strengthen their competitiveness in an ever-changing agricultural landscape. The temporal and spatial diversification of crops through e.g. rotation and associations, are drivers for low-input, resource-efficient farming systems that can fulfil the need to produce food, feed, industrial products (e.g. bioenergy, biomaterials, biochemicals) and other ecosystems services. These diversified and low-input farming systems will emerge if clear benefits to farmers and society are demonstrated and if the downstream value chains are properly organized. Proposals should: develop, test and showcase innovative solutions as well as business and cooperation models with a focus on activities addressing the challenges to support farmers in diversifying their crop production, enhancing profitability, resilience and sustainability; assess the viability and impact of the practical implementation of the proposed innovations on the overall sustainability of farmers activities and businesses (economic, social and environmental). The climate change mitigation and biodiversity protection and restoration potential of the proposed innovations should be analysed; describe an exploitation pathway tailor-made for the developed innovations through the different necessary steps (e.g. market research, regulatory approvals and licensing, IP management etc.) in order to accelerate exploitation of the results; provide support to farmers to transition to crop diversification, addressing the specific challenges of the sector and designing strategies to overcome them. Create diverse practice-oriented dissemination materials, such as audiovisuals, brochures, presentations, that showcase innovations in a creative way, incorporating artistic elements for engaging storytelling. Activities must fall under the concept of the multi-actor approach and allow for adequate involvement of SMEs, technology developers, farmers and consumers. The involvement of farmers SMEs is crucial and should be fostered through targeted calls and financial support to third parties, particularly for SMEs developing and testing the proposed innovative solutions. Proposals should address various farming systems/approaches, one of which should be organic farming. Proposals should allocate adequate resources to collaborate with topic projects funded under other topics in this work programme, in particular \"HORIZON-CL6-2027-02-FARM2FORK-03. Proposals should clearly explain how they will build on and not duplicate past and ongoing EU-funded R&amp;I activities, including relevant projects and activities funded under the Horizon Europe Partnership ‘Agroecology’ and the EU Mission Soil. The projects under this topic are relevant to the EU policies related to the EU Vision for Agriculture and Food, the EU Action Plan for the Development of Organic Production [1] and the Common Agricultural Policy. [1] https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021DC0141R%2801%29 Enhancing farmer's profitability and resilience through innovations for diversified crops and value chains",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -2285,8 +2285,8 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "CEF-T-2026-COREGEN-RAIL-WORKS: Rail – studies, works or mixed",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-t-2026-coregen-rail-works",
+      "titolo": "CEF-T-2026-CORECOEN-RAIL-WORKS: Rail – studies, works or mixed",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-t-2026-corecoen-rail-works",
       "data_lettura": "2026-10-05",
       "trovato_con": [
         "organ-on-chip"
@@ -2315,7 +2315,7 @@
         "citazione": null,
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
-      "testo_fonte": "Objective: The objective of this call is to develop rail transport infrastructure projects on the TEN-T core [1] network Scope: Works and / or studies related to: Construction/upgrading of cross-border and missing links Interconnections between rail and other modes of transport, namely inland waterway and maritime transport (including port hinterland connections) and projects aimed at the integration of the high-speed rail and air networks to make the feeder network for long-haul flights more sustainable. Priority will be given to projects fostering the development of high-speed rail in line with the Commission communication on high-speed rail [2] Support will not be given to railway stations, except for railway infrastructure components. If the project includes such components, they shall be presented as a separate work package. Support will not be given to track side ERTMS deployment, electronic interlockings and/or Class A radio communication (5G/FRMCS/GSM-R) components. Support will not be given to activities related to the Class B systems nor to rolling stock. Projects shall comply with the provisions of Directive (EU) 2016/797 [3] and with the related Technical Specifications for Interoperability. Where relevant, projects shall also be compatible with the alignment of operating procedures across borders to ensure the most effective use of the supported infrastructure. In case a proposal combines studies and works components, these must address different sections / activities. Facilities and infrastructure supported under CEF must be accessible for use by all operators on a non-discriminatory basis. Rail – studies, works or mixed",
+      "testo_fonte": "Objective: The objective of this call is to develop rail transport infrastructure projects on the TEN-T core[1] network. Scope: Works and / or studies related to: Construction/upgrading of cross-border and missing links; Interconnections between rail and other modes of transport, namely inland waterway and maritime transport (including port hinterland connections) and projects aimed at the integration of the high-speed rail and air networks to make the feeder network for long-haul flights more sustainable. Priority will be given to projects fostering the development of high-speed rail in line with the Commission communication on high-speed rail [2]. Support will not be given to railway stations, except for railway infrastructure components. If the project includes such components, they shall be presented as a separate work package. Support will not be given to track side ERTMS deployment, electronic interlockings and/or Class A radio communication (5G/FRMCS/GSM-R) components. Support will not be given to activities related to the Class B systems nor to rolling stock. Projects shall comply with the provisions of Directive (EU) 2016/797 [3] and with the related Technical Specifications for Interoperability. Where relevant, projects shall also be compatible with the alignment of operating procedures across borders to ensure the most effective use of the supported infrastructure. In case a proposal combines studies and works components, these must address different sections / activities. Facilities and infrastructure supported under CEF must be accessible for use by all operators on a non-discriminatory basis. [1] For the purpose of this call, project proposals located on the extended core network are not eligible. [2] COM(2025) 903 final of 5 November 2025. [3] Directive (EU) 2016/797 of the European Parliament and of the Council of 11 May 2016 on the interoperability of the rail system within the European Union (OJ L 138, 26.5.2016, p. 44) which replaces Directive 2008/57/EC as of 31 October 2020. Rail – studies, works or mixed",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -4928,55 +4928,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-HLTH-2027-01-DISEASE-06: Development of monoclonal antibodies to prevent and treat infections from Flaviviruses",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-06",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "medical sensor",
-        "AI medical devices",
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2027-02-17",
-        "stato": "confermato",
-        "citazione": "2027-02-17T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Tackling diseases and reducing disease burden”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to all the following expected outcomes: The scientific and clinical communities have a better understanding of and access to experimental monoclonal antibodies for the prevention and treatment of emerging or re-emerging viral infections, as well as for further clinical investigation. Candidate monoclonal antibody therapies are available to treat patients for emerging and re-emerging viral infections, increasing therapeutic options for clinical deployment in case of an epidemic or pandemic. Scope: Infectious diseases remain a major threat to health and health security in the EU and globally. Viral disease emergence is already being accelerated by climate change, and thus a proactive approach to the development of antiviral prophylactics and therapeutics in preparedness for future infectious disease outbreaks is needed. The capacity to produce antibodies that can target new variants and rapidly increase production would serve as an essential preparedness strategy against future health threats, whether from infectious disease epidemics or pandemics. This topic contributes to strengthening the Research and Innovation ecosystem within the EU and supports the implementation of the European Medical Countermeasures Strategy [1] . Applicants should explicitly state in their proposal which of the following Flaviviruses is targeted and the proposed work should address only this specific Flavivirus. The proposed work should aim to advance the development of existing prophylactic and therapeutic monoclonal antibody candidates targeting exclusively one of the following Flaviviriuses: Dengue Virus Tick-borne Encephalitis Virus Japanese Encephalitis Virus West Nile Fever Virus Yellow Fever Virus Zika Virus Proposals should focus on antibodies produced or derived from a single cell clone through recombinant expression, such as B-cell derived antibodies, hybridoma derived antibodies and nanobodies. Proposals should thus aim to diversify and accelerate the global prophylactic and therapeutic research and development portfolio for emerging and re-emerging viral infections, and to strengthen the leading role of the EU in prophylactic and therapeutic research and development. Proposals should address all the following research areas: If necessary, finalisation of the in-vitro characterisation of existing monoclonal antibody candidates with regard to target specificity, epitope recognised, and their ability to impair or inactivate viral functions. In-vivo tests in at least one animal model or, if available in humanised immune system animal models, to demonstrate the protective function of the monoclonal antibodies deemed sufficient for moving to first clinical trials. If requested by regulators as pre-requisite for clinical studies, in-vivo tests in a non-human primate model. Evaluation of Antibody-Dependent Enhancement (ADE) risk where scientifically relevant. Production of batches of the most promising antibody candidates according to the Good Manufacturing Practices (GMP) [2] . First in human clinical safety studies demonstrating a clear regulatory pathway for market authorisation. Attention should be paid to critical biological and social factors such as sex, age, ethnicity and disability. Participation of third countries where viruses addressed in the proposal are endemic or where outbreaks have occurred or are ongoing is encouraged. The participation of start-ups, micro, small and medium-sized enterprises (SMEs) [3] is encouraged with the aim of strengthening their scientific and technological foundations, enhancing their innovation potential, and exploring possibilities for commercial exploitation. All projects funded under this topic are expected to engage with regulatory bodies in a timely manner to ensure adequacy of the actions from a regulatory point of view. Proposals should advance research by leveraging already existing and emerging state-of-the-art research infrastructures [4] such as those having contributed to the services developed under the ISIDORe project [5] . Applicants should provide details of their clinical studies [6] in the dedicated annex using the template provided in the submission system. As proposals under this topic are expected to include clinical studies, the use of the template is strongly encouraged. [1] https://health.ec.europa.eu/health-emergency-preparedness-and-response-hera/preparedness/medical-countermeasures-strategy_en [2] https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en [3] https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32003H0361 [4] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed on the ESFRI website: https://ri-portfolio.esfri.eu [5] https://isidore-project.eu [6] Please note that the definition of clinical studies (see introduction to this Work Programme part) is broad and it is recommended that you review it thoroughly before submitting your application. Development of monoclonal antibodies to prevent and treat infections from Flaviviruses",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-HLTH-2027-01-DISEASE-07: Development of monoclonal antibodies to prevent and treat infections from Filo-, Nairo-, Phenui-, Picorna- and Toga viruses",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-07",
       "data_lettura": "2026-10-05",
@@ -5075,6 +5026,56 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-HLTH-2027-01-DISEASE-10: Prevention and management of chronic non-communicable diseases in children and young people (GACD)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-10",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "medical sensor",
+        "AI medical devices",
+        "in vitro diagnostics",
+        "point-of-care"
+      ],
+      "scadenza": {
+        "valore": "2027-02-17",
+        "stato": "confermato",
+        "citazione": "2027-02-17T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Tackling diseases and reducing disease burden”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to some of the following expected outcomes: Researchers, healthcare practitioners and providers in low- and middle-income countries (LMICs) [1] and/or those in high-income countries (HICs) serving disadvantaged populations have access to improved insights and evidence on how to equitably promote the early prevention, risk reduction, and timely diagnosis of Non-Communicable Diseases (NCDs) in children and/or young people. Policymakers, public health managers and authorities, parents and their children, and young adults have access to evidence and recommendations for national programmes and policies to improve quality of life in children and/or young people and extend healthy life expectancy. Researchers, clinicians, policymakers, public health managers and authorities have an improved understanding how to effectively adapt and/or scale up interventions for prevention and management of chronic NCDs in children and/or young people at local, regional, and national levels. Communities, parents and their children, young adults, local stakeholders and authorities are fully engaged in implementing and taking up interventions that tackle NCDs in children and/or young people. Scope: The Commission is a member of the Global Alliance for Chronic Diseases (GACD) [2] . The GACD specifically addresses NCDs and supports implementation research [3] to improve health outcomes. This topic is launched in concertation with the other GACD members (international funding agencies) and aligned with the 12 th GACD call. Chronic NCDs that begin in childhood have an impact on both quality of life and life expectancy. Onset of many NCDs diseases occurs at younger ages in LMICs, and this is further accompanied by a longer duration of disease and a higher rate of complications, including multimorbidity. The conditions in which people are born, grow and live (the social determinants of health) including access to good nutrition, education, housing, and healthcare are major contributors to health and ill health [4] . Up to 70% of preventable adult deaths from NCDs are linked to risk factors originating in childhood and adolescence [5] , and interventions that can successfully control or prevent chronic disease in young people can dramatically improve health outcomes later in life. Childhood and adolescence are critical periods, when behaviours associated with NCD risk are adopted including tobacco use, alcohol use, substance abuse, unhealthy diets and sedentary lifestyles and children and young people are often targeted by commercial marketing of unhealthy products. The aim of this topic is to fund implementation research, exploring strategies, evidence-based program and policy interventions across prevention, diagnosis, screening and management of chronic NCDs, centred on the critical life stages spanning early childhood to young adulthood (1-24 years of age) living in LMICs, and/or underserved populations in HICs. In this regard, proposals focused on implementation research should explore implementation strategies on evidence-based interventions, adaptations of interventions and tailored interventions, or initiatives including (though not limited to) those focussed on one or more of the following: Policy evaluation to tackle childhood- and/or youth-relevant social, economic, political, structural or commercial determinants of chronic NCD conditions. Prevention of NCDs using children and/or young people targeted implementation strategies (e.g. educational strategies, vaccination strategies, promotion of behavioural and lifestyle changes). Screening and diagnosis of NCDs (or risk factors) in children and/or young people (in particular use of digital tools). Cost effective and patient-centred management of NCDs in children and/or young people (including access to medicines and equipment; integrated care pathways; continuity of care for adolescents with existing non-communicable diseases who \"age out\" of paediatrics, caregiver health and support, citizen science approaches). Multiple interventions focus on prevention of NCDs in children and young people, yet relatively few have focussed on strategies for management of chronic conditions in these critical life stages, and a limited number of studies have been carried out to study implementation of these in LMIC contexts or with underserved communities. In this instance it would be anticipated that proposals should explore implementation strategies using the appropriate hybrid design study incorporating effectiveness and implementation research outcomes. Therefore, it may be important to undertake formative research as a part of the proposal to support readiness for implementation. The proposed implementation research should be focused on one or more evidence-based interventions (or complex interventions), providing existing evidence of the intervention’s effectiveness, cost-effectiveness, sustainability, scalability and potential for long-term health and other impacts (and in what context this evidence has been generated). Applicants should provide rationale and explore the implementation of proposed intervention(s) for a selected study population(s) based in one or more LMICs, and/or underserved populations experiencing health disparities, including Indigenous populations, in HICs, considering the unique social, political, economic, and cultural context(s) in which the study will take place [6] . Applicants should justify why any adaptation will not compromise the known effectiveness of the selected intervention(s). Proposals should address all the following implementation research activities [7] : Clearly describe the implementation research methodology, including the statistical design. Have an appropriate strategy for measuring implementation research outcomes and real-world effectiveness outcomes and indicators. Specifically address issues of equitable implementation to ensure interventions reach the populations that need them the most. Engage an appropriately expert and skilled research team which can ensure a suitable multidisciplinary approach and that demonstrates equitable partnership and shared leadership between HIC-LMIC, and/or non-Indigenous-Indigenous members of the project team and external stakeholders through a clear governance strategy. Provide a stakeholder engagement strategy with evidence of support/engagement from key stakeholders for delivering the intervention and a pathway to sustain the proposed intervention (if proven effective) after the funding from the GACD grant ends. Provide opportunities for NCD-focused implementation research capacity building for early career researchers and team members from lower resourced environments, such as LMICs or disadvantaged communities. Ensure meaningful involvement of early career team members, including at least one early career member as a co-investigator. The study population may include children and/or young people in the general population, with one or more existing NCDs, those currently without NCDs, or a combination of any of the above. Applicants may propose implementation research focused on interventions that are implemented at the individual, family, community (e.g. work or school), population, and/or structural level. With regard to NCDs, applicants are encouraged to explore any chronic non-communicable condition (or combination of conditions), including mental health disorders, autoimmune conditions, musculoskeletal conditions, neurological disorders and sleep disorders and/or any risk factor (or combination of risk factors). Additionally, whenever relevant, applicants are also encouraged to take a life course approach, adapting interventions f",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-HLTH-2027-01-DISEASE-05: Development of novel small molecule antiviral therapeutics for pathogens with epidemic potential",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-05",
       "data_lettura": "2026-10-05",
@@ -5128,14 +5129,13 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-HLTH-2027-01-DISEASE-10: Prevention and management of chronic non-communicable diseases in children and young people (GACD)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-10",
+      "titolo": "HORIZON-HLTH-2027-01-DISEASE-06: Development of monoclonal antibodies to prevent and treat infections from Flaviviruses",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-06",
       "data_lettura": "2026-10-05",
       "trovato_con": [
         "medical sensor",
         "AI medical devices",
-        "in vitro diagnostics",
-        "point-of-care"
+        "in vitro diagnostics"
       ],
       "scadenza": {
         "valore": "2027-02-17",
@@ -5161,7 +5161,7 @@
         "citazione": null,
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
-      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Tackling diseases and reducing disease burden”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to some of the following expected outcomes: Researchers, healthcare practitioners and providers in low- and middle-income countries (LMICs) [1] and/or those in high-income countries (HICs) serving disadvantaged populations have access to improved insights and evidence on how to equitably promote the early prevention, risk reduction, and timely diagnosis of Non-Communicable Diseases (NCDs) in children and/or young people. Policymakers, public health managers and authorities, parents and their children, and young adults have access to evidence and recommendations for national programmes and policies to improve quality of life in children and/or young people and extend healthy life expectancy. Researchers, clinicians, policymakers, public health managers and authorities have an improved understanding how to effectively adapt and/or scale up interventions for prevention and management of chronic NCDs in children and/or young people at local, regional, and national levels. Communities, parents and their children, young adults, local stakeholders and authorities are fully engaged in implementing and taking up interventions that tackle NCDs in children and/or young people. Scope: The Commission is a member of the Global Alliance for Chronic Diseases (GACD) [2] . The GACD specifically addresses NCDs and supports implementation research [3] to improve health outcomes. This topic is launched in concertation with the other GACD members (international funding agencies) and aligned with the 12 th GACD call. Chronic NCDs that begin in childhood have an impact on both quality of life and life expectancy. Onset of many NCDs diseases occurs at younger ages in LMICs, and this is further accompanied by a longer duration of disease and a higher rate of complications, including multimorbidity. The conditions in which people are born, grow and live (the social determinants of health) including access to good nutrition, education, housing, and healthcare are major contributors to health and ill health [4] . Up to 70% of preventable adult deaths from NCDs are linked to risk factors originating in childhood and adolescence [5] , and interventions that can successfully control or prevent chronic disease in young people can dramatically improve health outcomes later in life. Childhood and adolescence are critical periods, when behaviours associated with NCD risk are adopted including tobacco use, alcohol use, substance abuse, unhealthy diets and sedentary lifestyles and children and young people are often targeted by commercial marketing of unhealthy products. The aim of this topic is to fund implementation research, exploring strategies, evidence-based program and policy interventions across prevention, diagnosis, screening and management of chronic NCDs, centred on the critical life stages spanning early childhood to young adulthood (1-24 years of age) living in LMICs, and/or underserved populations in HICs. In this regard, proposals focused on implementation research should explore implementation strategies on evidence-based interventions, adaptations of interventions and tailored interventions, or initiatives including (though not limited to) those focussed on one or more of the following: Policy evaluation to tackle childhood- and/or youth-relevant social, economic, political, structural or commercial determinants of chronic NCD conditions. Prevention of NCDs using children and/or young people targeted implementation strategies (e.g. educational strategies, vaccination strategies, promotion of behavioural and lifestyle changes). Screening and diagnosis of NCDs (or risk factors) in children and/or young people (in particular use of digital tools). Cost effective and patient-centred management of NCDs in children and/or young people (including access to medicines and equipment; integrated care pathways; continuity of care for adolescents with existing non-communicable diseases who \"age out\" of paediatrics, caregiver health and support, citizen science approaches). Multiple interventions focus on prevention of NCDs in children and young people, yet relatively few have focussed on strategies for management of chronic conditions in these critical life stages, and a limited number of studies have been carried out to study implementation of these in LMIC contexts or with underserved communities. In this instance it would be anticipated that proposals should explore implementation strategies using the appropriate hybrid design study incorporating effectiveness and implementation research outcomes. Therefore, it may be important to undertake formative research as a part of the proposal to support readiness for implementation. The proposed implementation research should be focused on one or more evidence-based interventions (or complex interventions), providing existing evidence of the intervention’s effectiveness, cost-effectiveness, sustainability, scalability and potential for long-term health and other impacts (and in what context this evidence has been generated). Applicants should provide rationale and explore the implementation of proposed intervention(s) for a selected study population(s) based in one or more LMICs, and/or underserved populations experiencing health disparities, including Indigenous populations, in HICs, considering the unique social, political, economic, and cultural context(s) in which the study will take place [6] . Applicants should justify why any adaptation will not compromise the known effectiveness of the selected intervention(s). Proposals should address all the following implementation research activities [7] : Clearly describe the implementation research methodology, including the statistical design. Have an appropriate strategy for measuring implementation research outcomes and real-world effectiveness outcomes and indicators. Specifically address issues of equitable implementation to ensure interventions reach the populations that need them the most. Engage an appropriately expert and skilled research team which can ensure a suitable multidisciplinary approach and that demonstrates equitable partnership and shared leadership between HIC-LMIC, and/or non-Indigenous-Indigenous members of the project team and external stakeholders through a clear governance strategy. Provide a stakeholder engagement strategy with evidence of support/engagement from key stakeholders for delivering the intervention and a pathway to sustain the proposed intervention (if proven effective) after the funding from the GACD grant ends. Provide opportunities for NCD-focused implementation research capacity building for early career researchers and team members from lower resourced environments, such as LMICs or disadvantaged communities. Ensure meaningful involvement of early career team members, including at least one early career member as a co-investigator. The study population may include children and/or young people in the general population, with one or more existing NCDs, those currently without NCDs, or a combination of any of the above. Applicants may propose implementation research focused on interventions that are implemented at the individual, family, community (e.g. work or school), population, and/or structural level. With regard to NCDs, applicants are encouraged to explore any chronic non-communicable condition (or combination of conditions), including mental health disorders, autoimmune conditions, musculoskeletal conditions, neurological disorders and sleep disorders and/or any risk factor (or combination of risk factors). Additionally, whenever relevant, applicants are also encouraged to take a life course approach, adapting interventions f",
+      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Tackling diseases and reducing disease burden”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to all the following expected outcomes: The scientific and clinical communities have a better understanding of and access to experimental monoclonal antibodies for the prevention and treatment of emerging or re-emerging viral infections, as well as for further clinical investigation. Candidate monoclonal antibody therapies are available to treat patients for emerging and re-emerging viral infections, increasing therapeutic options for clinical deployment in case of an epidemic or pandemic. Scope: Infectious diseases remain a major threat to health and health security in the EU and globally. Viral disease emergence is already being accelerated by climate change, and thus a proactive approach to the development of antiviral prophylactics and therapeutics in preparedness for future infectious disease outbreaks is needed. The capacity to produce antibodies that can target new variants and rapidly increase production would serve as an essential preparedness strategy against future health threats, whether from infectious disease epidemics or pandemics. This topic contributes to strengthening the Research and Innovation ecosystem within the EU and supports the implementation of the European Medical Countermeasures Strategy [1] . Applicants should explicitly state in their proposal which of the following Flaviviruses is targeted and the proposed work should address only this specific Flavivirus. The proposed work should aim to advance the development of existing prophylactic and therapeutic monoclonal antibody candidates targeting exclusively one of the following Flaviviriuses: Dengue Virus Tick-borne Encephalitis Virus Japanese Encephalitis Virus West Nile Fever Virus Yellow Fever Virus Zika Virus Proposals should focus on antibodies produced or derived from a single cell clone through recombinant expression, such as B-cell derived antibodies, hybridoma derived antibodies and nanobodies. Proposals should thus aim to diversify and accelerate the global prophylactic and therapeutic research and development portfolio for emerging and re-emerging viral infections, and to strengthen the leading role of the EU in prophylactic and therapeutic research and development. Proposals should address all the following research areas: If necessary, finalisation of the in-vitro characterisation of existing monoclonal antibody candidates with regard to target specificity, epitope recognised, and their ability to impair or inactivate viral functions. In-vivo tests in at least one animal model or, if available in humanised immune system animal models, to demonstrate the protective function of the monoclonal antibodies deemed sufficient for moving to first clinical trials. If requested by regulators as pre-requisite for clinical studies, in-vivo tests in a non-human primate model. Evaluation of Antibody-Dependent Enhancement (ADE) risk where scientifically relevant. Production of batches of the most promising antibody candidates according to the Good Manufacturing Practices (GMP) [2] . First in human clinical safety studies demonstrating a clear regulatory pathway for market authorisation. Attention should be paid to critical biological and social factors such as sex, age, ethnicity and disability. Participation of third countries where viruses addressed in the proposal are endemic or where outbreaks have occurred or are ongoing is encouraged. The participation of start-ups, micro, small and medium-sized enterprises (SMEs) [3] is encouraged with the aim of strengthening their scientific and technological foundations, enhancing their innovation potential, and exploring possibilities for commercial exploitation. All projects funded under this topic are expected to engage with regulatory bodies in a timely manner to ensure adequacy of the actions from a regulatory point of view. Proposals should advance research by leveraging already existing and emerging state-of-the-art research infrastructures [4] such as those having contributed to the services developed under the ISIDORe project [5] . Applicants should provide details of their clinical studies [6] in the dedicated annex using the template provided in the submission system. As proposals under this topic are expected to include clinical studies, the use of the template is strongly encouraged. [1] https://health.ec.europa.eu/health-emergency-preparedness-and-response-hera/preparedness/medical-countermeasures-strategy_en [2] https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en [3] https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32003H0361 [4] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed on the ESFRI website: https://ri-portfolio.esfri.eu [5] https://isidore-project.eu [6] Please note that the definition of clinical studies (see introduction to this Work Programme part) is broad and it is recommended that you review it thoroughly before submitting your application. Development of monoclonal antibodies to prevent and treat infections from Flaviviruses",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -5709,6 +5709,60 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-HLTH-2027-03-TOOL-02: Advancing bio-printing of living cells for regenerative medicine",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-02",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "medical sensor",
+        "machine learning health data",
+        "AI medical devices",
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2027-09-16",
+        "stato": "confermato",
+        "citazione": "2027-09-16T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Developing and using new tools, technologies and digital solutions for a healthy society”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to most of the following expected outcomes: Biomedical scientists from academia and industry will gain access to entire bio-printing units designed to regenerate human tissue. Healthcare professionals acquire information on the safe and effective use of equipment enabling advanced therapies with bio-printed human tissue. Healthcare providers dispose of tools enabling them to treat conditions of unmet medical need. Individual patients will benefit from a personalised approach to their respective medical condition thanks to the bio-printed regenerative medicine solution. Scope: Tissue-specific functional 3D bio-printing of living cells has made significant progress as a new approach for transplantation applications in regenerative medicine. There are currently several types of bio-printing technologies under development for the repair of different targeted tissues or organs. To fully unleash the potential of bio-printed cell constructs for regenerative medicine several bottlenecks still need to be overcome. Various studies in pre-clinical models have shown that bio-printed cell constructs or tissues hold great promise for regenerative medicine, by allowing autologous tissue grafts being printed thus avoiding adverse graft-host reactions. However, translation of such approaches into clinical settings (i.e. humans) and their application to internal organs still needs to be investigated and demonstrated. Dependant on the actual target site (i.e. the defect tissue or organ in the human body) different bio-printing approaches may be preferable. For printing complex tissues and especially entire organs an in-vitro approach followed by transplantation is the preferred way. “In-situ” bio-printing, sometimes also referred to as “in-vivo”, or as “intraoperative”, reflects a bioprinting process performed on a live subject in a surgical setting and has in certain instances (e.g. tissue repair) advantages over an in-vitro bio-printing technique followed by transplantation. In-situ bio-printing involves direct patterning of bio-inks onto a patient’s body at the target site, allowing for precise construction of a site-matching tissue-structure within the actual physiological location where regeneration or repair is needed. As such, in-situ bio-printing allows for high adaptability, reduced risk of contamination, improved cell viability, function and host integration. The high cell densities present in the human vital organs underscore the importance of bio-inks which contain less additional biomaterials as matrix. Hence the bio-printing of cell constructs that comprise native tissue-like cell densities may facilitate repair and/or regeneration of defective complex tissues or internal organs. For such approaches meticulous engineering of the bio-printing equipment is necessary, involving sophisticated micro-surgical instrumentation and medical imaging platforms. To achieve the desired function and to mimic the natural cues in native tissues for in-vitro printed bio-constructs, the use of additional stimuli is needed, whereas in-situ approaches normally rely on the body as natural bioreactor providing the necessary extracellular cues. Recently, combinations of in-situ bio-printing with real-time stimuli have been investigated, even for the repair of internal organs. However, there remain bottlenecks that need to be overcome, like the integration with existing imaging modalities and surgical procedures or the long-time stability and functionality of the created bio-constructs. To address these challenges, researchers should work in multidisciplinary teams with engineers, biomedical scientists, cell biologists and medical doctors. Proposals should be based on the use of human cells and address all the following activities: Develop or improve existing bioprinting equipment that comprises all steps of the bio-printing suite to print bio-constructs with high cell-density for improved vascularisation and faster repair of the defect in the body. Scale-up the chosen bio-printing technology to a Good Manufacturing Practices (GMP) [1] conform/compliant manufacturing process. Perform all necessary regulatory work enabling the conduct of clinical studies and assess the clinical value of the developed bio-printing technology in first in-human studies. Priority should be given to bio-printing approaches that either target vital internal organs followed by surgical grafting or employ in-situ approaches depositing the cell-laden bioink directly from the printhead or endoscope on the defect target site in the body. Regulatory knowledge of the field is desired and should be documented through contacts with relevant national or international European regulatory authorities. A good understanding of the different steps involved and the inherent risks in each of these steps will be a basis to identify appropriate safety and quality requirements. Requirements from the different established EU frameworks on Substances of Human Origin (SoHO), medical devices and pharmaceuticals including Advanced Therapy Medicinal Products (ATMPs) should be considered for manufacturing/preparation as well as for clinical outcome monitoring. A combination of requirements from different frameworks might be most appropriate to allow for responsible and fast uptake. Proposals under this topic may address any therapeutic area, i.e. any disease, dysfunction or defect. Sex differences at the cellular level should be taken into consideration. Preclinical stage and clinical development are eligible. The involvement of small and medium-sized enterprises (SMEs) [2] is encouraged. The European Commission's Joint Research Centre (JRC) may contribute to the proposals selected for funding with work on strategic technologies for economic security and innovative industrial ecosystems, particularly activities on innovation in vitro biotechnologies. Applicants should provide details of their clinical studies [3] in the dedicated annex using the template provided in the submission system. As proposals under this topic are expected to include clinical studies, the use of the template is strongly encouraged. [1] https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en [2] https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32003H0361 [3] Please note that the definition of clinical studies (see introduction to this Work Programme part) is broad and it is recommended that you review it thoroughly before submitting your application. Advancing bio-printing of living cells for regenerative medicine",
+      "rilevanza": {
+        "punteggio": 4,
+        "stato": "parole_chiave",
+        "motivazione": "Solo termini generici (tecnologie_emergenti_biomedicali), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
+        "temi": [
+          "tecnologie_emergenti_biomedicali"
+        ],
+        "evidenze": [
+          "blished EU frameworks on Substances of Human Origin (SoHO), medical devices and pharmaceuticals including Advanced Therapy Medicinal Pr"
+        ],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-HLTH-2027-03-TOOL-04: Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-04",
       "data_lettura": "2026-10-05",
@@ -5756,60 +5810,6 @@
         "evidenze": [
           " include and are not limited to biophysics-based modelling, artificial intelligence (AI) that should be interpretable or allow explainability o",
           "44b8001-CN [5] For example with Regulation (EU) 2017/745 on medical devices: http://data.europa.eu/eli/reg/2017/745/oj , Regulation (EU"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-HLTH-2027-03-TOOL-02: Advancing bio-printing of living cells for regenerative medicine",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-02",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "medical sensor",
-        "machine learning health data",
-        "AI medical devices",
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2027-09-16",
-        "stato": "confermato",
-        "citazione": "2027-09-16T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: This topic aims at supporting activities that are enabling or contributing to one or several expected impacts of destination “Developing and using new tools, technologies and digital solutions for a healthy society”. To that end, proposals under this topic should aim to deliver results that are directed at, tailored towards and contributing to most of the following expected outcomes: Biomedical scientists from academia and industry will gain access to entire bio-printing units designed to regenerate human tissue. Healthcare professionals acquire information on the safe and effective use of equipment enabling advanced therapies with bio-printed human tissue. Healthcare providers dispose of tools enabling them to treat conditions of unmet medical need. Individual patients will benefit from a personalised approach to their respective medical condition thanks to the bio-printed regenerative medicine solution. Scope: Tissue-specific functional 3D bio-printing of living cells has made significant progress as a new approach for transplantation applications in regenerative medicine. There are currently several types of bio-printing technologies under development for the repair of different targeted tissues or organs. To fully unleash the potential of bio-printed cell constructs for regenerative medicine several bottlenecks still need to be overcome. Various studies in pre-clinical models have shown that bio-printed cell constructs or tissues hold great promise for regenerative medicine, by allowing autologous tissue grafts being printed thus avoiding adverse graft-host reactions. However, translation of such approaches into clinical settings (i.e. humans) and their application to internal organs still needs to be investigated and demonstrated. Dependant on the actual target site (i.e. the defect tissue or organ in the human body) different bio-printing approaches may be preferable. For printing complex tissues and especially entire organs an in-vitro approach followed by transplantation is the preferred way. “In-situ” bio-printing, sometimes also referred to as “in-vivo”, or as “intraoperative”, reflects a bioprinting process performed on a live subject in a surgical setting and has in certain instances (e.g. tissue repair) advantages over an in-vitro bio-printing technique followed by transplantation. In-situ bio-printing involves direct patterning of bio-inks onto a patient’s body at the target site, allowing for precise construction of a site-matching tissue-structure within the actual physiological location where regeneration or repair is needed. As such, in-situ bio-printing allows for high adaptability, reduced risk of contamination, improved cell viability, function and host integration. The high cell densities present in the human vital organs underscore the importance of bio-inks which contain less additional biomaterials as matrix. Hence the bio-printing of cell constructs that comprise native tissue-like cell densities may facilitate repair and/or regeneration of defective complex tissues or internal organs. For such approaches meticulous engineering of the bio-printing equipment is necessary, involving sophisticated micro-surgical instrumentation and medical imaging platforms. To achieve the desired function and to mimic the natural cues in native tissues for in-vitro printed bio-constructs, the use of additional stimuli is needed, whereas in-situ approaches normally rely on the body as natural bioreactor providing the necessary extracellular cues. Recently, combinations of in-situ bio-printing with real-time stimuli have been investigated, even for the repair of internal organs. However, there remain bottlenecks that need to be overcome, like the integration with existing imaging modalities and surgical procedures or the long-time stability and functionality of the created bio-constructs. To address these challenges, researchers should work in multidisciplinary teams with engineers, biomedical scientists, cell biologists and medical doctors. Proposals should be based on the use of human cells and address all the following activities: Develop or improve existing bioprinting equipment that comprises all steps of the bio-printing suite to print bio-constructs with high cell-density for improved vascularisation and faster repair of the defect in the body. Scale-up the chosen bio-printing technology to a Good Manufacturing Practices (GMP) [1] conform/compliant manufacturing process. Perform all necessary regulatory work enabling the conduct of clinical studies and assess the clinical value of the developed bio-printing technology in first in-human studies. Priority should be given to bio-printing approaches that either target vital internal organs followed by surgical grafting or employ in-situ approaches depositing the cell-laden bioink directly from the printhead or endoscope on the defect target site in the body. Regulatory knowledge of the field is desired and should be documented through contacts with relevant national or international European regulatory authorities. A good understanding of the different steps involved and the inherent risks in each of these steps will be a basis to identify appropriate safety and quality requirements. Requirements from the different established EU frameworks on Substances of Human Origin (SoHO), medical devices and pharmaceuticals including Advanced Therapy Medicinal Products (ATMPs) should be considered for manufacturing/preparation as well as for clinical outcome monitoring. A combination of requirements from different frameworks might be most appropriate to allow for responsible and fast uptake. Proposals under this topic may address any therapeutic area, i.e. any disease, dysfunction or defect. Sex differences at the cellular level should be taken into consideration. Preclinical stage and clinical development are eligible. The involvement of small and medium-sized enterprises (SMEs) [2] is encouraged. The European Commission's Joint Research Centre (JRC) may contribute to the proposals selected for funding with work on strategic technologies for economic security and innovative industrial ecosystems, particularly activities on innovation in vitro biotechnologies. Applicants should provide details of their clinical studies [3] in the dedicated annex using the template provided in the submission system. As proposals under this topic are expected to include clinical studies, the use of the template is strongly encouraged. [1] https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en [2] https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32003H0361 [3] Please note that the definition of clinical studies (see introduction to this Work Programme part) is broad and it is recommended that you review it thoroughly before submitting your application. Advancing bio-printing of living cells for regenerative medicine",
-      "rilevanza": {
-        "punteggio": 4,
-        "stato": "parole_chiave",
-        "motivazione": "Solo termini generici (tecnologie_emergenti_biomedicali), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
-        "temi": [
-          "tecnologie_emergenti_biomedicali"
-        ],
-        "evidenze": [
-          "blished EU frameworks on Substances of Human Origin (SoHO), medical devices and pharmaceuticals including Advanced Therapy Medicinal Pr"
         ],
         "destinatari": {
           "valore": "non_indicato",
@@ -8029,53 +8029,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "CERV-2026-DAPHNE-PROTECTION: Protecting and supporting victims and survivors of gender-based violence.",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-protection",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2026-11-05",
-        "stato": "confermato",
-        "citazione": "2026-11-05T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Protecting and supporting victims and survivors of gender-based violence.",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "CERV-2026-DAPHNE-PREVENTION: Preventing gender-based violence",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-prevention",
       "data_lettura": "2026-10-05",
@@ -8107,6 +8060,53 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Preventing gender-based violence",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "CERV-2026-DAPHNE-PROTECTION: Protecting and supporting victims and survivors of gender-based violence.",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-protection",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2026-11-05",
+        "stato": "confermato",
+        "citazione": "2026-11-05T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Protecting and supporting victims and survivors of gender-based violence.",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -8448,53 +8448,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL3-2027-01-INFRA-01: Enhancing physical protection of critical infrastructures",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-infra-01",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2027-11-04",
-        "stato": "confermato",
-        "citazione": "2027-11-04T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to some or all of the following outcomes: Critical infrastructure operators and authorities have improved physical risks and hazards assessment capabilities; Perimeter security, access control, surveillance systems, remote sensors and other systems used by or relevant to critical infrastructure operators are capable of coping with threats from misuse of new and emerging technologies; Improved operational procedures, including incidents management and training curricula, are developed; Innovative solutions for critical infrastructure resilience are being developed, utilising recent advancements in spatial planning, security-by-design, preparedness-by-design and nature-based solutions using an inclusive approach that address diverse needs. Scope: Physical protection of critical infrastructure should keep up its advancement to match risks and hazards stemming from malicious use of new and emerging technologies, and evolving operational environment, as well as improve its safety and security measures against knowns and emerging threats. Following this approach entities providing essential services should reduce their vulnerability, among others, to threats from improvised explosive devices, ramming attacks, sabotage, uncooperative and hostile unmanned platforms including swarm robotics, penetration of access points by unauthorised individuals and vehicles, unauthorised access to hazardous material storage, removal of critical components, or deterioration of critical infrastructure due to age, inadequate design or changed operational conditions, including climate. Proposals submitted under this topic should identify and analyse possible new challenges for the physical security of the critical entities and develop adequate tools, recommendations, manuals and training programmes for relevant operators and authorities. Where relevant for their scope proposals should utilise the nature-based solutions and respect principles of biodiversity. Furthermore, solutions should take into account interdependencies in the context of supply chains and their impact on physical protection. Coordination among the successful proposals from this topic and projects funded under HORIZON-CL3-2025-01-INFRA-01: Open topic for improved preparedness for, response to and recovery from large-scale disruptions of critical infrastructures and HORIZON-CL3-2025-01-INFRA-02: Open topic for role of the human factor for resilience of European critical entities , should be envisaged in order to avoid duplication, share resources and exploit complementarities and opportunities for increased impact. In this topic the integration of the gender dimension (sex and gender analysis) in research and innovation content should be addressed only if relevant in relation to the objectives of the research effort. null Activities are expected to achieve TRL 6-7 by the end of the project – see General Annex B. Enhancing physical protection of critical infrastructures",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators: Rising Innovators category",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2026-prize-wip-risinginnovators",
       "data_lettura": "2026-10-05",
@@ -8526,6 +8479,53 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Impact: The prize will boost public awareness of the potential, importance and contribution of women to the EU innovation ecosystem and create strong role models, inspiring more women to become innovators themselves. Expected Outcome: The prize will boost public awareness of the potential, importance and contribution of women to the EU innovation ecosystem and create strong role models, inspiring more women to become innovators themselves. Objective: The European Prize for Women Innovators celebrates the women entrepreneurs behind Europe’s game-changing innovations, so that they may inspire other women and girls realise their full potential as the EU’s future scientists, innovators, and tech leaders. This prize supports a culture within research and innovation organisations and companies allowing women to become the innovators and entrepreneurs of tomorrow. The prize is awarded every year to women from across the EU and countries associated to Horizon Europe, who have transformed their ideas into disruptive innovations to benefit people and the planet and who are inspiring leaders. As for the previous edition, the 2027 European Prize for Women Innovators is organised in coordination between the Agency and the European Institute of Innovation &amp; Technology (EIT). The winners are chosen by an independent expert jury. The prize has three categories, two funded by the EIC (the Women Innovators and the Rising Innovators categories) and one by the EIT (the EIT Women Leadership category). The Rules of Contest apply to both the EIC and EIT prize categories. Scope: The European Prize for Women Innovators celebrates the women entrepreneurs behind Europe’s game-changing innovations, so that they may inspire other women and girls realise their full potential as the EU’s future scientists, innovators, and tech leaders. This prize supports a culture within research and innovation organisations and companies allowing women to become the innovators and entrepreneurs of tomorrow. The prize is awarded every year to women from across the EU and countries associated to Horizon Europe, who have transformed their ideas into disruptive innovations to benefit people and the planet and who are inspiring leaders. As for the previous edition, the 2027 European Prize for Women Innovators is organised in coordination between the Agency and the European Institute of Innovation &amp; Technology (EIT). The winners are chosen by an independent expert jury. The prize has three categories, two funded by the EIC (the Women Innovators and the Rising Innovators categories) and one by the EIT (the EIT Women Leadership category). The Rules of Contest apply to both the EIC and EIT prize categories. Rising Innovators category",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL3-2027-01-INFRA-01: Enhancing physical protection of critical infrastructures",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-infra-01",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2027-11-04",
+        "stato": "confermato",
+        "citazione": "2027-11-04T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to some or all of the following outcomes: Critical infrastructure operators and authorities have improved physical risks and hazards assessment capabilities; Perimeter security, access control, surveillance systems, remote sensors and other systems used by or relevant to critical infrastructure operators are capable of coping with threats from misuse of new and emerging technologies; Improved operational procedures, including incidents management and training curricula, are developed; Innovative solutions for critical infrastructure resilience are being developed, utilising recent advancements in spatial planning, security-by-design, preparedness-by-design and nature-based solutions using an inclusive approach that address diverse needs. Scope: Physical protection of critical infrastructure should keep up its advancement to match risks and hazards stemming from malicious use of new and emerging technologies, and evolving operational environment, as well as improve its safety and security measures against knowns and emerging threats. Following this approach entities providing essential services should reduce their vulnerability, among others, to threats from improvised explosive devices, ramming attacks, sabotage, uncooperative and hostile unmanned platforms including swarm robotics, penetration of access points by unauthorised individuals and vehicles, unauthorised access to hazardous material storage, removal of critical components, or deterioration of critical infrastructure due to age, inadequate design or changed operational conditions, including climate. Proposals submitted under this topic should identify and analyse possible new challenges for the physical security of the critical entities and develop adequate tools, recommendations, manuals and training programmes for relevant operators and authorities. Where relevant for their scope proposals should utilise the nature-based solutions and respect principles of biodiversity. Furthermore, solutions should take into account interdependencies in the context of supply chains and their impact on physical protection. Coordination among the successful proposals from this topic and projects funded under HORIZON-CL3-2025-01-INFRA-01: Open topic for improved preparedness for, response to and recovery from large-scale disruptions of critical infrastructures and HORIZON-CL3-2025-01-INFRA-02: Open topic for role of the human factor for resilience of European critical entities , should be envisaged in order to avoid duplication, share resources and exploit complementarities and opportunities for increased impact. In this topic the integration of the gender dimension (sex and gender analysis) in research and innovation content should be addressed only if relevant in relation to the objectives of the research effort. null Activities are expected to achieve TRL 6-7 by the end of the project – see General Annex B. Enhancing physical protection of critical infrastructures",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -8640,6 +8640,53 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL3-2026-01-FCT-03: Missing persons: prevention and investigation",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2026-01-fct-03",
+      "data_lettura": "2026-10-05",
+      "trovato_con": [
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2026-11-05",
+        "stato": "confermato",
+        "citazione": "2026-11-05T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Improved skills, tools and training curricula for Police Authorities in Europe and Civil Society Organisations (or Non-Governmental Organisations) to work with at-risk groups to prevent persons from going missing. Those improved skills, tools and training curricula are to take into account European multicultural dimension, as well as legal and ethical rules of operation; Enhanced investigation tools and methodologies for Police Authorities in Europe to tackle cold cases in the context of missing persons, based on modern (forensic) technologies and criminology; Modern training curricula for Police Authorities, their improved cross-border cooperation and enhanced tools and methodologies to tackle new cases of missing persons; Enriched European common approaches applied by Police Authorities in Europe to fight the issue of missing persons relying on the synergy of technology, the latest socio-psychological knowledge learned from cases, as well as field experience of Police Authorities and entities dealing with victims, while fully respecting fundamental rights such as privacy, protection of personal data and anonymity of victims. Scope: The issue of missing persons is a multifaceted challenge that encompasses diverse categories and is influenced by various factors. People may go missing under a variety of circumstances, such as voluntary disappearances, abductions, cases related to mental health crises, or because of conflict, migration, geopolitical instability, natural disasters. Groups in a vulnerable situation - notably children, victims of trafficking and exploitation, persons with disabilities and persons suffering from cognitive impairments - face an even greater risk of going missing, often under distressing and dangerous conditions. Tackling this issue requires a coordinated response from multiple stakeholders, from Police Authorities via Civil Society Organisations (CSOs) or Non-Governmental Organisations (NGOs) to the involvement of the overall society. In an era of rapid technological advancement and societal developments, there is a pressing need to improve current European approaches to fight the issue of missing persons (prevention and/or investigation of cold and new cases) using innovative societal and technological solutions. To this end, modernised skills, training curricula and methodologies for Police Authorities, CSOs and NGOs to work with people in a vulnerable situation and children are needed, such as effective awareness raising campaigns, which should be accessible to persons with disabilities, that take into account European multicultural dimension. When it comes to investigation, Police Authorities need efficient tools that benefit from new and emerging technologies to solve cold cases while combining modern forensic science (including biometrics and digital forensics) and criminology, e.g., modern tools for using an old DNA, or accurate facial ageing, among others. When multiple practitioners are involved in exchanging sensitive data, data sharing tools in a privacy-preserving manner should be considered. Furthermore, for new cases of missing persons, apart from an improved cross-border cooperation, Police Authorities also need, on the one hand, a modernised training to face such situations more efficiently, improving the dialogues and interactions with families, taking into account a gender sensitive and intersectional approach when relevant, and on the other hand, modern technologies and forensic tools for, for example, fast and reliable cross-matching of DNA samples between new and cold cases. If a proposal concerns forensics, its consortium should involve forensic institutes as well. Coordination among the successful proposals from this topic should be envisaged to avoid duplication and to exploit complementarities as well as opportunities for increased impact. Proposals funded under this topic are expected to provide ideas on how they would engage with the Europol Innovation Lab during the lifetime of the project, including validating the outcomes, with the aim of facilitating future uptake of innovations for the law enforcement community. For aspects of training of Police Authorities, cooperation of successful proposals with CEPOL is expected, provided that the Agency opts out from applying for funding. To ensure the active involvement of and timely feedback from relevant security practitioners, proposals should plan a mid-term deliverable consisting in the assessment of the project’s mid-term outcomes, performed by the practitioners involved in the project. Finally, proposals are expected to address all applicable considerations expressed in the Introduction of the Fighting Crime and Terrorism Destination. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 6-8 by the end of the project – see General Annex B. Missing persons: prevention and investigation",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL3-2026-01-BM-03: Reliability of age assessment methods in the context of security and border management",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2026-01-bm-03",
       "data_lettura": "2026-10-05",
@@ -8681,53 +8728,6 @@
         "evidenze": [
           " approaches such as image analysis; and they may use or not artificial intelligence (AI) for data analysis. EU regulations, and guidelines by t"
         ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL3-2027-01-FCT-02: Community policing in diverse societies in Europe",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-02",
-      "data_lettura": "2026-10-05",
-      "trovato_con": [
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2027-11-04",
-        "stato": "confermato",
-        "citazione": "2027-11-04T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: New tools, skills and methodologies for Police Authorities in Europe to deal efficiently with diverse communities as well as with diversity among police personnel are identified, developed and disseminated throughout Europe, leading to, among others, an increased trust to Police Authorities in general; Modern and effective training curricula for Police Authorities in Europe are developed on community policing in diverse societies, including post-conflict zones, and addressing the needs of individuals from various social, ethnic and religious backgrounds, as well as marginalized groups such as migrants, LGBTIQ people, persons with disabilities, or returnees from war. Scope: This topic addresses challenges of community policing in increasingly diverse and sometimes also fragile societies, including the integration of returnees from conflict zones, migrants, as well as marginalized communities including LGBTIQ individuals and various ethnic and religious groups. Encompassing a post-conflict dimension too, particularly in the context of Ukraine, this topic aims to foster inclusive community policing practices that can adapt to the complexities of diverse societal dynamics. Proposals should explore innovative and inclusive approaches in police education, training and management that go beyond traditional models, resulting in an effective engagement with a diversifying society. Proposals should also seek to identify and develop effective practices and training programs that encourage a deeper understanding of diversity among police personnel and integrate a gender-sensitive and intersectional approach when relevant. In addition, proposals should assess how effective cooperation with Civil Society Organizations (or Non-Governmental Organisations) - representing various communities - can enhance reporting mechanisms, reduce hate crimes, and strengthen trust and cooperation between the police and the population. By improving police-citizen relations across diverse European contexts, the proposals should aim to contribute to enhanced security and social stability in Europe. Proposals’ findings should generate valuable insights applicable to varied policing environments, ultimately informing police forces across Europe about non-violent conflict resolution and constructive engagement strategies. Through collaborative research and training, proposals should equip Police Authorities with the tools, skills and methodologies necessary to effectively serve and engage with diverse communities, foster social cohesion, and build trust throughout Europe. Activities proposed within this topic should address the issue from various angles, combining social sciences with technological development and applications in a logical manner. Therefore, this topic requires the effective contribution of SSH disciplines and the involvement of SSH experts, institutions as well as the inclusion of relevant SSH expertise, in order to produce meaningful and significant effects enhancing the societal impact of the related research activities. Proposals should outline the plans to develop possible future uptake and upscaling at national and EU level for possible next steps once the project is finalised. Proposals should also consider, build on if appropriate and not duplicate previous research. Coordination among the successful proposals from this topic should be envisaged to avoid duplication and to exploit complementarities as well as opportunities for increased impact. Furthermore, if the proposals concern drug-related issues, they are expected to engage with the EU Drugs Agency during the lifetime of the project, including validating the outcomes. For aspects of training of Police Authorities, cooperation of successful proposals with CEPOL is expected, provided that the Agency opts out from applying for funding. To ensure the active involvement of and timely feedback from relevant security practitioners, proposals should plan a mid-term deliverable consisting in the assessment of the project’s mid-term outcomes, performed by the practitioners involved in the project. Finally, proposals are expected to address all applicable considerations expressed in the Introduction of the Fighting Crime and Terrorism Destination. null Activities are expected to achieve TRL 6-8 by the end of the project – see General Annex B. Community policing in diverse societies in Europe",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
         "destinatari": {
           "valore": "non_indicato",
           "citazione": null
