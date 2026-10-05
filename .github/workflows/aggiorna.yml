@@ -39,6 +39,10 @@ jobs:
             python ../collettori/${c}_collector.py || echo "$c" >> falliti.txt
           done
 
+      - name: Estrazione dei dettagli
+        working-directory: data
+        run: python ../arricchisci.py bandi*.json || echo "dettagli" >> falliti.txt
+
       - name: Rilevanza
         working-directory: data
         env:
