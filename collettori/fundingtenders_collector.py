@@ -8,6 +8,7 @@ stampa una risposta grezza (--debug) e confrontala con il parser.
 Richiede: pip install requests
 """
 import datetime as dt
+import html as htmllib
 import json
 import re
 import sys
@@ -21,6 +22,7 @@ STATI = ["31094501", "31094502"]  # 31094501 = in arrivo, 31094502 = aperto
 PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical sensor",
           "machine learning health data", "AI medical devices", "in vitro diagnostics",
           "digital twin health", "point-of-care"]
+MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 
 
@@ -41,6 +43,27 @@ def meta(r, chiave):
         v = [x for x in v if x not in (None, "")]
         return v
     return [v] if v not in (None, "") else []
+
+
+def testo_da_json(obj, out=None):
+    """Raccoglie tutte le stringhe di un JSON, senza dipendere dalla sua struttura."""
+    out = [] if out is None else out
+    if isinstance(obj, str):
+        out.append(obj)
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            testo_da_json(v, out)
+    elif isinstance(obj, list):
+        for v in obj:
+            testo_da_json(v, out)
+    return out
+
+
+def dettagli(url):
+    r = requests.get(url, timeout=30, headers={"User-Agent": "radar-bandi/0.1 (ricerca universitaria)"})
+    r.raise_for_status()
+    t = re.sub(r"<[^>]+>", " ", htmllib.unescape(" ".join(p for p in testo_da_json(r.json()) if len(p) > 3)))
+    return " ".join(t.split())
 
 
 def cerca(parola, pagina=1):
@@ -78,7 +101,7 @@ def scadenza(r, grezzo):
 
 
 def testo_topic(r):
-    t = re.sub(r"<[^>]+>", " ", " ".join(meta(r, "descriptionByte") + meta(r, "description") + [r.get("summary") or ""]))
+    t = re.sub(r"<[^>]+>", " ", " ".join(meta(r, "descriptionByte") + meta(r, "description") + [r.get("summary") or "", r.get("content") or ""]))
     return " ".join(t.split())
 
 
@@ -114,27 +137,46 @@ def main(debug=False):
     if campi:
         with open("campi_api.json", "w", encoding="utf-8") as f:
             json.dump(campi, f, ensure_ascii=False, indent=2)
+        print("CAMPI_API", json.dumps(campi, ensure_ascii=False)[:3500])  # visibile nel log del workflow
     if not trovati and errori:
         raise SystemExit("Tutte le ricerche sono fallite: " + "; ".join(errori))
     oggi = dt.date.today().isoformat()
     bandi = []
+    scartati, letti, riusciti, falliti_det = 0, 0, 0, {}
     for ident, v in trovati.items():
         r = v["r"]
         grezzo = json.dumps(r, ensure_ascii=False)
         titolo = (meta(r, "title") or [r.get("title") or ident])[0]
+        scad = scadenza(r, grezzo)
+        if scad["valore"] and dt.date.fromisoformat(scad["valore"]) < dt.date.today():
+            scartati += 1  # tutte le scadenze sono passate
+            continue
+        testo = testo_topic(r)
+        if len(testo) < 300 and letti < MAX_DETTAGLI:
+            urls = [u for u in meta(r, "url") if str(u).startswith("https://ec.europa.eu/")]
+            if urls:
+                letti += 1
+                try:
+                    time.sleep(0.5)
+                    testo = (testo + " " + dettagli(urls[0])).strip()
+                    riusciti += 1
+                except (requests.RequestException, ValueError) as e:
+                    falliti_det[type(e).__name__] = falliti_det.get(type(e).__name__, 0) + 1
         bandi.append({
             "canale": "Europa", "ente": "Commissione europea (Funding & Tenders Portal)",
             "titolo": f"{ident}: {titolo}", "url": TOPIC_URL + str(ident).lower(), "data_lettura": oggi,
             "trovato_con": v["parole"],
-            "scadenza": scadenza(r, grezzo),
+            "scadenza": scad,
             "durata": durata(r),
             # Da implementare: budgetOverview ha una struttura annidata da verificare
             "budget": campo(None, "non_presente", None, "Estrazione del budget non ancora implementata"),
             "ammissibilita": campo(None, "non_presente", None, "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"),
-            "testo_fonte": testo_topic(r)[:8000],  # serve all'agente di rilevanza
+            "testo_fonte": testo[:8000],  # serve all'agente di rilevanza
             "rilevanza": None,
         })
-    if not bandi:
+    print(f"Europa: {len(trovati)} trovati, {scartati} scartati perché scaduti, "
+          f"pagine di dettaglio lette {riusciti}/{letti}, errori {falliti_det}")
+    if not trovati:
         raise SystemExit("Nessun topic trovato: filtri o struttura della risposta potrebbero essere cambiati.")
     with open("bandi_europa.json", "w", encoding="utf-8") as f:
         json.dump({"generato": oggi, "errori": errori, "bandi": bandi}, f, ensure_ascii=False, indent=2)
