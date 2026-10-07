@@ -1,12 +1,12 @@
 {
-  "generato": "2026-10-06",
+  "generato": "2026-10-07",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Scuola Volonté, bando per l’ammissione degli allievi",
       "url": "https://www.lazioeuropa.it/bandi/scuola-volonte-bando-per-lammissione-degli-allievi/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-15",
         "stato": "confermato",
@@ -50,7 +50,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -94,7 +94,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -138,7 +138,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-04",
         "stato": "confermato",
@@ -182,7 +182,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -226,7 +226,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -270,7 +270,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -314,7 +314,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -356,57 +356,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Partecipazione a Global Health Exhibition 2026 – nuova call",
-      "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-global-health-exhibition-2026-nuova-call/",
-      "data_lettura": "2026-10-06",
-      "scadenza": {
-        "valore": "2026-10-06",
-        "stato": "confermato",
-        "citazione": "a call : domande entro le ore 13.00 del 6 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "€ 300.000,00",
-        "stato": "da_verificare",
-        "citazione": " manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "SETTORI AMMESSI La partecipazione è rivolta a PMI del Lazio attive nei settori della sanità, delle Life Sciences e dell’innovazione applicata alla salute, con particolare riferimento ai seguenti ambiti: Biotecnologie;",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a Global Health Exhibition 2026 – Nuova Call Aperto FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , nell’ambito delle azioni finalizzate a rafforzare la competitività internazionale delle imprese regionali e a promuovere i settori ad alta intensità di innovazione, seleziona n. 5 PMI del Lazio interessate a prendere parte alla Global Health Exhibition 2026 , una delle più importanti piattaforme internazionali dedicate all’innovazione, agli investimenti e alla cooperazione nel settore della Sanità e delle Scienze della Vita, in programma a Riyadh, Arabia Saudita, dal 26 al 29 ottobre 2026 . La partecipazione regionale alla manifestazione si inserisce nell’ambito della presenza del Sistema Italia all’interno del Padiglione Italia , coordinato da ICE Agenzia , e prevede l’organizzazione di una rappresentanza imprenditoriale del Lazio nei comparti della salute digitale, tecnologie medicali, dispositivi medici, scienze della vita e innovazione sanitaria. La partecipazione delle imprese selezionate sarà sostenuta con il contributo del PR FESR Lazio 2021-2027 . Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende non vincolante per la Regione Lazio e per gli altri soggetti coinvolti, che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della partecipazione regionale all’iniziativa in oggetto e/o di modificarne le caratteristiche e i servizi offerti. PERCHÉ PARTECIPARE La Global Health Exhibition 2026 rappresenta principale appuntamento fieristico del Medio Oriente, in coerenza con gli obiettivi della Saudi Vision 2030 , un ambizioso piano strategico e di riforme lanciato dal governo dell’ Arabia Saudita nel 2016 per diversificare l’economia del Paese e ridurre la sua totale dipendenza dalle esportazioni di petrolio Il mercato saudita della Sanità e delle Life Sciences sta attraversando una fase di profonda trasformazione, sostenuta da importanti investimenti pubblici e privati e da un processo di modernizzazione del sistema sanitario che apre nuove opportunità per imprese innovative, tecnologie medicali, soluzioni digitali per la sanità, dispositivi medici, diagnostica, servizi sanitari avanzati e applicazioni per la cura e il benessere L’edizione 2025 della manifestazione ha registrato oltre 130.000 visitatori professionali , più di 2.200 marchi e brevetti esposti provenienti da 46 Paesi , 600 relatori internazionali e accordi e partnership per un valore complessivo di 35,5 miliardi di dollari , confermando il ruolo dell’evento come hub globale per il business sanitario. Per il Lazio, la partecipazione alla Global Health Exhibition 2026 costituisce un’opportunità strategica per valorizzare le competenze regionali di ambito, favorendo l’accesso delle imprese a nuove occasioni di mercato, networking internazionale, cooperazione industriale e attrazione di investimenti nei comparti della filiera delle LIFE SCIENCES. La presenza regionale sarà articolata su un’area espositiva dedicata di circa 70 mq , all’interno della quale saranno ospitate realtà rappresentative del mondo dell’industria, della ricerca e dell’innovazione del Lazio. I SERVIZI OFFERTI Attraverso la presente CALL saranno selezionate n. 5 PMI del Lazio che avranno a disposizione, nell’ambito della partecipazione regionale alla Global Health Exhibition 2026 , i seguenti servizi: Assegnazione di un desk personalizzato nell’area espositiva allestita; Badge di ingresso alla manifestazione, nei limiti della disponibilità definita dall’ente fieristico; Assistenza in fiera da parte del personale di Lazio Innova, ICE Agenzia e dell’ufficio ICE di Riyadh; Desk accoglienza e area comune per eventuali incontri bilaterali; Iscrizione alla Fiera e al catalogo ufficiale; Pubblicazione di un catalogo dedicato alle imprese partecipanti; Supporto alle attività di business matching internazionale e networking con stakeholder, operatori sanitari, imprese, investitori e potenziali partner presenti alla manifestazione. La partecipazione regionale potrà inoltre essere accompagnata da attività di informazione, preparazione, assistenza e follow-up, finalizzate a valorizzare la presenza delle imprese laziali e a consolidare eventuali opportunità di collaborazione emerse durante la manifestazione. SETTORI AMMESSI La partecipazione è rivolta a PMI del Lazio attive nei settori della sanità, delle Life Sciences e dell’innovazione applicata alla salute, con particolare riferimento ai seguenti ambiti: Biotecnologie; Pharma; Nutraceutica; Dermatologia e Chirurgia plastica; Dispositivi medici; Sanità e servizi generali per la salute; Benessere; Diagnostica per immagini, radiologia e laboratori; Materiali di consumo e monouso per la sanità; Sanità digitale e ICT per la salute. Sono, inoltre, coerenti con l’iniziativa le imprese operanti nei comparti salute digitale, tecnologie medicali, apparecchi medicali e chirurgici, dispositivi ortopedici, scienze della vita, innovazione sanitaria, strumenti di precisione e tecnologie per la sanità. REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE L’opportunità di prendere parte alla Global Health Exhibition 2026 è riservata a PMI e startup in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore; non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) ed ogni altra procedura concorsuale né avere in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non essere state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica amministrazione; non avere Amministratori e/o Legali rappresentanti condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comunità che incidono sulla moralità professionale (è comunque causa di esclusione la condanna, con sentenza passata in giudicato, per reati di partecipazione ad un’organizzazione criminale, corruzione, frode, riciclaggio); non avere Amministratori e/o Legali rappresentanti che si siano resi colpevoli di false dichiarazioni nei rapporti con la Pubblica amministrazione; essere in regola con il versamento dei contributi previdenziali e assistenziali, accertabile mediante acquisizione del DURC, ovvero non",
-      "rilevanza": {
-        "punteggio": 4,
-        "stato": "parole_chiave",
-        "motivazione": "Solo termini generici (tecnologie_emergenti_biomedicali), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
-        "temi": [
-          "tecnologie_emergenti_biomedicali"
-        ],
-        "evidenze": [
-          "io nei comparti della salute digitale, tecnologie medicali, dispositivi medici, scienze della vita e innovazione sanitaria. La partecipazi"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a Maker Faire 2026",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-maker-faire-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-08",
         "stato": "confermato",
@@ -454,7 +406,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -498,7 +450,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -540,9 +492,53 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Spazio Argento",
+      "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
+      "data_lettura": "2026-10-07",
+      "scadenza": {
+        "valore": "2026-11-13",
+        "stato": "confermato",
+        "citazione": "del 7 ottobre ed entro le ore 17:00 del 13 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Spazio Argento Prossima Apertura Bandi Regionali Con determinazione n. G13415 del 2 ottobre 2026, pubblicata sul BUR n. 80 del 6 ottobre 2026, è stato approvato l’Avviso pubblico per la presentazione di manifestazioni di interesse per la Misura “Spazio Argento” , finalizzata a sostenere i comuni con popolazione fino a 5.000 abitanti , presso i cui locali operino centri anziani , nella loro manutenzione e adeguamento alle vigenti normative in materia edilizia, igienico-sanitaria, prevenzione incendi, sicurezza impianti e accessibilità. L’Avviso, attuativo della programmazione contenuta nell’Addendum al Piano triennale per la riqualificazione dei Piccoli Comuni, annualità 2025-2027, presenta una dotazione finanziaria complessiva pari a euro 1.500.000,00. Le risorse da esso stanziate potranno essere destinate, per un massimo di euro 30.000,00 a Comune, in particolare a uno o più dei seguenti ambiti di intervento: sicurezza strutturale e funzionale (adeguamento degli edifici alle norme vigenti in materia di sicurezza; interventi di prevenzione incendi e aggiornamento dei sistemi di evacuazione; verifica e adeguamento degli impianti elettrici, termici e idrici); accessibilità e inclusione (eliminazione delle barriere architettoniche, realizzazione di percorsi sicuri, pavimentazioni antiscivolo, rampe e ascensori; adeguamento dei servizi igienici per persone con ridotta mobilità); qualità degli ambienti e benessere (miglioramento dell’illuminazione naturale e artificiale; interventi di climatizzazione e ventilazione; adeguamento acustico degli spazi per attività sociali e ricreative); funzionalità degli spazi (riorganizzazione strutturale degli ambienti; dotazione di attrezzature e arredi ergonomici); digitalizzazione e innovazione sociale (realizzazione di spazi attrezzati per attività digitali e formative; strumenti per facilitare la comunicazione e la partecipazione degli anziani). Le domande per l’assegnazione delle risorse potranno essere presentate esclusivamente tramite la piattaforma per la gestione dei Bandi e degli Avvisi regionali ( https://bandiavvisi.regione.lazio.it ) dalle ore 12:00 del 7 ottobre 2026 ed entro le ore 17:00 del 13 novembre 2026 . Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -586,7 +582,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Generazione Sport",
       "url": "https://www.lazioeuropa.it/bandi/generazione-sport/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-14",
         "stato": "confermato",
@@ -630,7 +626,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Energia Sportiva",
       "url": "https://www.lazioeuropa.it/bandi/energia-sportiva/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-14",
         "stato": "confermato",
@@ -674,7 +670,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -718,7 +714,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Polizia Locale plus 2026 – parte corrente",
       "url": "https://www.lazioeuropa.it/bandi/polizia-locale-plus-2026-parte-corrente/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -762,7 +758,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Istituzione e potenziamento dei Centri per uomini autori o potenziali autori di violenza (C.U.A.V.)",
       "url": "https://www.lazioeuropa.it/bandi/istituzione-e-potenziamento-dei-centri-per-uomini-autori-o-potenziali-autori-di-violenza-c-u-a-v/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-24",
         "stato": "confermato",
@@ -806,7 +802,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi Culturali – inserimento in O.B.R., O.M.R. e O.A.R. – Anno 2027",
       "url": "https://www.lazioeuropa.it/bandi/servizi-culturali-inserimento-in-o-b-r-o-m-r-e-o-a-r-anno-2027/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -850,7 +846,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valorizzazione dimore, ville, complessi architettonici e del paesaggio, parchi e giardini di valore storico e storico-artistico 2026",
       "url": "https://www.lazioeuropa.it/bandi/valorizzazione-dimore-ville-complessi-architettonici-e-del-paesaggio-parchi-e-giardini-di-valore-storico-e-storico-artistico-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-08",
         "stato": "confermato",
@@ -894,7 +890,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-28",
         "stato": "confermato",
@@ -938,7 +934,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -982,7 +978,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1026,7 +1022,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1070,7 +1066,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-10-30",
         "stato": "confermato",
@@ -1114,7 +1110,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Aiuto alle aziende agricole zootecniche per l’acquisto di riproduttori",
       "url": "https://www.lazioeuropa.it/bandi/aiuto-alle-aziende-agricole-zootecniche-per-lacquisto-di-riproduttori/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2026-01-19",
         "stato": "confermato",
@@ -1158,7 +1154,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1202,7 +1198,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1246,7 +1242,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1290,7 +1286,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1334,7 +1330,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1378,7 +1374,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1422,7 +1418,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1466,7 +1462,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-10-06",
+      "data_lettura": "2026-10-07",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
