@@ -1,12 +1,12 @@
 {
-  "generato": "2026-10-08",
+  "generato": "2026-10-09",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -50,7 +50,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Scuola Volonté, bando per l’ammissione degli allievi",
       "url": "https://www.lazioeuropa.it/bandi/scuola-volonte-bando-per-lammissione-degli-allievi/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-15",
         "stato": "confermato",
@@ -94,7 +94,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -138,7 +138,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -182,7 +182,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-04",
         "stato": "confermato",
@@ -226,7 +226,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -270,7 +270,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -314,7 +314,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -356,9 +356,53 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
+      "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
+      "data_lettura": "2026-10-09",
+      "scadenza": {
+        "valore": "2027-02-05",
+        "stato": "confermato",
+        "citazione": "e online su SIAN entro le ore 23.59 del 5 febbraio 2027",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "€ 300.000,00,, € 10.000,00,",
+        "stato": "da_verificare",
+        "citazione": "sa. Il contributo pubblico massimo per ciascuna operazione di investimento è di € 300.000,00,",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "A chi è rivolto (Destinatari) L’Avviso, quali destinatari dell’intervento SRD03 “Investimenti nelle aziende agricole per la diversificazione in attività non agricole” è rivolto agli imprenditori agricoli, singoli o associati in possesso del",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "IMPRESE AGRICOLE, DELLA PESCA E DELL’ACQUACOLTURA Investimenti nelle aziende agricole per la diversificazione in attività non agricole Aperto CSR FEASR Finalità dell’Avviso L’Avviso fa riferimento al PSP 2023/2027 ed in particolare all’intervento “Intervento SRD03 “Investimenti nelle aziende agricole per la diversificazione in attività non agricole”. L’intervento, sostenendo gli investimenti delle aziende agricole in attività extra-agricole, persegue l’obiettivo di concorrere all’incremento del reddito delle famiglie agricole nonché a migliorare l’attrattività delle aree rurali e, allo stesso tempo, contribuisce a contrastare la tendenza allo spopolamento delle stesse. A chi è rivolto (Destinatari) L’Avviso, quali destinatari dell’intervento SRD03 “Investimenti nelle aziende agricole per la diversificazione in attività non agricole” è rivolto agli imprenditori agricoli, singoli o associati in possesso della qualifica di Imprenditore Agricolo Professionale (IAP) e/o di Coltivatore Diretto ai sensi della normativa nazionale e regionale di riferimento. Beneficiari L’intervento si attua su tutto il territorio regionale. I beneficiari delle risorse destinate all’intervento SRD03 “Investimenti nelle aziende agricole per la diversificazione in attività non agricole” sono gli agricoltori attivi singoli o associati. In ogni caso il beneficiario deve essere un “agricoltore in attività”. Tipologia di intervento Sono ammissibili le tipologie di investimento per la creazione, la valorizzazione e lo sviluppo delle seguenti tipologie di attività agricole disciplinate dall’articolo 2135 del codice civile e dall’art.2 della LR 14/2006, la quale specifica le attività multifunzionali, quali: Agriturismo; Attività educative/didattiche; Trasformazione di prodotti agricoli in prodotti non compresi nell’Allegato I del TFUE e loro lavorazione e commercializzazione in punti vendita aziendali; Servizi multifunzionali così come individuati dall’ art. 2 della L.R. 14/2006 inerenti allo sviluppo turistico e il benessere della persona nonché le tradizioni rurali e la valorizzazione delle risorse naturali e paesaggistiche; Attività enoturistiche; Attività oleoturistiche. Modalità di presentazione della candidatura e scadenza La presentazione delle domande di sostegno deve avvenire entro le ore 23.59 del 5 febbraio 2027, utilizzando esclusivamente l’applicativo presente sul portale SIAN, messo a disposizione dall’OP AGEA all’indirizzo Internet https://www.sian.it , secondo le modalità stabilite nel bando. Selezione delle candidature Le domande di sostegno presentate ritenute ammissibili al finanziamento concorreranno a formare un’unica graduatoria regionale, in ordine decrescente, sulla base del punteggio attribuito a seguito delle valutazioni istruttorie con riferimento ai criteri di selezione riportati nella tabella “Criteri di selezione”. Risorse finanziarie La dotazione finanziaria per l’intervento SRD03 ammonta a euro 10.000.000,00. L’intensità dell’aiuto è fissata nella misura massima del 50% della spesa ammessa. Il contributo pubblico massimo per ciascuna operazione di investimento è di € 300.000,00, mentre il contributo pubblico minimo è di € 10.000,00, per ciascuna operazione di investimento. Il sostegno è concesso in regime di “de minimis” e si applicano le condizioni previste dal Reg. U.E. 2023/2831. Contatti nbiondini@regione.lazio.it (Nadia Biondini) ambasso@regione.lazio.it (Anna Maria Basso) Per informazioni dirette, gli interessati possono rivolgersi anche alle Aree Decentrate Agricoltura (ADA) competenti per territorio. Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -402,11 +446,11 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a Maker Faire 2026",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-maker-faire-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
-        "valore": "2026-10-08",
+        "valore": "2026-10-12",
         "stato": "confermato",
-        "citazione": "oni d’interesse entro le ore 12.00 dell’8 ottobre 2026",
+        "citazione": "ioni d’interesse entro le ore 16.00 del 12 ottobre 2026",
         "motivo": null
       },
       "durata": {
@@ -427,7 +471,7 @@
         "citazione": "Nell’ambito delle attività di networking internazionale sono previste, in particolare: Investor Safari : tour guidato delle imprese della Regione Lazio rivolto agli investitori internazionali presenti;",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a Maker Faire 2026 Aperto FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , con il supporto dell’ Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche finalizzata a sostenere il tessuto economico regionale, selezionano fino a un massimo di 14 Startup e PMI del Lazio impegnate in processi di innovazione, interessate a prendere parte a MAKER FAIRE ROME 2026 – The European Edition, che si svolgerà dal 23 al 25 ottobre 2026 a Roma , presso il Gazometro Ostiense. La partecipazione delle Startup e PMI selezionate è sostenuta con il contributo del PR FESR Lazio 2021-2027 , come previsto dalla DGR n. 164 del 26 marzo 2026. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori, che si riservano, in qualsiasi momento, di annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale e/o di modificarne le caratteristiche e i servizi offerti. MAKER FAIRE ROME – The European Edition è il principale evento italiano dedicato a innovazione, tecnologia, creatività e cultura maker. La manifestazione è promossa dalla Camera di Commercio di Roma e organizzata dalla sua Azienda Speciale Innova Camera, su licenza e con la collaborazione di Make Community LLC. È l’unica manifestazione al di fuori degli Stati Uniti a potersi fregiare del titolo di Global Maker Faire. Maker, innovatori e creativi presentano progetti di elettronica, intelligenza artificiale, robotica, realtà virtuale e aumentata, gaming, musica, arte, formazione e molto altro. La manifestazione costituisce un luogo di incontro, confronto e business per i protagonisti dell’innovazione, attraverso percorsi di apprendimento, formazione, co-progettazione e matchmaking. La partecipazione della Regione Lazio è finalizzata a valorizzare e divulgare l’innovazione generata dall’ecosistema regionale, favorendo sinergie a livello locale e internazionale e creando occasioni di networking, collaborazione e sviluppo commerciale per le imprese partecipanti. SETTORI AMMESSI Manifattura digitale Robotica Elettronica Economia circolare Intelligenza artificiale Automazione e domotica, IoT Tecnologie aerospaziali STEM Education Agritech Tecnologie per l’arte Tecnologie per la salute e lo sport SERVIZI OFFERTI ALLE IMPRESE SELEZIONATE Le 14 imprese selezionate saranno ospitate nell’area espositiva di circa 103 mq dedicata alle imprese del Sistema Lazio, inserita nello spazio istituzionale regionale di circa 130 mq presso l’Edificio 30 del Gazometro Ostiense. Ciascuna impresa selezionata usufruirà gratuitamente dei seguenti servizi: una postazione espositiva dedicata con desk e grafica personalizzata, sedute, collegamento Internet e allaccio elettrico con multipresa; n. 2 pass espositore validi per tutti e tre i giorni della manifestazione; partecipazione alle iniziative e alle opportunità di internazionalizzazione organizzate durante la manifestazione con il supporto di Lazio Innova; accesso al programma di networking internazionale e alle attività di business matchmaking; assistenza e accompagnamento per favorire incontri con buyer, potenziali clienti, partner e investitori italiani e internazionali. Nell’ambito delle attività di networking internazionale sono previste, in particolare: Investor Safari : tour guidato delle imprese della Regione Lazio rivolto agli investitori internazionali presenti; Speed pitching con buyer internazionali; attività di matchmaking e showcase tra startup, imprese, innovatori, maker e ricercatori regionali e i delegati della collettiva internazionale organizzata in collaborazione con ICE . Le imprese potranno, inoltre, essere coinvolte nel palinsesto dedicato all’innovazione del Canale Main della manifestazione. Per la Regione Lazio e le imprese selezionate sono previsti complessivamente fino a n. 4 slot, della durata di 8 minuti ciascuno, distribuiti nei tre giorni dell’evento. L’individuazione delle imprese e dei contenuti sarà definita in raccordo con il gruppo curatoriale della manifestazione. PROMOZIONE E COMUNICAZIONE La partecipazione regionale e le imprese selezionate saranno valorizzate attraverso attività di comunicazione e promozione sui canali istituzionali della Regione Lazio, di Lazio Innova, del Sistema camerale e della manifestazione, comprendenti, tra l’altro: promozione web sui siti istituzionali e sui portali dedicati all’internazionalizzazione; newsletter, social media e attività di storytelling; azioni di ufficio stampa e relazioni con testate locali, nazionali e di settore; presenza dei loghi istituzionali e valorizzazione delle imprese sui canali e sui supporti di comunicazione della manifestazione; contenuti dedicati sul sito e sui social media di Maker Faire Rome, sulla base dei materiali forniti dagli Enti promotori e dalle imprese. REQUISITI DI AMMISSIBILITÀ L’opportunità è riservata a Startup e PMI che, alla data di presentazione della domanda, siano in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’impresa con uno o più dei settori cui la manifestazione è rivolta; regolare iscrizione al Registro delle Imprese della C.C.I.A.A. competente per territorio e regolarità, entro il termine di presentazione della domanda, con il pagamento del diritto annuale (Il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; qualifica di MPMI ai sensi dell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società consortili o Reti di imprese con personalità giuridica, ai sensi della normativa vigente; esercizio, con riferimento alla sede laziale, di un’attività economica coerente con i settori della manifestazione; assenza di altre agevolazioni pubbliche relative alla partecipazione alla medesima manifestazione e assenza di domande di agevolazione presentate per la stessa finalità; mancato superamento, nell’arco di tre anni, del massimale di euro 300.000,00 per gli aiuti “de minimis”, ai sensi del Regolamento (UE) 2023/2831; pieno e libero esercizio dei propri diritti, stato di attività e assenza delle procedure concorsuali o liquidatorie indicate dalla normativa applicabile, fatto salvo il concordato preventivo con continuità aziendale; capacità di contrarre con la Pubblica Amministrazione e assenza di sanzioni interdittive; assenza, in capo agli Amministratori e/o Legali rappresentanti, di condanne definitive o degli altri provvedimenti indicati dalla normativa per reati gravi incidenti sulla moralità professionale; assenza, in capo agli Amministratori e/o Legali rappresentanti, di false dichiarazioni nei rapporti con la Pubblica Amministrazione; regolarità nel versamento dei contributi previdenziali e assistenziali, verificabile mediante DURC, oppure non assoggettamento ai relativi obblighi. Tali dichiarazioni potranno essere verificate ai sensi dell’art. 71 comma 1 del D.P.R. 445 del 28 dicembre 2000, come modificato dall’art. 264 del D.L. 19 maggio 2020 n. 34, con applicazione, nel caso di dichiarazioni mendaci, della decadenza dai benefici e delle sanzioni penali, rispettivamente previste dagli artt. 75 e 76 del medesimo D.P.R., come da ultimo rese più severe per effetto del citato articolo 264. MODALITÀ DI PRESENTAZIONE DELLA DOMANDA DI PARTECIPAZIONE Le aziende interessate a partecipare alla collettiva regionale dovranno effettuare i seguenti adempimenti, entro e non oltre le ore 12.00 di giovedì 8 ottobre p.v., pena la non ammissibilità della domanda: compilare il Form di registrazione al link: https://www.lazioinnova.it/laziointernational/partecipazione-maker-faire-26/ compilare il modulo Manifestazione di inte",
+      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a Maker Faire 2026 Aperto FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , con il supporto dell’ Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche finalizzata a sostenere il tessuto economico regionale, selezionano fino a un massimo di 14 Startup e PMI del Lazio impegnate in processi di innovazione, interessate a prendere parte a MAKER FAIRE ROME 2026 – The European Edition, che si svolgerà dal 23 al 25 ottobre 2026 a Roma , presso il Gazometro Ostiense. La partecipazione delle Startup e PMI selezionate è sostenuta con il contributo del PR FESR Lazio 2021-2027 , come previsto dalla DGR n. 164 del 26 marzo 2026. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori, che si riservano, in qualsiasi momento, di annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale e/o di modificarne le caratteristiche e i servizi offerti. MAKER FAIRE ROME – The European Edition è il principale evento italiano dedicato a innovazione, tecnologia, creatività e cultura maker. La manifestazione è promossa dalla Camera di Commercio di Roma e organizzata dalla sua Azienda Speciale Innova Camera, su licenza e con la collaborazione di Make Community LLC. È l’unica manifestazione al di fuori degli Stati Uniti a potersi fregiare del titolo di Global Maker Faire. Maker, innovatori e creativi presentano progetti di elettronica, intelligenza artificiale, robotica, realtà virtuale e aumentata, gaming, musica, arte, formazione e molto altro. La manifestazione costituisce un luogo di incontro, confronto e business per i protagonisti dell’innovazione, attraverso percorsi di apprendimento, formazione, co-progettazione e matchmaking. La partecipazione della Regione Lazio è finalizzata a valorizzare e divulgare l’innovazione generata dall’ecosistema regionale, favorendo sinergie a livello locale e internazionale e creando occasioni di networking, collaborazione e sviluppo commerciale per le imprese partecipanti. SETTORI AMMESSI Manifattura digitale Robotica Elettronica Economia circolare Intelligenza artificiale Automazione e domotica, IoT Tecnologie aerospaziali STEM Education Agritech Tecnologie per l’arte Tecnologie per la salute e lo sport SERVIZI OFFERTI ALLE IMPRESE SELEZIONATE Le 14 imprese selezionate saranno ospitate nell’area espositiva di circa 103 mq dedicata alle imprese del Sistema Lazio, inserita nello spazio istituzionale regionale di circa 130 mq presso l’Edificio 30 del Gazometro Ostiense. Ciascuna impresa selezionata usufruirà gratuitamente dei seguenti servizi: una postazione espositiva dedicata con desk e grafica personalizzata, sedute, collegamento Internet e allaccio elettrico con multipresa; n. 2 pass espositore validi per tutti e tre i giorni della manifestazione; partecipazione alle iniziative e alle opportunità di internazionalizzazione organizzate durante la manifestazione con il supporto di Lazio Innova; accesso al programma di networking internazionale e alle attività di business matchmaking; assistenza e accompagnamento per favorire incontri con buyer, potenziali clienti, partner e investitori italiani e internazionali. Nell’ambito delle attività di networking internazionale sono previste, in particolare: Investor Safari : tour guidato delle imprese della Regione Lazio rivolto agli investitori internazionali presenti; Speed pitching con buyer internazionali; attività di matchmaking e showcase tra startup, imprese, innovatori, maker e ricercatori regionali e i delegati della collettiva internazionale organizzata in collaborazione con ICE . Le imprese potranno, inoltre, essere coinvolte nel palinsesto dedicato all’innovazione del Canale Main della manifestazione. Per la Regione Lazio e le imprese selezionate sono previsti complessivamente fino a n. 4 slot, della durata di 8 minuti ciascuno, distribuiti nei tre giorni dell’evento. L’individuazione delle imprese e dei contenuti sarà definita in raccordo con il gruppo curatoriale della manifestazione. PROMOZIONE E COMUNICAZIONE La partecipazione regionale e le imprese selezionate saranno valorizzate attraverso attività di comunicazione e promozione sui canali istituzionali della Regione Lazio, di Lazio Innova, del Sistema camerale e della manifestazione, comprendenti, tra l’altro: promozione web sui siti istituzionali e sui portali dedicati all’internazionalizzazione; newsletter, social media e attività di storytelling; azioni di ufficio stampa e relazioni con testate locali, nazionali e di settore; presenza dei loghi istituzionali e valorizzazione delle imprese sui canali e sui supporti di comunicazione della manifestazione; contenuti dedicati sul sito e sui social media di Maker Faire Rome, sulla base dei materiali forniti dagli Enti promotori e dalle imprese. REQUISITI DI AMMISSIBILITÀ L’opportunità è riservata a Startup e PMI che, alla data di presentazione della domanda, siano in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’impresa con uno o più dei settori cui la manifestazione è rivolta; regolare iscrizione al Registro delle Imprese della C.C.I.A.A. competente per territorio e regolarità, entro il termine di presentazione della domanda, con il pagamento del diritto annuale (Il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; qualifica di MPMI ai sensi dell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società consortili o Reti di imprese con personalità giuridica, ai sensi della normativa vigente; esercizio, con riferimento alla sede laziale, di un’attività economica coerente con i settori della manifestazione; assenza di altre agevolazioni pubbliche relative alla partecipazione alla medesima manifestazione e assenza di domande di agevolazione presentate per la stessa finalità; mancato superamento, nell’arco di tre anni, del massimale di euro 300.000,00 per gli aiuti “de minimis”, ai sensi del Regolamento (UE) 2023/2831; pieno e libero esercizio dei propri diritti, stato di attività e assenza delle procedure concorsuali o liquidatorie indicate dalla normativa applicabile, fatto salvo il concordato preventivo con continuità aziendale; capacità di contrarre con la Pubblica Amministrazione e assenza di sanzioni interdittive; assenza, in capo agli Amministratori e/o Legali rappresentanti, di condanne definitive o degli altri provvedimenti indicati dalla normativa per reati gravi incidenti sulla moralità professionale; assenza, in capo agli Amministratori e/o Legali rappresentanti, di false dichiarazioni nei rapporti con la Pubblica Amministrazione; regolarità nel versamento dei contributi previdenziali e assistenziali, verificabile mediante DURC, oppure non assoggettamento ai relativi obblighi. Tali dichiarazioni potranno essere verificate ai sensi dell’art. 71 comma 1 del D.P.R. 445 del 28 dicembre 2000, come modificato dall’art. 264 del D.L. 19 maggio 2020 n. 34, con applicazione, nel caso di dichiarazioni mendaci, della decadenza dai benefici e delle sanzioni penali, rispettivamente previste dagli artt. 75 e 76 del medesimo D.P.R., come da ultimo rese più severe per effetto del citato articolo 264. MODALITÀ DI PRESENTAZIONE DELLA DOMANDA DI PARTECIPAZIONE Le aziende interessate a partecipare alla collettiva regionale dovranno effettuare i seguenti adempimenti entro le ore 16.00 del 12 ottobre 2026 (scadenza prorogata), pena la non ammissibilità della domanda: compilare il Form di registrazione al link: https://www.lazioinnova.it/laziointernational/partecipazione-maker-faire-26/ compilare il modulo Manifestazione di in",
       "rilevanza": {
         "punteggio": 6,
         "stato": "parole_chiave",
@@ -450,7 +494,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -494,7 +538,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -536,9 +580,53 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Contributi allo spettacolo dal vivo (2027)",
+      "url": "https://www.lazioeuropa.it/bandi/contributi-allo-spettacolo-dal-vivo-2027/",
+      "data_lettura": "2026-10-09",
+      "scadenza": {
+        "valore": "2026-10-31",
+        "stato": "confermato",
+        "citazione": " su GeCoWEB Plus entro le ore 23:59 del 31 ottobre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "Contributi allo spettacolo dal vivo – 2027 Prossima Apertura Bandi Regionali Documentazione Determinazione n. G13358 del 1° ottobre 2026 - Apertura dei termini per la presentazione delle istanze per progetti annuali e delle seconde istanze per progetti triennali. Annualità 2027 Determinazione n. G12817 del 22 settembre 2026 - Approvazione della Revisione 3 del Manuale di rendicontazione La Regione Lazio sostiene gli interventi a carattere ordinario in materia di spettacolo dal vivo indicati dall’art. 3 commi 2 e ss. della LR n. 15/2014 e dal Regolamento regionale 5 agosto 2019 n. 16 e successive modificazioni, finanziati con il Fondo di cui all’articolo 23 della sopra citata legge. Gli interventi a carattere ordinario riguardano i seguenti ambiti: Paragrafo 1 – Produzione dello spettacolo dal vivo Paragrafo 2 – A – Centri di produzione teatrale Paragrafo 2 – B – Centri di produzione di danza Paragrafo 3 – Festival e rassegne di teatro, musica, danza e a carattere multidisciplinare Paragrafo 4 A – Festival Circensi Paragrafo 4 B – Festival degli artisti di strada Paragrafo 5 – Circuiti regionali (solo Enti locali) Paragrafo 6 – Orchestre ed ensemble musicali Paragrafo 7 – Progetti per favorire l’accesso dei giovani allo spettacolo dal vivo in collaborazione con le istituzioni scolastiche Paragrafo 8 – Educazione e formazione musicale, teatrale e coreutica Paragrafo 9 – Teatro di figura e iniziative di spettacolo dal vivo destinate ai bambini e all’infanzia Le istanze per l’ammissione a contributi devono essere compilate obbligatoriamente , pena l’esclusione, avvalendosi della procedura disponibile sulla piattaforma del sistema GeCoWEB plus accessibile dal sito www.lazioinnova.it , applicativo che richiede il preventivo accreditamento dei soggetti richiedenti da effettuare seguendo le indicazioni ivi riportate (per i soggetti già accreditati sul sistema le credenziali di accesso rimangono le stesse). La procedura di compilazione e finalizzazione delle istanze sarà possibile dalle ore 12:00 del giorno di pubblicazione della deliberazione concernente “Modifiche al Regolamento regionale 5 agosto 2019, n. 16”, sul Bollettino Ufficiale della Regione Lazio Tale procedura dovrà necessariamente concludersi entro le ore 23:59 del 31 ottobre 2026 . La pubblicazione della deliberazione concernente “Modifiche al Regolamento regionale 5 agosto 2019, n. 16.”avverrà presumibilmente il giorno 13.10.2026. Tale procedura si realizza attraverso la compilazione di un apposito formulario , diverso per ogni linea d’intervento, al quale dovranno essere allegati, prima della sua finalizzazione, i documenti richiesti. Dopo la finalizzazione del formulario , il sistema assegna un numero di protocollo e genera un file pdf contenente tre documenti, la “Domanda di contributo”, “Informativa ai sensi del D.lgs. 196/2003” e la “Dichiarazione attestante il possesso dei requisiti generali”. Per informazioni : Numero verde 800 98 97 96 infobandi@lazioinnova.it",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -582,7 +670,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -626,7 +714,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Generazione Sport",
       "url": "https://www.lazioeuropa.it/bandi/generazione-sport/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-14",
         "stato": "confermato",
@@ -670,7 +758,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Energia Sportiva",
       "url": "https://www.lazioeuropa.it/bandi/energia-sportiva/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-14",
         "stato": "confermato",
@@ -714,7 +802,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -758,7 +846,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Polizia Locale plus 2026 – parte corrente",
       "url": "https://www.lazioeuropa.it/bandi/polizia-locale-plus-2026-parte-corrente/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -802,7 +890,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Istituzione e potenziamento dei Centri per uomini autori o potenziali autori di violenza (C.U.A.V.)",
       "url": "https://www.lazioeuropa.it/bandi/istituzione-e-potenziamento-dei-centri-per-uomini-autori-o-potenziali-autori-di-violenza-c-u-a-v/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-24",
         "stato": "confermato",
@@ -846,7 +934,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi Culturali – inserimento in O.B.R., O.M.R. e O.A.R. – Anno 2027",
       "url": "https://www.lazioeuropa.it/bandi/servizi-culturali-inserimento-in-o-b-r-o-m-r-e-o-a-r-anno-2027/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -890,7 +978,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valorizzazione dimore, ville, complessi architettonici e del paesaggio, parchi e giardini di valore storico e storico-artistico 2026",
       "url": "https://www.lazioeuropa.it/bandi/valorizzazione-dimore-ville-complessi-architettonici-e-del-paesaggio-parchi-e-giardini-di-valore-storico-e-storico-artistico-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-08",
         "stato": "confermato",
@@ -934,7 +1022,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-28",
         "stato": "confermato",
@@ -978,7 +1066,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1022,7 +1110,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1066,7 +1154,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1110,7 +1198,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-10-30",
         "stato": "confermato",
@@ -1154,7 +1242,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Aiuto alle aziende agricole zootecniche per l’acquisto di riproduttori",
       "url": "https://www.lazioeuropa.it/bandi/aiuto-alle-aziende-agricole-zootecniche-per-lacquisto-di-riproduttori/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2026-01-19",
         "stato": "confermato",
@@ -1198,7 +1286,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1242,7 +1330,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1286,7 +1374,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1330,7 +1418,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1374,7 +1462,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1418,7 +1506,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1462,7 +1550,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1506,7 +1594,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-10-08",
+      "data_lettura": "2026-10-09",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
