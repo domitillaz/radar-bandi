@@ -4434,53 +4434,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "CERV-2026-DAPHNE-PROTECTION: Protecting and supporting victims and survivors of gender-based violence.",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-protection",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2026-11-05",
-        "stato": "confermato",
-        "citazione": "2026-11-05T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Protecting and supporting victims and survivors of gender-based violence. Protecting and supporting victims and survivors of gender-based violence.",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "CERV-2026-DAPHNE-PREVENTION: Preventing gender-based violence",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-prevention",
       "data_lettura": "2026-10-13",
@@ -4512,6 +4465,53 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Preventing gender-based violence Preventing gender-based violence",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "CERV-2026-DAPHNE-PROTECTION: Protecting and supporting victims and survivors of gender-based violence.",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-daphne-protection",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2026-11-05",
+        "stato": "confermato",
+        "citazione": "2026-11-05T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Scope: This topic is one of the 5 priorities of the call for proposals for EU action grants to prevent and combat gender-based violence and violence against children under the Citizens, Equality, Rights and Value Programme (CERV) . For further information about the call and its conditions, please see the call document. Protecting and supporting victims and survivors of gender-based violence. Protecting and supporting victims and survivors of gender-based violence.",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -5049,6 +5049,53 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL3-2026-01-FCT-03: Missing persons: prevention and investigation",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2026-01-fct-03",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "in vitro diagnostics"
+      ],
+      "scadenza": {
+        "valore": "2026-11-05",
+        "stato": "confermato",
+        "citazione": "2026-11-05T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Improved skills, tools and training curricula for Police Authorities in Europe and Civil Society Organisations (or Non-Governmental Organisations) to work with at-risk groups to prevent persons from going missing. Those improved skills, tools and training curricula are to take into account European multicultural dimension, as well as legal and ethical rules of operation; Enhanced investigation tools and methodologies for Police Authorities in Europe to tackle cold cases in the context of missing persons, based on modern (forensic) technologies and criminology; Modern training curricula for Police Authorities, their improved cross-border cooperation and enhanced tools and methodologies to tackle new cases of missing persons; Enriched European common approaches applied by Police Authorities in Europe to fight the issue of missing persons relying on the synergy of technology, the latest socio-psychological knowledge learned from cases, as well as field experience of Police Authorities and entities dealing with victims, while fully respecting fundamental rights such as privacy, protection of personal data and anonymity of victims. Scope: The issue of missing persons is a multifaceted challenge that encompasses diverse categories and is influenced by various factors. People may go missing under a variety of circumstances, such as voluntary disappearances, abductions, cases related to mental health crises, or because of conflict, migration, geopolitical instability, natural disasters. Groups in a vulnerable situation - notably children, victims of trafficking and exploitation, persons with disabilities and persons suffering from cognitive impairments - face an even greater risk of going missing, often under distressing and dangerous conditions. Tackling this issue requires a coordinated response from multiple stakeholders, from Police Authorities via Civil Society Organisations (CSOs) or Non-Governmental Organisations (NGOs) to the involvement of the overall society. In an era of rapid technological advancement and societal developments, there is a pressing need to improve current European approaches to fight the issue of missing persons (prevention and/or investigation of cold and new cases) using innovative societal and technological solutions. To this end, modernised skills, training curricula and methodologies for Police Authorities, CSOs and NGOs to work with people in a vulnerable situation and children are needed, such as effective awareness raising campaigns, which should be accessible to persons with disabilities, that take into account European multicultural dimension. When it comes to investigation, Police Authorities need efficient tools that benefit from new and emerging technologies to solve cold cases while combining modern forensic science (including biometrics and digital forensics) and criminology, e.g., modern tools for using an old DNA, or accurate facial ageing, among others. When multiple practitioners are involved in exchanging sensitive data, data sharing tools in a privacy-preserving manner should be considered. Furthermore, for new cases of missing persons, apart from an improved cross-border cooperation, Police Authorities also need, on the one hand, a modernised training to face such situations more efficiently, improving the dialogues and interactions with families, taking into account a gender sensitive and intersectional approach when relevant, and on the other hand, modern technologies and forensic tools for, for example, fast and reliable cross-matching of DNA samples between new and cold cases. If a proposal concerns forensics, its consortium should involve forensic institutes as well. Coordination among the successful proposals from this topic should be envisaged to avoid duplication and to exploit complementarities as well as opportunities for increased impact. Proposals funded under this topic are expected to provide ideas on how they would engage with the Europol Innovation Lab during the lifetime of the project, including validating the outcomes, with the aim of facilitating future uptake of innovations for the law enforcement community. For aspects of training of Police Authorities, cooperation of successful proposals with CEPOL is expected, provided that the Agency opts out from applying for funding. To ensure the active involvement of and timely feedback from relevant security practitioners, proposals should plan a mid-term deliverable consisting in the assessment of the project’s mid-term outcomes, performed by the practitioners involved in the project. Finally, proposals are expected to address all applicable considerations expressed in the Introduction of the Fighting Crime and Terrorism Destination. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 6-8 by the end of the project – see General Annex B. Missing persons: prevention and investigation Missing persons: prevention and investigation",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL3-2026-01-BM-03: Reliability of age assessment methods in the context of security and border management",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2026-01-bm-03",
       "data_lettura": "2026-10-13",
@@ -5090,53 +5137,6 @@
         "evidenze": [
           " approaches such as image analysis; and they may use or not artificial intelligence (AI) for data analysis. EU regulations, and guidelines by t"
         ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL3-2026-01-FCT-03: Missing persons: prevention and investigation",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2026-01-fct-03",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "in vitro diagnostics"
-      ],
-      "scadenza": {
-        "valore": "2026-11-05",
-        "stato": "confermato",
-        "citazione": "2026-11-05T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Improved skills, tools and training curricula for Police Authorities in Europe and Civil Society Organisations (or Non-Governmental Organisations) to work with at-risk groups to prevent persons from going missing. Those improved skills, tools and training curricula are to take into account European multicultural dimension, as well as legal and ethical rules of operation; Enhanced investigation tools and methodologies for Police Authorities in Europe to tackle cold cases in the context of missing persons, based on modern (forensic) technologies and criminology; Modern training curricula for Police Authorities, their improved cross-border cooperation and enhanced tools and methodologies to tackle new cases of missing persons; Enriched European common approaches applied by Police Authorities in Europe to fight the issue of missing persons relying on the synergy of technology, the latest socio-psychological knowledge learned from cases, as well as field experience of Police Authorities and entities dealing with victims, while fully respecting fundamental rights such as privacy, protection of personal data and anonymity of victims. Scope: The issue of missing persons is a multifaceted challenge that encompasses diverse categories and is influenced by various factors. People may go missing under a variety of circumstances, such as voluntary disappearances, abductions, cases related to mental health crises, or because of conflict, migration, geopolitical instability, natural disasters. Groups in a vulnerable situation - notably children, victims of trafficking and exploitation, persons with disabilities and persons suffering from cognitive impairments - face an even greater risk of going missing, often under distressing and dangerous conditions. Tackling this issue requires a coordinated response from multiple stakeholders, from Police Authorities via Civil Society Organisations (CSOs) or Non-Governmental Organisations (NGOs) to the involvement of the overall society. In an era of rapid technological advancement and societal developments, there is a pressing need to improve current European approaches to fight the issue of missing persons (prevention and/or investigation of cold and new cases) using innovative societal and technological solutions. To this end, modernised skills, training curricula and methodologies for Police Authorities, CSOs and NGOs to work with people in a vulnerable situation and children are needed, such as effective awareness raising campaigns, which should be accessible to persons with disabilities, that take into account European multicultural dimension. When it comes to investigation, Police Authorities need efficient tools that benefit from new and emerging technologies to solve cold cases while combining modern forensic science (including biometrics and digital forensics) and criminology, e.g., modern tools for using an old DNA, or accurate facial ageing, among others. When multiple practitioners are involved in exchanging sensitive data, data sharing tools in a privacy-preserving manner should be considered. Furthermore, for new cases of missing persons, apart from an improved cross-border cooperation, Police Authorities also need, on the one hand, a modernised training to face such situations more efficiently, improving the dialogues and interactions with families, taking into account a gender sensitive and intersectional approach when relevant, and on the other hand, modern technologies and forensic tools for, for example, fast and reliable cross-matching of DNA samples between new and cold cases. If a proposal concerns forensics, its consortium should involve forensic institutes as well. Coordination among the successful proposals from this topic should be envisaged to avoid duplication and to exploit complementarities as well as opportunities for increased impact. Proposals funded under this topic are expected to provide ideas on how they would engage with the Europol Innovation Lab during the lifetime of the project, including validating the outcomes, with the aim of facilitating future uptake of innovations for the law enforcement community. For aspects of training of Police Authorities, cooperation of successful proposals with CEPOL is expected, provided that the Agency opts out from applying for funding. To ensure the active involvement of and timely feedback from relevant security practitioners, proposals should plan a mid-term deliverable consisting in the assessment of the project’s mid-term outcomes, performed by the practitioners involved in the project. Finally, proposals are expected to address all applicable considerations expressed in the Introduction of the Fighting Crime and Terrorism Destination. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 6-8 by the end of the project – see General Annex B. Missing persons: prevention and investigation Missing persons: prevention and investigation",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
         "destinatari": {
           "valore": "non_indicato",
           "citazione": null
@@ -5476,53 +5476,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-BRIDGING-2027-03-04: Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-03-04",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "point-of-care"
-      ],
-      "scadenza": {
-        "valore": "2027-06-15",
-        "stato": "confermato",
-        "citazione": "2027-06-15T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Proposals are expected to contribute to all the following expected outcomes: Increased resilience and sovereignty of critical European research data and knowledge repositories and scientific services used in the life sciences [1] , including in particular biomedical and biomolecular related disciplines. Further integration of trusted, FAIR data [2] and research infrastructures in the European Open Science Cloud (EOSC) [3] Federation. Increased European leadership and contribution to international collaboration frameworks supporting data infrastructures. Scope: Europe is home to some of the world’s key research data repositories, scientific services and facilities that are indispensable for the life sciences. Despite their crucial role in advancing the life sciences in Europe, such infrastructures are often vulnerable to risks that can critically impair their sustainable operation and serving of the community, such as overdependence on precarious funding streams, overreliance on a too limited number of experts or organisations for the operation and further development of technical components or features that could otherwise benefit from more distributed solutions and appropriate safety nets against ‘single points of failure’. EOSC is the Common European Data Space for research, a flagship initiative to transform Europe’s landscape of research data and knowledge repositories and scientific services towards a more coherent and harmonised common space of high-quality, FAIR research data, knowledge and interoperable services. It aims to benefit research infrastructures by increased economies of scale, higher efficiencies and sharing of resources and costs, and to benefit researchers by facilitating access to quality services and enabling research data and knowledge sharing and reuse within and across disciplines and borders in Europe. The aim of this action is to increase the resilience of key research data and knowledge repositories and services used in the life sciences, i) by supporting their participation and integration into the EOSC Federation as well as relevant European or global collaborative frameworks to interconnect, share and scale resources, and ii) by supporting a vibrant broad community of infrastructure operators that diversifies and enriches these services, strengthening their operational sustainability and expanding their uptake by end-users. The action targets critical research, data and knowledge infrastructures in the life sciences as well as other key facilities that serve the needs of researchers in the life sciences. Proposals should address all the following activities: Reinforce the integration in the EOSC Federation of key data and research infrastructures and scientific service providers that serve the needs of the life sciences. Activities should include fully operational contribution to and adoption of EOSC federating capabilities, interconnection of relevant data and services within the EOSC Federation, and development of concrete use cases that demonstrate increased efficiencies and economies of scale across multiple EOSC Nodes as well as scientific use cases to demonstrate the value of the EOSC Federation for researchers and other end-users in the life sciences and for cross-discipline research. Develop and deploy solutions and set up collaborations and agreements that enable the broader community to sustain and enrich these repositories and services, strengthening technical reliability, cybersecurity and trusted access mechanisms, and reducing risks of service interruption. Develop and demonstrate business and financing models that minimise the risks of service downgrades or disruptions, such as diversifying funding sources, federating technical components and features across multiple competent organisations, and further expanding their user base beyond researchers. Support the participation in European or global collaborative initiatives or frameworks that aim to diversify funding sources and support load sharing and balancing commitments across multiple actors in EU Member States, Associated Countries and globally, such as the Global Biodata Coalition (GBC) [4] . Support training and upskilling programmes for technical and scientific staff needed for operation of these resources, and aiming to avoid loss of critical expertise. Proposals should identify the specific key digital repositories and services that their activities will focus on, justify their importance for the advancement of the life sciences in Europe with concrete performance indicators and other metrics, and describe the specific risks of these resources that will be addressed by the action. They should ensure broad participation of organisations across EU Member States and Associated Countries. Proposed actions should ensure complementarity where relevant with projects funded under topic HORIZON-INFRA-2026-DEV-01-07: “Risk management, mitigation and contingency for ESFRI/ERIC and other world-class research infrastructures” and HORIZON-INFRA-2026-01-EOSC-02: “Trusted frameworks for secure and efficient data sharing in EOSC (EOSC Partnership)”. Synergies with other Common European Data Spaces may be considered, where relevant. [1] For a description of disciplines within the life sciences, see the ‘Choose Europe for life sciences’ strategy, COM(2025) 525. [2] FAIR data are data which meet the principles of findability, accessibility, interoperability, and reusability. [3] https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/european-open-science-cloud-eosc_en [4] https://globalbiodata.org Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP: Coordinated preparedness testing and other preparedness actions",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-coordprep",
       "data_lettura": "2026-10-13",
@@ -5554,6 +5507,53 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: The types of deliverables are presented in two parts. The first part covers: Enhanced cooperation, preparedness and cybersecurity resilience in the EU; preparedness support services. Threat assessment and risk assessment services. The second part covers: Risk monitoring services Better compliance, coordinated vulnerability disclosure and monitoring Improved skills, via exercises and training courses, organisation of events, workshops. Stakeholder consultations and white papers. Objective: This action covers two actions from the Cyber Solidarity Act, dedicated to the Cybersecurity Emergency Mechanism, namely (1) coordinated preparedness testing of entities operating in sectors of high criticality across the Union and (2) other preparedness actions for entities operating in sectors of high criticality and other critical sectors. Objectives These actions aim to complement and not duplicate efforts by Member States and those at Union level to increase the level of protection and resilience to cyber threats, in particular for critical industrial installations and infrastructures, by assisting Member States in their efforts to improve their preparedness for cyber threats and incidents by providing them with knowledge and expertise. Proposals should contribute to achieving at least one of the following objectives: (part 1) Coordinated preparedness testing of entities operating in sectors of high criticality across the Union (including penetration testing and threat assessment) considering ICT as well as Operational Technology/Industrial Control Systems. (part 2) Other preparedness actions for entities operating in sectors of high criticality and other critical sectors (i.e. vulnerability monitoring, exercises and training courses). For details on the actions related to (part 1) and (part 2) covered under the current call for proposals, please consult the Call document accordingly. Scope: [Part 1 Coordinated preparedness testing ] The provision of preparedness support services shall include the activities listed below, for entities in the sector or sub-sector as identified by the Commission in accordance with the Cyber Solidarity Act, from the Sectors of High Criticality listed in Annex I to Directive (EU) 2022/2555 and specified in the call for proposal document for each of the calls under this topic: Support for testing for potential vulnerabilities: Development of penetration testing scenarios. The proposed scenarios may cover Networks, Applications, Virtualisation solutions, Cloud solutions, Industrial Control systems, and IoT. Support for conducting testing of essential entities operating critical infrastructure for potential vulnerabilities. Support for the deployment of digital tools and infrastructures supporting the execution of testing scenarios and for conducting exercises such as the development of standardised cyber-ranges or other testing facilities, able to mimic features of critical sectors (e.g. energy sector, transport sector, etc.) or others affected by NIS 2 to facilitate the execution of cyber-exercises, in particular within cross-border scenarios where relevant. Evaluation and/or testing of cybersecurity capabilities of MS entities and MS sectors (including capabilities to prevent, detect and respond to incidents and stress test of the entire sectors), evaluation and compliance activities aimed at increasing maturity, e.g. on the basis of established maturity models and/or relevant evaluation and compliance schemes. Evaluation and/or testing of cybersecurity capabilities of entities in scope (including for the evaluation and management of risks concerning the supply chain). Consulting services, providing recommendations on how to improve infrastructure security and capabilities. Support for threat assessment and risk assessment, such as: Threat Assessment process implementation and life cycle Customised risk scenarios analysis. The support will target the competent authorities in the Member States, which play a central role in the implementation of the NIS2 Directive, such as Computer Security Incident Response Teams (CSIRTs) and National Cybersecurity Authorities. [Part 2 other preparedness actions] For the second part, in addition to the services already listed for Part 1 (support for testing for potential vulnerabilities and support for threat assessment and risk management), the provision of preparedness support services included below addresses entities operating in highly critical and other critical sectors as referred to in Annex I and II of the NIS 2 Directive. Support for threat assessment and risk assessment : Supply chain risk management within the risk assessment services. Risk monitoring service: Specific continuous risk monitoring such as attack surface monitoring, risk monitoring of assets and vulnerabilities. Support coordinated vulnerability disclosure and management: Promote the adoption of national CVD Policies [1] and the EU Vulnerability Database. Coordinate the disclosure of vulnerabilities and timely dissemination of security patches. Standardisation of the way information is shared between different stakeholders in the vulnerability handling process. CVD applications that manage multiple sources of vulnerability information using open standards or technologies. (e.g. researchers, vendors, CSIRTs). Raise awareness on the adoption of vulnerability management best practices. Dedicated exercises and training courses: Develop [2] comprehensive training programmes and workshops, including international ones, for cybersecurity professionals that will cover the latest trends in cyber threats, attack methodologies, and best practices for pre-threat management and prevention. Maturity checks, evaluation of cybersecurity capabilities. Encourage the development of cybersecurity continuous learning activities [3] to keep up with all cybersecurity requirements driven by EU cybersecurity-related regulations and directives, including the NIS 2 Directive, CSA, CSoA, DORA, EECC, GDPR, CRA. The support will target the competent authorities in the Member States, which play a central role in the implementation of the NIS2 Directive, Computer Security Incident Response Teams (CSIRTs) including sectorial CSIRTs, Security Operation Centres (SOC)/Cyber Hubs, highly critical and other critical sectors, industry stakeholders (including Information Sharing and Analysis Centres- ISACs) and any other actors within the scope of the NIS 2 Directive, DORA, CSA, etc. Support may be provided, among others, for the on boarding to the CEF Cybersecurity Core Service Platforms of public and private organisations which are working on the implementation of the NIS 2 Directive and are potential users of the CEF Cybersecurity Core Service Platforms. The action may also support industry, with a particular focus on start-ups and SMEs, to seize the industrial and market uptake opportunities created by the Cyber Resilience Act and may support the implementation of the NIS 2 Directive. [1] Coordinated Vulnerability Disclosure Policies in the EU, ENISA, 2022, available at: https://www.enisa.europa.eu/publications/coordinated-vulnerability-disclosure-policies-in-the-eu [2] Based on the European Cybersecurity Skills Framework (ECSF) [3] Based on ECSF: https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework Coordinated preparedness testing and other preparedness actions Coordinated preparedness testing and other preparedness actions",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-BRIDGING-2027-03-04: Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-03-04",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "point-of-care"
+      ],
+      "scadenza": {
+        "valore": "2027-06-15",
+        "stato": "confermato",
+        "citazione": "2027-06-15T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Proposals are expected to contribute to all the following expected outcomes: Increased resilience and sovereignty of critical European research data and knowledge repositories and scientific services used in the life sciences [1] , including in particular biomedical and biomolecular related disciplines. Further integration of trusted, FAIR data [2] and research infrastructures in the European Open Science Cloud (EOSC) [3] Federation. Increased European leadership and contribution to international collaboration frameworks supporting data infrastructures. Scope: Europe is home to some of the world’s key research data repositories, scientific services and facilities that are indispensable for the life sciences. Despite their crucial role in advancing the life sciences in Europe, such infrastructures are often vulnerable to risks that can critically impair their sustainable operation and serving of the community, such as overdependence on precarious funding streams, overreliance on a too limited number of experts or organisations for the operation and further development of technical components or features that could otherwise benefit from more distributed solutions and appropriate safety nets against ‘single points of failure’. EOSC is the Common European Data Space for research, a flagship initiative to transform Europe’s landscape of research data and knowledge repositories and scientific services towards a more coherent and harmonised common space of high-quality, FAIR research data, knowledge and interoperable services. It aims to benefit research infrastructures by increased economies of scale, higher efficiencies and sharing of resources and costs, and to benefit researchers by facilitating access to quality services and enabling research data and knowledge sharing and reuse within and across disciplines and borders in Europe. The aim of this action is to increase the resilience of key research data and knowledge repositories and services used in the life sciences, i) by supporting their participation and integration into the EOSC Federation as well as relevant European or global collaborative frameworks to interconnect, share and scale resources, and ii) by supporting a vibrant broad community of infrastructure operators that diversifies and enriches these services, strengthening their operational sustainability and expanding their uptake by end-users. The action targets critical research, data and knowledge infrastructures in the life sciences as well as other key facilities that serve the needs of researchers in the life sciences. Proposals should address all the following activities: Reinforce the integration in the EOSC Federation of key data and research infrastructures and scientific service providers that serve the needs of the life sciences. Activities should include fully operational contribution to and adoption of EOSC federating capabilities, interconnection of relevant data and services within the EOSC Federation, and development of concrete use cases that demonstrate increased efficiencies and economies of scale across multiple EOSC Nodes as well as scientific use cases to demonstrate the value of the EOSC Federation for researchers and other end-users in the life sciences and for cross-discipline research. Develop and deploy solutions and set up collaborations and agreements that enable the broader community to sustain and enrich these repositories and services, strengthening technical reliability, cybersecurity and trusted access mechanisms, and reducing risks of service interruption. Develop and demonstrate business and financing models that minimise the risks of service downgrades or disruptions, such as diversifying funding sources, federating technical components and features across multiple competent organisations, and further expanding their user base beyond researchers. Support the participation in European or global collaborative initiatives or frameworks that aim to diversify funding sources and support load sharing and balancing commitments across multiple actors in EU Member States, Associated Countries and globally, such as the Global Biodata Coalition (GBC) [4] . Support training and upskilling programmes for technical and scientific staff needed for operation of these resources, and aiming to avoid loss of critical expertise. Proposals should identify the specific key digital repositories and services that their activities will focus on, justify their importance for the advancement of the life sciences in Europe with concrete performance indicators and other metrics, and describe the specific risks of these resources that will be addressed by the action. They should ensure broad participation of organisations across EU Member States and Associated Countries. Proposed actions should ensure complementarity where relevant with projects funded under topic HORIZON-INFRA-2026-DEV-01-07: “Risk management, mitigation and contingency for ESFRI/ERIC and other world-class research infrastructures” and HORIZON-INFRA-2026-01-EOSC-02: “Trusted frameworks for secure and efficient data sharing in EOSC (EOSC Partnership)”. Synergies with other Common European Data Spaces may be considered, where relevant. [1] For a description of disciplines within the life sciences, see the ‘Choose Europe for life sciences’ strategy, COM(2025) 525. [2] FAIR data are data which meet the principles of findability, accessibility, interoperability, and reusability. [3] https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/european-open-science-cloud-eosc_en [4] https://globalbiodata.org Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -5758,53 +5758,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-SPACE-03-34: Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-34",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "point-of-care"
-      ],
-      "scadenza": {
-        "valore": "2027-09-02",
-        "stato": "confermato",
-        "citazione": "2027-09-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: The topic encompasses actions within the scope of the co-programmed European Partnership on Globally Competitive Space Systems (‘Space Partnership’) in the areas of satellite communication (SatCom), Earth Observation (EO) and New Commercial Space Transportation Solutions and is part of cohesive activities in the domain of digital developments under the grand heading of “digitalisation for commercial space solutions”. Digitalisation is a major enabler for enhancing the value of an End-to-End EO and SatCom system. Under the area of Using Space on Earth related to SatCom and EO, below this topic focusses on the Mid to High TRL level developments of key technologies [1] required to strengthen competitiveness in these domains, contributing to the preparation of EO and SatCom demonstration missions. Projects are expected to contribute to one or several of the following outcomes: Favouring a competitive and sustainable European Space Sector; Enable the European Space Industry to maintain a significant share of the global connectivity market; Advanced Earth observation and SatCom payloads, technologies and processing means (on ground and in space); Advanced EO and SatCom fostering AI across space system; Enhanced security of SatCom and EO services, supporting advanced technologies for both ground and space commercial applications; End-to-end demonstrator for collaborative Earth Observation and Satellite telecommunication for Space solutions. This will contribute to developing, deploying global, more flexible and reactive space-based services applications, to contribute to fostering the EU's space sector competitiveness, as stated in the expected impact of this destination. Scope: The areas of R&amp;I, which needs to be addressed to tackle the above-mentioned expected outcomes are: R&amp;I on End-to-End SatCom Mission capabilities, secure satcom services and satellites as network nodes, and digital on-ground infrastructure to test and enhance operational efficiency; R&amp;I on Earth Observation equipment, subsystems, applications and services, improving data processing for performance or timeliness, smart multi-sources EO data fusion, fostering interoperability among EO missions, miniaturisation of instrument designs and EO ground segment interfaces, digitalised technology steps such as high-performance cloud-based architectures and active and adaptative optics and/or higher-power electronics; R&amp;I on building blocks and processes common to EO and SatCom systems, such as on-board processing capabilities, maturing high performance processing payload H/W to support space network capabilities and reducing environmental impact of future missions, maturation of technologies and products improving system security and threats identification, characterization and possible mitigation and RF and optical hybrid ground stations for anchoring services. Proposals may contribute to one or more of the above R&amp;I areas, however the main area addressed are expected to be clearly and unambiguously identified in the proposal text. To ensure a balanced portfolio covering the three areas described above, grants will be awarded to applications not only in order of ranking but at least also to one proposal that is the highest ranked within each area, provided that the applications attain all thresholds. For the purposes of the ranking the main area declared by the proposal will be considered. Proposals are expected to promote cooperation between different actors (industry, SMEs, research institutions and infrastructures and academia) and consider opportunities to quickly turn technological innovation into commercial use in space via e.g., on-ground relevant environment or in orbit demonstration. It is expected that projects make use of existing EU technologies and/or building blocks, including at component level, contributing to EU non-dependence and strengthen competitiveness, and this should be clearly presented in the proposal. Furthermore, proposed activities should be complementary to H2020 and Horizon Europe funded projects, national activities and activities funded by the European Space Agency (ESA). This topic contributes to the implementation of the European Partnership on ‘Globally Competitive Space Systems’ (GCSS). As such, projects resulting from this topic will be expected to report on results to the European Partnership ‘Globally Competitive Space Systems’ (GCSS) in support of the monitoring of its KPIs. In this topic, the integration of the gender dimension (sex and gender analysis) in research and innovation content should be addressed only if relevant in relation to the objectives of the research effort. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 7-8 by the end of the project. The reference TRL definition is the ISO 16290:2013 applicable to the space sector. [1] Identified in the Strategic Research and Innovation Agenda (SRIA) of the co-Programmed European Partnership on Globally Competitive Space Systems (https://www.space-aisbl.org/sria/) Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership) Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL4-2027-SPACE-03-21: ISOS4I Pilot Mission Integrated Ground Test and consolidation of space-compatible USI solutions",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-21",
       "data_lettura": "2026-10-13",
@@ -5946,6 +5899,53 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-SPACE-03-34: Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-34",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "point-of-care"
+      ],
+      "scadenza": {
+        "valore": "2027-09-02",
+        "stato": "confermato",
+        "citazione": "2027-09-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: The topic encompasses actions within the scope of the co-programmed European Partnership on Globally Competitive Space Systems (‘Space Partnership’) in the areas of satellite communication (SatCom), Earth Observation (EO) and New Commercial Space Transportation Solutions and is part of cohesive activities in the domain of digital developments under the grand heading of “digitalisation for commercial space solutions”. Digitalisation is a major enabler for enhancing the value of an End-to-End EO and SatCom system. Under the area of Using Space on Earth related to SatCom and EO, below this topic focusses on the Mid to High TRL level developments of key technologies [1] required to strengthen competitiveness in these domains, contributing to the preparation of EO and SatCom demonstration missions. Projects are expected to contribute to one or several of the following outcomes: Favouring a competitive and sustainable European Space Sector; Enable the European Space Industry to maintain a significant share of the global connectivity market; Advanced Earth observation and SatCom payloads, technologies and processing means (on ground and in space); Advanced EO and SatCom fostering AI across space system; Enhanced security of SatCom and EO services, supporting advanced technologies for both ground and space commercial applications; End-to-end demonstrator for collaborative Earth Observation and Satellite telecommunication for Space solutions. This will contribute to developing, deploying global, more flexible and reactive space-based services applications, to contribute to fostering the EU's space sector competitiveness, as stated in the expected impact of this destination. Scope: The areas of R&amp;I, which needs to be addressed to tackle the above-mentioned expected outcomes are: R&amp;I on End-to-End SatCom Mission capabilities, secure satcom services and satellites as network nodes, and digital on-ground infrastructure to test and enhance operational efficiency; R&amp;I on Earth Observation equipment, subsystems, applications and services, improving data processing for performance or timeliness, smart multi-sources EO data fusion, fostering interoperability among EO missions, miniaturisation of instrument designs and EO ground segment interfaces, digitalised technology steps such as high-performance cloud-based architectures and active and adaptative optics and/or higher-power electronics; R&amp;I on building blocks and processes common to EO and SatCom systems, such as on-board processing capabilities, maturing high performance processing payload H/W to support space network capabilities and reducing environmental impact of future missions, maturation of technologies and products improving system security and threats identification, characterization and possible mitigation and RF and optical hybrid ground stations for anchoring services. Proposals may contribute to one or more of the above R&amp;I areas, however the main area addressed are expected to be clearly and unambiguously identified in the proposal text. To ensure a balanced portfolio covering the three areas described above, grants will be awarded to applications not only in order of ranking but at least also to one proposal that is the highest ranked within each area, provided that the applications attain all thresholds. For the purposes of the ranking the main area declared by the proposal will be considered. Proposals are expected to promote cooperation between different actors (industry, SMEs, research institutions and infrastructures and academia) and consider opportunities to quickly turn technological innovation into commercial use in space via e.g., on-ground relevant environment or in orbit demonstration. It is expected that projects make use of existing EU technologies and/or building blocks, including at component level, contributing to EU non-dependence and strengthen competitiveness, and this should be clearly presented in the proposal. Furthermore, proposed activities should be complementary to H2020 and Horizon Europe funded projects, national activities and activities funded by the European Space Agency (ESA). This topic contributes to the implementation of the European Partnership on ‘Globally Competitive Space Systems’ (GCSS). As such, projects resulting from this topic will be expected to report on results to the European Partnership ‘Globally Competitive Space Systems’ (GCSS) in support of the monitoring of its KPIs. In this topic, the integration of the gender dimension (sex and gender analysis) in research and innovation content should be addressed only if relevant in relation to the objectives of the research effort. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 7-8 by the end of the project. The reference TRL definition is the ISO 16290:2013 applicable to the space sector. [1] Identified in the Strategic Research and Innovation Agenda (SRIA) of the co-Programmed European Partnership on Globally Competitive Space Systems (https://www.space-aisbl.org/sria/) Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership) Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL4-2027-SPACE-03-71: Quantum Space Gravimetry topic",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-71",
       "data_lettura": "2026-10-13",
@@ -5977,104 +5977,6 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Projects are expected to contribute to the following outcomes: Support the EU space policy by fostering the development of groundbreaking space technology and support the Quantum Europe Strategy. Enhance the technological maturation of the critical components necessary to perform quantum space gravimetry. Foster the technological leadership and non-dependence of the EU in the field of quantum gravimetry from space and promote the EU’s competitiveness in quantum technologies. This action aims at supporting the maturation, development and/or implementation of quantum gravimetry technology for space. Monitoring the Earth gravity field provides key information and data on Earth mass movements. This type of data is of utmost importance for Earth science and used in many areas, for example to monitor ice sheet changes, floods or droughts, volcanic activities and earthquakes. The community of users for such data spans from climate scientists to geophysicists and relies on quality and precise data. Monitoring the Earth gravity field from space provides a global scale to the user community and fosters the development of models and understanding of the Earth as an integrated and global system. Space gravimetry data provided up to now (or planned in the near future) is using an underlying technology based on electrostatic accelerometers, which has reached its limits in terms of performance. Accelerometers based on quantum technology may offer enhanced performances in terms of sensitivity, accuracy, stability and operational time compared to these classical accelerometers. The European Commission is committed to the development of quantum technologies and for this purpose, adopted the Quantum Europe Strategy in July 2025 ( Quantum Europe Strategy | Shaping Europe’s digital future ). This strategy identifies Space as a critical element and highlights the benefits of quantum sensing, including for fundamental science. The strategy provides the case for a network of mobile and stationary quantum sensors and foresees the deployment of ground, airborne and space-based gravimeters for Earth observation purposes. The strategy highlights the need for and importance of developing a space compatible technology to fulfil this ambition. Quantum technologies are also identified as a critical R&amp;I area in the EU Economic Security Strategy ( eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023JC0020 ). Mastering this technology will contribute to the EU technological sovereignty and foster the development of an EU non-dependent quantum &amp; space ecosystem, able to address the EU’s ambitions for its space policy. To meet these strategic objectives and envisage a full-blown quantum space gravimetry capacity, the development and in-orbit testing of a quantum accelerometer is a pre-requisite. The European Commission has been supporting the development of quantum accelerometer technology for ground and space gravimetry with dedicated calls in Horizon Europe. This call will support the implementation, development and maturation of quantum accelerometer technologies for space gravimetry. Proposals should present a technological solution provided it is quantum-based, aims at enhancing the performance of gravimetry mission(s) currently planned (based on electrostatic accelerometers), and the resulting projects are expected to be consistent with a common overarching roadmap and recommendations to be established in close coordination with EU Member States, Norway and Iceland through a dedicated Quantum Space Gravimetry Expert Group (QSGEG). The action should foster the development of the underlying technology and result in a breadboard / payload prototype subsystems / engineering models demonstrating the feasibility and expected performance of the technological solution and its potential further development for integration on a satellite platform, the design of which should also be presented. Proposals should also provide a clear implementation strategy allowing the chosen solution to be tested in-orbit in a demonstrator in the future, the associated development lifecycle of which is free of choice (ECSS or other). Scope: The areas of R&amp;I, which needs to be addressed to tackle the above-mentioned expected outcomes are: Area 1: R&amp;I on the technology based on cold atom interferometry with Bose Einstein Condensates (BECs) for Quantum Space Gravimetry. Proposals should aim at the maturation of all relevant technology to TRL 6 and deliver engineering and qualification models of the payload subsystems to demonstrate the technology in orbit. Area 2: R&amp;I on emerging technology for Quantum Space Gravimetry such as SQUIDs (Superconducting Quantum Interference Devices) or nuclear spin-based gravimeters or hybridized technology (list not exhaustive). Proposals should aim at the development of the relevant technology to TRL 4-5 and deliver breadboards or prototypes of a payload aiming at demonstrating the technology in orbit. Proposals should contribute to one of the above R&amp;I areas and this area should be clearly and unambiguously identified. To ensure a balanced portfolio covering the two areas described above, grants will be awarded to applications not only in order of ranking but at least also to one proposal that is the highest ranked within each area, provided that the applications attain all thresholds. Intellectual Property (IP) rights and ownership must be clearly defined and the provisions in Article 16 of the Horizon Europe Model Grant Agreement shall apply (relevant to protection, exploitation, transfer and licensing, access rights to results and background). The beneficiaries of the grant should also reflect on the availability of the IPs for potential next steps of the activity. Where applicable, proposers are invited to explore synergies with or build-upon past actions related to quantum technology and/or space gravimetry either at national or EU level. In this topic, the integration of the gender dimension (sex and gender analysis) in research and innovation content should be addressed only if relevant in relation to the objectives of the research effort. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 4-6 by the end of the project. The reference TRL definition is the ISO 16290:2013 applicable to the space sector. Quantum Space Gravimetry topic Quantum Space Gravimetry topic",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-02-CLIMATE-01: Governance, sustainable development and international politics of a future ice-free Arctic",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-01",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "point-of-care"
-      ],
-      "scadenza": {
-        "valore": "2027-09-23",
-        "stato": "confermato",
-        "citazione": "2027-09-23T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: improved knowledge of the processes, feedbacks and impacts of an ice-free Arctic, both locally/regionally and globally, including advanced research on newly emerging aspects of the future regime change in the Arctic. enhanced observations and monitoring capabilities of Arctic changes including ocean, land, sea-ice and atmosphere processes and biodiversity in the Arctic, informing the key components covered by the topic, i.e. governance, sustainable development and international politics of an ice-free Arctic. knowledge-based recommendations for sustainable development (of ocean-based and blue economy activities), environmental conservation, climate change adaptation and resilience, better-informed planning of resources (with a focus on coastal communities and activities) and enabled evidence-based regional, European, and global decision–making on Arctic Ocean Governance; sustained European leadership in ocean–climate–biodiversity-cryosphere science; significant contributions made to global scientific assessments, such as the IPCC, IPBES, SWIPA (Snow, Water, Ice and Permafrost in the Arctic) and WOA (World Ocean Assessments), as well as to the UN Decade of Ocean Science for Sustainable Development (2021 – 2030) and Decade of Action for Cryospheric Sciences (2025-2034), Central Arctic Ocean Fisheries Agreement (CAOFA), the International Polar Year 2032-2033, UN SDGs 13 and 14, and the European polar science coordination efforts. Scope: Proposals should: better understand, project and reduce uncertainties linked to the impacts, timing and consequences of an ice-free Arctic. This includes the underlying systems (such as ocean, atmosphere, cryosphere, and biosphere) and processes, strengthening research on key or main drivers of internal variability and their interconnectedness to the climate system, under multi and cumulative and cascading impacts of anthropogenic activities (resource extraction, climate change, shipping and industrial activities, pollution, introduction of NIS, etc.), abrupt, irreversible change/tipping elements and thresholds, including their reversibility. In particular, understanding the nuances of the impacts of occasional daily ice-free conditions, versus frequent monthly ice-free conditions, versus ice-free conditions that occur for several months a year, is needed to assess the true impact of a new seasonal Arctic sea ice regime in a warming world, in particular in and for Europe. enhance regional models representing integrated key physical, biogeochemical, and biological processes, especially to capture processes in the changing sea-ice regimes (ecological and political) and the impacts of extremes, building on and further developing the existing IPCC class climate models and making use of new technologies for sustained monitoring of key climate indicators / shared Arctic variables and machine learning techniques for the advanced interpretation of these data. identify transformative pathways and key leverage points for sustainable mitigation and anticipatory adaptation approaches. This could include and are not limited to looking into aspects of: community resilience and health, particularly Indigenous populations, in adapting to cultural, political, economic and environmental changes, including addressing food security, health impacts, and preserving cultural practices; explore novel economic opportunities and challenges, evaluating the potential for shorter and new shipping routes and other economic opportunities, explore sustainable energy solutions for Arctic communities, including wind, solar, and geothermal energy potential, resource exploration, and sustainable economic development while ensuring environmental protection; explore elements of risk management and hazard mitigation preparing for increased coastal erosion, increased extreme weather events, and the impacts of thawing permafrost on infrastructures, greenhouse emissions, and increased risks of natural and anthropogenic hazards; develop strategies to reduce greenhouse gas emissions and enhance carbon sequestration in Arctic ecosystems (bearing in mind the precautionary principle/approach, and the efficiency and effectiveness of Nature-based Solutions); improve projections for Arctic’s “Last Ice Area” (LIA) — a vital habitat for ice-dependent species — and critical for Arctic habitats , and inform conservation policies and measures; explore the power of enhancing cooperation among Arctic nations and global partners to share data, resources, and expertise and identify issues of geopolitical and strategic nature and assess the implications of a navigable Arctic for shipping and other blue economy or coastal-linked activities, resource extraction, and international relations, strongly considering sustainability and the precautionary principle/approach. Actions should conduct trans- and multi-disciplinary research, include aspects of gender, SSH, equality and inclusion, and intergenerational concerns, and strengthen the inclusion of different knowledge systems (Indigenous Knowledge, Local Knowledge and Science) in broadening our understanding the multifaceted governance, sustainable development and international politics of an ice-free Arctic. International cooperation is strongly encouraged, especially with the All-Atlantic Ocean Research and Innovation Alliance (AAORIA) partner countries [1] . A strong linkage should be ensured with the ongoing activities under Polhavet 2050 – Arctic Ocean 2050. The actions should build on existing observing platforms and initiatives, and/or contribute to the evolution of the EU Digital Twin of the Ocean and Destination Earth. All in-situ data collected through actions funded from this call should follow INSPIRE principles and be available through open access repositories supported by the European Commission (Copernicus and EMODnet). Concrete efforts should be made to ensure that the data produced in the context of the funded projects is FAIR (Findable, Accessible, Interoperable and Re-usable). This topic is part of a coordination initiative between ESA and the European Commission on Earth System Science and should towards this end include sufficient means and resources for effective coordination, with relevant ESA Polar Science Cluster projects, including utilising novel satellite Earth Observation datasets and joint research actions. Furthermore, this topic is supporting the European polar science coordination efforts, including synergies with the objectives of the European Polar Coordination Office (EPCO) and through contributing to the implementation of its work plan. Proposals are encouraged to consider, where relevant, the data, expertise and services offered by European research infrastructures [2] , as well as related projects in the environment domain. The Joint Research Centre (JRC) may participate as member of the consortium selected for funding. The JRC may contribute with its expertise related to developing new methods to forecast air pollution and to estimate methane emissions from thawing permafrost. [1] Home - All Atlantic Ocean Research and Innovation Alliance [2] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed from ESFRI website https://ri-portfolio.esfri.eu/ Governance, sustainable development and international politics of a future ice-free Arctic Governance, sustainable development and international politics of a future ice-free Arctic",
-      "rilevanza": {
-        "punteggio": 6,
-        "stato": "parole_chiave",
-        "motivazione": "Trovati termini dei temi: ml_dati_biomedici. Corrispondenza lessicale, non un giudizio sul contenuto.",
-        "temi": [
-          "ml_dati_biomedici"
-        ],
-        "evidenze": [
-          "ing of key climate indicators / shared Arctic variables and machine learning techniques for the advanced interpretation of these data. i"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-02-CLIMATE-04: Unlocking a safe operating space for Antarctica and the Southern Ocean",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-04",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "point-of-care"
-      ],
-      "scadenza": {
-        "valore": "2027-09-23",
-        "stato": "confermato",
-        "citazione": "2027-09-23T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: improved multidisciplinary scientific understanding of the functioning of the Southern Ocean and the Antarctic cryosphere and associated ecosystem dynamics, in the near term (∼2030), mid-term (2050–2060) and long-term (after ∼2060), including their mutual interaction with, impact on and vulnerability to, current and future changes in the other components of the regional and global climate systems; important contributions made to key ocean, cryosphere, climate and biodiversity monitoring indicators that support international, regional and global assessments. Fostered development of a regional approach to polar ocean, climate and biodiversity observations, monitoring and reporting; informed policies for environmental conservation and climate resilience and enabled evidence-based regional, European, and global decision–making on polar ocean governance; sustained European leadership in ocean–climate–biodiversity-cryosphere science; significant contributions made to global scientific assessments (e.g. IPCC, IPBES and WOA), as well as to the UN Decades of Action of Ocean (2021-2030) and Cryospheric (2025-2034) Sciences, the Antarctica InSync programme (2027 and 2030), the International Polar Year (2032-2033), UN SDGs 13 and 14, and the European polar science coordination efforts. Scope: Proposals should: resolve uncertainties, improve projections and quantifications of the future of the region, looking at changes in the near-, mid- and long-term (irreversible, abrupt and committed changes), their likelihood, timing, rate, amplitude, and impacts on the Earth’s System (decadal to millennial climate projections, global sea level, ocean circulation, global carbon budget); advance understanding of the complex interactions and feedbacks between the ocean, the atmosphere, sea ice, ice shelves, and land ice dynamics, considering multiple scales and processes simultaneously, with focus on the Antarctic continental shelves where conditions are or will change rapidly and on regions for bottom water formation; advance the knowledge of Southern Ocean dynamics and sea ice dynamics in the near-, mid- and long-term. Better understand the distribution, underlying mechanisms and impacts of changes in the Southern Ocean and sea ice to reduce uncertainties in projected future changes of large-scale ocean circulation and transport, including abrupt, irreversible change/tipping elements and thresholds, collapse of the overturning circulations, regional and global climate and weather systems. This should include extreme events and mid-latitude weather; fluxes between the ice sheet and the ocean; the future dynamics of oceanic carbon pools; explore the vulnerability of Southern Ocean ecosystems, including the impacts of climate change, pollution and other anthropogenic activities on marine biodiversity and ecosystem dynamics changes in the near (∼2030), mid (2050–2060) and long-term (after ∼2060). This includes improved control variables for the diversity of all life forms incorporating also the microbiome and functions (functional diversity), as well as the biocomplexity suitable for measuring biosphere integrity in different facets. Proposals should also contribute to the development or strengthening of long-term, continuous monitoring systems for Southern Ocean biodiversity and ecosystem functioning, in synergy with existing observation infrastructures; develop mechanisms to distinguish human-induced environmental changes from natural ones and develop strategies to protect the fragile environment of the Southern Ocean from human activities and climate change, as well as comprehensively establish the efficacy of Southern Ocean conservation measures for preserving evolutionary potential and those properties that best anticipate change; further improve key ocean, cryosphere, climate and biodiversity monitoring indicators that support international, regional and global assessments and foster the development of a regional approach to polar ocean and climate observations, monitoring and reporting, and further the representation of multi-scale interactions in Earth System Models (ESMs) and regional coupled atmosphere–ocean–sea ice–land models representing key physical, biogeochemical, and biological processes in the polar ocean regions; advance capabilities to provide evidence, tractable proposals and recommendations for commensurate policy and protection, restoration and long-term sustainable management responses to prevent the Southern Ocean and its ecosystems and cryosphere from reaching a point of no return. The actions should contribute to the evolution of the EU Digital Twin of the Ocean and Destination Earth, and interface with the Southern Ocean Observing System (SOOS). All in-situ data collected through actions funded from this topic should follow INSPIRE principles and be available through open access repositories supported by the European Commission (Copernicus, and EMODnet). Concrete efforts should be made to ensure that the data produced in the context of the funded projects is FAIR (Findable, Accessible, Interoperable and Re-usable). Proposals are encouraged to consider, where relevant, the data, expertise and services offered by European research infrastructures [1] , as well as related projects in the environment domain, such as POLARIN [2] . International cooperation is strongly encouraged, especially with All-Atlantic Ocean Research and Innovation Alliance (AAORIA) partner countries [3] . This topic is part of a coordination initiative between ESA and the European Commission on Earth System Science and should towards this end include sufficient means and resources for effective coordination, with relevant ESA Polar Science Cluster projects, including utilising novel satellite Earth Observation datasets and joint research actions. Furthermore, this topic is supporting the European polar science coordination efforts, including synergies with and support to the objectives and work plan of the European Polar Coordination Office (EPCO). [1] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed from ESFRI website https://ri-portfolio.esfri.eu/ [2] POLARIN – Polar Research Infrastructure Network . [3] Home - All Atlantic Ocean Research and Innovation Alliance Unlocking a safe operating space for Antarctica and the Southern Ocean Unlocking a safe operating space for Antarctica and the Southern Ocean",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -6216,6 +6118,104 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: models, methods and data needed for the quantification of carbon farming activities and results are available for integration in a single monitoring, reporting and verification (MRV) system, so that the costs and burden associated to carbon farming MRV are reduced to a minimum; use of carbon-removal and emission-reduction certification is facilitated at scale, and the EU Carbon Removals and Carbon Farming (CRCF) Regulation [1] becomes the basis for cost-effective certification of carbon farming in different contexts; carbon farming actors involved in CRCF implementation in different roles – including land managers and other market participants as well as certification and governance bodies – have access to relevant scientific knowledge and tailored technical support for the implementation of CRCF rules. Scope: The CRCF Regulation creates the first EU-wide voluntary framework for certifying carbon removals, carbon farming and carbon storage in products across Europe. By establishing EU quality criteria and laying down monitoring and reporting processes, the CRCF Regulation will facilitate investment in innovative carbon removal technologies, as well as sustainable carbon farming solutions, while addressing greenwashing. By 2026, the Commission will have adopted the first EU certification methodologies for different carbon farming activities through delegated acts, will have issued implementing acts with certification rules, and will have started the process of recognising certification schemes entitled to apply CRCF rules. With implementation of CRCF expected to start in 2027, this topic should serve to develop innovations and knowledge facilitating and enhancing its implementation on the ground. Proposals should: develop innovations to facilitate carbon farming certification, particularly by integrating advanced technologies (e.g., machine learning, artificial intelligence, blockchain, Earth observation, IoT) and by enhancing cooperation among holders of relevant knowledge and data (e.g., networks of benchmark sites, ring tests among soil laboratories, interoperability of relevant datasets), in order to harmonise data collection and verification and to minimise administrative burden for operators; maintain open-access lists of models, sampling protocols, datasets of emission factors and other relevant data to harmonise sustainability benchmarks for carbon farming activities, enhance the robustness of company-level and national greenhouse gas inventories for the land sector and the agricultural sector, and ensure the comparability and interoperability of all CRCF uses; based on experience with the implementation of the CRCF Regulation and its implementing rules during the first years after entry into force, and building on previous knowledge and tools developed by other relevant (EU-funded) projects, enhance capacity among the relevant stakeholders and facilitate the broad application of new or improved technologies, processes or services supporting the successful participation of land managers, certification schemes, and certification bodies; create awareness about CRCF among all potential users, buyers, or financiers of carbon farming (e.g., companies in the bioeconomy, national and regional agriculture and environmental authorities, financial institutions), collect information about their data needs, and facilitate access to those data within the context of CRCF certification and registry; systematically collect and analyse feedback and lessons learned by carbon farming actors involved in CRCF implementation, particularly regarding obstacles to implementing and scaling-up of CRCF certification; identify and address – through technological, economic or social innovations – remaining obstacles for effective large-scale participation in CRCF certification, and propose potential improvements to enabling conditions, certification methodologies, verification rules, and incentive structures. Proposals must implement the multi-actor approach and ensure adequate involvement of relevant stakeholders, including potential carbon-farming practitioners (farmers, foresters and other land managers), other market participants, certification bodies and relevant public authorities. Proposals should include a dedicated task, appropriate resources and a plan on how they will collaborate with the other project(s) selected under this topic and with projects under other relevant topics in Horizon Europe Work Programmes, including the Mission 'A Soil Deal for Europe' and the EU Soil Observatory (EUSO). In this topic the integration of the gender dimension (sex and gender analysis) in research and innovation content is not a mandatory requirement. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 5 by the end of the project – see General Annex B. [1] https://climate.ec.europa.eu/eu-action/carbon-removals-and-carbon-farming_en#eu-carbon-removals-and-carbon-farming-certification-crcf-regulation Carbon farming innovation and scale-up Carbon farming innovation and scale-up",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-02-CLIMATE-01: Governance, sustainable development and international politics of a future ice-free Arctic",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-01",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "point-of-care"
+      ],
+      "scadenza": {
+        "valore": "2027-09-23",
+        "stato": "confermato",
+        "citazione": "2027-09-23T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: improved knowledge of the processes, feedbacks and impacts of an ice-free Arctic, both locally/regionally and globally, including advanced research on newly emerging aspects of the future regime change in the Arctic. enhanced observations and monitoring capabilities of Arctic changes including ocean, land, sea-ice and atmosphere processes and biodiversity in the Arctic, informing the key components covered by the topic, i.e. governance, sustainable development and international politics of an ice-free Arctic. knowledge-based recommendations for sustainable development (of ocean-based and blue economy activities), environmental conservation, climate change adaptation and resilience, better-informed planning of resources (with a focus on coastal communities and activities) and enabled evidence-based regional, European, and global decision–making on Arctic Ocean Governance; sustained European leadership in ocean–climate–biodiversity-cryosphere science; significant contributions made to global scientific assessments, such as the IPCC, IPBES, SWIPA (Snow, Water, Ice and Permafrost in the Arctic) and WOA (World Ocean Assessments), as well as to the UN Decade of Ocean Science for Sustainable Development (2021 – 2030) and Decade of Action for Cryospheric Sciences (2025-2034), Central Arctic Ocean Fisheries Agreement (CAOFA), the International Polar Year 2032-2033, UN SDGs 13 and 14, and the European polar science coordination efforts. Scope: Proposals should: better understand, project and reduce uncertainties linked to the impacts, timing and consequences of an ice-free Arctic. This includes the underlying systems (such as ocean, atmosphere, cryosphere, and biosphere) and processes, strengthening research on key or main drivers of internal variability and their interconnectedness to the climate system, under multi and cumulative and cascading impacts of anthropogenic activities (resource extraction, climate change, shipping and industrial activities, pollution, introduction of NIS, etc.), abrupt, irreversible change/tipping elements and thresholds, including their reversibility. In particular, understanding the nuances of the impacts of occasional daily ice-free conditions, versus frequent monthly ice-free conditions, versus ice-free conditions that occur for several months a year, is needed to assess the true impact of a new seasonal Arctic sea ice regime in a warming world, in particular in and for Europe. enhance regional models representing integrated key physical, biogeochemical, and biological processes, especially to capture processes in the changing sea-ice regimes (ecological and political) and the impacts of extremes, building on and further developing the existing IPCC class climate models and making use of new technologies for sustained monitoring of key climate indicators / shared Arctic variables and machine learning techniques for the advanced interpretation of these data. identify transformative pathways and key leverage points for sustainable mitigation and anticipatory adaptation approaches. This could include and are not limited to looking into aspects of: community resilience and health, particularly Indigenous populations, in adapting to cultural, political, economic and environmental changes, including addressing food security, health impacts, and preserving cultural practices; explore novel economic opportunities and challenges, evaluating the potential for shorter and new shipping routes and other economic opportunities, explore sustainable energy solutions for Arctic communities, including wind, solar, and geothermal energy potential, resource exploration, and sustainable economic development while ensuring environmental protection; explore elements of risk management and hazard mitigation preparing for increased coastal erosion, increased extreme weather events, and the impacts of thawing permafrost on infrastructures, greenhouse emissions, and increased risks of natural and anthropogenic hazards; develop strategies to reduce greenhouse gas emissions and enhance carbon sequestration in Arctic ecosystems (bearing in mind the precautionary principle/approach, and the efficiency and effectiveness of Nature-based Solutions); improve projections for Arctic’s “Last Ice Area” (LIA) — a vital habitat for ice-dependent species — and critical for Arctic habitats , and inform conservation policies and measures; explore the power of enhancing cooperation among Arctic nations and global partners to share data, resources, and expertise and identify issues of geopolitical and strategic nature and assess the implications of a navigable Arctic for shipping and other blue economy or coastal-linked activities, resource extraction, and international relations, strongly considering sustainability and the precautionary principle/approach. Actions should conduct trans- and multi-disciplinary research, include aspects of gender, SSH, equality and inclusion, and intergenerational concerns, and strengthen the inclusion of different knowledge systems (Indigenous Knowledge, Local Knowledge and Science) in broadening our understanding the multifaceted governance, sustainable development and international politics of an ice-free Arctic. International cooperation is strongly encouraged, especially with the All-Atlantic Ocean Research and Innovation Alliance (AAORIA) partner countries [1] . A strong linkage should be ensured with the ongoing activities under Polhavet 2050 – Arctic Ocean 2050. The actions should build on existing observing platforms and initiatives, and/or contribute to the evolution of the EU Digital Twin of the Ocean and Destination Earth. All in-situ data collected through actions funded from this call should follow INSPIRE principles and be available through open access repositories supported by the European Commission (Copernicus and EMODnet). Concrete efforts should be made to ensure that the data produced in the context of the funded projects is FAIR (Findable, Accessible, Interoperable and Re-usable). This topic is part of a coordination initiative between ESA and the European Commission on Earth System Science and should towards this end include sufficient means and resources for effective coordination, with relevant ESA Polar Science Cluster projects, including utilising novel satellite Earth Observation datasets and joint research actions. Furthermore, this topic is supporting the European polar science coordination efforts, including synergies with the objectives of the European Polar Coordination Office (EPCO) and through contributing to the implementation of its work plan. Proposals are encouraged to consider, where relevant, the data, expertise and services offered by European research infrastructures [2] , as well as related projects in the environment domain. The Joint Research Centre (JRC) may participate as member of the consortium selected for funding. The JRC may contribute with its expertise related to developing new methods to forecast air pollution and to estimate methane emissions from thawing permafrost. [1] Home - All Atlantic Ocean Research and Innovation Alliance [2] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed from ESFRI website https://ri-portfolio.esfri.eu/ Governance, sustainable development and international politics of a future ice-free Arctic Governance, sustainable development and international politics of a future ice-free Arctic",
+      "rilevanza": {
+        "punteggio": 6,
+        "stato": "parole_chiave",
+        "motivazione": "Trovati termini dei temi: ml_dati_biomedici. Corrispondenza lessicale, non un giudizio sul contenuto.",
+        "temi": [
+          "ml_dati_biomedici"
+        ],
+        "evidenze": [
+          "ing of key climate indicators / shared Arctic variables and machine learning techniques for the advanced interpretation of these data. i"
+        ],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-02-CLIMATE-04: Unlocking a safe operating space for Antarctica and the Southern Ocean",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-04",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "point-of-care"
+      ],
+      "scadenza": {
+        "valore": "2027-09-23",
+        "stato": "confermato",
+        "citazione": "2027-09-23T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: improved multidisciplinary scientific understanding of the functioning of the Southern Ocean and the Antarctic cryosphere and associated ecosystem dynamics, in the near term (∼2030), mid-term (2050–2060) and long-term (after ∼2060), including their mutual interaction with, impact on and vulnerability to, current and future changes in the other components of the regional and global climate systems; important contributions made to key ocean, cryosphere, climate and biodiversity monitoring indicators that support international, regional and global assessments. Fostered development of a regional approach to polar ocean, climate and biodiversity observations, monitoring and reporting; informed policies for environmental conservation and climate resilience and enabled evidence-based regional, European, and global decision–making on polar ocean governance; sustained European leadership in ocean–climate–biodiversity-cryosphere science; significant contributions made to global scientific assessments (e.g. IPCC, IPBES and WOA), as well as to the UN Decades of Action of Ocean (2021-2030) and Cryospheric (2025-2034) Sciences, the Antarctica InSync programme (2027 and 2030), the International Polar Year (2032-2033), UN SDGs 13 and 14, and the European polar science coordination efforts. Scope: Proposals should: resolve uncertainties, improve projections and quantifications of the future of the region, looking at changes in the near-, mid- and long-term (irreversible, abrupt and committed changes), their likelihood, timing, rate, amplitude, and impacts on the Earth’s System (decadal to millennial climate projections, global sea level, ocean circulation, global carbon budget); advance understanding of the complex interactions and feedbacks between the ocean, the atmosphere, sea ice, ice shelves, and land ice dynamics, considering multiple scales and processes simultaneously, with focus on the Antarctic continental shelves where conditions are or will change rapidly and on regions for bottom water formation; advance the knowledge of Southern Ocean dynamics and sea ice dynamics in the near-, mid- and long-term. Better understand the distribution, underlying mechanisms and impacts of changes in the Southern Ocean and sea ice to reduce uncertainties in projected future changes of large-scale ocean circulation and transport, including abrupt, irreversible change/tipping elements and thresholds, collapse of the overturning circulations, regional and global climate and weather systems. This should include extreme events and mid-latitude weather; fluxes between the ice sheet and the ocean; the future dynamics of oceanic carbon pools; explore the vulnerability of Southern Ocean ecosystems, including the impacts of climate change, pollution and other anthropogenic activities on marine biodiversity and ecosystem dynamics changes in the near (∼2030), mid (2050–2060) and long-term (after ∼2060). This includes improved control variables for the diversity of all life forms incorporating also the microbiome and functions (functional diversity), as well as the biocomplexity suitable for measuring biosphere integrity in different facets. Proposals should also contribute to the development or strengthening of long-term, continuous monitoring systems for Southern Ocean biodiversity and ecosystem functioning, in synergy with existing observation infrastructures; develop mechanisms to distinguish human-induced environmental changes from natural ones and develop strategies to protect the fragile environment of the Southern Ocean from human activities and climate change, as well as comprehensively establish the efficacy of Southern Ocean conservation measures for preserving evolutionary potential and those properties that best anticipate change; further improve key ocean, cryosphere, climate and biodiversity monitoring indicators that support international, regional and global assessments and foster the development of a regional approach to polar ocean and climate observations, monitoring and reporting, and further the representation of multi-scale interactions in Earth System Models (ESMs) and regional coupled atmosphere–ocean–sea ice–land models representing key physical, biogeochemical, and biological processes in the polar ocean regions; advance capabilities to provide evidence, tractable proposals and recommendations for commensurate policy and protection, restoration and long-term sustainable management responses to prevent the Southern Ocean and its ecosystems and cryosphere from reaching a point of no return. The actions should contribute to the evolution of the EU Digital Twin of the Ocean and Destination Earth, and interface with the Southern Ocean Observing System (SOOS). All in-situ data collected through actions funded from this topic should follow INSPIRE principles and be available through open access repositories supported by the European Commission (Copernicus, and EMODnet). Concrete efforts should be made to ensure that the data produced in the context of the funded projects is FAIR (Findable, Accessible, Interoperable and Re-usable). Proposals are encouraged to consider, where relevant, the data, expertise and services offered by European research infrastructures [1] , as well as related projects in the environment domain, such as POLARIN [2] . International cooperation is strongly encouraged, especially with All-Atlantic Ocean Research and Innovation Alliance (AAORIA) partner countries [3] . This topic is part of a coordination initiative between ESA and the European Commission on Earth System Science and should towards this end include sufficient means and resources for effective coordination, with relevant ESA Polar Science Cluster projects, including utilising novel satellite Earth Observation datasets and joint research actions. Furthermore, this topic is supporting the European polar science coordination efforts, including synergies with and support to the objectives and work plan of the European Polar Coordination Office (EPCO). [1] The catalogue of European Strategy Forum on Research Infrastructures (ESFRI) research infrastructures portfolio can be browsed from ESFRI website https://ri-portfolio.esfri.eu/ [2] POLARIN – Polar Research Infrastructure Network . [3] Home - All Atlantic Ocean Research and Innovation Alliance Unlocking a safe operating space for Antarctica and the Southern Ocean Unlocking a safe operating space for Antarctica and the Southern Ocean",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
