@@ -637,6 +637,7 @@
       "data_lettura": "2026-10-13",
       "trovato_con": [
         "organ-on-chip",
+        "lab-on-chip",
         "in vitro diagnostics"
       ],
       "scadenza": {
@@ -664,53 +665,6 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Projects should contribute to all of the following expected outcomes: Policy makers get a mapping of in-kind benefits across Member States and a comprehensive measurement framework. Policy makers gain insights on the availability of in-kind services, on potential gaps in their provision, and on reasons for non-take up. Policy makers gain insights into the redistributive role of in-kind benefits and on the segregation of different social groups, through SSH research. Policy makers receive operational advice to make informed policy choices which reduce inequality and strengthen fairness and cohesion. Scope: In-kind benefits refer to non-cash goods and services provided to individuals or households, typically by the government (national, regional and/or local), to support their well-being or fulfil basic needs. Unlike cash transfers, which can be spent at the recipient's discretion, in-kind benefits ensure that resources are used for specific purposes for free or at a subsidised cost (e.g. food banks, social housing, health and long-term care services, childcare, schooling, sport infrastructure, public transport). Despite the wide range of in-kind benefits, there is poor empirical knowledge basis of the impact of in-kind benefits (except for healthcare) on the income distribution and on vulnerable groups, unlike the impact of cash benefits. Research activities may focus, as a baseline, on establishing a full mapping of in-kind benefits (both for free and at a subsidised cost, universal and means-tested) provided by national, regional and local governments. This mapping, potentially structured along the life-cycle perspective and/or around specific groups, might help to develop EU indicators on in-kind benefits and improve comparability. Proposals may develop a comprehensive measurement framework based on methods, tools, available data and indicators, both qualitative and quantitative and both ex ante and ex post. The framework may translate in-kind benefits into income and show their redistributive role (on income groups, vulnerable populations, marginal and/or small size groups) and ensure cross-country comparability. Proposals may consider identifying the availability of in-kind benefits at local level, potential gaps, take-up rates for in-kind benefits and their reasons (e.g. capacities' incompatibility with the local needs). They may involve vulnerable communities in the evaluation design. Proposals may provide operational advice to policy makers on how to translate the research results into concrete actions to reduce inequality and strengthen fairness and cohesion. The overall aim is to close the knowledge gap covering various dimensions. Therefore, it is expected that proposals apply a gender-sensitive and intersectional approach, including age, to their research. Impact of in-kind benefits on income distribution and on vulnerable populations Impact of in-kind benefits on income distribution and on vulnerable populations",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL6-2027-02-FARM2FORK-02-two-stage: Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-02-two-stage",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "organ-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-09-14",
-        "stato": "da_verificare",
-        "citazione": "2027-09-14T00:00:00.000+0000",
-        "motivo": "Più scadenze (cut-off multipli o due fasi): verificare quale vale per te"
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: agricultural actors implement sustainable practices for resource-efficient and climate-smart and biodiversity-friendly farming in diverse African agro-ecosystems; integrated water, nutrient and energy management systems are available to smallholder farms in Africa. Scope: A nexus approach that identifies and develops mutually beneficial knowledge, practices and tools in agriculture can enable sustainable, biodiversity-friendly and climate-smart agriculture in African agro-ecosystems. The needs for water, energy, and nutrients in agriculture are crucial for smallholder farms to sustain predictable and stable productions and support livelihoods. Making available innovative solutions based on circular and sustainable approaches, can enable new business opportunities in African agriculture. Proposals should: assess needs and opportunities (economic, environmental and social) for sustainable water, nutrient and energy management in agriculture for food and/or non-food uses; improve existing and develop new knowledge, practices and tools for on farm sustainable management of agricultural resources at the nexus of water, nutrient and energy inputs and outputs; evaluate the impact of the proposed practices and tools in terms of water, energy and nutrient balances but also their economic feasibility, environmental/climate footprint and social effects; enable sustainable, circular, climate-smart and biodiversity friendly practices at farm level while considering the characteristic of both local and regional levels in at least two different African agro-ecosystems. The projects under this topic are relevant to the EU Vision for agriculture and food, the Global Gateway Strategy, contribute to the African Union-EU High Level Policy Dialogue on Science, Technology and Innovation [1] and to the respective R&amp;I partnerships on Food and Nutrition Security and Sustainable Agriculture (FNSSA) and on Climate Change and Sustainable Energy. Projects under this topic are relevant for the climate objectives of the African Union and the EU, and for the commitments of the Kunming-Montreal Global Biodiversity Framework. Proposals should contribute to the implementation of the short-term and medium-term actions outlined in the AU-EU Innovation Agenda in the priority area of Green Transition, (notably action (4) and (5) among short-term actions and (1) and (3) for medium-term actions), and aim to translate R&amp;I efforts into tangible business, products, services, development and employment opportunities in Africa and Europe. Proposals must implement the multi-actor approach to ensure the adequate involvement of the public authorities, advisory services and farmer organisations. Proposals should adopt an inclusive approach that respects and integrates local knowledge and practices alongside technological and scientific expertise, where indigenous insights are enriched by innovative approaches and new technologies through mutual learning. Proposals should propose collaboration opportunities with ongoing projects funded under Horizon Europe, in particular those establishing living-labs in Africa. Furthermore, proposals are encouraged to seek connections with Regional Multi-actors Research Networks on Agroecology supported by the EC in Africa [2] . Proposals are encouraged to work together with the European Commission’s Knowledge Centre on Global Food and Nutrition Security to leverage its knowledge base on relevant topics and to expand the reach and dissemination of the project's results. Proposals are encouraged to seek complementarities with the activities of the Partnership for Research and Innovation in the Mediterranean areas (PRIMA). Proposals may provide financial support to third parties (FSTP) to, for instance, develop, test and demonstrate new practices and tools. A maximum of 30% of the proposed budget should be allocated to this purpose. [1] https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/new-eu-africa-innovation-agenda-enhance-cooperation-science-technology-and-innovation-2023-07-20_en [2] Regional Multi-Actor Research Network on Agroecology to Support Regional Centres of Excellence related to the Green Transition ; RMRN Western Africa: CORAF &amp; Cheikh-Anta-Diop de Dakar for Western Africa ; RMRN Eastern Africa : Icipe and partners Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA) Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -1095,6 +1049,53 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: activities of protection and restoration of ecosystems by stakeholders become easier and more effective; conditions to scale up the implementation of the EU Nature Restoration Regulation by stakeholders are improved, thus improving ecosystem services including for climate mitigation and adaptation. Scope: Ecosystem restoration strategies for nature restoration and climate change mitigation require a coordinated and coherent set of human interventions and management practices (e.g. temporal protection of plants or removing invasive species, including their seeds) for which there is usually no dedicated mean like specific machinery, equipment or other technical innovations (like for example specific lures for invasive alien species). The most common practice is the use of agricultural machinery or equipment, but this is not always effective. With target 4 of the EU biodiversity strategy for 2030, the EU took the following commitments: significant areas of degraded and carbon-rich ecosystems are restored; habitats and species show no deterioration in conservation trend and status, and at least 30% reach favourable conservation status or at least show a positive trend. According to the EU Nature Restoration Regulation, Member States shall put in place effective and area-based restoration measures with the aim to jointly cover, as a Union target, at least 20 % of land areas and at least 20 % of sea areas by 2030, and all ecosystems in need of restoration by 2050. This is reflected in target 2 of the Kunming-Montreal Global Biodiversity Framework. The European Climate Law requires Member States to adopt and implement national adaptation strategies and plans in which they should promote Nature-based Solutions and ecosystem-based adaptation. These policies and legislations have reached the implementation stage in the EU and worldwide. Successful proposals are expected to: design, develop and test technical innovations corresponding to identified needs for specific ecosystems protection and/or restoration activities. A wide range of possible innovations can be proposed, including new or adapted machines, low techs, digital innovations or combinations of them to be used in a wide range of ecosystem types, including terrestrial, freshwater and marine; pay attention to effectiveness, simplicity of use, durability and environmental sustainability and responsibility (including alertness to potential risks, trade-offs and the unintended consequences as a result of the use of technological innovations). This topic is particularly relevant for SMEs. Proposals should foresee appropriate resources to ensure close cooperation with the EC Knowledge Centre for Biodiversity (KCBD) and its Science Service. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to achieve TRL 6-7 by the end of the project – see General Annex B. Technical innovation to protect ecosystems and to scale up their restoration Technical innovation to protect ecosystems and to scale up their restoration",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL6-2027-02-FARM2FORK-02-two-stage: Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-02-two-stage",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "organ-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-09-14",
+        "stato": "da_verificare",
+        "citazione": "2027-09-14T00:00:00.000+0000",
+        "motivo": "Più scadenze (cut-off multipli o due fasi): verificare quale vale per te"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: agricultural actors implement sustainable practices for resource-efficient and climate-smart and biodiversity-friendly farming in diverse African agro-ecosystems; integrated water, nutrient and energy management systems are available to smallholder farms in Africa. Scope: A nexus approach that identifies and develops mutually beneficial knowledge, practices and tools in agriculture can enable sustainable, biodiversity-friendly and climate-smart agriculture in African agro-ecosystems. The needs for water, energy, and nutrients in agriculture are crucial for smallholder farms to sustain predictable and stable productions and support livelihoods. Making available innovative solutions based on circular and sustainable approaches, can enable new business opportunities in African agriculture. Proposals should: assess needs and opportunities (economic, environmental and social) for sustainable water, nutrient and energy management in agriculture for food and/or non-food uses; improve existing and develop new knowledge, practices and tools for on farm sustainable management of agricultural resources at the nexus of water, nutrient and energy inputs and outputs; evaluate the impact of the proposed practices and tools in terms of water, energy and nutrient balances but also their economic feasibility, environmental/climate footprint and social effects; enable sustainable, circular, climate-smart and biodiversity friendly practices at farm level while considering the characteristic of both local and regional levels in at least two different African agro-ecosystems. The projects under this topic are relevant to the EU Vision for agriculture and food, the Global Gateway Strategy, contribute to the African Union-EU High Level Policy Dialogue on Science, Technology and Innovation [1] and to the respective R&amp;I partnerships on Food and Nutrition Security and Sustainable Agriculture (FNSSA) and on Climate Change and Sustainable Energy. Projects under this topic are relevant for the climate objectives of the African Union and the EU, and for the commitments of the Kunming-Montreal Global Biodiversity Framework. Proposals should contribute to the implementation of the short-term and medium-term actions outlined in the AU-EU Innovation Agenda in the priority area of Green Transition, (notably action (4) and (5) among short-term actions and (1) and (3) for medium-term actions), and aim to translate R&amp;I efforts into tangible business, products, services, development and employment opportunities in Africa and Europe. Proposals must implement the multi-actor approach to ensure the adequate involvement of the public authorities, advisory services and farmer organisations. Proposals should adopt an inclusive approach that respects and integrates local knowledge and practices alongside technological and scientific expertise, where indigenous insights are enriched by innovative approaches and new technologies through mutual learning. Proposals should propose collaboration opportunities with ongoing projects funded under Horizon Europe, in particular those establishing living-labs in Africa. Furthermore, proposals are encouraged to seek connections with Regional Multi-actors Research Networks on Agroecology supported by the EC in Africa [2] . Proposals are encouraged to work together with the European Commission’s Knowledge Centre on Global Food and Nutrition Security to leverage its knowledge base on relevant topics and to expand the reach and dissemination of the project's results. Proposals are encouraged to seek complementarities with the activities of the Partnership for Research and Innovation in the Mediterranean areas (PRIMA). Proposals may provide financial support to third parties (FSTP) to, for instance, develop, test and demonstrate new practices and tools. A maximum of 30% of the proposed budget should be allocated to this purpose. [1] https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/new-eu-africa-innovation-agenda-enhance-cooperation-science-technology-and-innovation-2023-07-20_en [2] Regional Multi-Actor Research Network on Agroecology to Support Regional Centres of Excellence related to the Green Transition ; RMRN Western Africa: CORAF &amp; Cheikh-Anta-Diop de Dakar for Western Africa ; RMRN Eastern Africa : Icipe and partners Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA) Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -1920,54 +1921,6 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05: Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip",
-        "AI medical devices"
-      ],
-      "scadenza": {
-        "valore": "2027-03-18",
-        "stato": "confermato",
-        "citazione": "2027-03-18T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: The Apply AI Strategy emphasises acceleration pipelines to ensure a smooth transition from research to deployment of AI-powered robotics. Projects under this topic will deliver common frameworks and reusable building blocks that can serve multiple sectors and use cases, reinforcing Europe’s ability to bring AI-driven robotics to scale. Project results are expected to contribute to all of the following expected outcomes: Wider and faster deployment of robotics, bridging the gap between technology providers and end-users. Development and implementation of modular and interoperable integration frameworks and solutions, including standardized protocols for data, training and safety testing, evaluation and validation of robotic solutions in key use cases Improved competitiveness of European industries, notably SMEs via the development of advanced robotics systems, intelligent planning and control systems, user feedback rendering techniques and cutting-edge AI innovations Scope: The project will address the current European gap in system integration capabilities for robotics solutions addressing the various needs of industries. The project will aim at disseminating a deep understanding of state-of-the-art robotics components, including both hardware and software, and expertise in addressing interoperability issues for the upskilling of system integrators. To maximise the impact and adaptability of deployed systems, the approach should consider the most appropriate tools to speed up integration processes and suitable AI design, training and inference methodologies, ensuring scalability, transferability, transparency, robustness, flexibility, and real-world applicability in diverse industrial environments, and should remain adaptable to the latest technological developments. Integration frameworks will promote the use of energy-efficient AI models and hardware ('Green AI'), alongside carbon-aware deployment and operational strategies for robotic system. Where relevant, projects should contribute to open and widely recognised standards to foster interoperability and uptake across the robotics ecosystem. To enhance safety and performance, projects may include high-fidelity simulation environments or digital twins as testbeds for training, validation and verification, with measures to ensure smooth transfer from simulation to real-world deployment. By bridging the gap between technology providers and end-users, these integrators will enable the creation of seamless, reliable and scalable robotics systems that can be easily adopted by industries, especially SMEs, thereby supporting more flexible and efficient production processes. The project is expected to deliver: A deployable, modular integration framework, validated through at least three real-world industrial pilots covering different reference scenarios to demonstrate that the approach can be adapted to varied industrial needs and company sizes, including both SMEs and larger manufacturers. This framework should provide, for example, a common software layer, standard interfaces to connect to existing workflow and legacy system, possibly also to connect various robot components, coordinate multiple robots and link them with additional AI tools and IoT environments, as well as tested configuration templates and clear guidelines to ensure safe and efficient use. An Integration Kit, building on this framework, which offers ready-to-use modules, example configurations and practical tools that help system integrators and companies to set up, test and run AI-enabled robotics solutions more quickly and with reduced technical effort. Where relevant, high-fidelity digital twin testbeds should be linked to each pilot, allowing safe and realistic testing and training before deployment, and supporting a smooth transition from virtual models to actual production lines. Reusable, datasets (compliant with relevant regulation and IP protection) and practical benchmark tasks, made available to the wider robotics and AI community, to support further development and comparison of new solutions while respecting European data protection rules. A clear Step-by-Step Adoption Guide aimed at SMEs and other end-users, providing easy-to-follow instructions, practical checklists and examples to help companies plan, budget and implement AI-driven robotics in a safe and cost-effective way, even if they have limited in-house expertise, and including guidance to navigate regulatory compliance and certification. Concrete contributions to relevant open standards and clear guidance on certification pathways, to help ensure compliance with European regulations and build trust in the safe use of AI in robotics. Projects are expected to make full use of existing robotics resources and assets made available through the AI-on-Demand Platform, such as the EuroCORE repository and other relevant shared tools, to maximise synergies, avoid duplication of efforts and ensure broad dissemination and reuse of results within the European AI and robotics community. This topic implements the co-programmed European Partnership on AI, data, and robotics (ADRA), and all proposals are expected to allocate tasks for cohesion activities with ADRA. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4 and achieve TRL 7 by the end of the project – see General Annex B. Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics) Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
       "titolo": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-11: EU Frontier AI Initiative:  Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-11",
       "data_lettura": "2026-10-13",
@@ -2000,6 +1953,102 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: The Apply AI Strategy [1] also seeks to bolster EU capabilities and achieve excellence in AI to support the development of European frontier models. As part of the Frontier AI Initiative, which brings together Europe’s leading actors in the field, this topic will support the development of sovereign frontier AI ensuring safety by design. This topic directly contributes to the Apply AI Strategy. Project results are expected to contribute to all of the following expected outcomes: Strengthened European capabilities in the development of frontier AI models. Improved computational efficiency of frontier AI models, resulting in reduced computational costs. Enhanced safety of advanced AI systems based on frontier AI models through the development and implementation of safe-by-design principles and/or AI agents acting as safety evaluators. Scope: To advance developments of frontier AI models towards highest-level performance, while ensuring energy efficiency, addressing computational constraints, and strengthening safety. The approach of this topic is twofold. First, it aims to advance the AI field through the development and training of a frontier AI model. The AI model should demonstrate state-of-the-art performance, have multimodal capabilities, and be optimized for agentic AI capabilities such as tool use, reasoning, and autonomous problem-solving. Second, this topic supports research on comprehensive methods to reduce the computational demands of frontier AI models and to ensure their safety, including technical methodologies such as automated testing and interpretability. The primary drivers behind computational efficient AI systems are the urgent challenges posed by the growing energy footprint of AI and current computational limitations. Modern AI models, especially frontier AI models, require substantial computational resources, with a significant impact in the environment. Additionally, they create barriers to entry to those interested in advancing the AI field. Key research areas include compression and distillation techniques aimed at reducing the complexity of large AI models. Innovations in AI architectures are also relevant, with a focus on innovative models that significantly lower computational demands for training and inference. Further, algorithmic approaches aimed at minimizing computational load during pre-training, post-training, and inference can also be considered. Ensuring the safety of AI systems is essential, especially as AI models become increasingly sophisticated and pervasive. Potential research areas to be considered include addressing misalignment, particularly the unintentional misalignment of large AI models. Work in this area could explore methods to detect and mitigate sophisticated misbehaviour, such as alignment faking, reward hacking of human oversight, and encoded reasoning in chain-of-thought (CoT). Additionally, research could focus on enhancing robustness against adversarial attacks, jailbreaks, and backdoors. Further potential areas for innovation include advancing AI models transparency and interpretability. Safety research could also consider risks that may arise when embedding frontier models within agentic AI frameworks, significantly contributing to the trust and safe adoption of powerful AI solutions. This topic contributes to the EU Frontier AI initiative. The project should establish strong links with the Resource for AI Science in Europe (RAISE), ensuring that its priorities inform the research topics addressed. Activities are expected to involve the European AI research community and attract and retain top AI talent working on frontier models and related areas. All proposals are expected to incorporate mechanisms for assessing and demonstrating progress, including qualitative and quantitative KPIs, benchmarking, and progress monitoring. When possible, proposals should build on and reuse public results from relevant previous funded actions. Communicable results should be shared with the European R&amp;D community through the AI-on-demand platform. The project selected in this topic should link to the resources offered by the AI Factories and the Data Labs. Where relevant, it could also establish links with European companies developing frontier AI models. All proposals are expected to allocate tasks for cohesion activities with the European Partnership on AI, data, and robotics (ADRA) and the CSA HORIZON-CL4-2025-03-HUMAN-18: GenAI4EU central Hub. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 2 and achieve TRL 4 by the end of the project – see General Annex B. [1] COM(2025)723 Apply AI Strategy EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA) EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-02-DIGITAL-EMERGING-52-two-stage: New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip",
+        "AI medical devices"
+      ],
+      "scadenza": {
+        "valore": "2027-09-02",
+        "stato": "da_verificare",
+        "citazione": "2027-09-02T00:00:00.000+0000",
+        "motivo": "Più scadenze (cut-off multipli o due fasi): verificare quale vale per te"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Industrial jobs are transformed through AI-based human-machine interactions (and skills linked to them) which enhance flexibility, inclusion, well-being, up-skilling, career evolution and knowledge sharing; Increased competitiveness and sustainability of advanced manufacturing industries by means of knowledge formalization and adaptability of the machines to workers and markets based on different cultures. Scope: Innovative AI approaches are poised to revolutionise human-machine collaboration in factories by fostering an environment where technology and human expertise synergistically enhance each other. AI can enhance the value of the companies by capturing and formalising the knowledge which is dispersed and not explicit. This allows companies to really own the knowledge and use it to reduce the onboarding time of new employees and support personnel upskilling to adapt to the evolving technological landscape. AI has a great potential to make task simpler by reducing the complexity offering intuitive interfaces and real-time feedback allowing workforce to be more efficient and effective while facilitating access to more complex tasks including those involving various forms of planning. AI can also adapt the interaction of automation with the worker taking into account particular needs of the human, including adaptation to the different abilities of the workers and facilitating inclusion. Finally, AI can be used to allow easier export of automation produced in EU by facilitating its interaction with workforce having different cultures adapting the interaction of the machines to the different needs. Proposals should produce dedicated innovative AI approaches for human-machine collaboration in advanced manufacturing to be applied in at least two of following fields: Human-AI Co-Learning and knowledge capture to share competences, capture expert knowledge, provide interactive mentoring to up-skill the workforce, and support re-qualification and continuous training – leading to increased knowledge at factory level and avoiding loss of know-how. Human-AI teamwork thanks to innovative natural interaction models (considering the e.g. related hardware interfaces and/or collaborative machine tools), enabling to control complexity in cognitive cooperating production systems, including planning activities at shop floor level. Interfaces with automation which automatically adapt to the need of the humans including different abilities and different cultural needs. Proposals should integrate a gender perspective and avoid any type of discrimination in the design and deployment of AI systems and human-machine interaction models, including addressing differences in user needs, such as needs of persons with disabilities, physical and cognitive ergonomics and training pathways. Proposals are also expected to identify and address other potential biases in AI systems to promote inclusive design that ensures safe and effective use by all workers. Human/AI collaboration requires utmost sensitivity to and consideration of human values and consideration of ethical principles as represented in Digital Humanism, therefore, appropriate consideration must also be given to the contribution of SSH. This topic is linked to the Apply AI Strategy, therefore proposals should seek collaboration with relevant initiatives. In addition, proposals are invited to build on the results of past projects on Extended Reality Technologies (XR), such as HORIZON-CL4-2021-HUMAN-01-13, HORIZON-CL4-2021-HUMAN-01-14, HORIZON-CL4-2021-HUMAN-01-25, HORIZON-CL4-2021-HUMAN-01-06, HORIZON-CL4-2021-HUMAN-01-28. Proposals should include a business case and exploitation strategy, as outlined in the introduction to Destination ‘Leadership in materials and production for Europe’. This topic implements the co-programmed European Partnerships Made in Europe and AI, Data and Robotics. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6 by the end of the project – see General Annex B. New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships) New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05: Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip",
+        "AI medical devices"
+      ],
+      "scadenza": {
+        "valore": "2027-03-18",
+        "stato": "confermato",
+        "citazione": "2027-03-18T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: The Apply AI Strategy emphasises acceleration pipelines to ensure a smooth transition from research to deployment of AI-powered robotics. Projects under this topic will deliver common frameworks and reusable building blocks that can serve multiple sectors and use cases, reinforcing Europe’s ability to bring AI-driven robotics to scale. Project results are expected to contribute to all of the following expected outcomes: Wider and faster deployment of robotics, bridging the gap between technology providers and end-users. Development and implementation of modular and interoperable integration frameworks and solutions, including standardized protocols for data, training and safety testing, evaluation and validation of robotic solutions in key use cases Improved competitiveness of European industries, notably SMEs via the development of advanced robotics systems, intelligent planning and control systems, user feedback rendering techniques and cutting-edge AI innovations Scope: The project will address the current European gap in system integration capabilities for robotics solutions addressing the various needs of industries. The project will aim at disseminating a deep understanding of state-of-the-art robotics components, including both hardware and software, and expertise in addressing interoperability issues for the upskilling of system integrators. To maximise the impact and adaptability of deployed systems, the approach should consider the most appropriate tools to speed up integration processes and suitable AI design, training and inference methodologies, ensuring scalability, transferability, transparency, robustness, flexibility, and real-world applicability in diverse industrial environments, and should remain adaptable to the latest technological developments. Integration frameworks will promote the use of energy-efficient AI models and hardware ('Green AI'), alongside carbon-aware deployment and operational strategies for robotic system. Where relevant, projects should contribute to open and widely recognised standards to foster interoperability and uptake across the robotics ecosystem. To enhance safety and performance, projects may include high-fidelity simulation environments or digital twins as testbeds for training, validation and verification, with measures to ensure smooth transfer from simulation to real-world deployment. By bridging the gap between technology providers and end-users, these integrators will enable the creation of seamless, reliable and scalable robotics systems that can be easily adopted by industries, especially SMEs, thereby supporting more flexible and efficient production processes. The project is expected to deliver: A deployable, modular integration framework, validated through at least three real-world industrial pilots covering different reference scenarios to demonstrate that the approach can be adapted to varied industrial needs and company sizes, including both SMEs and larger manufacturers. This framework should provide, for example, a common software layer, standard interfaces to connect to existing workflow and legacy system, possibly also to connect various robot components, coordinate multiple robots and link them with additional AI tools and IoT environments, as well as tested configuration templates and clear guidelines to ensure safe and efficient use. An Integration Kit, building on this framework, which offers ready-to-use modules, example configurations and practical tools that help system integrators and companies to set up, test and run AI-enabled robotics solutions more quickly and with reduced technical effort. Where relevant, high-fidelity digital twin testbeds should be linked to each pilot, allowing safe and realistic testing and training before deployment, and supporting a smooth transition from virtual models to actual production lines. Reusable, datasets (compliant with relevant regulation and IP protection) and practical benchmark tasks, made available to the wider robotics and AI community, to support further development and comparison of new solutions while respecting European data protection rules. A clear Step-by-Step Adoption Guide aimed at SMEs and other end-users, providing easy-to-follow instructions, practical checklists and examples to help companies plan, budget and implement AI-driven robotics in a safe and cost-effective way, even if they have limited in-house expertise, and including guidance to navigate regulatory compliance and certification. Concrete contributions to relevant open standards and clear guidance on certification pathways, to help ensure compliance with European regulations and build trust in the safe use of AI in robotics. Projects are expected to make full use of existing robotics resources and assets made available through the AI-on-Demand Platform, such as the EuroCORE repository and other relevant shared tools, to maximise synergies, avoid duplication of efforts and ensure broad dissemination and reuse of results within the European AI and robotics community. This topic implements the co-programmed European Partnership on AI, data, and robotics (ADRA), and all proposals are expected to allocate tasks for cohesion activities with ADRA. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4 and achieve TRL 7 by the end of the project – see General Annex B. Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics) Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -2112,12 +2161,11 @@
     {
       "canale": "Europa",
       "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-02-DIGITAL-EMERGING-52-two-stage: New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage",
+      "titolo": "HORIZON-CL4-2027-02-MAT-PROD-32-two-stage: Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-mat-prod-32-two-stage",
       "data_lettura": "2026-10-13",
       "trovato_con": [
-        "lab-on-chip",
-        "AI medical devices"
+        "lab-on-chip"
       ],
       "scadenza": {
         "valore": "2027-09-02",
@@ -2143,7 +2191,7 @@
         "citazione": null,
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
-      "testo_fonte": "Expected Outcome: Industrial jobs are transformed through AI-based human-machine interactions (and skills linked to them) which enhance flexibility, inclusion, well-being, up-skilling, career evolution and knowledge sharing; Increased competitiveness and sustainability of advanced manufacturing industries by means of knowledge formalization and adaptability of the machines to workers and markets based on different cultures. Scope: Innovative AI approaches are poised to revolutionise human-machine collaboration in factories by fostering an environment where technology and human expertise synergistically enhance each other. AI can enhance the value of the companies by capturing and formalising the knowledge which is dispersed and not explicit. This allows companies to really own the knowledge and use it to reduce the onboarding time of new employees and support personnel upskilling to adapt to the evolving technological landscape. AI has a great potential to make task simpler by reducing the complexity offering intuitive interfaces and real-time feedback allowing workforce to be more efficient and effective while facilitating access to more complex tasks including those involving various forms of planning. AI can also adapt the interaction of automation with the worker taking into account particular needs of the human, including adaptation to the different abilities of the workers and facilitating inclusion. Finally, AI can be used to allow easier export of automation produced in EU by facilitating its interaction with workforce having different cultures adapting the interaction of the machines to the different needs. Proposals should produce dedicated innovative AI approaches for human-machine collaboration in advanced manufacturing to be applied in at least two of following fields: Human-AI Co-Learning and knowledge capture to share competences, capture expert knowledge, provide interactive mentoring to up-skill the workforce, and support re-qualification and continuous training – leading to increased knowledge at factory level and avoiding loss of know-how. Human-AI teamwork thanks to innovative natural interaction models (considering the e.g. related hardware interfaces and/or collaborative machine tools), enabling to control complexity in cognitive cooperating production systems, including planning activities at shop floor level. Interfaces with automation which automatically adapt to the need of the humans including different abilities and different cultural needs. Proposals should integrate a gender perspective and avoid any type of discrimination in the design and deployment of AI systems and human-machine interaction models, including addressing differences in user needs, such as needs of persons with disabilities, physical and cognitive ergonomics and training pathways. Proposals are also expected to identify and address other potential biases in AI systems to promote inclusive design that ensures safe and effective use by all workers. Human/AI collaboration requires utmost sensitivity to and consideration of human values and consideration of ethical principles as represented in Digital Humanism, therefore, appropriate consideration must also be given to the contribution of SSH. This topic is linked to the Apply AI Strategy, therefore proposals should seek collaboration with relevant initiatives. In addition, proposals are invited to build on the results of past projects on Extended Reality Technologies (XR), such as HORIZON-CL4-2021-HUMAN-01-13, HORIZON-CL4-2021-HUMAN-01-14, HORIZON-CL4-2021-HUMAN-01-25, HORIZON-CL4-2021-HUMAN-01-06, HORIZON-CL4-2021-HUMAN-01-28. Proposals should include a business case and exploitation strategy, as outlined in the introduction to Destination ‘Leadership in materials and production for Europe’. This topic implements the co-programmed European Partnerships Made in Europe and AI, Data and Robotics. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6 by the end of the project – see General Annex B. New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships) New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
+      "testo_fonte": "Expected Outcome: A significant decarbonisation of processes (measured by the reduction of GHG emissions from the overall system) with broad applicability and economic viability. Facilitation of the transition from fossil-based energy inputs for: low/medium thermal energy demands by introducing renewable-based alternatives and heat upgrading. High-temperature processes, by innovative technologies for electrified and hybrid high-temperature processes, high temperature energy storage. Clean energy usage is given a boost through innovative advanced materials, system concepts and technologies for energy integration and energy storage, supporting resilience against energy supply variations Combination of significant energy savings and integrated management of energy systems and production processes Scope: Most processes in the process industries require significant energy inputs which currently lead to substantial GHG (greenhouse gas) emissions by the process industries. The reduction of the CO2 footprint can be achieved by several measures, e.g. electrification or use of other renewable sources of energy, lowering of the energy demand, increasing energy efficiency, and energy integration. This topic aims to lead to significant steps in reducing the CO2 footprint by technological innovations, at least by 20%. A key problem in the use of renewable energy sources is their fluctuation over time. Projects should take this into account and develop solutions that aim for energy efficiency and include novel storage technologies of relevance to the process industries. Pure demand-side management by production schedules adapted to the supply of electricity from renewable sources is not within the scope of the call. In situations where full electrification is not feasible or competitive in the foreseeable future, sustainable hybrid solutions play a crucial role. These solutions enhance flexibility, allowing industries to manage the variability in the availability of affordable renewable electricity, which is expected to fluctuate significantly in the medium term. E.g., preheating processes can utilize fossil-free energy sources such as solar heat, geothermal heat, heat pumps, resistive or induction heating, and electric boilers. This initial stage can be followed by further heating using fossil-based methods initially, and later transitioning to renewable-based combustion processes to achieve the required process temperatures. To enhance resilience, the capture, storage, and management of energy flows should be tailored to the needs of the process industry. This may include research and innovation in safe and sustainable innovative advanced materials for (latent or sensible) energy storage, e.g. phase change materials and heat storage via chemical energy carriers beyond E-fuels. Proposals under this topic should address several of the following: Advancements in the use of energy from renewable sources in production processes with improved energy efficiency. Integrated energy systems with novel storage elements to enable a smooth operation of the plants despite variations in the availability of energy from renewable sources. Solutions for low/medium temperature (100 - 500 °C) energy inputs in energy intensive industries including hybrid solutions and a progressive reduction of the use of fossil carriers of energy. Solutions for high temperature (&gt; 500 °C) energy inputs in energy intensive industries, including high temperature electricity driven processes, and high temperature energy storage. Application of high-performance insulation materials and new innovative advanced materials that can improve heat capture, storage, and retrieval, particularly for scalable high-temperature applications. Such materials should minimize the use of critical raw material, enabling effective recycling. Projects should include demonstrations at pilot scale, preferably in real industrial environments, to validate the proposed technologies and processes under real-world industrial conditions Proposals related to innovative advanced materials development should address the most relevant gaps to focus on in the frame from materials design to technology deployment and ensure adequate feedback loops between different steps to drive forward innovative solutions which can be easily deployed. Scalability and requirements from application/industry need to be considered early on in the innovation process. The inclusion of a GHG avoidance methodology [1] is recommended and should provide detailed descriptions of baselines and projected emissions reduction. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination, underlining how the proposal will serve the purpose to boost industrial decarbonisation technologies supply chain in Europe. As project output an elaborated exploitation plan should be developed, including preliminary plans for scalability, commercialisation and deployment (feasibility study, business plan and financial model) indicating possible private and public funding sources (e.g. Innovation Fund, InvestEU and cohesion policy funds). Societal- and environmental impact as well as implications for the workplace (including skills and organisational change) should be outlined. This topic implements the co-programmed European partnerships Processes4Planet and Innovative Advanced Materials for the EU. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6-7 by the end of the project – see General Annex B. [1] That could follow Innovation Fund methodology: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/innovfund/wp-call/2021/call-annex_c_innovfund-lsc-2021_en.pdf Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships) Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -2238,339 +2286,6 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Proposals should describe a credible pathway from their project results and outcomes towards the expected impact of this Destination; Enable the acceleration of the market uptake of groundbreaking innovations in the decarbonisation of the chemical industries as well as alternatives to substances of concern. Scope: This open topic aims to speed up the adoption of new, groundbreaking innovations (starting TRL 4 ) as part of the Chemical Industry Action Plan, in the areas of decarbonisation of energy intensive industries, circular economy or breakthrough production technologies; as well as development of alternatives (new chemical substances, advanced materials or technologies) to substances of concern. Application of the SSbD Framework should be considered as appropriate. Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan (Research and Innovation Action) Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan (Research and Innovation Action)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-02-MAT-PROD-32-two-stage: Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-mat-prod-32-two-stage",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-09-02",
-        "stato": "da_verificare",
-        "citazione": "2027-09-02T00:00:00.000+0000",
-        "motivo": "Più scadenze (cut-off multipli o due fasi): verificare quale vale per te"
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: A significant decarbonisation of processes (measured by the reduction of GHG emissions from the overall system) with broad applicability and economic viability. Facilitation of the transition from fossil-based energy inputs for: low/medium thermal energy demands by introducing renewable-based alternatives and heat upgrading. High-temperature processes, by innovative technologies for electrified and hybrid high-temperature processes, high temperature energy storage. Clean energy usage is given a boost through innovative advanced materials, system concepts and technologies for energy integration and energy storage, supporting resilience against energy supply variations Combination of significant energy savings and integrated management of energy systems and production processes Scope: Most processes in the process industries require significant energy inputs which currently lead to substantial GHG (greenhouse gas) emissions by the process industries. The reduction of the CO2 footprint can be achieved by several measures, e.g. electrification or use of other renewable sources of energy, lowering of the energy demand, increasing energy efficiency, and energy integration. This topic aims to lead to significant steps in reducing the CO2 footprint by technological innovations, at least by 20%. A key problem in the use of renewable energy sources is their fluctuation over time. Projects should take this into account and develop solutions that aim for energy efficiency and include novel storage technologies of relevance to the process industries. Pure demand-side management by production schedules adapted to the supply of electricity from renewable sources is not within the scope of the call. In situations where full electrification is not feasible or competitive in the foreseeable future, sustainable hybrid solutions play a crucial role. These solutions enhance flexibility, allowing industries to manage the variability in the availability of affordable renewable electricity, which is expected to fluctuate significantly in the medium term. E.g., preheating processes can utilize fossil-free energy sources such as solar heat, geothermal heat, heat pumps, resistive or induction heating, and electric boilers. This initial stage can be followed by further heating using fossil-based methods initially, and later transitioning to renewable-based combustion processes to achieve the required process temperatures. To enhance resilience, the capture, storage, and management of energy flows should be tailored to the needs of the process industry. This may include research and innovation in safe and sustainable innovative advanced materials for (latent or sensible) energy storage, e.g. phase change materials and heat storage via chemical energy carriers beyond E-fuels. Proposals under this topic should address several of the following: Advancements in the use of energy from renewable sources in production processes with improved energy efficiency. Integrated energy systems with novel storage elements to enable a smooth operation of the plants despite variations in the availability of energy from renewable sources. Solutions for low/medium temperature (100 - 500 °C) energy inputs in energy intensive industries including hybrid solutions and a progressive reduction of the use of fossil carriers of energy. Solutions for high temperature (&gt; 500 °C) energy inputs in energy intensive industries, including high temperature electricity driven processes, and high temperature energy storage. Application of high-performance insulation materials and new innovative advanced materials that can improve heat capture, storage, and retrieval, particularly for scalable high-temperature applications. Such materials should minimize the use of critical raw material, enabling effective recycling. Projects should include demonstrations at pilot scale, preferably in real industrial environments, to validate the proposed technologies and processes under real-world industrial conditions Proposals related to innovative advanced materials development should address the most relevant gaps to focus on in the frame from materials design to technology deployment and ensure adequate feedback loops between different steps to drive forward innovative solutions which can be easily deployed. Scalability and requirements from application/industry need to be considered early on in the innovation process. The inclusion of a GHG avoidance methodology [1] is recommended and should provide detailed descriptions of baselines and projected emissions reduction. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination, underlining how the proposal will serve the purpose to boost industrial decarbonisation technologies supply chain in Europe. As project output an elaborated exploitation plan should be developed, including preliminary plans for scalability, commercialisation and deployment (feasibility study, business plan and financial model) indicating possible private and public funding sources (e.g. Innovation Fund, InvestEU and cohesion policy funds). Societal- and environmental impact as well as implications for the workplace (including skills and organisational change) should be outlined. This topic implements the co-programmed European partnerships Processes4Planet and Innovative Advanced Materials for the EU. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6-7 by the end of the project – see General Annex B. [1] That could follow Innovation Fund methodology: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/innovfund/wp-call/2021/call-annex_c_innovfund-lsc-2021_en.pdf Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships) Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-22: Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-22",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Reducing dependencies of critical and strategic raw materials through partial or total substitution by safe and sustainable innovative advanced materials and/or via more efficient use of critical and strategic raw materials in production processes; Speeding up the innovation cycle within value chain(s) important for European industry; Enhancing competitiveness of the industries and operational costs, while making supply chains more secure; New or improved production processes, innovative advanced materials and products that are safer and more sustainable, supporting a clean and autonomous economy; and Demonstrating how the safe and sustainable by design (SSbD) chemicals and materials framework can guide innovation. Scope: The focus of this topic is on alternatives for the substitution or more efficient use of critical and strategic raw materials [1] . The design and development of innovative advanced materials (IAMs) and processes should lead to an innovation cycle covering the (re)design of materials and production processes, and the integration of IAMs into products. Proposals should develop IAMs or process technologies to replace or reduce the use of critical and strategic raw materials in strategic areas and sectors such as energy, mobility, construction, electronics, medical devices or chemical industries. Proposals should address one or several of the following approaches: Design, development and production with targets on performance, safety and sustainability of IAMs substituting or making a more efficient use of critical and strategic raw materials. Innovative industrial processes for the reduction of the use of critical and strategic raw materials focussed on optimizing process safety, sustainability, flexibility, scalability, cost-efficiency. Co-development strategies for IAMs and industrial processes. These strategies should demonstrate the value of co-development through specific use cases while maintaining broad relevance across various materials and process types. Proposals should demonstrate clear use case(s), market and potential to grow. The substitution barriers for the selected applications should be identified and a driving mechanism for a maximal substitution in the targeted value chains proposed. The scope includes necessary adaptations of related processes and technologies to ensure alignment with and integration in industrial manufacturing in order to facilitate the uptake of the developed solutions. If relevant, challenges for the adaption of existing production lines should be identified and solutions proposed. Proposals should demonstrate that SSbD framework [2] will be applied throughout the innovation process, showing that safety and sustainability principles are actively integrated and influence decision-making in a transparent and traceable way, and ensure that the data generated within the proposal may be shared with the Common Data Platform for Chemicals. The new alternatives to be developed should meet the technical functions required in the specific applications while aligning their innovation process decision making with such framework. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. Proposals are encouraged to cooperate with relevant projects. Where relevant, proposals should actively contribute to and cooperate with the EU Innovation and Substitution Hub(s) [3] . Proposals should allocate the necessary resources to the proposed activities This topic implements the co-programmed European partnerships Innovative Advanced Materials for the EU (IAM4EU) and Processes4Planet. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B. [1] https://rmis.jrc.ec.europa.eu/eu-critical-raw-materials ; as well as Annex I and II of the [2] See documents defining the SSbD framework on: https://ec.europa.eu/info/research-and-innovation/research-area/industrial-research-and-innovation/key-enabling-technologies/advanced-materials-and-chemicals_en [3] European Chemicals Industry Action Plan - European Commission Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships) Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
-      "rilevanza": {
-        "punteggio": 4,
-        "stato": "parole_chiave",
-        "motivazione": "Solo termini generici (tecnologie_emergenti_biomedicali), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
-        "temi": [
-          "tecnologie_emergenti_biomedicali"
-        ],
-        "evidenze": [
-          "ectors such as energy, mobility, construction, electronics, medical devices or chemical industries. Proposals should address one or sev"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-08: Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-08",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Increased economically viable and functionally equivalent renewable material and sustainable chemical solutions used in large scale textile applications, including apparel, home and technical textiles; A realistic pathway for an absolute reduction of the use of virgin fossil-based materials and chemicals used to produce textile products for the EU market by 2035, contributing to enhance the preservation of human health, biodiversity and ecosystems, whether aquatic or terrestrial ecosystem preservation and emission reduction; Uptake of business models and system approaches that allow for the scale up of sustainable textile material and chemical alternatives as competitive alternatives to conventional approaches. Scope: Innovative renewable textile fibres and sustainable chemical solutions today face almost insurmountable cost disadvantages compared to extremely cost-competitive and industrially entrenched fibres and chemicals based on virgin fossil resources. To allow for the scale up of the use of innovative renewable materials and sustainable chemicals by the textile industry, improved processability of materials, suitable processing technology, deeper technical knowledge and smart phase-in approaches such as material blending or drop-in solutions are required. Specific emphasis must be placed on resulting final product quality, their durability and functionality to avoid negative user/consumer perception of products made with renewable materials and sustainable chemicals. As not all cost and quality challenges may be immediately overcome by technological innovation, accompanying business models and systems approaches are needed to enable equitable cost and risk sharing among all involved stakeholders in the textile value chain. Attributes such as recyclability, recycled material content, and resource efficiency as well as reduced carbon and environmental footprint are expected to be part of the textile-specific requirements under the Ecodesign for Sustainable Products Regulation. Proposals should specifically address: Innovative processing technologies to facilitate the efficient use of recycled, regenerated and bio-based fibres as well as sustainable processing and functionalising chemicals across all major stages of the textile manufacturing value chain, such as spinning, weaving, knitting, dyeing or finishing; Quantification of biodiversity outcomes associated to new processes by using existing Monitoring, Reporting and Validation (MRV) methodologies, adapting and testing them if needed; Characterisation, quality assurance and mitigation strategies for the most common processing and functionality challenges and limitations of the sustainable materials and chemicals targeted; Development of best practices and training materials targeted at designers, manufacturers, brands, end of life managers and end users, working with the targeted materials and chemicals; Strategies and tools to practically implement collective risk sharing and smart scaling approaches. Proposals should actively involve suppliers of renewable materials and sustainable chemicals, brands, commercial end users and developers/manufacturers of relevant processing technology and industrial partners with the capacity to commercially scale up production with the targeted materials and chemicals. The involvement of partners beyond the manufacturing supply chain, such as product designers, brands, commercial end users and end of life managers including collectors, sorters, recyclers and remanufacturers is particularly encouraged. Proposals should carry out research and innovation to develop missing elements and achieve the necessary integration, including economic viability. Hence, synergies with, or using results from, other projects may be appropriate. The mere integration of existing technologies or processes is outside the scope of this topic . Proposals should provide between 10% and 25% of the EU contribution through financial support to third parties (FSTP), in order to maximise the number of SMEs involved in small-scale innovation projects. FSTP funding can be provided only to SME participants, while the active participation of larger companies in such innovation projects in encouraged. The involvement of start-ups is also specifically encouraged. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. This topic implements the co-programmed European Partnership Textiles for the Future. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 6-7 by the end of the project – see General Annex B. Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership) Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-49: ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-49",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: The commercial potential of Horizon research results is explored; Results of Horizon projects are valorised, by ensuring a pathway to commercialisation; and Startups and SMEs become involved in valorisation. Scope: The EU must do better in translating the knowledge generated by the Framework Programme into innovations with economic and societal value. The objective of this action is to provide financial support (‘Proof of market’) to small consortia (i.e. spin-offs, startups, SMEs) to explore the exploitation potential, in the EU, of achieved results from ongoing or completed projects funded under Cluster 4 ‘Digital, Industry and Space’ or its predecessor activities under the Leadership in enabling and industrial technologies (LEIT) [1] part of Horizon 2020. The consortia do not necessarily have to be made of former or current beneficiaries but should own or have access to the knowledge assets of projects, including intellectual property, where relevant. Proposals should envisage valorisation activities, such as: demonstrating a technology (e.g. testing); defining a commercialisation process; undertaking: a market and competitiveness analysis; a technology assessment and/or certification; a verification of innovation potential; assessing potential “end users” of the expected innovation; testing, piloting with users or potential customers; complying with regulatory compliance and standards; consolidating IP rights. Proposals should address achieved results from ongoing or completed Research and Innovation Actions and Innovation Actions (RIA/IA) funded directly under Cluster 4 ‘Digital, Industry and Space’ or its predecessor activities under the Leadership in enabling and industrial technologies (LEIT) part of Horizon 2020. Applicants can be owners of the achieved results from previous projects or new participants. Proposals should include at least one of the following: Confirmation that at least one of the applicants of the current proposal is the owner or holder of the relevant knowledge assets including Intellectual Property Rights (IPR) and possesses the necessary rights to commercialise the results for the entire duration of the proposed project, or Commitment letter from the owner(s) of the relevant result(s) confirming the owner(s)’ willingness to negotiate fair, reasonable, and non-discriminatory access to the results, including IPR where relevant, for the purpose of future commercial exploitation. The proposal should specify the grant number and acronym of the project(s) which generated the results. Proposals should present a clear vision of the intended pathway to market. Hence, the participation of a business partner should be envisaged. [1] Information and communication technologies, Nanotechnologies, Advanced materials, Advanced manufacturing and processing, Biotechnology and Space. ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA) ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-06: Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-06",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Innovative advanced materials designed for circularity are adopted in products faster, through accelerated production and technology uptake; Business models become available to enhance the use of circular advanced materials in strategic value chains; and Resource efficiency (materials and energy) is increased significantly through a focus on circular advanced materials. Quality standards, harmonisation and regulatory requirements are addressed facilitating simplified market transition. Scope: The focus of this topic is on enabling circularity and resilient supply networks through R&amp;I in advanced materials, in particular recyclable polymers and composites, magnets and metal (alloys) for additive manufacturing, and on accelerating their pathway to market. Proposals should develop new innovative advanced materials (IAMs) with superior or novel functionalities designed for circularity. The scope includes necessary developments of related processes and technologies to ensure integration in industrial manufacturing facilitating uptake of the developed solutions. Proposals should also develop circular business models considering the cost of changes needed along the life cycle of these new materials to facilitate their uptake. The scope covers the full innovation cycle from the design for circularity and functional integration (new materials designs), development and scaleup (including scalable recovery, recycling and valorisation at end of life), to demonstration of industrial uptake and integration into products. The transformative potential of the developed solutions is to be showcased by demonstrators and industrial use cases. Projects should also explore possibilities to transfer developed solutions to other applications or sectors. The SSbD framework [1] should guide the innovation process towards safer and more sustainable chemicals and advanced materials. Where relevant data generated within the proposal may be shared with the Common Data Platform for Chemicals. The new alternatives to be developed should meet the technical functions required in the specific applications while aligning their innovation process decision making with such framework. Best use of digital tools and FAIR data, including AI and data-driven approaches throughout the innovation process should support the circular transition for industry and circular product design. This includes sharing FAIR and interoperable data and tools across supply networks and value chains, to foster circularity, including data needed for materials and component development, production and circular product design. The approach should foster collaboration among stakeholders along the innovation chain and industrial value networks to accelerate the development and adoption of new circular solutions. Projects should build on, or seek collaboration with, existing projects in EU Member States and Associated Countries and develop synergies with other relevant European, national or regional initiatives, funding programmes and platforms, in particular with the Materials Commons for Europe. Proposals should support strategic value chains in the fields of energy and construction. The portfolio approach will be used to fund at least one proposal from each of these two. Proposers should declare in their proposal the main application area of their proposal (i.e., energy or construction). Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. This topic implements the co-programmed European Partnerships Innovative Advanced Materials for the EU (IAM4EU) and Made in Europe (MiE). Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6 by the end of the project – see General Annex B. [1] See documents defining the SSbD framework and criteria on: https://ec.europa.eu/info/research-and-innovation/research-area/industrial-research-and-innovation/key-enabling-technologies/advanced-materials-and-chemicals_en Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships) Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-03: Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-03",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: A viable industrial ecosystem for circularity in manufacturing industries emerges, enhancing both circularity and resilience; De-manufacturing technologies and practices become available, making decisive contributions to a European remanufacturing industry and market; Functions of products are retained, reused, upgraded or adapted through de-manufacturing and re-manufacturing; and Skills, standards and safety measures relevant to remanufacturing are developed. Scope: Proposals should focus on developing de-manufacturing and re-manufacturing technologies at the factory level, addressing at least three of the following: Technologies to efficiently analyse part condition and support predictive maintenance, including for re-manufactured parts or components of lower value, e.g. by combining multimodal sensor data, AI and human inputs; AI and robotic-assisted technologies, e.g. innovative end-effectors, to de-manufacture products and components, including handling, sorting and extended logistics; Model-based systems, to allow de-manufacturing and re-manufacturing operators to use CAD data and digital twins related to the original parts (and contribute to the development of a digital ecosystem); Solutions allowing local (on-site) repair or re-manufacturing of high-added value components (applied to e.g. wind turbines, aircraft and vessels); and Solutions to plan the sequence of operations based on the characteristics of the incoming products to be re-manufactured. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. Depending on the approaches to be pursued, these should consider the best solutions to enhance adoption, for example coupling manufacturing with de-/re- manufacturing plants, product and component value, risk mitigation for variable de-/re-manufacturing flows. This topic implements the co-programmed European Partnership Made in Europe. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 4-5 and achieve TRL 6 by the end of the project – see General Annex B. Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership) Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-2"
-      }
-    },
-    {
-      "canale": "Europa",
-      "ente": "Commissione europea (Funding & Tenders Portal)",
-      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-16: Technologies for innovative processing of raw materials (IA)",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-16",
-      "data_lettura": "2026-10-13",
-      "trovato_con": [
-        "lab-on-chip"
-      ],
-      "scadenza": {
-        "valore": "2027-02-02",
-        "stato": "confermato",
-        "citazione": "2027-02-02T00:00:00.000+0000",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Estrazione del budget non ancora implementata"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
-      },
-      "testo_fonte": "Expected Outcome: Increased recovery rates of valuable raw materials, particularly critical raw materials from low grade or complex ores and/or from mining waste; Increased economic performance in terms of higher material-, water-, energy- and cost-efficiency and flexibility in minerals processing and metallurgical processes; and Improved health, safety and environmental performance of the operations throughout the whole life cycle that is considered, including a reduction in waste, wastewater and generation of emissions of air pollutants and a better recovery of resources from generated waste, reducing the environmental footprint and contributing to biodiversity and ecosystems preservation. Scope: Actions should develop and validate / demonstrate pilot scale facility located in the EU integrating relevant processing and refining technologies for improved recovery of raw materials from low grade and/or complex ores from extractive wastes, reduction of waste and water and air pollution, higher energy efficiency and reduction of land and sea-use change, habitat loss, degradation and fragmentation. The action can also focus on reducing the content of toxic elements or compounds in the resulting material products. The actions should target minerals and metals, particularly critical raw materials. The solution proposed should be flexible enough to adapt to different or variable ore grades and extractive waste streams and should be supported by efficient and robust process control. Where relevant, any solution proposed for the reduction of the content of toxic elements or compounds in the resulting materials should also include the appropriate management of the hazardous substances removed. Actions should develop intelligent and innovative production systems which better utilise natural resources by minimising losses during waste-rock separation in an optimised and energy-efficient process and by minimising use of water. Recycling of end-of-life products is excluded from this topic. Actions should envisage clustering activities with other relevant selected projects for cross-projects co-operation, consultations and joint activities on cross-cutting issues and share of results as well as participating in joint meetings and communication events. To this end proposals should foresee a dedicated work package and/or task, and earmark the appropriate resources accordingly. Actions should facilitate the market uptake of solutions developed through industrially- and user-driven multidisciplinary consortia covering the relevant value chain and should consider standardisation aspects when relevant. The action should also include the analysis of financial opportunities ensuring the market exploitation and replication of the circular business model behind the developed solutions as new processes, products and/or services. The industry based in the EU, and users of recovered secondary raw materials should assume prominent role in the proposed actions, supported by adequate allocation of resources. Proposals submitted under this topic should include a business case and exploitation strategy, as outlined in the introduction to this Destination. For TRLs 6-7, a credible strategy to achieve full-scale deployment in the EU is expected, indicating the commitments of the leading partners after the end of the project. International cooperation is encouraged with countries with which the EU has signed Strategic Partnerships on raw materials, especially with Ukraine. [1] Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B. [1] https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/raw-materials-diplomacy_en Technologies for innovative processing of raw materials (IA) Technologies for innovative processing of raw materials (IA)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -2712,6 +2427,245 @@
         "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
       },
       "testo_fonte": "Expected Outcome: Enhanced valorisation of intellectual assets, including dormant patents, from universities and public research organisations to support the adoption of green and digital technologies by industry, SMEs and start-ups/spinoffs. Development of entrepreneurial skills and increased involvement of students, researchers, and innovators in the valorisation of research results. Uptake of effective models and tools to facilitate valorisation of unused IP and intellectual assets and access by startups, SMEs, and innovative companies to this untapped knowledge in public research organisations. Scope: Aligned with the European Union's policy priorities, this action will contribute to overcoming the innovation paradox by maximising the impact of public spending in R&amp;I through improved knowledge valorisation practices, and facilitating the uptake of green and digital technologies by start-ups, spinoffs, and innovative SMEs. By unlocking the untapped potential of intellectual assets within universities and public research organisations, and leveraging the creativity of students, researchers, and innovators, the action seeks to improve value creation opportunities deriving from these assets and bolster the competitiveness of European industry. The action should explore strategies and implement pilots for actively involving students and researchers (including those in social sciences and humanities) in valorising academic IP and intellectual assets. These should include hackathons, workshops and larger-scale “summer camp” programmes, and foresee the involvement of interested industry partners than can be potential adopters. The action should also identify and test models and tools for easier IP access and utilisation by startups and SMEs. These should cover innovative licensing and other valorisation approaches, especially tackling the issue of unused academic patents, as well as the use of AI to manage and valorise research results and IP. Proposals submitted under this topic should consider how to exploit synergies with other EU-funded projects covering intellectual assets management, entrepreneurship, and AI for knowledge valorisation. They should also pay particular attention to reducing the gender gap and promoting diversity in knowledge valorisation, and include dedicated measures to foster gender balance and inclusiveness in this field. Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA) Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-49: ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-49",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-02-02",
+        "stato": "confermato",
+        "citazione": "2027-02-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: The commercial potential of Horizon research results is explored; Results of Horizon projects are valorised, by ensuring a pathway to commercialisation; and Startups and SMEs become involved in valorisation. Scope: The EU must do better in translating the knowledge generated by the Framework Programme into innovations with economic and societal value. The objective of this action is to provide financial support (‘Proof of market’) to small consortia (i.e. spin-offs, startups, SMEs) to explore the exploitation potential, in the EU, of achieved results from ongoing or completed projects funded under Cluster 4 ‘Digital, Industry and Space’ or its predecessor activities under the Leadership in enabling and industrial technologies (LEIT) [1] part of Horizon 2020. The consortia do not necessarily have to be made of former or current beneficiaries but should own or have access to the knowledge assets of projects, including intellectual property, where relevant. Proposals should envisage valorisation activities, such as: demonstrating a technology (e.g. testing); defining a commercialisation process; undertaking: a market and competitiveness analysis; a technology assessment and/or certification; a verification of innovation potential; assessing potential “end users” of the expected innovation; testing, piloting with users or potential customers; complying with regulatory compliance and standards; consolidating IP rights. Proposals should address achieved results from ongoing or completed Research and Innovation Actions and Innovation Actions (RIA/IA) funded directly under Cluster 4 ‘Digital, Industry and Space’ or its predecessor activities under the Leadership in enabling and industrial technologies (LEIT) part of Horizon 2020. Applicants can be owners of the achieved results from previous projects or new participants. Proposals should include at least one of the following: Confirmation that at least one of the applicants of the current proposal is the owner or holder of the relevant knowledge assets including Intellectual Property Rights (IPR) and possesses the necessary rights to commercialise the results for the entire duration of the proposed project, or Commitment letter from the owner(s) of the relevant result(s) confirming the owner(s)’ willingness to negotiate fair, reasonable, and non-discriminatory access to the results, including IPR where relevant, for the purpose of future commercial exploitation. The proposal should specify the grant number and acronym of the project(s) which generated the results. Proposals should present a clear vision of the intended pathway to market. Hence, the participation of a business partner should be envisaged. [1] Information and communication technologies, Nanotechnologies, Advanced materials, Advanced manufacturing and processing, Biotechnology and Space. ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA) ‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-02: Advanced manufacturing for key products (IA) (Made in Europe partnership)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-02",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-02-02",
+        "stato": "confermato",
+        "citazione": "2027-02-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Advanced manufacturing technology and machinery becomes available in Europe for the manufacturing of key and high-performance products; Where relevant, production becomes increasingly circular through the reuse of secondary raw materials; and/or innovative advanced materials are incorporated in manufactured products, leading to better performance and quality; Resource efficiency in terms of materials and energy is increased significantly; and Circularity, productivity and competitiveness are increased, and hence resilience of European industry is enhanced. Scope: This topic addresses technologies and machinery for advanced manufacturing, focusing on manufacturing excellence and on increasing circularity, including through the better use of innovative advanced materials and secondary raw materials. The focus is on key manufactured components and products that are competitive and have enhanced performance, and contribute to Europe’s technological leadership in manufacturing, but which are at risk of being lost to Europe or rely on raw materials or parts whose supply is mostly coming from outside Europe. Proposals should develop technologies and machinery to enable the manufacturing of these components with a minimal use of critical raw materials [reference to overall targets] or imported materials. This includes an increased use of secondary raw materials or biobased materials or revalorised components. Where appropriate to enhance performance and quality, proposals should target the use of innovative advanced materials (such as lightweight, functionalised or self-healing materials). In this case, the development of the advanced materials should not be the main focus of proposals, nevertheless the necessary steps to adapt such innovative advanced materials to the needs of the manufacturing application should be included. These can include digital twins for materials as well as SSbD-design steps. Examples of advanced manufacturing technologies and machinery include, but are not restricted to: Innovative additive manufacturing; Hybrid manufacturing (additive, subtractive); Photonics; Advanced joining technologies; Polymer composite manufacturing; Advanced technologies for surface treatment and structuring, to tailor surface properties for specific applications; Manufacturing of components with lightweight materials; and In-line testing. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. Applications in the automotive industry may be considered. However, the production of batteries is not within the scope of this topic . [1] International cooperation is encouraged, especially with Japan or Taiwan. This topic implements the co-programmed European Partnership Made in Europe. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B. [1] The production of batteries (including for automotive use) is addressed by topic HORIZON-CL5-2026-05-D2-03: Integrated Production and Product Development for Next-Generation Lithium-based Batteries for Mobility. Advanced manufacturing for key products (IA) (Made in Europe partnership) Advanced manufacturing for key products (IA) (Made in Europe partnership)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-22: Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-22",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-02-02",
+        "stato": "confermato",
+        "citazione": "2027-02-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Reducing dependencies of critical and strategic raw materials through partial or total substitution by safe and sustainable innovative advanced materials and/or via more efficient use of critical and strategic raw materials in production processes; Speeding up the innovation cycle within value chain(s) important for European industry; Enhancing competitiveness of the industries and operational costs, while making supply chains more secure; New or improved production processes, innovative advanced materials and products that are safer and more sustainable, supporting a clean and autonomous economy; and Demonstrating how the safe and sustainable by design (SSbD) chemicals and materials framework can guide innovation. Scope: The focus of this topic is on alternatives for the substitution or more efficient use of critical and strategic raw materials [1] . The design and development of innovative advanced materials (IAMs) and processes should lead to an innovation cycle covering the (re)design of materials and production processes, and the integration of IAMs into products. Proposals should develop IAMs or process technologies to replace or reduce the use of critical and strategic raw materials in strategic areas and sectors such as energy, mobility, construction, electronics, medical devices or chemical industries. Proposals should address one or several of the following approaches: Design, development and production with targets on performance, safety and sustainability of IAMs substituting or making a more efficient use of critical and strategic raw materials. Innovative industrial processes for the reduction of the use of critical and strategic raw materials focussed on optimizing process safety, sustainability, flexibility, scalability, cost-efficiency. Co-development strategies for IAMs and industrial processes. These strategies should demonstrate the value of co-development through specific use cases while maintaining broad relevance across various materials and process types. Proposals should demonstrate clear use case(s), market and potential to grow. The substitution barriers for the selected applications should be identified and a driving mechanism for a maximal substitution in the targeted value chains proposed. The scope includes necessary adaptations of related processes and technologies to ensure alignment with and integration in industrial manufacturing in order to facilitate the uptake of the developed solutions. If relevant, challenges for the adaption of existing production lines should be identified and solutions proposed. Proposals should demonstrate that SSbD framework [2] will be applied throughout the innovation process, showing that safety and sustainability principles are actively integrated and influence decision-making in a transparent and traceable way, and ensure that the data generated within the proposal may be shared with the Common Data Platform for Chemicals. The new alternatives to be developed should meet the technical functions required in the specific applications while aligning their innovation process decision making with such framework. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. Proposals are encouraged to cooperate with relevant projects. Where relevant, proposals should actively contribute to and cooperate with the EU Innovation and Substitution Hub(s) [3] . Proposals should allocate the necessary resources to the proposed activities This topic implements the co-programmed European partnerships Innovative Advanced Materials for the EU (IAM4EU) and Processes4Planet. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B. [1] https://rmis.jrc.ec.europa.eu/eu-critical-raw-materials ; as well as Annex I and II of the [2] See documents defining the SSbD framework on: https://ec.europa.eu/info/research-and-innovation/research-area/industrial-research-and-innovation/key-enabling-technologies/advanced-materials-and-chemicals_en [3] European Chemicals Industry Action Plan - European Commission Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships) Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
+      "rilevanza": {
+        "punteggio": 4,
+        "stato": "parole_chiave",
+        "motivazione": "Solo termini generici (tecnologie_emergenti_biomedicali), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
+        "temi": [
+          "tecnologie_emergenti_biomedicali"
+        ],
+        "evidenze": [
+          "ectors such as energy, mobility, construction, electronics, medical devices or chemical industries. Proposals should address one or sev"
+        ],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-16: Technologies for innovative processing of raw materials (IA)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-16",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-02-02",
+        "stato": "confermato",
+        "citazione": "2027-02-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Increased recovery rates of valuable raw materials, particularly critical raw materials from low grade or complex ores and/or from mining waste; Increased economic performance in terms of higher material-, water-, energy- and cost-efficiency and flexibility in minerals processing and metallurgical processes; and Improved health, safety and environmental performance of the operations throughout the whole life cycle that is considered, including a reduction in waste, wastewater and generation of emissions of air pollutants and a better recovery of resources from generated waste, reducing the environmental footprint and contributing to biodiversity and ecosystems preservation. Scope: Actions should develop and validate / demonstrate pilot scale facility located in the EU integrating relevant processing and refining technologies for improved recovery of raw materials from low grade and/or complex ores from extractive wastes, reduction of waste and water and air pollution, higher energy efficiency and reduction of land and sea-use change, habitat loss, degradation and fragmentation. The action can also focus on reducing the content of toxic elements or compounds in the resulting material products. The actions should target minerals and metals, particularly critical raw materials. The solution proposed should be flexible enough to adapt to different or variable ore grades and extractive waste streams and should be supported by efficient and robust process control. Where relevant, any solution proposed for the reduction of the content of toxic elements or compounds in the resulting materials should also include the appropriate management of the hazardous substances removed. Actions should develop intelligent and innovative production systems which better utilise natural resources by minimising losses during waste-rock separation in an optimised and energy-efficient process and by minimising use of water. Recycling of end-of-life products is excluded from this topic. Actions should envisage clustering activities with other relevant selected projects for cross-projects co-operation, consultations and joint activities on cross-cutting issues and share of results as well as participating in joint meetings and communication events. To this end proposals should foresee a dedicated work package and/or task, and earmark the appropriate resources accordingly. Actions should facilitate the market uptake of solutions developed through industrially- and user-driven multidisciplinary consortia covering the relevant value chain and should consider standardisation aspects when relevant. The action should also include the analysis of financial opportunities ensuring the market exploitation and replication of the circular business model behind the developed solutions as new processes, products and/or services. The industry based in the EU, and users of recovered secondary raw materials should assume prominent role in the proposed actions, supported by adequate allocation of resources. Proposals submitted under this topic should include a business case and exploitation strategy, as outlined in the introduction to this Destination. For TRLs 6-7, a credible strategy to achieve full-scale deployment in the EU is expected, indicating the commitments of the leading partners after the end of the project. International cooperation is encouraged with countries with which the EU has signed Strategic Partnerships on raw materials, especially with Ukraine. [1] Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B. [1] https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/raw-materials-diplomacy_en Technologies for innovative processing of raw materials (IA) Technologies for innovative processing of raw materials (IA)",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-2"
+      }
+    },
+    {
+      "canale": "Europa",
+      "ente": "Commissione europea (Funding & Tenders Portal)",
+      "titolo": "HORIZON-CL4-2027-01-MAT-PROD-08: Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-08",
+      "data_lettura": "2026-10-13",
+      "trovato_con": [
+        "lab-on-chip"
+      ],
+      "scadenza": {
+        "valore": "2027-02-02",
+        "stato": "confermato",
+        "citazione": "2027-02-02T00:00:00.000+0000",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non indicata nei campi dell'API: leggere la scheda del topic"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Estrazione del budget non ancora implementata"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il record non dichiara l'ammissibilità: leggere le condizioni del topic"
+      },
+      "testo_fonte": "Expected Outcome: Increased economically viable and functionally equivalent renewable material and sustainable chemical solutions used in large scale textile applications, including apparel, home and technical textiles; A realistic pathway for an absolute reduction of the use of virgin fossil-based materials and chemicals used to produce textile products for the EU market by 2035, contributing to enhance the preservation of human health, biodiversity and ecosystems, whether aquatic or terrestrial ecosystem preservation and emission reduction; Uptake of business models and system approaches that allow for the scale up of sustainable textile material and chemical alternatives as competitive alternatives to conventional approaches. Scope: Innovative renewable textile fibres and sustainable chemical solutions today face almost insurmountable cost disadvantages compared to extremely cost-competitive and industrially entrenched fibres and chemicals based on virgin fossil resources. To allow for the scale up of the use of innovative renewable materials and sustainable chemicals by the textile industry, improved processability of materials, suitable processing technology, deeper technical knowledge and smart phase-in approaches such as material blending or drop-in solutions are required. Specific emphasis must be placed on resulting final product quality, their durability and functionality to avoid negative user/consumer perception of products made with renewable materials and sustainable chemicals. As not all cost and quality challenges may be immediately overcome by technological innovation, accompanying business models and systems approaches are needed to enable equitable cost and risk sharing among all involved stakeholders in the textile value chain. Attributes such as recyclability, recycled material content, and resource efficiency as well as reduced carbon and environmental footprint are expected to be part of the textile-specific requirements under the Ecodesign for Sustainable Products Regulation. Proposals should specifically address: Innovative processing technologies to facilitate the efficient use of recycled, regenerated and bio-based fibres as well as sustainable processing and functionalising chemicals across all major stages of the textile manufacturing value chain, such as spinning, weaving, knitting, dyeing or finishing; Quantification of biodiversity outcomes associated to new processes by using existing Monitoring, Reporting and Validation (MRV) methodologies, adapting and testing them if needed; Characterisation, quality assurance and mitigation strategies for the most common processing and functionality challenges and limitations of the sustainable materials and chemicals targeted; Development of best practices and training materials targeted at designers, manufacturers, brands, end of life managers and end users, working with the targeted materials and chemicals; Strategies and tools to practically implement collective risk sharing and smart scaling approaches. Proposals should actively involve suppliers of renewable materials and sustainable chemicals, brands, commercial end users and developers/manufacturers of relevant processing technology and industrial partners with the capacity to commercially scale up production with the targeted materials and chemicals. The involvement of partners beyond the manufacturing supply chain, such as product designers, brands, commercial end users and end of life managers including collectors, sorters, recyclers and remanufacturers is particularly encouraged. Proposals should carry out research and innovation to develop missing elements and achieve the necessary integration, including economic viability. Hence, synergies with, or using results from, other projects may be appropriate. The mere integration of existing technologies or processes is outside the scope of this topic . Proposals should provide between 10% and 25% of the EU contribution through financial support to third parties (FSTP), in order to maximise the number of SMEs involved in small-scale innovation projects. FSTP funding can be provided only to SME participants, while the active participation of larger companies in such innovation projects in encouraged. The involvement of start-ups is also specifically encouraged. Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination. This topic implements the co-programmed European Partnership Textiles for the Future. Technology Readiness Level - Technology readiness level expected from completed projects Activities are expected to start at TRL 5 and achieve TRL 6-7 by the end of the project – see General Annex B. Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership) Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
