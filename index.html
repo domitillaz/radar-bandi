@@ -23,6 +23,7 @@ input,select,button{font:inherit;color:var(--ink);background:var(--surface);bord
 input[type=search]{flex:1;min-width:180px}
 button{cursor:pointer}button:hover{border-color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type=checkbox]{padding:0;border:0;vertical-align:middle}
 .sum{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 12px;color:var(--mute)}
 .sum b{color:var(--ink)}
 .tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
@@ -54,6 +55,7 @@ tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
 <input type="search" id="q" placeholder="Cerca per titolo o ente" aria-label="Cerca">
 <select id="fc" aria-label="Canale"><option value="">Tutti i canali</option><option>Europa</option><option>Nazionale</option><option>Regionale</option><option>Privati</option></select>
 <select id="fs" aria-label="Stato dati"><option value="">Tutti gli stati</option><option value="da_verificare">Con campi da verificare</option><option value="confermato">Solo confermati</option></select>
+<label class="e"><input type="checkbox" id="sx"> Mostra anche scaduti</label>
 <label class="e">Carica i file .json <input type="file" id="file" accept=".json" multiple></label>
 <button id="theme" type="button">Cambia tema</button>
 </div>
@@ -88,7 +90,7 @@ const lab={confermato:"confermato",da_verificare:"da verificare",non_presente:"n
 function cell(f,fmt){
  if(!f||f.stato==="non_presente")return `<span class="tag non_presente">non presente</span>`;
  const v=f.valore==null?"—":(fmt?fmt(f.valore):f.valore);
- return `${esc(v)}<br><span class="tag ${f.stato}">${lab[f.stato]}</span>`;
+ return `${esc(v)}<br><span class="tag ${f.stato}" title="${esc(f.motivo||"")}">${lab[f.stato]}</span>`;
 }
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function dl(v){const d=Math.ceil((new Date(v)-now)/day);return isNaN(d)?"":d<0?" (scaduto)":` (tra ${d} giorni)`}
@@ -96,28 +98,29 @@ function dfmt(v){const d=new Date(v);return isNaN(d)?esc(v):d.toLocaleDateString
 function flds(b){return [b.scadenza,b.ammissibilita]}
 function miss(b){return [["scadenza",b.scadenza],["ammissibilità",b.ammissibilita]].filter(([n,f])=>!f||f.stato!=="confermato").map(([n])=>n)}
 function dati(b){const m=miss(b);return m.length?`<span class="tag da_verificare">da verificare</span><br><span class="e">mancano o incerti: ${m.join(", ")}</span>`:`<span class="tag confermato">completi</span>`}
+function scad(b){const v=b.scadenza&&b.scadenza.valore;if(!v)return false;const d=new Date(v);return !isNaN(d)&&d<new Date(new Date().setHours(0,0,0,0))}
 function render(){
- const q=$("q").value.toLowerCase(),c=$("fc").value,s=$("fs").value;
- let r=DATA.filter(b=>(!q||(b.titolo+b.ente).toLowerCase().includes(q))&&(!c||b.canale===c)&&
+ const q=$("q").value.toLowerCase(),c=$("fc").value,s=$("fs").value,sx=$("sx").checked;
+ let r=DATA.filter(b=>(!q||(b.titolo+b.ente).toLowerCase().includes(q))&&(!c||b.canale===c)&&(sx||!scad(b))&&
   (!s||(s==="da_verificare"?flds(b).some(f=>f&&f.stato==="da_verificare"):flds(b).every(f=>!f||f.stato==="confermato"))));
  const key={rel:b=>-((b.rilevanza&&b.rilevanza.punteggio)||0),can:b=>b.canale,sca:b=>b.scadenza&&b.scadenza.valore?b.scadenza.valore:"9999"}[sortK];
  r.sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:0)*(asc?1:-1)});
- const nv=DATA.filter(b=>flds(b).some(f=>f&&f.stato==="da_verificare")).length;
- $("sum").innerHTML=`<span><b>${DATA.length}</b> bandi</span><span><b>${nv}</b> con campi da verificare</span><span><b>${r.length}</b> mostrati</span>`;
+ const nh=DATA.filter(scad).length;const nv=DATA.filter(b=>!scad(b)&&flds(b).some(f=>f&&f.stato==="da_verificare")).length;
+ $("sum").innerHTML=`<span><b>${DATA.length-(sx?0:nh)}</b> bandi</span><span><b>${nh}</b> scaduti ${sx?"inclusi":"nascosti"}</span><span><b>${nv}</b> con campi da verificare</span><span><b>${r.length}</b> mostrati</span>`;
  $("tb").innerHTML=r.length?r.map(b=>{
   const o=open.has(b.id);
-  return `<tr class="row" data-id="${b.id}" tabindex="0" aria-expanded="${o}"><td>${b.rilevanza&&b.rilevanza.punteggio!=null?`<span class="sc">${b.rilevanza.punteggio}</span>/10<br><span class="tag non_presente">${b.rilevanza.stato==='parole_chiave'?'parole chiave':'stima del modello'}</span>`:b.rilevanza?`<span class="tag da_verificare">da verificare</span>`:`<span class="e">da valutare</span>`}</td>
+  return `<tr class="row" data-id="${b.id}" tabindex="0" aria-expanded="${o}"><td>${b.rilevanza&&b.rilevanza.punteggio!=null?`<span class="sc">${b.rilevanza.punteggio}</span>/10<br><span class="tag non_presente">${({parole_chiave:'parole chiave',programma_noto:'programma noto'})[b.rilevanza.stato]||'stima del modello'}</span>`:b.rilevanza?`<span class="tag da_verificare">da verificare</span>`:`<span class="e">da valutare</span>`}</td>
   <td><div class="t">${esc(b.titolo)}</div><div class="e">${esc(b.ente)}</div></td><td>${esc(b.canale)}</td>
   <td>${cell(b.scadenza,dfmt)}</td><td>${cell(b.ammissibilita)}</td><td>${dati(b)}</td></tr>`+
   (o?`<tr class="det"><td colspan="6"><dl>
   <dt>Rilevanza</dt><dd>${b.rilevanza?esc(b.rilevanza.motivazione)+(b.rilevanza.evidenze||[]).map(x=>'<br><q>'+esc(x)+'</q>').join(''):'non ancora valutata'}</dd>${b.rilevanza&&b.rilevanza.destinatari&&b.rilevanza.destinatari.valore!=='non_indicato'?`<dt>Destinatari</dt><dd>${esc(b.rilevanza.destinatari.valore.replace('_',' '))}${b.rilevanza.destinatari.citazione?': <q>'+esc(b.rilevanza.destinatari.citazione)+'</q>':''}</dd>`:''}
-  ${[["Scadenza",b.scadenza],["Ammissibilità",b.ammissibilita]].map(([n,f])=>`<dt>${n}</dt><dd>${f&&f.citazione?`<q>${esc(f.citazione)}</q>`:f&&f.motivo?esc(f.motivo):"nessuna citazione disponibile"}</dd>`).join("")}
+  ${[["Scadenza",b.scadenza],["Ammissibilità",b.ammissibilita]].map(([n,f])=>`<dt>${n}</dt><dd>${f&&f.citazione?`<q>${esc(f.citazione)}</q>`+(f.motivo?` <span class="e">${esc(f.motivo)}</span>`:""):f&&f.motivo?esc(f.motivo):"nessuna citazione disponibile"}</dd>`).join("")}
   ${b.trovato_con?`<dt>Trovato con</dt><dd>${esc(b.trovato_con.join(", "))}</dd>`:""}<dt>Fonte</dt><dd>${b.url&&b.url!=="#"?`<a href="${esc(b.url)}" rel="noopener">${esc(b.url)}</a>`:"link non disponibile nei dati di esempio"}</dd></dl></td></tr>`:"");
  }).join(""):`<tr><td colspan="6" class="empty">Nessun bando corrisponde ai filtri. Cancella la ricerca o scegli un altro canale.</td></tr>`;
 }
 $("tb").addEventListener("click",e=>{const t=e.target.closest("tr.row");if(!t||e.target.closest("a"))return;const i=+t.dataset.id;open.has(i)?open.delete(i):open.add(i);render()});
 $("tb").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){const t=e.target.closest("tr.row");if(t){e.preventDefault();t.click()}}});
-["q","fc","fs"].forEach(i=>$(i).addEventListener("input",render));
+["q","fc","fs","sx"].forEach(i=>$(i).addEventListener("input",render));
 document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.k;asc=sortK===k?!asc:true;sortK=k;render()}));
 $("theme").addEventListener("click",()=>{const d=document.documentElement,dark=getComputedStyle(d).getPropertyValue("--bg").trim()==="#0e1a1f";d.dataset.theme=dark?"light":"dark"});
 $("file").addEventListener("change",async e=>{
