@@ -55,6 +55,7 @@ tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
 <input type="search" id="q" placeholder="Cerca per titolo o ente" aria-label="Cerca">
 <select id="fc" aria-label="Canale"><option value="">Tutti i canali</option><option>Europa</option><option>Nazionale</option><option>Regionale</option><option>Privati</option></select>
 <select id="fs" aria-label="Stato dati"><option value="">Tutti gli stati</option><option value="da_verificare">Con campi da verificare</option><option value="confermato">Solo confermati</option></select>
+<select id="fm" aria-label="Ambito"><option value="">Tutti gli ambiti</option><option value="salute">Salute</option><option value="altri">Altri ambiti (non salute)</option><option value="agrifood">Agrifood e agricoltura</option><option value="ambiente_acqua">Ambiente, acqua e clima</option><option value="patrimonio_culturale">Patrimonio culturale</option><option value="edilizia_infrastrutture">Edilizia e infrastrutture</option><option value="energia_mobilita">Energia e mobilità</option><option value="industria_elettronica">Industria, elettronica e spazio</option></select>
 <select id="fa" aria-label="Apertura"><option value="">Aperti e in arrivo</option><option value="aperto">Solo aperti ora</option><option value="in arrivo">Solo in arrivo</option></select>
 <label class="e"><input type="checkbox" id="sx"> Mostra anche scaduti</label>
 <label class="e">Carica i file .json <input type="file" id="file" accept=".json" multiple></label>
@@ -93,6 +94,8 @@ function cell(f,fmt){
  const v=f.valore==null?"—":(fmt?fmt(f.valore):f.valore);
  return `${esc(v)}<br><span class="tag ${f.stato}" title="${esc(f.motivo||"")}">${lab[f.stato]}</span>`;
 }
+const NAMB={salute:"salute",agrifood:"agrifood",ambiente_acqua:"ambiente e acqua",patrimonio_culturale:"patrimonio culturale",edilizia_infrastrutture:"edilizia",energia_mobilita:"energia e mobilità",industria_elettronica:"industria ed elettronica"};
+function amb(b){return (b.rilevanza&&b.rilevanza.ambiti)||[]}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function dl(v){const d=Math.ceil((new Date(v)-now)/day);return isNaN(d)?"":d<0?" (scaduto)":` (tra ${d} giorni)`}
 function dfmt(v){const d=new Date(v);return isNaN(d)?esc(v):d.toLocaleDateString("it-IT",{day:"numeric",month:"short",year:"numeric"})+dl(v)}
@@ -102,7 +105,7 @@ function dati(b){const m=miss(b);return m.length?`<span class="tag da_verificare
 function scad(b){const v=b.scadenza&&b.scadenza.valore;if(!v)return false;const d=new Date(v);return !isNaN(d)&&d<new Date(new Date().setHours(0,0,0,0))}
 function render(){
  const q=$("q").value.toLowerCase(),c=$("fc").value,s=$("fs").value,sx=$("sx").checked;
- let r=DATA.filter(b=>(!q||(b.titolo+b.ente).toLowerCase().includes(q))&&(!c||b.canale===c)&&(!$("fa").value||b.apertura===$("fa").value)&&(sx||!scad(b))&&
+ let r=DATA.filter(b=>(!q||(b.titolo+b.ente).toLowerCase().includes(q))&&(!c||b.canale===c)&&(!$("fa").value||b.apertura===$("fa").value)&&(!$("fm").value||($("fm").value==="altri"?amb(b).some(x=>x!=="salute"):amb(b).includes($("fm").value)))&&(sx||!scad(b))&&
   (!s||(s==="da_verificare"?flds(b).some(f=>f&&f.stato==="da_verificare"):flds(b).every(f=>!f||f.stato==="confermato"))));
  const key={rel:b=>-((b.rilevanza&&b.rilevanza.punteggio)||0),can:b=>b.canale,sca:b=>b.scadenza&&b.scadenza.valore?b.scadenza.valore:"9999"}[sortK];
  r.sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:0)*(asc?1:-1)});
@@ -111,7 +114,7 @@ function render(){
  $("tb").innerHTML=r.length?r.map(b=>{
   const o=open.has(b.id);
   return `<tr class="row" data-id="${b.id}" tabindex="0" aria-expanded="${o}"><td>${b.rilevanza&&b.rilevanza.punteggio!=null?`<span class="sc">${b.rilevanza.punteggio}</span>/10<br><span class="tag non_presente">${({parole_chiave:'parole chiave',programma_noto:'programma noto'})[b.rilevanza.stato]||'stima del modello'}</span>`:b.rilevanza?`<span class="tag da_verificare">da verificare</span>`:`<span class="e">da valutare</span>`}</td>
-  <td><div class="t">${esc(b.titolo)}</div>${b.apertura?`<span class="tag ${b.apertura==='aperto'?'confermato':'da_verificare'}" title="Dedotto dal filtro di stato del portale europeo">${b.apertura}</span> `:""}<div class="e">${esc(b.ente)}</div></td><td>${esc(b.canale)}</td>
+  <td><div class="t">${esc(b.titolo)}</div>${b.apertura?`<span class="tag ${b.apertura==='aperto'?'confermato':'da_verificare'}" title="Dedotto dal filtro di stato del portale europeo">${b.apertura}</span> `:""}<div class="e">${esc(b.ente)}${amb(b).length?" · "+amb(b).map(x=>NAMB[x]||x).join(", "):""}</div></td><td>${esc(b.canale)}</td>
   <td>${cell(b.scadenza,dfmt)}</td><td>${cell(b.ammissibilita)}</td><td>${dati(b)}</td></tr>`+
   (o?`<tr class="det"><td colspan="6"><dl>
   <dt>Rilevanza</dt><dd>${b.rilevanza?esc(b.rilevanza.motivazione)+(b.rilevanza.evidenze||[]).map(x=>'<br><q>'+esc(x)+'</q>').join(''):'non ancora valutata'}</dd>${b.rilevanza&&b.rilevanza.destinatari&&b.rilevanza.destinatari.valore!=='non_indicato'?`<dt>Destinatari</dt><dd>${esc(b.rilevanza.destinatari.valore.replace('_',' '))}${b.rilevanza.destinatari.citazione?': <q>'+esc(b.rilevanza.destinatari.citazione)+'</q>':''}</dd>`:''}
@@ -121,7 +124,7 @@ function render(){
 }
 $("tb").addEventListener("click",e=>{const t=e.target.closest("tr.row");if(!t||e.target.closest("a"))return;const i=+t.dataset.id;open.has(i)?open.delete(i):open.add(i);render()});
 $("tb").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){const t=e.target.closest("tr.row");if(t){e.preventDefault();t.click()}}});
-["q","fc","fs","fa","sx"].forEach(i=>$(i).addEventListener("input",render));
+["q","fc","fs","fa","fm","sx"].forEach(i=>$(i).addEventListener("input",render));
 document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.k;asc=sortK===k?!asc:true;sortK=k;render()}));
 $("theme").addEventListener("click",()=>{const d=document.documentElement,dark=getComputedStyle(d).getPropertyValue("--bg").trim()==="#0e1a1f";d.dataset.theme=dark?"light":"dark"});
 $("file").addEventListener("change",async e=>{
