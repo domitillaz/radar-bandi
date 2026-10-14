@@ -69,8 +69,8 @@ def dettagli(url):
     return " ".join(t.split())
 
 
-def cerca(parola, pagina=1):
-    query = {"bool": {"must": [{"terms": {"type": ["1"]}}, {"terms": {"status": STATI}}]}}
+def cerca(parola, pagina=1, stati=STATI):
+    query = {"bool": {"must": [{"terms": {"type": ["1"]}}, {"terms": {"status": stati}}]}}
     r = requests.post(
         API, params={"apiKey": "SEDIA", "text": parola, "pageSize": 50, "pageNumber": pagina},
         files={"query": (None, json.dumps(query), "application/json"),
@@ -118,13 +118,15 @@ def durata(r):
 
 def main(debug=False):
     trovati, errori, campi = {}, [], None
-    for parola in PAROLE:
+    # Una ricerca per stato: così sappiamo se il topic è già aperto o in arrivo (dedotto dal filtro del portale)
+    ricerche = [(p, sid, et) for p in PAROLE for sid, et in (("31094502", "aperto"), ("31094501", "in arrivo"))]
+    for parola, sid, etichetta in ricerche:
         try:
-            dati = cerca(parola)
+            dati = cerca(parola, stati=[sid])
         except (requests.RequestException, ValueError) as e:
-            errori.append(f"ricerca '{parola}' non riuscita: {type(e).__name__}")
+            errori.append(f"ricerca '{parola}' ({etichetta}) non riuscita: {type(e).__name__}")
             continue
-        if debug and parola == PAROLE[0]:
+        if debug and parola == PAROLE[0] and etichetta == "aperto":
             print(json.dumps((dati.get("results") or [])[:1], indent=2, ensure_ascii=False)[:3000])
         if campi is None and dati.get("results"):  # nomi e valori di esempio dei campi, per migliorare il parser
             r0 = dati["results"][0]
@@ -134,8 +136,11 @@ def main(debug=False):
             ident = (meta(r, "identifier") or [r.get("reference")])[0]
             if not ident:
                 continue
-            voce = trovati.setdefault(ident, {"r": r, "parole": []})
-            voce["parole"].append(parola)
+            voce = trovati.setdefault(ident, {"r": r, "parole": [], "apertura": etichetta})
+            if etichetta == "aperto":
+                voce["apertura"] = "aperto"
+            if parola not in voce["parole"]:
+                voce["parole"].append(parola)
         time.sleep(1)
     if campi:
         with open("campi_api.json", "w", encoding="utf-8") as f:
@@ -169,6 +174,7 @@ def main(debug=False):
             "canale": "Europa", "ente": "Commissione europea (Funding & Tenders Portal)",
             "titolo": f"{ident}: {titolo}", "url": TOPIC_URL + str(ident).lower(), "data_lettura": oggi,
             "trovato_con": v["parole"],
+            "apertura": v["apertura"],  # "aperto" o "in arrivo", dedotto dal filtro di stato del portale
             "scadenza": scad,
             "durata": durata(r),
             # Da implementare: budgetOverview ha una struttura annidata da verificare
