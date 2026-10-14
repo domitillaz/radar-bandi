@@ -42,7 +42,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -86,7 +87,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -130,7 +132,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -174,7 +177,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -218,7 +222,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -262,7 +267,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -306,7 +312,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -350,7 +357,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -394,7 +402,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -438,7 +447,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -482,7 +492,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute",
+          "agrifood",
+          "ambiente_acqua",
+          "energia_mobilita",
+          "industria_elettronica"
+        ]
       }
     },
     {
@@ -519,22 +536,28 @@
       "rilevanza": {
         "punteggio": 7,
         "stato": "parole_chiave",
-        "motivazione": "Trovati termini dei temi: sensoristica, ml_dati_biomedici, tecnologie_emergenti_biomedicali. Corrispondenza lessicale, non un giudizio sul contenuto.",
+        "motivazione": "Trovati termini dei temi: sensoristica, ml_dati_biomedici, ia_ricerca, imaging, tecnologie_emergenti_biomedicali. Corrispondenza lessicale, non un giudizio sul contenuto.",
         "temi": [
           "sensoristica",
           "ml_dati_biomedici",
+          "ia_ricerca",
+          "imaging",
           "tecnologie_emergenti_biomedicali"
         ],
         "evidenze": [
           "rio e tecnologie per la ricerca. Digital health, health IT, intelligenza artificiale, app mediche e telemedicina. Fisioterapia, riabilitazione e",
-          "tartup , oltre alla MEDICA Medicine + Sports Conference, al Wearable Technologies Show e alla contemporanea COMPAMED, dedicata a",
-          "nologie medicali, alla diagnostica, alla digital health, ai dispositivi medici e alle soluzioni innovative per la sanità. La partecipazion"
+          "rio e tecnologie per la ricerca. Digital health, health IT, intelligenza artificiale, app mediche e telemedicina. Fisioterapia, riabilitazione e",
+          "ta alle PMI e startup del Lazio attive nei seguenti ambiti: Imaging, diagnostica e grandi apparecchiature medicali. Dispositivi"
         ],
         "destinatari": {
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute",
+          "industria_elettronica"
+        ]
       }
     },
     {
@@ -578,7 +601,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -611,7 +635,7 @@
         "citazione": "Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a.",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Voucher Digitalizzazione Pmi 2026 Aperto FESR Documentazione Determinazione n. G12616 del 18 settembre 2026 - Approvazione Avviso Pubblico e Modulistica Avviso Pubblico Modulistica e Istruzioni Uso di GeCoWEB Plus e Documenti di Rendicontazione Griglia Punteggi 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 2 – Permettere ai cittadini, alle imprese, alle organizzazioni della ricerca e alle autorità pubbliche di cogliere i vantaggi della digitalizzazione Finalità La Regione Lazio, attraverso l’Avviso, sostiene i progetti delle PMI del Lazio volti ad adottare alcune soluzioni digitali diffuse e trasversali, idonee ad aumentarne l’efficienza e la competitività. Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a. alla Data della Domanda e fino alla Data di Concessione rispettano i requisiti dimensionali di PMI . b. sono iscritte al Registro delle Imprese Italiano . c. possiedono una Sede Operativa nel territorio della regione Lazio , come risultante al Registro delle Imprese Italiano, e svolgono in tale Sede Operativa un’attività economica, oggetto dell’agevolazione, che non rientra nelle Attività Escluse. Tale requisito può essere acquisito entro e non oltre la data della Richiesta di Erogazione, a condizione che l’apertura della Sede Operativa nel Lazio e l’avvio dell’attività economica sia descritta, giustificata e documentata già in sede di Domanda in modo idoneo a consentirne la verifica. Non sono ammissibili le PMI che hanno ottenuto un contributo a valere sui Precedenti Avvisi Voucher Digitalizzazione PMI, a meno che alla Data della Domanda non risulti già presentata la relativa richiesta di erogazione e fermo restando che non possono essere agevolati Interventi rientranti nella medesima Tipologia di quelli già oggetto di precedente contributo. I Beneficiari devono inoltre possedere i requisiti generali di ammissibilità riportati nell’Appendice 2 all’Avviso. Progetti e Contributi I Progetti ammissibili sono composti da alcuni interventi predefiniti a cui sono associate delle somme forfettarie di cui al comma 3, lettera c, dell’art. 53 del Reg. (UE) 2021/1060, definita in applicazione della metodologia adottata dall’Autorità di Gestione. Il contributo, comprensivo dei costi diretti del personale calcolati ai sensi del comma 1 dell’art. 55 del medesimo Regolamento (tasso forfettario del 20%), è determinato nella misura indicata nella seguente tabella e in funzione dei parametri ivi specificati. A. Per la Diagnosi Digitale: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 8.162,40 euro 21.427,20 euro B. Per l’acquisto di nuove applicazioni integrate per la produttività individual e (Digital Workplace), nel limite massimo di una Digital Workplace per ogni addetto, come risultante dalla “Attestazione della denuncia contributiva” emessa dall’INPS: Indipendentemente dalla dimensione dell’Impresa 2.270,40 euro cadauna C. Per l’adozione di nuovi sistemi di Digital Commerce & Engagement , in funzione della dimensione della PMI Beneficiaria, come di seguito indicato: Micro Impresa Piccola Impresa Media Impresa 4.954,80 euro 8.125,20 euro 15.873,60 euro D. Per la migrazione dell’infrastruttura esecutiva di applicazioni aziendali e relativi dati in cloud pubblico (Cloud Computing), per ciascuna tipologia di virtual machine oggetto della migrazione (anche più di una per ciascuna PMI e Domanda ma non più di una per ciascuna delle quattro tipologie); Virtual machine Indipendentemente dalla dimensione dell’Impresa D.1 Application server 17.683,20 euro D.2 Database server 27.656,40 euro D.3 Web server 14.076,00 euro D.4 Database back up 5.593,20 euro E. Per l’adozione di nuovi sistemi di Cyber Security: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 14.656,80 euro 44.917,20 euro I Progetti presentati dalle Micro Imprese non possono includere Interventi rientranti nelle tipologie di cui alle lettere A ed E. I Progetti presentati dalle Piccole e dalle Medie Imprese devono includere obbligatoriamente l’Intervento di cui alla lettera A. Non sono ammissibili Progetti che includono solo l’Intervento di cui alla lettera A (Diagnosi Digitale). Non sono ammissibili Progetti a cui è concedibile un contributo inferiore a 14.000,00 euro. Il contributo massimo concedibile è di 50.000,00 euro per le Micro Imprese, 100.000,00 euro per le Piccole Imprese e 150.000,00 euro per le Medie Imprese. Non sono ammissibili interventi riguardanti tipologie già oggetto di contributi concessi a valere sui prevedenti Avvisi Voucher Digitalizzazione PMI. Modalità di erogazione Il contributo è erogato a saldo previa presentazione di apposita richiesta prodotta da GeCoWEB Plus e, da presentarsi entro 6 mesi dalla concessione del contributo e dopo aver caricato sulla piattaforma: per le Piccole Imprese e per le Medie Imprese: la Diagnosi Digitale completa della sezione ex post redatta dal medesimo Innovation Manager indipendente che ha redatto le Diagnosi Digitale ex ante; per le Micro Imprese: la Relazione sulla Digitalizzazione e completa della sezione ex post sottoscritta dal fornitore per attestare la conformità delle caratteristiche specifiche dei prodotti, soluzioni e servizi dallo stesso forniti, configurati e istallati. In caso di più fornitori la Relazione sulla Digitalizzazione deve essere sottoscritta da colui che ha fornito i servizi di progettazione e configurazione, nonché di verifica del corretto funzionamento dei beni e servizi acquisiti che deve essere unico per tutti gli Interventi previsti dal Progetto. Presentazione delle domande Le Domande di contributo devono essere presentate esclusivamente on line mediante la piattaforma GeCoWEB Plus . Il Formulario è disponibile on line a partire dalle ore 12:00 del 25 settembre 2026 . L’invio delle Domande deve avvenire a partire dalle ore 12:00 del 30 settembre 2026 ed entro le ore 17:00 del 29 ottobre 2026 . OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui .",
+      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Voucher Digitalizzazione Pmi 2026 Aperto FESR Documentazione Determinazione n. G12616 del 18 settembre 2026 - Approvazione Avviso Pubblico e Modulistica Avviso Pubblico Modulistica e Istruzioni Uso di GeCoWEB Plus e Documenti di Rendicontazione Griglia Punteggi Modello 1 Diagnosi Digitale Modello 2 Relazione Digitalizzazione 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 2 – Permettere ai cittadini, alle imprese, alle organizzazioni della ricerca e alle autorità pubbliche di cogliere i vantaggi della digitalizzazione Finalità La Regione Lazio, attraverso l’Avviso, sostiene i progetti delle PMI del Lazio volti ad adottare alcune soluzioni digitali diffuse e trasversali, idonee ad aumentarne l’efficienza e la competitività. Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a. alla Data della Domanda e fino alla Data di Concessione rispettano i requisiti dimensionali di PMI . b. sono iscritte al Registro delle Imprese Italiano . c. possiedono una Sede Operativa nel territorio della regione Lazio , come risultante al Registro delle Imprese Italiano, e svolgono in tale Sede Operativa un’attività economica, oggetto dell’agevolazione, che non rientra nelle Attività Escluse. Tale requisito può essere acquisito entro e non oltre la data della Richiesta di Erogazione, a condizione che l’apertura della Sede Operativa nel Lazio e l’avvio dell’attività economica sia descritta, giustificata e documentata già in sede di Domanda in modo idoneo a consentirne la verifica. Non sono ammissibili le PMI che hanno ottenuto un contributo a valere sui Precedenti Avvisi Voucher Digitalizzazione PMI, a meno che alla Data della Domanda non risulti già presentata la relativa richiesta di erogazione e fermo restando che non possono essere agevolati Interventi rientranti nella medesima Tipologia di quelli già oggetto di precedente contributo. I Beneficiari devono inoltre possedere i requisiti generali di ammissibilità riportati nell’Appendice 2 all’Avviso. Progetti e Contributi I Progetti ammissibili sono composti da alcuni interventi predefiniti a cui sono associate delle somme forfettarie di cui al comma 3, lettera c, dell’art. 53 del Reg. (UE) 2021/1060, definita in applicazione della metodologia adottata dall’Autorità di Gestione. Il contributo, comprensivo dei costi diretti del personale calcolati ai sensi del comma 1 dell’art. 55 del medesimo Regolamento (tasso forfettario del 20%), è determinato nella misura indicata nella seguente tabella e in funzione dei parametri ivi specificati. A. Per la Diagnosi Digitale: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 8.162,40 euro 21.427,20 euro B. Per l’acquisto di nuove applicazioni integrate per la produttività individual e (Digital Workplace), nel limite massimo di una Digital Workplace per ogni addetto, come risultante dalla “Attestazione della denuncia contributiva” emessa dall’INPS: Indipendentemente dalla dimensione dell’Impresa 2.270,40 euro cadauna C. Per l’adozione di nuovi sistemi di Digital Commerce & Engagement , in funzione della dimensione della PMI Beneficiaria, come di seguito indicato: Micro Impresa Piccola Impresa Media Impresa 4.954,80 euro 8.125,20 euro 15.873,60 euro D. Per la migrazione dell’infrastruttura esecutiva di applicazioni aziendali e relativi dati in cloud pubblico (Cloud Computing), per ciascuna tipologia di virtual machine oggetto della migrazione (anche più di una per ciascuna PMI e Domanda ma non più di una per ciascuna delle quattro tipologie); Virtual machine Indipendentemente dalla dimensione dell’Impresa D.1 Application server 17.683,20 euro D.2 Database server 27.656,40 euro D.3 Web server 14.076,00 euro D.4 Database back up 5.593,20 euro E. Per l’adozione di nuovi sistemi di Cyber Security: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 14.656,80 euro 44.917,20 euro I Progetti presentati dalle Micro Imprese non possono includere Interventi rientranti nelle tipologie di cui alle lettere A ed E. I Progetti presentati dalle Piccole e dalle Medie Imprese devono includere obbligatoriamente l’Intervento di cui alla lettera A. Non sono ammissibili Progetti che includono solo l’Intervento di cui alla lettera A (Diagnosi Digitale). Non sono ammissibili Progetti a cui è concedibile un contributo inferiore a 14.000,00 euro. Il contributo massimo concedibile è di 50.000,00 euro per le Micro Imprese, 100.000,00 euro per le Piccole Imprese e 150.000,00 euro per le Medie Imprese. Non sono ammissibili interventi riguardanti tipologie già oggetto di contributi concessi a valere sui prevedenti Avvisi Voucher Digitalizzazione PMI. Modalità di erogazione Il contributo è erogato a saldo previa presentazione di apposita richiesta prodotta da GeCoWEB Plus e, da presentarsi entro 6 mesi dalla concessione del contributo e dopo aver caricato sulla piattaforma: per le Piccole Imprese e per le Medie Imprese: la Diagnosi Digitale completa della sezione ex post redatta dal medesimo Innovation Manager indipendente che ha redatto le Diagnosi Digitale ex ante; per le Micro Imprese: la Relazione sulla Digitalizzazione e completa della sezione ex post sottoscritta dal fornitore per attestare la conformità delle caratteristiche specifiche dei prodotti, soluzioni e servizi dallo stesso forniti, configurati e istallati. In caso di più fornitori la Relazione sulla Digitalizzazione deve essere sottoscritta da colui che ha fornito i servizi di progettazione e configurazione, nonché di verifica del corretto funzionamento dei beni e servizi acquisiti che deve essere unico per tutti gli Interventi previsti dal Progetto. Presentazione delle domande Le Domande di contributo devono essere presentate esclusivamente on line mediante la piattaforma GeCoWEB Plus . Il Formulario è disponibile on line a partire dalle ore 12:00 del 25 settembre 2026 . L’invio delle Domande deve avvenire a partire dalle ore 12:00 del 30 settembre 2026 ed entro le ore 17:00 del 29 ottobre 2026 . OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui .",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -622,7 +646,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     },
     {
@@ -666,7 +693,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -710,7 +738,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "agrifood"
+        ]
       }
     },
     {
@@ -754,7 +785,145 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget",
+      "url": "https://www.lazioeuropa.it/bandi/lazio-next-generation-sostegno-a-opere-cinematografiche-e-audiovisive-low-budget/",
+      "data_lettura": "2026-10-14",
+      "scadenza": {
+        "valore": "2026-11-04",
+        "stato": "confermato",
+        "citazione": "12:00 del 15 ottobre alle ore 17:00 del 4 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "€ 3.000.000,00.",
+        "stato": "da_verificare",
+        "citazione": " Indipendente come definito all’articolo 3 dell’Avviso. Dotazione finanziaria : € 3.000.000,00.",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "Beneficiari : PMI e produttori indipendenti, anche non rientranti nella definizione di PMI, titolari dei diritti di sfruttamento dell’opera almeno per il territorio italiano e in possesso della qualifica di Produttore Indipendente come defi",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget Prossima Apertura Bandi Regionali Finalità : la Regione Lazio intende sostenere la realizzazione di opere cinematografiche e audiovisive low budget, allo scopo di promuovere i nuovi talenti e le giovani imprese di produzione, di rafforzare la crescita delle opere inedite e della filiera audiovisiva regionale e di valorizzare il patrimonio culturale e territoriale del Lazio, favorendo lo sviluppo dell’occupazione e dell’indotto del settore. Beneficiari : PMI e produttori indipendenti, anche non rientranti nella definizione di PMI, titolari dei diritti di sfruttamento dell’opera almeno per il territorio italiano e in possesso della qualifica di Produttore Indipendente come definito all’articolo 3 dell’Avviso. Dotazione finanziaria : € 3.000.000,00. Modalità di presentazione delle domande : Le richieste di contributo devono essere presentate esclusivamente a mezzo PEC all’indirizzo cinemaaudiovisivo@pec.regione.lazio.it . Termini per la presentazione delle domande : a partire dalle ore 12:00 del 15 ottobre 2026 e fino alle ore 17:00 del 4 novembre 2026, seguendo la procedura indicata nell’Avviso. Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Smart Map. bando per i piccoli Comuni",
+      "url": "https://www.lazioeuropa.it/bandi/smart-map-bando-per-i-piccoli-comuni/",
+      "data_lettura": "2026-10-14",
+      "scadenza": {
+        "valore": "2026-11-09",
+        "stato": "confermato",
+        "citazione": " domande via PEC entro le ore 16:00 del 9 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "Governance Smart Map, bando per i piccoli Comuni Aperto Bandi Regionali È online sul Bollettino ufficiale della Regione Lazio il bando promosso dall’assessorato al Personale, alla Sicurezza urbana, alla Polizia locale, agli Enti locali e all’Università “Smart Map”, di concerto con l’assessorato all’Urbanistica, che stanzia 450mila euro ai Comuni e agli Enti locali del Lazio nell’ambito del Piano Triennale per la Riqualificazione dei Piccoli Comuni 2025-2027. La misura mira a incentivare e supportare la digitalizzazione della strumentazione urbanistica e territoriale dei piccoli Comuni della Regione, garantendo omogeneità nella gestione degli strumenti di pianificazione urbanistica. L’obiettivo finale della Regione Lazio è la realizzazione del “Mosaico PRG”, un’infrastruttura informativa regionale in grado di restituire un quadro conoscitivo omogeneo, interoperabile e uniforme dello stato di pianificazione del territorio. Possono accedere ai contributi previsti dalla misura i piccoli Comuni con popolazione residente fino a 5.000 abitanti. Gli interventi ammissibili sono divisi in quattro ambiti: digitalizzazione georeferenziata degli strumenti di pianificazione, trasformazione dei Piani in formato digitale georeferenziato, erogazione di corsi di formazione per l’uso dei sistemi GIS, acquisto di strumentazione ICT. La misura del contributo è prevista nel limite massimo di: • euro 15.000,00 per progetti di digitalizzazione georeferenziata dei propri strumenti di pianificazione (a); • euro 10.000,00 per trasformazione degli strumenti di pianificazione disponibili in formato digitale georeferenziato (b); • euro 3.000,00 per erogazione di corsi di formazione per l’uso del GIS (c); • euro 5.000,00 per acquisto della strumentazione ITC per la realizzazione di strumenti di pianificazione digitale georeferenziati (d) La richiesta contributo dovrà essere redatta secondo il modello di cui all’Allegato A in lingua italiana e presentata per via telematica al seguente indirizzo pec: territorio@pec.regione.lazio.it . La richiesta deve essere compilata dal sindaco/rappresentante legale del soggetto richiedente o suo delegato e sottoscritta dal sindaco/rappresentante legale del richiedente. A pena di inammissibilità, le domande dovranno essere presentate entro le ore 16:00 del 9 novembre 2026 . Contatti Qualsiasi informazione relativa al be agli adempimenti ad esso connessi può essere richiesta ai seguenti indirizzi di posta elettronica a partire dal giorno di apertura del bando: segreteriatumr@regione.lazio.it bpianese@regione.lazio.it Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "edilizia_infrastrutture"
+        ]
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
+      "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
+      "data_lettura": "2026-10-14",
+      "scadenza": {
+        "valore": "2026-11-13",
+        "stato": "confermato",
+        "citazione": "12.00 del 16 ottobre alle ore 12.00 del 13 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26) Prossima Apertura Bandi Regionali Con Determinazione n. G13947 del 13 ottobre 2026 è stato approvato l’avviso pubblico “Contributi alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie primarie e secondarie di primo e secondo grado per le spese sostenute relative al sostegno scolastico – nell’a.s.2025/26. Legge Regionale n. 22 del 30 dicembre 2024 e s.m.i. art. 13 commi 70 – 73”. Attraverso l’Avviso, la Regione intende concedere alle famiglie degli alunni e degli studenti con disabilità che frequentano, rispettivamente, le scuole paritarie primarie e secondarie di primo e secondo grado , con reddito ISEE annuo (2026) non superiore a euro 40.000,00 , un contributo per le spese effettivamente sostenut e dalla famiglia ovvero dall’Istituzione scolastica paritaria che abbia anticipato il relativo costo del sostegno (L.R. n. 22/2024 e s.m.i.- art. 13 co 71) nell’ anno scolastico 2025/26 . Le domande potranno essere presentate sulla apposita piattaforma esclusivamente tramite la procedura online, sul sito della Regione Lazio a questo indirizzo , dalle ore 12.00 del 16 ottobre 2026 fino alle ore 12.00 del 13 novembre 2026. L’accesso alla piattaforma avverrà tramite SPID (ovvero CIE ovvero CNS). I soggetti non ancora registrati sulla piattaforma di cui sopra che dovranno prima accedere alla sezione https://portalebandiavvisi.regione.lazio.it/ per la registrazione e completare il “ Profilo personale ” e solo successivamente potranno accedere al link per la compilazione della domanda. Al momento dell’invio della domanda i candidati riceveranno, via e-mail, una conferma della presentazione della domanda, contenente anche il numero di protocollo che sarà considerato come codice identificativo della stessa . Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -789,16 +958,21 @@
       },
       "testo_fonte": "Bandi e Finanziamenti / Fiere e Iniziative Internazionali / Network / 7 Ottobre 2026 Selezione di 3 Startup/PMI del Lazio operanti nel settore Football Industry. PROROGA candidature lunedì 19 ottobre 2026 ore 10.00 La Camera di Commercio di Roma, con il supporto dell’ Azienda Speciale Sviluppo e Territorio , e in collaborazione con la Regione Lazio, per il tramite del soggetto attuatore Lazio Innova, nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche, finalizzata a sostenere il tessuto economico regionale, selezionano 3 Startup e PMI del Lazio che operano nel settore della Football Industry interessate a prendere parte a Social Football Summit, che si svolgerà dal 10 all’11 novembre 2026 presso l’ Allianz Stadium di Torino . La partecipazione delle 3 imprese è sostenuta dalla Camera di Commercio di Roma . Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. Il Social Football Summit , è il primo e unico evento internazionale B2B in Italia dedicato all’industria calcistica. Fondato nel 2018, ha l’obiettivo di offrire una piattaforma innovativa per la condivisione di contenuti, il networking e la formazione per manager, professionisti e aziende per costruire un ecosistema dinamico e innovativo con l’obiettivo di realizzare occasioni di incontro tra personaggi autorevoli e figure chiave della Football Industry, favorendo la condivisione di know-how, best practice, idee e opportunità di collaborazione e di business. Negli anni è diventato un luogo privilegiato di confronto sui temi chiave dell’industria calcistica: Innovazione, Sostenibilità, Comunicazione, Infrastrutture e Fan Engagement con il contributo di relatori e istituzioni di primo piano. Durante le due giornate di lavori, oltre 150 speaker internazionali – tra rappresentanti di FIFA, UEFA, FIGC, Lega Serie A, club europei, calciatori, allenatori, dirigenti e innovatori d’impresa – si alterneranno tra panel, workshop e incontri di networking. SFS26 rappresenta per le imprese un’importante occasione per promuovere prodotti e servizi agli stakeholders italiani ed internazionali che saranno presenti all’evento. Tra i momenti più attesi dell’edizione 2026: la startup competition internazionale “SFS-Extratime” dedicata ai giovani innovatori; la cerimonia di premiazione gli “SFS Awards”, volta a premiare le eccellenze dell’industria calcistica; il nuovo format “SFS Women’s Sport”, dedicata alla leadership femminile nella Football Industry. Ambiti a cui si rivolge la Call Camera di Commercio di Roma e Regione Lazio selezionano Startup e PMI del Lazio che operano nel settore Football Industry, che presentino soluzioni all’avanguardia nei seguenti ambiti: Innovation & Technology; OTT & Broadcast; Responsibility, Security & Sustainability; Training on the Job; Metaverso, NFT e asset digitali innovativi applicato al calcio, allo sport e all’entertainment; Realtà virtuale, realtà aumentata e realtà mista; Intelligenza artificiale e audiovisivo per lo sport; Ticketing e riconoscimento facciale; Wellness & Sport; Sport & Tourism. Spazi e servizi dedicati a ciascuna impresa Ogni impresa selezionata avrà diritto a: Spazio espositivo di 3 x 2 m all’interno dell’area dedicata, comprensivo di desk (1 x 0,80 m), monitor, moquette e logo stampato sullo sfondo; Visibilità del brand a rotazione sui monitor dell’Allianz Stadium (Torino); Servizio foto/video a supporto delle attività di comunicazione; Presenza sul portale web socialfootballsummit.com come Exhibitor Partner; 4 Delegate Pass per partecipare a #SFS26; Iscrizione gratuita alla manifestazione; Postazione di ricarica condivisa; Connessione Wi-Fi; Assicurazione RCT; Servizi aggiuntivi garantiti alle imprese partecipanti. Le aziende ammesse alla collettiva regionale beneficeranno inoltre di: Organizzazione di incontri B2B con buyer nazionali e internazionali tramite app dedicata e gratuita; per la gestione degli appuntamenti; Partecipazione a tutti i panel ospitati nei 4 stage dell’evento; Inserimento del logo nella comunicazione istituzionale della manifestazione; Breve descrizione dell’azienda sull’app ufficiale dell’evento; Vetrina digitale sulla Social Football Summit APP. Requisiti di ammissibilità per le imprese invitate a partecipare L’opportunità di prendere parte a Social Football Summit 2026 è riservata a imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio e in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (Il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non siano sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) ed ogni altra procedura concorsuale né abbiano in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non siano state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica Amministrazione; non avere Amministratori e/o Legali Rappresentanti che siano stati condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comunità che incidono sulla moralità professionale (è comunque causa di esclusione la condanna, con sentenza passata in giudicato, per reati di partecipazione ad un’organizzazione criminale, corruzione, frode, riciclaggio); non avere Amministratori e/o Legali Rappresentanti che si siano resi colpevoli di false dichiarazioni nei rapporti con la Pubblica Amministrazione; essere in regola con il versamento dei contributi previdenziali e assistenziali, accertabile mediante acquisizione del DURC, ovvero non essere soggetti agli obblighi in materia di regolarità contributiva e, quindi, non essere tenuti all’iscrizione presso alcun Ente previdenziale o assistenziale. Il possesso dei requisiti è attestato mediante dichiarazioni rese al momento della partecipazione attraverso il modulo di manifestazione di interesse. Tali dichiarazioni potranno essere verificate, così come stabilito ",
       "rilevanza": {
-        "punteggio": 0,
+        "punteggio": 4,
         "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
+        "motivazione": "Solo termini generici o menzioni isolate (ia_ricerca), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
+        "temi": [
+          "ia_ricerca"
+        ],
+        "evidenze": [
+          "tainment; Realtà virtuale, realtà aumentata e realtà mista; Intelligenza artificiale e audiovisivo per lo sport; Ticketing e riconoscimento facc"
+        ],
         "destinatari": {
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -842,7 +1016,11 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "ambiente_acqua",
+          "industria_elettronica"
+        ]
       }
     },
     {
@@ -886,95 +1064,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Generazione Sport",
-      "url": "https://www.lazioeuropa.it/bandi/generazione-sport/",
-      "data_lettura": "2026-10-14",
-      "scadenza": {
-        "valore": "2026-10-14",
-        "stato": "confermato",
-        "citazione": ": domande online entro le ore 12:00 del 14 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "3.000.000,00 euro, € 150.000,00",
-        "stato": "da_verificare",
-        "citazione": " complessivamente disponibili per il finanziamento degli interventi ammontano a 3.000.000,00 euro",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "testo_fonte": "Benessere e salute Generazione Sport Aperto Bandi Regionali Finalità : la Regione Lazio intende favorire le attività sportive e i corretti stili di vita nelle scuole, riducendo il divario infrastrutturale esistente al riguardo, rafforzando le attività e le infrastrutture sportive, così da combattere l’abbandono scolastico, incentivare l’inclusione sociale e rafforzare le attitudini personali. Beneficiari : Comuni della Regione Lazio, inclusa Roma Capitale. Dotazione finanziaria : le risorse complessivamente disponibili per il finanziamento degli interventi ammontano a 3.000.000,00 euro come di seguito ripatite: Comuni del Lazio e Città Metropolitana di Roma Capitale 2.000.000,00 Roma Capitale 1.000.000,00 Contributo massimo concedibile : € 150.000,00 Modalità di presentazione delle domande : esclusivamente attraverso la piattaforma https://bandiavvisi.regione.lazio.it . Scadenza per la presentazione delle domande : entro le ore 12:00 del 14 ottobre 2026. Per informazioni : eventuali richieste di chiarimenti e informazioni relative al presente Avviso dovranno essere inoltrate, entro e non oltre le 72 ore antecedenti il termine di chiusura, all’indirizzo mail mlauri@regione.lazio.it . Documentazione di riferimento",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-14"
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Energia Sportiva",
-      "url": "https://www.lazioeuropa.it/bandi/energia-sportiva/",
-      "data_lettura": "2026-10-14",
-      "scadenza": {
-        "valore": "2026-10-14",
-        "stato": "confermato",
-        "citazione": ": domande online entro le ore 12:00 del 14 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "€ 2.000.000,00, € 50.000,00",
-        "stato": "da_verificare",
-        "citazione": " proprietà pubblica o privata di uso pubblico del Lazio Dotazione finanziaria : € 2.000.000,00",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "testo_fonte": "Benessere e salute Energia Sportiva Aperto Bandi Regionali Finalità : la Regione Lazio intende dare impulso al sostegno e alla promozione della pratica sportiva ecosostenibile favorendo l’efficientamento energetico, l’adeguamento e la messa in sicurezza nonché la riqualificazione degli impianti sportivi del Lazio. Beneficiari : soggetti privati, senza scopo di lucro, riconosciuti dal CONI o dal CIP (Comitato Italiano Paralimpico), Enti Ecclesiastici, in qualità di proprietari o concessionari di impianti sportivi di proprietà pubblica o privata di uso pubblico del Lazio Dotazione finanziaria : € 2.000.000,00 Contributo massimo concedibile : € 50.000,00 Modalità di presentazione delle domande : esclusivamente attraverso la piattaforma https://bandiavvisi.regione.lazio.it . Scadenza per la presentazione delle domande : entro le ore 12:00 del 14 ottobre 2026. Per informazioni : eventuali richieste di chiarimenti e informazioni dovranno essere inoltrate, entro le 72 ore antecedenti il termine di chiusura, all’indirizzo mail mlauri@regione.lazio.it . Documentazione di riferimento",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine dei temi nel testo.",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "edilizia_infrastrutture"
+        ]
       }
     },
     {
@@ -1018,7 +1111,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1062,7 +1156,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1106,7 +1201,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1150,7 +1246,11 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "patrimonio_culturale",
+          "edilizia_infrastrutture"
+        ]
       }
     },
     {
@@ -1194,7 +1294,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1238,7 +1339,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "ambiente_acqua"
+        ]
       }
     },
     {
@@ -1282,7 +1386,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1326,7 +1431,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     },
     {
@@ -1370,7 +1478,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1414,7 +1523,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1458,7 +1568,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "agrifood"
+        ]
       }
     },
     {
@@ -1502,7 +1615,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1546,7 +1660,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     },
     {
@@ -1590,7 +1707,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1634,7 +1752,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "agrifood",
+          "edilizia_infrastrutture",
+          "energia_mobilita"
+        ]
       }
     },
     {
@@ -1678,7 +1801,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1722,7 +1846,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
       }
     },
     {
@@ -1766,7 +1891,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "industria_elettronica"
+        ]
       }
     }
   ]

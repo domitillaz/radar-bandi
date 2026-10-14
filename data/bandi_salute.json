@@ -47,7 +47,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     },
     {
@@ -91,7 +94,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     },
     {
@@ -135,7 +141,11 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute",
+          "agrifood"
+        ]
       }
     },
     {
@@ -179,7 +189,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-14"
+        "rubrica": "parole-chiave-17",
+        "ambiti": [
+          "salute"
+        ]
       }
     }
   ]
