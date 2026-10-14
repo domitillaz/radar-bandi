@@ -20,12 +20,12 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-16"
+VERSIONE = "parole-chiave-17"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
 ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
-NUOVI = {"ia_ricerca", "imaging", "digitale_dati"}
+NUOVI = {"ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
 RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
 GENERICO = re.compile(r"ricerca industriale|sviluppo sperimentale|organismi di ricerca|progetti di ricerca e sviluppo", re.I)
 VICINANZA = 200  # caratteri entro cui deve comparire un termine di salute
@@ -38,6 +38,7 @@ TEMI = {
     "ia_ricerca": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b|\bcomputer[\s-]*vision\b|\bvisione[\s-]*artificiale\b|\bfoundation[\s-]*models?\b|\bgenerative[\s-]*AI\b|\blarge[\s-]*language[\s-]*models?\b|\btrustworthy[\s-]*AI\b|\bexplainable[\s-]*AI\b|\bAI[\s-]*models?\b", False, False)],
     "imaging": [(r"\bimage[\s-]*(?:analysis|processing|reconstruction|segmentation)\b|\bimaging\b|\belaborazione[\s-]*(?:di[\s-]*)?immagini\b|\banalisi[\s-]*(?:di[\s-]*)?immagini\b|\bmicroscop\w+|\bremote[\s-]*sensing\b|\btelerilevamento\b", False, False)],
     "digitale_dati": [(r"\bdigital[\s-]*twins?\b|\bgemell\w+[\s-]*digital\w+|\bdata[\s-]*driven\b|\bsignal[\s-]*processing\b|\belaborazione[\s-]*(?:dei[\s-]*)?segnali\b|\bhigh[\s-]*performance[\s-]*computing\b|\bcalcolo[\s-]*ad[\s-]*alte[\s-]*prestazioni\b|\bHPC\b", False, True)],
+    "analisi_dati": [(r"\bdata[\s-]*(?:analysis|analytics|science|mining)\b|\bbig[\s-]*data\b|\banalisi[\s-]*(?:dei[\s-]*)?dati\b|\bscienza[\s-]*dei[\s-]*dati\b|\bpredictive[\s-]*model\w*|\bmodelli[\s-]*predittiv\w+|\bstatistical[\s-]*model\w*|\bmodellistica\b|\bnumerical[\s-]*simulation\w*|\binternet[\s-]*of[\s-]*things\b|\bIoT\b|\bsmart[\s-]*sensors?\b", False, True)],
     "sensoristica": [(r"\bbiosensor\w*", False, False),
                      (r"\bwearables?\b", True, False),
                      (r"\bsensoristica\b|\bsensors?\b|\bsensori\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bsensor[\s-]*arrays?\b|\barray[\s-]*di[\s-]*sensori\b", True, True)],
@@ -52,6 +53,30 @@ TEMI = {
     "algoritmi_bioispirati": [(r"\b(?:bio|nature)[\s-]*inspired[\s-]*(?:algorithms?|optimi[sz]ation|computing)\b|\balgoritmi[\s-]*(?:bio|natura)[\s-]*ispirati\b", False, False)],
     "tecnologie_emergenti_biomedicali": [(r"\bmedical[\s-]*devices?\b|\bdispositiv\w*[\s-]*medic\w*|\bin[\s-]*vitro[\s-]*diagnostic\w*|\bdiagnostica[\s-]*in[\s-]*vitro\b|\bmedtech\b|\bscienze\s+della\s+vita\b|\blife\s+sciences?\b|\btime[\s-]*lapse[\s-]*(?:micro|imaging)\w*|\bmicroscopia[\s-]*time[\s-]*lapse\b", False, True)],
 }
+
+
+# Ambito applicativo del bando: serve a separare la salute dagli altri settori in cui il gruppo può lavorare.
+TEMI_SALUTE = {"ml_dati_biomedici", "lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
+               "biologia_computazionale", "oncologia_immunoterapia", "tossicita_farmaci", "tecnologie_emergenti_biomedicali"}
+AMBITI = {
+    "salute": SALUTE,
+    "agrifood": re.compile(r"\bagricultur\w+|\bagri[\s-]*food\b|\bagroaliment\w+|\bfood\b|\balimentar\w+|\bfarming\b|\bcrops?\b|\bviticultur\w+|\baquaculture\b|\bfisher(?:y|ies)\b|\bpesca\b|\bagricolt\w+", re.I),
+    "ambiente_acqua": re.compile(r"\bwater\b|\bacqua\b|\bacque\b|\bidric\w+|\bambient\w+|\benvironment\w*|\bclimate\b|\bclima\w*|\bbiodiversit\w+|\binquinament\w+|\bpollution\b|\bmarine\b|\bocean\w*|\bcircular[\s-]*economy\b|\beconomia[\s-]*circolare\b|\bwaste\b|\brifiuti\b", re.I),
+    "patrimonio_culturale": re.compile(r"\bcultural[\s-]*heritage\b|\bpatrimonio[\s-]*cultural\w+|\bbeni[\s-]*cultural\w+|\barchaeolog\w+|\barcheolog\w+|\bmuseum\w*|\bmusei\b|\bmuseo\b", re.I),
+    "edilizia_infrastrutture": re.compile(r"\bconstruction\b|\bedilizia\b|\bbuildings?\b|\binfrastruttur\w+|\bcivil[\s-]*engineering\b|\burban\w*|\burbanistic\w+", re.I),
+    "energia_mobilita": re.compile(r"\benerg(?:y|ia)\b|\bhydrogen\b|\bidrogeno\b|\bbatter(?:y|ies|ie)\b|\bmobilit\w+|\bautomotive\b|\btransport\w*|\btrasport\w+|\bsmart[\s-]*grid\b", re.I),
+    "industria_elettronica": re.compile(r"\bmanufactur\w+|\bmanifattur\w+|\bindustry[\s-]*4\.0\b|\bindustria[\s-]*4\.0\b|\brobot\w*|\bsemiconductor\w*|\bsemiconduttor\w+|\bmicro[\s-]*electronic\w*|\bmicroelettronic\w+|\bphotonic\w*|\bfotonic\w+|\bspace\b|\baerospace\b|\bspazi\w+", re.I),
+}
+
+
+def ambiti(titolo, testo, temi):
+    """Un ambito è attribuito se compare nel titolo o almeno 2 volte nel testo (la salute anche dai temi trovati)."""
+    out = []
+    for nome, pat in AMBITI.items():
+        n = len(pat.findall(testo))
+        if pat.search(titolo) or n >= 2 or (nome == "salute" and TEMI_SALUTE & set(temi)):
+            out.append(nome)
+    return out
 
 
 def da_verificare(motivo):
@@ -118,7 +143,8 @@ def valuta(bando):
         mot = ("Topic della Missione Cancro, stesso programma di un progetto già finanziato al gruppo (ARTURO). "
                "Pertinenza da valutare a mano.")
     return {"punteggio": p, "stato": stato, "motivazione": mot, "temi": temi, "evidenze": evidenze,
-            "destinatari": {"valore": "non_indicato", "citazione": None}, "rubrica": VERSIONE}
+            "destinatari": {"valore": "non_indicato", "citazione": None}, "rubrica": VERSIONE,
+            "ambiti": ambiti(titolo, testo, temi)}
 
 
 def main():
