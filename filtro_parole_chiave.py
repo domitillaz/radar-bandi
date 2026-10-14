@@ -20,18 +20,24 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-14"
+VERSIONE = "parole-chiave-16"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
+ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
+NUOVI = {"ia_ricerca", "imaging", "digitale_dati"}
+RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
 GENERICO = re.compile(r"ricerca industriale|sviluppo sperimentale|organismi di ricerca|progetti di ricerca e sviluppo", re.I)
 VICINANZA = 200  # caratteri entro cui deve comparire un termine di salute
 MIN_CARATTERI = 300
-SALUTE = re.compile(r"\b(health\w*|medic\w*|clinic\w*|biomedic\w*|patients?|diagnos\w*|therap\w*|salute|sanit[aà]|pazient\w*)\b", re.I)
+SALUTE = re.compile(r"\b(scienze\s+della\s+vita|life\s+sciences?|health\w*|medic\w*|clinic\w*|biomedic\w*|patients?|diagnos\w*|therap\w*|salute|sanit[aà]|pazient\w*)\b", re.I)
 
 # (espressione, richiede un termine di salute nel testo, debole). In ogni tema le regole forti vengono prima.
 TEMI = {
     "ml_dati_biomedici": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bapprendimento[\s-]*automatico\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b", True, False)],
+    "ia_ricerca": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b|\bcomputer[\s-]*vision\b|\bvisione[\s-]*artificiale\b|\bfoundation[\s-]*models?\b|\bgenerative[\s-]*AI\b|\blarge[\s-]*language[\s-]*models?\b|\btrustworthy[\s-]*AI\b|\bexplainable[\s-]*AI\b|\bAI[\s-]*models?\b", False, False)],
+    "imaging": [(r"\bimage[\s-]*(?:analysis|processing|reconstruction|segmentation)\b|\bimaging\b|\belaborazione[\s-]*(?:di[\s-]*)?immagini\b|\banalisi[\s-]*(?:di[\s-]*)?immagini\b|\bmicroscop\w+|\bremote[\s-]*sensing\b|\btelerilevamento\b", False, False)],
+    "digitale_dati": [(r"\bdigital[\s-]*twins?\b|\bgemell\w+[\s-]*digital\w+|\bdata[\s-]*driven\b|\bsignal[\s-]*processing\b|\belaborazione[\s-]*(?:dei[\s-]*)?segnali\b|\bhigh[\s-]*performance[\s-]*computing\b|\bcalcolo[\s-]*ad[\s-]*alte[\s-]*prestazioni\b|\bHPC\b", False, True)],
     "sensoristica": [(r"\bbiosensor\w*", False, False),
                      (r"\bwearables?\b", True, False),
                      (r"\bsensoristica\b|\bsensors?\b|\bsensori\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bsensor[\s-]*arrays?\b|\barray[\s-]*di[\s-]*sensori\b", True, True)],
@@ -44,7 +50,7 @@ TEMI = {
     "tossicita_farmaci": [(r"\bcardio[\s-]*tox\w*|\bcardiotossic\w*|\bdrug[\s-]*induced[\s-]*(?:toxicity|injury|tossicit\w+)|\bnew[\s-]*approach[\s-]*methodolog\w*|\bin[\s-]*vitro[\s-]*toxic\w*|\btossicologia[\s-]*in[\s-]*vitro\b", False, False),
                           (r"\bcytotox\w*|\bcitotossic\w*|\bbioactive\b|\bbioattiv\w*|\bnatural[\s-]*compounds?\b", False, True)],
     "algoritmi_bioispirati": [(r"\b(?:bio|nature)[\s-]*inspired[\s-]*(?:algorithms?|optimi[sz]ation|computing)\b|\balgoritmi[\s-]*(?:bio|natura)[\s-]*ispirati\b", False, False)],
-    "tecnologie_emergenti_biomedicali": [(r"\bmedical[\s-]*devices?\b|\bdispositiv\w*[\s-]*medic\w*|\bin[\s-]*vitro[\s-]*diagnostic\w*|\bdiagnostica[\s-]*in[\s-]*vitro\b|\bmedtech\b|\btime[\s-]*lapse[\s-]*(?:micro|imaging)\w*|\bmicroscopia[\s-]*time[\s-]*lapse\b", False, True)],
+    "tecnologie_emergenti_biomedicali": [(r"\bmedical[\s-]*devices?\b|\bdispositiv\w*[\s-]*medic\w*|\bin[\s-]*vitro[\s-]*diagnostic\w*|\bdiagnostica[\s-]*in[\s-]*vitro\b|\bmedtech\b|\bscienze\s+della\s+vita\b|\blife\s+sciences?\b|\btime[\s-]*lapse[\s-]*(?:micro|imaging)\w*|\bmicroscopia[\s-]*time[\s-]*lapse\b", False, True)],
 }
 
 
@@ -66,24 +72,28 @@ def valuta(bando):
                 continue
             m = ms[0]
             in_titolo = m.start() < len(titolo)
-            isolata = serve_salute and len(ms) < 2 and not in_titolo and len(fonte) >= 600
+            isolata = (serve_salute or tema in ISOLABILI) and len(ms) < 2 and not in_titolo and len(fonte) >= 600
             deb = (debole and not (in_titolo and tema in PROMUOVI_IN_TITOLO and SALUTE.search(titolo))) or isolata
             (deboli if deb else forti).append(tema)
             evidenze.append(testo[max(0, m.start() - 60): m.end() + 60])
             nel_titolo = nel_titolo or in_titolo
             break
-    evidenze = [e for e in evidenze if e in testo][:3]  # ogni evidenza è un frammento reale del testo
+    evidenze = [e for e in evidenze if e in testo][:3]
+    solo_nuovi = bool(forti) and set(forti) <= NUOVI  # ogni evidenza è un frammento reale del testo
     temi = forti + deboli
     if forti:
         p = min(10, 4 + 2 * len(forti) + (1 if deboli else 0) + (1 if nel_titolo else 0))
         mot = "Trovati termini dei temi: " + ", ".join(temi) + ". Corrispondenza lessicale, non un giudizio sul contenuto."
+        if solo_nuovi and bando.get("canale") != "Europa" and not RICERCA_HINT.search(testo):
+            p = min(p, 5)
+            mot += " Tema IA/imaging senza segni di ricerca nel testo (bando probabilmente per imprese): punteggio limitato a 5."
     elif deboli:
         p = min(5, 3 + len(deboli))
         mot = ("Solo termini generici o menzioni isolate (" + ", ".join(deboli) + "), che possono comparire di passaggio: "
                "corrispondenza debole, punteggio limitato a 5.")
     elif bando.get("ente") == "MIMIT" and GENERICO.search(testo):
         g = GENERICO.search(testo)
-        p, temi = 6, ["ricerca_industriale_generica"]
+        p, temi = 4, ["ricerca_industriale_generica"]
         evidenze = [testo[max(0, g.start() - 60): g.end() + 60]]
         mot = ("Misura di ricerca e sviluppo per imprese, tema non specifico: l'università può essere partner di ricerca. "
                "Punteggio fisso, da valutare a mano.")
