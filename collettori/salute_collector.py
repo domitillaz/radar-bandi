@@ -28,14 +28,15 @@ from bs4 import BeautifulSoup
 import mimit_collector as M  # stessa cartella: funzioni comuni (scadenza, testo_pagina, campo, pulisci)
 
 BASE = "https://regione.lazio.it"
-LISTE = [BASE + "/notizie/salute", BASE + "/enti/salute"]
-SEZIONI = ("notizie/salute", "enti/salute", "imprese/salute", "cittadini/salute")
+LISTE = [BASE + "/notizie/salute"]  # /enti/salute elenca pagine di sezione (reti, servizi), non avvisi
+SEZIONI = ("notizie/salute",)
 MAX_PAGINE_LISTA = 10
 MAX_SCHEDE = 120
 BANDO = re.compile(r"\bavvis\w+|\bbando\b|\bbandi\b|manifestazion\w+\s+di\s+interesse|\bcall\b|finanziament\w+", re.I)
 RICERCA_SALUTE = re.compile(r"ricerca\s+(?:biomedica|sanitaria|scientifica|clinica|traslazionale|finalizzata)"
                             r"|progetti?\s+di\s+ricerca|malattie\s+(?:rare|croniche)|dispositiv\w+\s+medic\w+"
                             r"|\bdigital\w*\s+(?:health|sanit\w+)", re.I)
+ESITO = re.compile(r"finanziat[oi]\b.{0,40}\bprogett\w+|graduatori\w+|\besit[oi]\b|elenco\s+dei\s+progetti|progetti\s+(?:ammess|finanziat)\w+", re.I)
 TITOLI_NO = {"cerca", "ricerca", "menu", "regione lazio", ""}  # h1 del sito che non sono il titolo della notizia
 CHIUSO = M.CHIUSO
 
@@ -109,6 +110,9 @@ def main():
             continue
         titolo = titolo_pagina(html, titolo_lista)
         testo = M.testo_pagina(html)
+        if ESITO.search(titolo):  # notizia su progetti già finanziati / graduatoria: non è un bando aperto
+            scartati["non_bando"] += 1
+            continue
         if not (BANDO.search(titolo + " " + testo[:600]) and RICERCA_SALUTE.search(titolo + " " + testo)):
             scartati["non_bando"] += 1
             continue
