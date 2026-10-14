@@ -24,7 +24,11 @@ PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical 
           "digital twin health", "point-of-care",
           "tumor-on-chip", "cancer microfluidic", "multi-omics cancer", "computational biology",
           "bioelectronics", "brain organoid", "multi-electrode array", "drug toxicity in vitro", "new approach methodologies", "muscle-on-chip", "sarcopenia",
-          "cancer immunotherapy", "tumour microenvironment", "Cancer Mission"]
+          "cancer immunotherapy", "tumour microenvironment", "Cancer Mission",
+          # IA, imaging e digitale, anche fuori dalla salute (aggiunti il 14 ottobre)
+          "machine learning", "deep learning", "artificial intelligence research", "foundation models",
+          "generative AI", "trustworthy AI", "computer vision", "image analysis", "medical imaging",
+          "digital twin", "high-performance computing AI", "data-driven science"]
 MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 
