@@ -31,6 +31,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Diagnostica
+        run: |
+          git log -1 --format="commit %h del %cd: %s"
+          ls collettori
+          grep -n "MAX_SCHEDE =" collettori/mimit_collector.py || echo "MAX_SCHEDE non trovato"
+
       - name: Collettori
         working-directory: data
         run: |
