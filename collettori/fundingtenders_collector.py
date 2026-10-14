@@ -28,7 +28,10 @@ PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical 
           # IA, imaging e digitale, anche fuori dalla salute (aggiunti il 14 ottobre)
           "machine learning", "deep learning", "artificial intelligence research", "foundation models",
           "generative AI", "trustworthy AI", "computer vision", "image analysis", "medical imaging",
-          "digital twin", "high-performance computing AI", "data-driven science"]
+          "digital twin", "high-performance computing AI", "data-driven science",
+          # settori diversi dalla salute in cui servono analisi dati e IA
+          "AI agriculture food", "AI cultural heritage", "AI water environment climate", "digital twin construction buildings",
+          "remote sensing machine learning", "sensors monitoring environment", "AI energy manufacturing"]
 MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 
