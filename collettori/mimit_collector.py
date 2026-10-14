@@ -25,8 +25,8 @@ from bs4 import BeautifulSoup
 
 BASE = "https://www.mimit.gov.it"
 LISTE = [BASE + "/it/incentivi-mise/incentivi-in-gestione", BASE + "/it/incentivi-mise/incentivi-in-evidenza"]
-MAX_PAGINE_LISTA = 12
-MAX_SCHEDE = 150
+MAX_PAGINE_LISTA = 30
+MAX_SCHEDE = 400
 MESI = {m: i for i, m in enumerate(
     "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split(), 1)}
 MESE_RE = "|".join(MESI)
@@ -187,7 +187,7 @@ def main():
         })
     with open("bandi_mimit.json", "w", encoding="utf-8") as f:
         json.dump({"generato": oggi.isoformat(), "errori": errori, "bandi": bandi}, f, ensure_ascii=False, indent=2)
-    print(f"MIMIT: {len(schede)} schede trovate in {pagine} pagine di elenco; tenuti {len(bandi)}; scartati {scartati}; errori {len(errori)}")
+    print(f"MIMIT (limite {MAX_SCHEDE} schede): {len(schede)} schede trovate in {pagine} pagine di elenco; tenuti {len(bandi)}; scartati {scartati}; errori {len(errori)}")
 
 
 if __name__ == "__main__":

@@ -34,9 +34,23 @@ MAX_PAGINE_LISTA = 10
 MAX_SCHEDE = 120
 BANDO = re.compile(r"\bavvis\w+|\bbando\b|\bbandi\b|manifestazion\w+\s+di\s+interesse|\bcall\b|finanziament\w+", re.I)
 RICERCA_SALUTE = re.compile(r"ricerca\s+(?:biomedica|sanitaria|scientifica|clinica|traslazionale|finalizzata)"
-                            r"|progetti?\s+di\s+ricerca|\bPNRR\b|M6C2|malattie\s+(?:rare|croniche)|innovazione\s+sanitaria"
-                            r"|sperimentazion\w+|dispositiv\w+\s+medic\w+|\bdigital\w+\s+(?:health|sanit\w+)", re.I)
+                            r"|progetti?\s+di\s+ricerca|malattie\s+(?:rare|croniche)|dispositiv\w+\s+medic\w+"
+                            r"|\bdigital\w*\s+(?:health|sanit\w+)", re.I)
+TITOLI_NO = {"cerca", "ricerca", "menu", "regione lazio", ""}  # h1 del sito che non sono il titolo della notizia
 CHIUSO = M.CHIUSO
+
+
+def titolo_pagina(html, titolo_lista):
+    """Il primo <h1> di regione.lazio.it può essere il titolo del modulo di ricerca ("Cerca"):
+    si usa og:title, poi il testo del link nell'elenco, poi il primo <h1> che non sia di sistema."""
+    soup = BeautifulSoup(html, "html.parser")
+    og = soup.find("meta", property="og:title")
+    candidati = [og.get("content", "") if og else "", titolo_lista] + [h.get_text() for h in soup.find_all("h1")]
+    for c in candidati:
+        c = M.pulisci(c or "")
+        if c.lower() not in TITOLI_NO and len(c) > 8:
+            return c
+    return titolo_lista or "(titolo non letto)"
 
 
 def leggi_lista(url):
@@ -93,8 +107,7 @@ def main():
         except requests.RequestException:
             scartati["non_letta"] += 1
             continue
-        h1 = BeautifulSoup(html, "html.parser").find("h1")
-        titolo = M.pulisci(h1.get_text()) if h1 and M.pulisci(h1.get_text()) else titolo_lista
+        titolo = titolo_pagina(html, titolo_lista)
         testo = M.testo_pagina(html)
         if not (BANDO.search(titolo + " " + testo[:600]) and RICERCA_SALUTE.search(titolo + " " + testo)):
             scartati["non_bando"] += 1
