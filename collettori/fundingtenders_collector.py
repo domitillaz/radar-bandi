@@ -21,7 +21,10 @@ TOPIC_URL = "https://ec.europa.eu/info/funding-tenders/opportunities/portal/scre
 STATI = ["31094501", "31094502"]  # 31094501 = in arrivo, 31094502 = aperto
 PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical sensor",
           "machine learning health data", "AI medical devices", "in vitro diagnostics",
-          "digital twin health", "point-of-care"]
+          "digital twin health", "point-of-care",
+          "tumor-on-chip", "cancer microfluidic", "multi-omics cancer", "computational biology",
+          "bioelectronics", "brain organoid", "multi-electrode array", "drug toxicity in vitro", "new approach methodologies", "muscle-on-chip", "sarcopenia",
+          "cancer immunotherapy", "tumour microenvironment", "Cancer Mission"]
 MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 
