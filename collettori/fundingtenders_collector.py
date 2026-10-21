@@ -31,7 +31,10 @@ PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical 
           "digital twin", "high-performance computing AI", "data-driven science",
           # settori diversi dalla salute in cui servono analisi dati e IA
           "AI agriculture food", "AI cultural heritage", "AI water environment climate", "digital twin construction buildings",
-          "remote sensing machine learning", "sensors monitoring environment", "AI energy manufacturing"]
+          "remote sensing machine learning",
+          # neurosegnali, comportamento e interazione uomo-macchina (EEG, eye tracking, neuroergonomia)
+          "EEG", "eye tracking", "wearable EEG", "brain-computer interface", "neurotechnology", "affective computing emotion recognition",
+          "cognitive load human-machine interaction", "consumer behaviour neuroscience", "sensors monitoring environment", "AI energy manufacturing"]
 MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 
