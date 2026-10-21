@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-18"
+VERSIONE = "parole-chiave-19"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -57,8 +57,8 @@ TEMI = {
 
 
 # Ambito applicativo del bando: serve a separare la salute dagli altri settori in cui il gruppo può lavorare.
-TEMI_SALUTE = {"ml_dati_biomedici", "lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
-               "biologia_computazionale", "oncologia_immunoterapia", "tossicita_farmaci", "tecnologie_emergenti_biomedicali"}
+TEMI_SALUTE = {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
+               "biologia_computazionale", "oncologia_immunoterapia", "tossicita_farmaci"}  # temi specificamente biomedici (non ML generico)
 AMBITI = {
     "salute": SALUTE,
     "agrifood": re.compile(r"\bagricultur\w+|\bagri[\s-]*food\b|\bagroaliment\w+|\bfood\b|\balimentar\w+|\bfarming\b|\bcrops?\b|\bviticultur\w+|\baquaculture\b|\bfisher(?:y|ies)\b|\bpesca\b|\bagricolt\w+", re.I),
