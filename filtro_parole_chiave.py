@@ -20,10 +20,11 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-17"
+VERSIONE = "parole-chiave-18"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
+SSH = re.compile(r"\bdemocra\w+|\bequality\b|\binclusive[\s-]*societ\w+|\bsocial[\s-]*sciences?\b|\bhumanities\b|\bcyberviolence\b|\bdisinformation\b", re.I)
 ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
 NUOVI = {"ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
 RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
@@ -61,20 +62,20 @@ TEMI_SALUTE = {"ml_dati_biomedici", "lab_on_chip", "organ_on_chip", "microfluidi
 AMBITI = {
     "salute": SALUTE,
     "agrifood": re.compile(r"\bagricultur\w+|\bagri[\s-]*food\b|\bagroaliment\w+|\bfood\b|\balimentar\w+|\bfarming\b|\bcrops?\b|\bviticultur\w+|\baquaculture\b|\bfisher(?:y|ies)\b|\bpesca\b|\bagricolt\w+", re.I),
-    "ambiente_acqua": re.compile(r"\bwater\b|\bacqua\b|\bacque\b|\bidric\w+|\bambient\w+|\benvironment\w*|\bclimate\b|\bclima\w*|\bbiodiversit\w+|\binquinament\w+|\bpollution\b|\bmarine\b|\bocean\w*|\bcircular[\s-]*economy\b|\beconomia[\s-]*circolare\b|\bwaste\b|\brifiuti\b", re.I),
+    "ambiente_acqua": re.compile(r"\bwater\b|\bacqua\b|\bacque\b|\bidric\w+|\bambient\w+|\benvironmental\b|\bclimate\b|\bclima\w*|\bbiodiversit\w+|\binquinament\w+|\bpollution\b|\bmarine\b|\bocean\w*|\bcircular[\s-]*economy\b|\beconomia[\s-]*circolare\b|\bwaste\b|\brifiuti\b", re.I),
     "patrimonio_culturale": re.compile(r"\bcultural[\s-]*heritage\b|\bpatrimonio[\s-]*cultural\w+|\bbeni[\s-]*cultural\w+|\barchaeolog\w+|\barcheolog\w+|\bmuseum\w*|\bmusei\b|\bmuseo\b", re.I),
-    "edilizia_infrastrutture": re.compile(r"\bconstruction\b|\bedilizia\b|\bbuildings?\b|\binfrastruttur\w+|\bcivil[\s-]*engineering\b|\burban\w*|\burbanistic\w+", re.I),
+    "edilizia_infrastrutture": re.compile(r"\bconstruction\b|\bedilizia\b|\bbuilt[\s-]*environment\b|\bbuilding[\s-]*(?:sector|renovation|stock|construction|materials?)\b|\bedific\w+|\binfrastruttur\w+|\bcivil[\s-]*engineering\b|\burbanistic\w+|\burban[\s-]*(?:planning|areas?|development)\b", re.I),
     "energia_mobilita": re.compile(r"\benerg(?:y|ia)\b|\bhydrogen\b|\bidrogeno\b|\bbatter(?:y|ies|ie)\b|\bmobilit\w+|\bautomotive\b|\btransport\w*|\btrasport\w+|\bsmart[\s-]*grid\b", re.I),
-    "industria_elettronica": re.compile(r"\bmanufactur\w+|\bmanifattur\w+|\bindustry[\s-]*4\.0\b|\bindustria[\s-]*4\.0\b|\brobot\w*|\bsemiconductor\w*|\bsemiconduttor\w+|\bmicro[\s-]*electronic\w*|\bmicroelettronic\w+|\bphotonic\w*|\bfotonic\w+|\bspace\b|\baerospace\b|\bspazi\w+", re.I),
+    "industria_elettronica": re.compile(r"\bmanufactur\w+|\bmanifattur\w+|\bindustry[\s-]*4\.0\b|\bindustria[\s-]*4\.0\b|\brobot\w*|\bsemiconductor\w*|\bsemiconduttor\w+|\bmicro[\s-]*electronic\w*|\bmicroelettronic\w+|\bphotonic\w*|\bfotonic\w+|\baerospace\b|\bspace[\s-]*(?:technolog\w+|sector|missions?)\b|\bspazi\w+", re.I),
 }
 
 
 def ambiti(titolo, testo, temi):
-    """Un ambito è attribuito se compare nel titolo o almeno 2 volte nel testo (la salute anche dai temi trovati)."""
+    """Un ambito è attribuito se compare nel titolo o almeno 3 volte nel testo (la salute anche dai temi trovati)."""
     out = []
     for nome, pat in AMBITI.items():
         n = len(pat.findall(testo))
-        if pat.search(titolo) or n >= 2 or (nome == "salute" and TEMI_SALUTE & set(temi)):
+        if pat.search(titolo) or n >= 3 or (nome == "salute" and TEMI_SALUTE & set(temi)):
             out.append(nome)
     return out
 
@@ -109,6 +110,9 @@ def valuta(bando):
     if forti:
         p = min(10, 4 + 2 * len(forti) + (1 if deboli else 0) + (1 if nel_titolo else 0))
         mot = "Trovati termini dei temi: " + ", ".join(temi) + ". Corrispondenza lessicale, non un giudizio sul contenuto."
+        if set(forti) <= NUOVI and SSH.search(testo) and not (TEMI_SALUTE & set(temi)):
+            p = min(p, 5)
+            mot += " Bando di scienze sociali e umanistiche in cui l'IA è l'oggetto di studio e non lo strumento: punteggio limitato a 5."
         if solo_nuovi and bando.get("canale") != "Europa" and not RICERCA_HINT.search(testo):
             p = min(p, 5)
             mot += " Tema IA/imaging senza segni di ricerca nel testo (bando probabilmente per imprese): punteggio limitato a 5."
