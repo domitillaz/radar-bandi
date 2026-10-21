@@ -1,12 +1,12 @@
 {
-  "generato": "2026-10-20",
+  "generato": "2026-10-21",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Buoni servizio per le persone non autosufficienti nel territorio del Lazio",
       "url": "https://www.lazioeuropa.it/bandi/buoni-servizio-per-le-persone-non-autosufficienti-nel-territorio-del-lazio/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-22",
         "stato": "confermato",
@@ -51,7 +51,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -96,7 +96,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -141,7 +141,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -186,7 +186,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-04",
         "stato": "confermato",
@@ -231,7 +231,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -276,7 +276,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -321,7 +321,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -364,9 +364,54 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Giovani Attività Professionali 2026",
+      "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
+      "data_lettura": "2026-10-21",
+      "scadenza": {
+        "valore": "2026-10-22",
+        "stato": "confermato",
+        "citazione": "Presentazione delle domande Apertura GeCoWEB Plus : dalle 12:00 del 22 ottobre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "20.000,00 euro, 28.572,00 euro, 23.810,00 euro",
+        "stato": "da_verificare",
+        "citazione": "sibili da rendicontare e dei costi forfettari) e non può superare l’importo: di 20.000,00 euro",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Giovani Attività Professionali 2026 Prossima Apertura FESR Documentazione Determinazione n. G14308 del 19 ottobre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Uso di GeCoWEB Plus e documenti per la rendicontazione Modello 1 – Proponente privo di relazioni rilevanti con altre Imprese Modello 2 – Proponente che ha relazioni rilevanti con altre Imprese 3 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 1.3 – Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi Obiettivi La Regione Lazio sostiene le attività professionali, mediante la concessione di contributi a fondo perduto per la realizzazione di progetti di investimento per lo sviluppo di nuove attività professionali e l’ampliamento, la ristrutturazione o l’ammodernamento di quelle avviate di recente, anche mediante l’adozione di soluzioni digitali. I progetti devono avere costi ammissibili da rendicontare non inferiori a 8.000,00 euro ed essere conclusi e rendicontati entro 9 mesi dalla data di concessione. Beneficiari I Beneficiari del sostegno sono i Giovani Professionisti del Lazio, vale a dire le persone fisiche che: siano iscritti a uno dei 18 Ordini, Collegi o Albi professionali di seguito elencati: Agronomi Architetti Attuari Avvocati Biologi Chimici Commercialisti ed esperti contabili Consulenti del lavoro Consulenti in proprietà industriale Fisici Geologi Geometri Ingegneri Notai Periti agrari Periti industriali Spedizionieri doganali Tecnologi Alimentari non abbiano compiuto il quarantesimo anno di età alla data della Domanda; non abbiano un reddito nell’anno 2025 superiore a 66.300,00 euro; esercitino la propria attività professionale nella regione Lazio. I Giovani Professionisti del Lazio possono ricevere direttamente il contributo, sostenendo le Spese Ammissibili come lavoratori autonomi, oppure mediante Associazioni Professionali o Società Tra Professionisti in cui risultino maggioritari. Contributo e Costi Ammissibili Il contributo previsto dall’Avviso è a fondo perduto ed è concesso a titolo di De Minimis. Il contributo è concesso nella percentuale del 70% delle spese ammissibili del progetto (somma delle spese ammissibili da rendicontare e dei costi forfettari) e non può superare l’importo: di 20.000,00 euro per ciascun Beneficiario che è un Giovane Professionista Autonomo; tale contributo massimo corrisponde a 28.572,00 euro di Spese Ammesse complessive, e pertanto a 23.810,00 euro di Spese Ammesse da rendicontare e poi correttamente rendicontate; di 40.000,00 euro per ciascun Beneficiario che è un’Associazione Professionale Giovanile o una Società Tra Professionisti Giovanile, a condizione che tra gli associati o i soci ci siano almeno due Giovani Professionisti. Sono ammissibili i seguenti costi: spese da rendicontare per investimenti materiali, immateriali e per canoni per l’adozione di nuove soluzioni digitali erogate in modalità SaaS, IaaS o PaaS; spese da rendicontare per lavori di adeguamento strutturale e arredamento dei locali adibiti a Sede Operativa, nel limite massimo del 30% delle spese per investimenti di cui al punto a); spese da rendicontare per servizi qualificati e strategici, aventi carattere una tantum (formazione, promozione e pubblicità, certificazioni di processo o di prodotto, adozione di nuove soluzioni digitali, commerciali, tecnologiche, legali e finanziarie, altro) nel limite massimo del 30% delle spese per investimenti di cui al punto a); costi del personale, generali, amministrativi e indiretti calcolati nella misura forfettaria del 20% del totale delle spese da rendicontare di cui alle voci a), b) e c). Presentazione delle domande Apertura GeCoWEB Plus : dalle 12:00 del 22 ottobre 2026 Presentazione domande : dalle 12:00 del 3 novembre 2026 alle 17:00 del 3 novembre 2027 (salvo esaurimento risorse) Modalità di Selezione La procedura di selezione avviene seguendo l’ordine cronologico di presentazione delle Domande. Lazio Innova verifica l’ammissibilità formale delle Domande, da presentarsi tramite GeCoWEB Plus. La Commissione di Valutazione valuta la coerenza del progetto con le previsioni dell’Avviso e la sua adeguatezza rispetto a entrambi i seguenti criteri di valutazione: validità tecnica, economica e finanziaria (sostenibilità del progetto), anche in termini di economicità, di coerenza dimensionale e di compatibilità degli obiettivi di mercato con la struttura aziendale dell’impresa proponente; utilizzo di soluzioni in linea con i migliori standard tecnologici diffusi sul mercato. I progetti ritenuti formalmente ammissibili, coerenti e adeguati sono finanziati fino a esaurimento della dotazione finanziaria. Modalità di Erogazione L’erogazione avviene in un’unica soluzione a fronte della rendicontazione delle spese sostenute per la realizzazione del progetto. OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui . Informazioni Siti www.lazioinnova.it e www.lazioeuropa.it e-mail infobandi@lazioinnova.it Numero verde 800 98 97 96",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-17",
+        "ambiti": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a Più Libri Più Liberi 2026",
       "url": "https://www.lazioinnova.it/laziointernational/2026/10/13/manifestazione-interesse-plpl-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-23",
         "stato": "confermato",
@@ -413,7 +458,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -438,7 +483,7 @@
         "citazione": "Queste attività possono essere riservate a particolari target quali i giovani e le donne, con particolare riferimento alla formazione imprenditoriale nei settori culturali e creativi, e le PMI locali, specie le Microimprese e le associazion",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "Prossima Apertura martedì 13 Ottobre 2026 Documentazione Determinazione n. G13533 del 5 ottobre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Estratto Pubblicato in GUUE Modello 1 - Proposta Progettuale Modello 1 - Istruzioni Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 3 – Rafforzare la crescita sostenibile e la competitività delle PMI Obiettivi La Regione Lazio, attraverso il presente Avviso, intende promuovere l’utilizzo dei seguenti 6 luoghi della cultura per valorizzare la creatività come motore dello sviluppo economico e la creazione di nuove imprese: Castrocielo (FR) – Monacato di Villa Eucheria Borgo di Fara in Sabina (spazi vari nel centro storico, RI) Priverno (LT) – Borgo di Fossanova Roma (RM) – Villa Torlonia Sutri (VT) – Villa Savorelli Velletri (RM) – Casa delle Culture e della Musica (ex Convento del Carmine) Progetti agevolabili Sarà sostenuto un Progetto per ciascun luogo della cultura da realizzarsi dal giugno 2027 all’agosto 2028, e che sia compatibile con le condizioni poste dal titolare del luogo della cultura messo a disposizione. Ciascun Progetto deve essere articolato in: interventi e attività volti a valorizzare e rendere maggiormente fruibile il luogo della cultura (mostre, installazioni, supporti digitali, altro) per l’intera durata di Progetto; la realizzazione di attività culturali aperte la pubblico già calendarizzate nella proposta per l’intera durata del Progetto; la realizzazione di attività culturali di natura temporanea (spettacoli, laboratori, corsi, altro), che possono essere calendarizzate con maggiore flessibilità e svolte in più edizioni a seconda del riscontro ottenuto nelle precedenti. Queste attività possono essere riservate a particolari target quali i giovani e le donne, con particolare riferimento alla formazione imprenditoriale nei settori culturali e creativi, e le PMI locali, specie le Microimprese e le associazioni culturali, con particolare riferimento alla promozione delle produzioni culturali, creative, tipiche e enogastronomiche. Il progetto deve individuare valore obiettivo in termini di utenti o partecipanti per ciascuna attività e comprendere un affidabile sistema di monitoraggio che consenta di rilevare i relativi dati a consuntivo. Contributo Il contributo è a fondo perduto (sovvenzione diretta in denaro) ed è concesso ai sensi dell’art. 53 (Aiuti per la cultura e la conservazione del patrimonio) del Reg. (UE) 651/2014, in particolare nella forma di aiuti al funzionamento (commi 5 e 7) per eventi artistici o culturali, spettacoli, festival, mostre e altre attività culturali analoghe ed eventualmente per quelle, di natura ancillare, riguardanti attività di educazione culturale e artistica (comma 2, lettere d ed e). Il contributo è determinato nella misura del deficit di finanziamento del Progetto, vale a dire la differenza tra le spese ammissibili e le entrate di qualsiasi natura imputabili al progetto, oltre ad un margine ragionevole. Le Entrate non possono essere inferiori al 20% delle spese ammissibili. Il margine ragionevole è stabilito nella somma del 7% delle spese ammissibili e del 10% del totale delle entrate. Il contributo per Progetto non può superare l’importo di 1 milione di euro. Le spese ammissibili da rendicontare sono quelle direttamente imputabili al Progetto sostenute alle normali condizioni di mercato nei confronti di fornitori e lavoratori indipendenti dall’impresa beneficiaria. I costi generali, amministrativi e indiretti sono riconosciuti nella misura forfettaria del 7% delle spese ammissibili da rendicontare. Tutte le movimentazioni finanziarie rilevanti devono essere effettuate mediante strumenti di pagamento tracciabili e transitare su un unico conto corrente esclusivamente dedicato al progetto. Il bilancio e il deficit di finanziamento preventivo è quello ritenuto congruo dalla Commissione di Valutazione sulla base della proposta progettuale, ed è asseverato a consuntivo da un Revisore Legale anche tramite riconciliazione con l’estratto conto del conto corrente dedicato. I Progetti possono prevedere anche attività commerciali, diverse da quelle previste alle lettere d) e e) del comma 2 dell’art. 53 del Reg. (UE) 651/2014, nella misura consentita dal titolare del luogo della cultura, e all’esclusivo fine di contribuire, con l’avanzo di gestione, al cofinanziamento del progetto. I relativi costi non sono pertanto ammissibili. Beneficiari I Beneficiari sono le PMI che alla data della domanda: sono iscritti al Registro delle Imprese Italiano, al Registro Unico Nazionale del Terzo Settore o al Registro delle Persone Giuridiche Private nazionale o della Regione Lazio. Possono tuttavia presentare Domanda anche soggetti iscritti in analoghi registri degli altri Stati Membri della UE che alla data della prima richiesta di erogazione dovranno risultare iscritti ai suddetti registri di diritto italiano; hanno almeno un bilancio depositato o, se non tenuti, almeno una dichiarazione dei redditi presentata; sono formalmente dotati di un Organo di Controllo. Nel caso di Progetti realizzati in forma aggregata tale requisito deve sussistere per il Beneficiario Mandatario e per i Beneficiari che dovessero realizzare anche attività commerciali; I Progetti possono essere realizzati in forma aggregata da un massimo di 5 PMI, che abbiano ciascuna tutti i requisiti previsti, tramite un ATI o ATS che può essere costituita anche dopo la concessione del contributo. Il beneficiario mandatario deve essere la PMI che sostiene la maggiore parte delle spese ammissibili. I Beneficiari devono avere le risorse e i meccanismi finanziari tali da garantire la realizzazione del Progetto agevolato, vale a dire: avere ricavi e proventi specifici per organizzazione di attività culturali, esposizioni ed eventi non inferiori a 2 milioni di euro (media dei migliori 3 degli ultimi 5 esercizi). In caso di aggregazione tale requisito deve essere posseduto, cumulativamente, da tutti i partecipanti significativi; presentare in sede di Domanda una lettera di disponibilità a rilasciare la Fideiussione a garanzia dell’anticipo, da parte di una banca o assicurazione con le caratteristiche previste. In caso di aggregazione tale lettera di disponibilità deve riguardare il Mandatario con riferimento al totale del contributo richiesto. I Beneficiari devono infine possedere i requisiti generali di ammissibilità, tra cui un DURC regolare alla Data della Domanda o regolarizzato a seguito della apposita comunicazione INPS e, nel caso di soggetti iscritti al Registro delle Imprese, possedere la cd. polizza catastrofale. Sono in ogni caso esclusi soggetti partecipati direttamente o indirettamente, per oltre il 25% delle quote o dei diritti di voto, da uno o più Enti Pubblici. Ciascuna PMI, anche quale Mandante, può presentare un unico Progetto riguardante esclusivamente un solo Luogo della Cultura. Presentazione delle domande Le richieste di contributo devono essere presentate esclusivamente on-line, tramite la piattaforma GeCoWEB Plus . Il formulario è disponibile on line per la compilazione e il caricamento degli allegati a partire dalle ore 12:00 del 20 ottobre 2026 . Le domande devono essere inviate dalle ore 12:00 del 3 novembre ed entro le ore 17:00 del 3 dicembre 2026 . Procedura di Selezione Prima di presentare Domanda ciascuna PMI proponente (almeno la Mandataria nel caso di forma associata) deve realizzare un sopralluogo presso il luogo della cultura e può presentare richieste di chiarimenti scritti,. Tali chiarimenti sono resi noti sulla pagina dedicata all’Avviso. Lazio Innova realizza l’istruttoria di ammissibilità formale e una apposita Commissione di Valutazione valuta la validità del progetto, sulla base dei seguenti criteri. Criteri di Valutazione Punteggio soglia Punteggio massimo Qualità tecnico-artistica e innovatività della proposta progettuale, con particolare riferimento al respiro nazionale e internaziona",
+      "testo_fonte": "Prossima Apertura martedì 13 Ottobre 2026 Documentazione Determinazione n. G13533 del 5 ottobre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Estratto Pubblicato in GUUE Modello 1 - Proposta Progettuale Modello 1 - Istruzioni Uso di GeCoWEB PLus e documenti per la rendicontazione Schema Polizza Fideiussoria Allegato Polizza Fideiussoria - Dichiarazione Sostitutiva Fideiussore Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 3 – Rafforzare la crescita sostenibile e la competitività delle PMI Obiettivi La Regione Lazio, attraverso il presente Avviso, intende promuovere l’utilizzo dei seguenti 6 luoghi della cultura per valorizzare la creatività come motore dello sviluppo economico e la creazione di nuove imprese: Castrocielo (FR) – Monacato di Villa Eucheria Borgo di Fara in Sabina (spazi vari nel centro storico, RI) Priverno (LT) – Borgo di Fossanova Roma (RM) – Villa Torlonia Sutri (VT) – Villa Savorelli Velletri (RM) – Casa delle Culture e della Musica (ex Convento del Carmine) Progetti agevolabili Sarà sostenuto un Progetto per ciascun luogo della cultura da realizzarsi dal giugno 2027 all’agosto 2028, e che sia compatibile con le condizioni poste dal titolare del luogo della cultura messo a disposizione. Ciascun Progetto deve essere articolato in: interventi e attività volti a valorizzare e rendere maggiormente fruibile il luogo della cultura (mostre, installazioni, supporti digitali, altro) per l’intera durata di Progetto; la realizzazione di attività culturali aperte la pubblico già calendarizzate nella proposta per l’intera durata del Progetto; la realizzazione di attività culturali di natura temporanea (spettacoli, laboratori, corsi, altro), che possono essere calendarizzate con maggiore flessibilità e svolte in più edizioni a seconda del riscontro ottenuto nelle precedenti. Queste attività possono essere riservate a particolari target quali i giovani e le donne, con particolare riferimento alla formazione imprenditoriale nei settori culturali e creativi, e le PMI locali, specie le Microimprese e le associazioni culturali, con particolare riferimento alla promozione delle produzioni culturali, creative, tipiche e enogastronomiche. Il progetto deve individuare valore obiettivo in termini di utenti o partecipanti per ciascuna attività e comprendere un affidabile sistema di monitoraggio che consenta di rilevare i relativi dati a consuntivo. Contributo Il contributo è a fondo perduto (sovvenzione diretta in denaro) ed è concesso ai sensi dell’art. 53 (Aiuti per la cultura e la conservazione del patrimonio) del Reg. (UE) 651/2014, in particolare nella forma di aiuti al funzionamento (commi 5 e 7) per eventi artistici o culturali, spettacoli, festival, mostre e altre attività culturali analoghe ed eventualmente per quelle, di natura ancillare, riguardanti attività di educazione culturale e artistica (comma 2, lettere d ed e). Il contributo è determinato nella misura del deficit di finanziamento del Progetto, vale a dire la differenza tra le spese ammissibili e le entrate di qualsiasi natura imputabili al progetto, oltre ad un margine ragionevole. Le Entrate non possono essere inferiori al 20% delle spese ammissibili. Il margine ragionevole è stabilito nella somma del 7% delle spese ammissibili e del 10% del totale delle entrate. Il contributo per Progetto non può superare l’importo di 1 milione di euro. Le spese ammissibili da rendicontare sono quelle direttamente imputabili al Progetto sostenute alle normali condizioni di mercato nei confronti di fornitori e lavoratori indipendenti dall’impresa beneficiaria. I costi generali, amministrativi e indiretti sono riconosciuti nella misura forfettaria del 7% delle spese ammissibili da rendicontare. Tutte le movimentazioni finanziarie rilevanti devono essere effettuate mediante strumenti di pagamento tracciabili e transitare su un unico conto corrente esclusivamente dedicato al progetto. Il bilancio e il deficit di finanziamento preventivo è quello ritenuto congruo dalla Commissione di Valutazione sulla base della proposta progettuale, ed è asseverato a consuntivo da un Revisore Legale anche tramite riconciliazione con l’estratto conto del conto corrente dedicato. I Progetti possono prevedere anche attività commerciali, diverse da quelle previste alle lettere d) e e) del comma 2 dell’art. 53 del Reg. (UE) 651/2014, nella misura consentita dal titolare del luogo della cultura, e all’esclusivo fine di contribuire, con l’avanzo di gestione, al cofinanziamento del progetto. I relativi costi non sono pertanto ammissibili. Beneficiari I Beneficiari sono le PMI che alla data della domanda: sono iscritti al Registro delle Imprese Italiano, al Registro Unico Nazionale del Terzo Settore o al Registro delle Persone Giuridiche Private nazionale o della Regione Lazio. Possono tuttavia presentare Domanda anche soggetti iscritti in analoghi registri degli altri Stati Membri della UE che alla data della prima richiesta di erogazione dovranno risultare iscritti ai suddetti registri di diritto italiano; hanno almeno un bilancio depositato o, se non tenuti, almeno una dichiarazione dei redditi presentata; sono formalmente dotati di un Organo di Controllo. Nel caso di Progetti realizzati in forma aggregata tale requisito deve sussistere per il Beneficiario Mandatario e per i Beneficiari che dovessero realizzare anche attività commerciali; I Progetti possono essere realizzati in forma aggregata da un massimo di 5 PMI, che abbiano ciascuna tutti i requisiti previsti, tramite un ATI o ATS che può essere costituita anche dopo la concessione del contributo. Il beneficiario mandatario deve essere la PMI che sostiene la maggiore parte delle spese ammissibili. I Beneficiari devono avere le risorse e i meccanismi finanziari tali da garantire la realizzazione del Progetto agevolato, vale a dire: avere ricavi e proventi specifici per organizzazione di attività culturali, esposizioni ed eventi non inferiori a 2 milioni di euro (media dei migliori 3 degli ultimi 5 esercizi). In caso di aggregazione tale requisito deve essere posseduto, cumulativamente, da tutti i partecipanti significativi; presentare in sede di Domanda una lettera di disponibilità a rilasciare la Fideiussione a garanzia dell’anticipo, da parte di una banca o assicurazione con le caratteristiche previste. In caso di aggregazione tale lettera di disponibilità deve riguardare il Mandatario con riferimento al totale del contributo richiesto. I Beneficiari devono infine possedere i requisiti generali di ammissibilità, tra cui un DURC regolare alla Data della Domanda o regolarizzato a seguito della apposita comunicazione INPS e, nel caso di soggetti iscritti al Registro delle Imprese, possedere la cd. polizza catastrofale. Sono in ogni caso esclusi soggetti partecipati direttamente o indirettamente, per oltre il 25% delle quote o dei diritti di voto, da uno o più Enti Pubblici. Ciascuna PMI, anche quale Mandante, può presentare un unico Progetto riguardante esclusivamente un solo Luogo della Cultura. Presentazione delle domande Le richieste di contributo devono essere presentate esclusivamente on-line, tramite la piattaforma GeCoWEB Plus . Il formulario è disponibile on line per la compilazione e il caricamento degli allegati a partire dalle ore 12:00 del 20 ottobre 2026 . Le domande devono essere inviate dalle ore 12:00 del 3 novembre ed entro le ore 17:00 del 3 dicembre 2026 . Procedura di Selezione Prima di presentare Domanda ciascuna PMI proponente (almeno la Mandataria nel caso di forma associata) deve realizzare un sopralluogo presso il luogo della cultura e può presentare richieste di chiarimenti scritti,. Tali chiarimenti sono resi noti sulla pagina dedicata all’Avviso. Lazio Innova realizza l’istruttoria di ammissibilità formale e una apposita Commissione di Valutazione valuta la validità del progetto, sulla base dei seguenti criteri. Criteri di Valutazione Punteggio sogl",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -456,65 +501,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Business Tour di investitori USA nel Lazio",
-      "url": "https://www.lazioinnova.it/laziointernational/2026/10/13/business-tour-investitori-usa-nel-lazio/",
-      "data_lettura": "2026-10-20",
-      "scadenza": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Nessuna data nel testo dell'elenco"
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "Ambiti di interesse La manifestazione di interesse è rivolta in particolare a startup, PMI e imprese innovative attive nei seguenti ambiti: Intelligenza artificiale, Generative AI e Deep Tech Advanced Manufacturing e tecnologie industriali ",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "Diplomazia Economica Brokerage e Open Innovation / Invest in Lazio / Network / 13 Ottobre 2026 Candida la tua Impresa per partecipare alle attività di Networking e Business matching con investitori USA - ROMA, 22-23 ottobre 2026 Il 22 e 23 ottobre prossimo la Regione Lazio ospita a Roma una delegazione di investitori e operatori statunitensi interessati a incontrare imprese innovative del territorio per approfondire opportunità di ingresso, sviluppo e collaborazione nei settori AI e Deep Tech, Advanced Manufacturing, CleanTech, Life Sciences, MedTech e Digital Health. L’iniziativa è organizzata da Lazio Innova in collaborazione con l’ Ufficio ICE di Los Angeles , nell’ambito di Invest in Lazio , progetto dedicato alla promozione e alla governance degli Investimenti Esteri per agevolare e consolidare gli investimenti nella regione, promuovendo il Lazio quale destinazione di IDE (Investimenti Diretti Esteri). Il Business Tour Investitori Usa nel Lazio coinvolge cinque operatori qualificati dell’ecosistema statunitense dell’innovazione e degli investimenti, provenienti direttamente da fondi di venture capital e corporate venture capital e da importanti realtà di sviluppo economico e tecnologico . Gli operatori sono interessati a conoscere startup e imprese del Lazio con tecnologie proprietarie, potenziale di crescita internazionale e interesse verso il mercato USA. Gli interessi della delegazione – infatti – puntano a opportunità di investimento , partnership industriali e tecnologiche, collaborazioni strategiche , sviluppo di progetti pilota e percorsi di ingresso o consolidamento nel mercato statunitense. Ambiti di interesse La manifestazione di interesse è rivolta in particolare a startup, PMI e imprese innovative attive nei seguenti ambiti: Intelligenza artificiale, Generative AI e Deep Tech Advanced Manufacturing e tecnologie industriali CleanTech, transizione energetica e sostenibilità Life Sciences MedTech e Digital Health Biotech, diagnostica e dispositivi medici Healthcare AI Attività previste Le imprese il cui profilo risulterà coerente con gli interessi degli operatori statunitensi potranno essere coinvolte, in base al programma e agli abbinamenti definiti, in una o più delle seguenti attività: Cena di networking con la delegazione USA; Incontri di networking e momenti di confronto diretto con gli operatori; Sessioni di presentazione aziendale; Eventuali visite presso imprese e realtà innovative del territorio; Incontro conclusivo dedicato alle opportunità di accesso e sviluppo nel mercato statunitense e ai servizi messi a disposizione dall’Ufficio ICE di Los Angeles. Le attività si svolgeranno a Roma nel periodo compreso tra il 22 e il 23 ottobre 2026 . Il calendario dettagliato e le modalità di partecipazione saranno comunicati direttamente alle imprese coinvolte. Come partecipare Le imprese interessate possono compilare entro le ore 12.00 di martedì 20 ottobre p.v. il modulo online di Manifestazione di Interesse disponibile QUI Nel modulo è richiesto di fornire una breve descrizione dell’impresa, della soluzione o tecnologia proposta, dello stadio di sviluppo e degli obiettivi rispetto al mercato statunitense e agli incontri con la delegazione. La compilazione del modulo costituisce una manifestazione di interesse e non garantisce automaticamente la partecipazione agli incontri . Le imprese saranno coinvolte sulla base della coerenza del profilo aziendale con gli ambiti di interesse degli operatori statunitensi, della disponibilità degli investitori e delle esigenze organizzative. La partecipazione alle attività del Business Tour Investitori U.S.A. è GRATUITA. Clicca QUI e scopri i profili degli investitori americani che partecipano al business tour.",
-      "rilevanza": {
-        "punteggio": 5,
-        "stato": "parole_chiave",
-        "motivazione": "Trovati termini dei temi: ia_ricerca, ml_dati_biomedici, tecnologie_emergenti_biomedicali. Corrispondenza lessicale, non un giudizio sul contenuto. Tema IA/imaging senza segni di ricerca nel testo (bando probabilmente per imprese): punteggio limitato a 5.",
-        "temi": [
-          "ia_ricerca",
-          "ml_dati_biomedici",
-          "tecnologie_emergenti_biomedicali"
-        ],
-        "evidenze": [
-          "artup, PMI e imprese innovative attive nei seguenti ambiti: Intelligenza artificiale, Generative AI e Deep Tech Advanced Manufacturing e tecnolo",
-          "artup, PMI e imprese innovative attive nei seguenti ambiti: Intelligenza artificiale, Generative AI e Deep Tech Advanced Manufacturing e tecnolo",
-          " settori AI e Deep Tech, Advanced Manufacturing, CleanTech, Life Sciences, MedTech e Digital Health. L’iniziativa è organizzata da La"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "salute",
-          "industria_elettronica"
-        ]
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "ESA BIC Lazio, seconda finestra 2026",
       "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-18",
         "stato": "confermato",
@@ -565,7 +554,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a MEDICA 2026",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-medica-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-19",
         "stato": "confermato",
@@ -623,7 +612,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -668,7 +657,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -693,7 +682,7 @@
         "citazione": "Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a.",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Voucher Digitalizzazione Pmi 2026 Aperto FESR Documentazione Determinazione n. G12616 del 18 settembre 2026 - Approvazione Avviso Pubblico e Modulistica Avviso Pubblico Modulistica e Istruzioni Uso di GeCoWEB Plus e Documenti di Rendicontazione Griglia Punteggi Modello 1 Diagnosi Digitale Modello 2 Relazione Digitalizzazione 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 2 – Permettere ai cittadini, alle imprese, alle organizzazioni della ricerca e alle autorità pubbliche di cogliere i vantaggi della digitalizzazione Finalità La Regione Lazio, attraverso l’Avviso, sostiene i progetti delle PMI del Lazio volti ad adottare alcune soluzioni digitali diffuse e trasversali, idonee ad aumentarne l’efficienza e la competitività. Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a. alla Data della Domanda e fino alla Data di Concessione rispettano i requisiti dimensionali di PMI . b. sono iscritte al Registro delle Imprese Italiano . c. possiedono una Sede Operativa nel territorio della regione Lazio , come risultante al Registro delle Imprese Italiano, e svolgono in tale Sede Operativa un’attività economica, oggetto dell’agevolazione, che non rientra nelle Attività Escluse. Tale requisito può essere acquisito entro e non oltre la data della Richiesta di Erogazione, a condizione che l’apertura della Sede Operativa nel Lazio e l’avvio dell’attività economica sia descritta, giustificata e documentata già in sede di Domanda in modo idoneo a consentirne la verifica. Non sono ammissibili le PMI che hanno ottenuto un contributo a valere sui Precedenti Avvisi Voucher Digitalizzazione PMI, a meno che alla Data della Domanda non risulti già presentata la relativa richiesta di erogazione e fermo restando che non possono essere agevolati Interventi rientranti nella medesima Tipologia di quelli già oggetto di precedente contributo. I Beneficiari devono inoltre possedere i requisiti generali di ammissibilità riportati nell’Appendice 2 all’Avviso. Progetti e Contributi I Progetti ammissibili sono composti da alcuni interventi predefiniti a cui sono associate delle somme forfettarie di cui al comma 3, lettera c, dell’art. 53 del Reg. (UE) 2021/1060, definita in applicazione della metodologia adottata dall’Autorità di Gestione. Il contributo, comprensivo dei costi diretti del personale calcolati ai sensi del comma 1 dell’art. 55 del medesimo Regolamento (tasso forfettario del 20%), è determinato nella misura indicata nella seguente tabella e in funzione dei parametri ivi specificati. A. Per la Diagnosi Digitale: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 8.162,40 euro 21.427,20 euro B. Per l’acquisto di nuove applicazioni integrate per la produttività individual e (Digital Workplace), nel limite massimo di una Digital Workplace per ogni addetto, come risultante dalla “Attestazione della denuncia contributiva” emessa dall’INPS: Indipendentemente dalla dimensione dell’Impresa 2.270,40 euro cadauna C. Per l’adozione di nuovi sistemi di Digital Commerce & Engagement , in funzione della dimensione della PMI Beneficiaria, come di seguito indicato: Micro Impresa Piccola Impresa Media Impresa 4.954,80 euro 8.125,20 euro 15.873,60 euro D. Per la migrazione dell’infrastruttura esecutiva di applicazioni aziendali e relativi dati in cloud pubblico (Cloud Computing), per ciascuna tipologia di virtual machine oggetto della migrazione (anche più di una per ciascuna PMI e Domanda ma non più di una per ciascuna delle quattro tipologie); Virtual machine Indipendentemente dalla dimensione dell’Impresa D.1 Application server 17.683,20 euro D.2 Database server 27.656,40 euro D.3 Web server 14.076,00 euro D.4 Database back up 5.593,20 euro E. Per l’adozione di nuovi sistemi di Cyber Security: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 14.656,80 euro 44.917,20 euro I Progetti presentati dalle Micro Imprese non possono includere Interventi rientranti nelle tipologie di cui alle lettere A ed E. I Progetti presentati dalle Piccole e dalle Medie Imprese devono includere obbligatoriamente l’Intervento di cui alla lettera A. Non sono ammissibili Progetti che includono solo l’Intervento di cui alla lettera A (Diagnosi Digitale). Non sono ammissibili Progetti a cui è concedibile un contributo inferiore a 14.000,00 euro. Il contributo massimo concedibile è di 50.000,00 euro per le Micro Imprese, 100.000,00 euro per le Piccole Imprese e 150.000,00 euro per le Medie Imprese. Non sono ammissibili interventi riguardanti tipologie già oggetto di contributi concessi a valere sui prevedenti Avvisi Voucher Digitalizzazione PMI. Modalità di erogazione Il contributo è erogato a saldo previa presentazione di apposita richiesta prodotta da GeCoWEB Plus e, da presentarsi entro 6 mesi dalla concessione del contributo e dopo aver caricato sulla piattaforma: per le Piccole Imprese e per le Medie Imprese: la Diagnosi Digitale completa della sezione ex post redatta dal medesimo Innovation Manager indipendente che ha redatto le Diagnosi Digitale ex ante; per le Micro Imprese: la Relazione sulla Digitalizzazione e completa della sezione ex post sottoscritta dal fornitore per attestare la conformità delle caratteristiche specifiche dei prodotti, soluzioni e servizi dallo stesso forniti, configurati e istallati. In caso di più fornitori la Relazione sulla Digitalizzazione deve essere sottoscritta da colui che ha fornito i servizi di progettazione e configurazione, nonché di verifica del corretto funzionamento dei beni e servizi acquisiti che deve essere unico per tutti gli Interventi previsti dal Progetto. Presentazione delle domande Le Domande di contributo devono essere presentate esclusivamente on line mediante la piattaforma GeCoWEB Plus . Il Formulario è disponibile on line a partire dalle ore 12:00 del 25 settembre 2026 . L’invio delle Domande deve avvenire a partire dalle ore 12:00 del 30 settembre 2026 ed entro le ore 17:00 del 29 ottobre 2026 . OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui .",
+      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Voucher Digitalizzazione Pmi 2026 Aperto FESR Documentazione Determinazione n. G12616 del 18 settembre 2026 - Approvazione Avviso Pubblico e Modulistica Avviso Pubblico Modulistica e Istruzioni Uso di GeCoWEB Plus e Documenti di Rendicontazione Griglia Punteggi Modello 1 Diagnosi Digitale Modello 2 Relazione Digitalizzazione FAQ (20 ottobre 2026) 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 2 – Permettere ai cittadini, alle imprese, alle organizzazioni della ricerca e alle autorità pubbliche di cogliere i vantaggi della digitalizzazione Finalità La Regione Lazio, attraverso l’Avviso, sostiene i progetti delle PMI del Lazio volti ad adottare alcune soluzioni digitali diffuse e trasversali, idonee ad aumentarne l’efficienza e la competitività. Soggetti Beneficiari I Beneficiari dei contributi del presente Avviso sono le PMI che: a. alla Data della Domanda e fino alla Data di Concessione rispettano i requisiti dimensionali di PMI . b. sono iscritte al Registro delle Imprese Italiano . c. possiedono una Sede Operativa nel territorio della regione Lazio , come risultante al Registro delle Imprese Italiano, e svolgono in tale Sede Operativa un’attività economica, oggetto dell’agevolazione, che non rientra nelle Attività Escluse. Tale requisito può essere acquisito entro e non oltre la data della Richiesta di Erogazione, a condizione che l’apertura della Sede Operativa nel Lazio e l’avvio dell’attività economica sia descritta, giustificata e documentata già in sede di Domanda in modo idoneo a consentirne la verifica. Non sono ammissibili le PMI che hanno ottenuto un contributo a valere sui Precedenti Avvisi Voucher Digitalizzazione PMI, a meno che alla Data della Domanda non risulti già presentata la relativa richiesta di erogazione e fermo restando che non possono essere agevolati Interventi rientranti nella medesima Tipologia di quelli già oggetto di precedente contributo. I Beneficiari devono inoltre possedere i requisiti generali di ammissibilità riportati nell’Appendice 2 all’Avviso. Progetti e Contributi I Progetti ammissibili sono composti da alcuni interventi predefiniti a cui sono associate delle somme forfettarie di cui al comma 3, lettera c, dell’art. 53 del Reg. (UE) 2021/1060, definita in applicazione della metodologia adottata dall’Autorità di Gestione. Il contributo, comprensivo dei costi diretti del personale calcolati ai sensi del comma 1 dell’art. 55 del medesimo Regolamento (tasso forfettario del 20%), è determinato nella misura indicata nella seguente tabella e in funzione dei parametri ivi specificati. A. Per la Diagnosi Digitale: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 8.162,40 euro 21.427,20 euro B. Per l’acquisto di nuove applicazioni integrate per la produttività individual e (Digital Workplace), nel limite massimo di una Digital Workplace per ogni addetto, come risultante dalla “Attestazione della denuncia contributiva” emessa dall’INPS: Indipendentemente dalla dimensione dell’Impresa 2.270,40 euro cadauna C. Per l’adozione di nuovi sistemi di Digital Commerce & Engagement , in funzione della dimensione della PMI Beneficiaria, come di seguito indicato: Micro Impresa Piccola Impresa Media Impresa 4.954,80 euro 8.125,20 euro 15.873,60 euro D. Per la migrazione dell’infrastruttura esecutiva di applicazioni aziendali e relativi dati in cloud pubblico (Cloud Computing), per ciascuna tipologia di virtual machine oggetto della migrazione (anche più di una per ciascuna PMI e Domanda ma non più di una per ciascuna delle quattro tipologie); Virtual machine Indipendentemente dalla dimensione dell’Impresa D.1 Application server 17.683,20 euro D.2 Database server 27.656,40 euro D.3 Web server 14.076,00 euro D.4 Database back up 5.593,20 euro E. Per l’adozione di nuovi sistemi di Cyber Security: Micro Impresa Piccola Impresa Media Impresa Non ammissibile a contributo 14.656,80 euro 44.917,20 euro I Progetti presentati dalle Micro Imprese non possono includere Interventi rientranti nelle tipologie di cui alle lettere A ed E. I Progetti presentati dalle Piccole e dalle Medie Imprese devono includere obbligatoriamente l’Intervento di cui alla lettera A. Non sono ammissibili Progetti che includono solo l’Intervento di cui alla lettera A (Diagnosi Digitale). Non sono ammissibili Progetti a cui è concedibile un contributo inferiore a 14.000,00 euro. Il contributo massimo concedibile è di 50.000,00 euro per le Micro Imprese, 100.000,00 euro per le Piccole Imprese e 150.000,00 euro per le Medie Imprese. Non sono ammissibili interventi riguardanti tipologie già oggetto di contributi concessi a valere sui prevedenti Avvisi Voucher Digitalizzazione PMI. Modalità di erogazione Il contributo è erogato a saldo previa presentazione di apposita richiesta prodotta da GeCoWEB Plus e, da presentarsi entro 6 mesi dalla concessione del contributo e dopo aver caricato sulla piattaforma: per le Piccole Imprese e per le Medie Imprese: la Diagnosi Digitale completa della sezione ex post redatta dal medesimo Innovation Manager indipendente che ha redatto le Diagnosi Digitale ex ante; per le Micro Imprese: la Relazione sulla Digitalizzazione e completa della sezione ex post sottoscritta dal fornitore per attestare la conformità delle caratteristiche specifiche dei prodotti, soluzioni e servizi dallo stesso forniti, configurati e istallati. In caso di più fornitori la Relazione sulla Digitalizzazione deve essere sottoscritta da colui che ha fornito i servizi di progettazione e configurazione, nonché di verifica del corretto funzionamento dei beni e servizi acquisiti che deve essere unico per tutti gli Interventi previsti dal Progetto. Presentazione delle domande Le Domande di contributo devono essere presentate esclusivamente on line mediante la piattaforma GeCoWEB Plus . Il Formulario è disponibile on line a partire dalle ore 12:00 del 25 settembre 2026 . L’invio delle Domande deve avvenire a partire dalle ore 12:00 del 30 settembre 2026 ed entro le ore 17:00 del 29 ottobre 2026 . OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui .",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -715,7 +704,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -760,7 +749,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -807,7 +796,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetti operativi di promozione turistica finalizzati alla celebrazione del Santo Natale",
       "url": "https://www.lazioeuropa.it/bandi/progetti-operativi-di-promozione-turistica-finalizzati-alla-celebrazione-del-santo-natale/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -852,7 +841,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi allo spettacolo dal vivo (2027)",
       "url": "https://www.lazioeuropa.it/bandi/contributi-allo-spettacolo-dal-vivo-2027/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -897,7 +886,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget",
       "url": "https://www.lazioeuropa.it/bandi/lazio-next-generation-sostegno-a-opere-cinematografiche-e-audiovisive-low-budget/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-04",
         "stato": "confermato",
@@ -942,7 +931,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Smart Map. bando per i piccoli Comuni",
       "url": "https://www.lazioeuropa.it/bandi/smart-map-bando-per-i-piccoli-comuni/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-09",
         "stato": "confermato",
@@ -989,7 +978,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1032,58 +1021,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Partecipazione a Social Football Summit 2026",
-      "url": "https://www.lazioinnova.it/laziointernational/2026/10/07/manifestazione-di-interesse-social-football-summit-2026/",
-      "data_lettura": "2026-10-20",
-      "scadenza": {
-        "valore": "2026-10-19",
-        "stato": "confermato",
-        "citazione": "ata, candidature entro le ore 10.00 del 19 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "€ 300.000,00",
-        "stato": "da_verificare",
-        "citazione": " manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "Requisiti di ammissibilità per le imprese invitate a partecipare L’opportunità di prendere parte a Social Football Summit 2026 è riservata a imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio;",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "Bandi e Finanziamenti / Fiere e Iniziative Internazionali / Network / 7 Ottobre 2026 Selezione di 3 Startup/PMI del Lazio operanti nel settore Football Industry. PROROGA candidature lunedì 19 ottobre 2026 ore 10.00 La Camera di Commercio di Roma, con il supporto dell’ Azienda Speciale Sviluppo e Territorio , e in collaborazione con la Regione Lazio, per il tramite del soggetto attuatore Lazio Innova, nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche, finalizzata a sostenere il tessuto economico regionale, selezionano 3 Startup e PMI del Lazio che operano nel settore della Football Industry interessate a prendere parte a Social Football Summit, che si svolgerà dal 10 all’11 novembre 2026 presso l’ Allianz Stadium di Torino . La partecipazione delle 3 imprese è sostenuta dalla Camera di Commercio di Roma . Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. Il Social Football Summit , è il primo e unico evento internazionale B2B in Italia dedicato all’industria calcistica. Fondato nel 2018, ha l’obiettivo di offrire una piattaforma innovativa per la condivisione di contenuti, il networking e la formazione per manager, professionisti e aziende per costruire un ecosistema dinamico e innovativo con l’obiettivo di realizzare occasioni di incontro tra personaggi autorevoli e figure chiave della Football Industry, favorendo la condivisione di know-how, best practice, idee e opportunità di collaborazione e di business. Negli anni è diventato un luogo privilegiato di confronto sui temi chiave dell’industria calcistica: Innovazione, Sostenibilità, Comunicazione, Infrastrutture e Fan Engagement con il contributo di relatori e istituzioni di primo piano. Durante le due giornate di lavori, oltre 150 speaker internazionali – tra rappresentanti di FIFA, UEFA, FIGC, Lega Serie A, club europei, calciatori, allenatori, dirigenti e innovatori d’impresa – si alterneranno tra panel, workshop e incontri di networking. SFS26 rappresenta per le imprese un’importante occasione per promuovere prodotti e servizi agli stakeholders italiani ed internazionali che saranno presenti all’evento. Tra i momenti più attesi dell’edizione 2026: la startup competition internazionale “SFS-Extratime” dedicata ai giovani innovatori; la cerimonia di premiazione gli “SFS Awards”, volta a premiare le eccellenze dell’industria calcistica; il nuovo format “SFS Women’s Sport”, dedicata alla leadership femminile nella Football Industry. Ambiti a cui si rivolge la Call Camera di Commercio di Roma e Regione Lazio selezionano Startup e PMI del Lazio che operano nel settore Football Industry, che presentino soluzioni all’avanguardia nei seguenti ambiti: Innovation & Technology; OTT & Broadcast; Responsibility, Security & Sustainability; Training on the Job; Metaverso, NFT e asset digitali innovativi applicato al calcio, allo sport e all’entertainment; Realtà virtuale, realtà aumentata e realtà mista; Intelligenza artificiale e audiovisivo per lo sport; Ticketing e riconoscimento facciale; Wellness & Sport; Sport & Tourism. Spazi e servizi dedicati a ciascuna impresa Ogni impresa selezionata avrà diritto a: Spazio espositivo di 3 x 2 m all’interno dell’area dedicata, comprensivo di desk (1 x 0,80 m), monitor, moquette e logo stampato sullo sfondo; Visibilità del brand a rotazione sui monitor dell’Allianz Stadium (Torino); Servizio foto/video a supporto delle attività di comunicazione; Presenza sul portale web socialfootballsummit.com come Exhibitor Partner; 4 Delegate Pass per partecipare a #SFS26; Iscrizione gratuita alla manifestazione; Postazione di ricarica condivisa; Connessione Wi-Fi; Assicurazione RCT; Servizi aggiuntivi garantiti alle imprese partecipanti. Le aziende ammesse alla collettiva regionale beneficeranno inoltre di: Organizzazione di incontri B2B con buyer nazionali e internazionali tramite app dedicata e gratuita; per la gestione degli appuntamenti; Partecipazione a tutti i panel ospitati nei 4 stage dell’evento; Inserimento del logo nella comunicazione istituzionale della manifestazione; Breve descrizione dell’azienda sull’app ufficiale dell’evento; Vetrina digitale sulla Social Football Summit APP. Requisiti di ammissibilità per le imprese invitate a partecipare L’opportunità di prendere parte a Social Football Summit 2026 è riservata a imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio e in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (Il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non siano sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) ed ogni altra procedura concorsuale né abbiano in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non siano state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica Amministrazione; non avere Amministratori e/o Legali Rappresentanti che siano stati condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comunità che incidono sulla moralità professionale (è comunque causa di esclusione la condanna, con sentenza passata in giudicato, per reati di partecipazione ad un’organizzazione criminale, corruzione, frode, riciclaggio); non avere Amministratori e/o Legali Rappresentanti che si siano resi colpevoli di false dichiarazioni nei rapporti con la Pubblica Amministrazione; essere in regola con il versamento dei contributi previdenziali e assistenziali, accertabile mediante acquisizione del DURC, ovvero non essere soggetti agli obblighi in materia di regolarità contributiva e, quindi, non essere tenuti all’iscrizione presso alcun Ente previdenziale o assistenziale. Il possesso dei requisiti è attestato mediante dichiarazioni rese al momento della partecipazione attraverso il modulo di manifestazione di interesse. Tali dichiarazioni potranno essere verificate, così come stabilito ",
-      "rilevanza": {
-        "punteggio": 4,
-        "stato": "parole_chiave",
-        "motivazione": "Solo termini generici o menzioni isolate (ia_ricerca), che possono comparire di passaggio: corrispondenza debole, punteggio limitato a 5.",
-        "temi": [
-          "ia_ricerca"
-        ],
-        "evidenze": [
-          "tainment; Realtà virtuale, realtà aumentata e realtà mista; Intelligenza artificiale e audiovisivo per lo sport; Ticketing e riconoscimento facc"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-17",
-        "ambiti": []
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1131,7 +1071,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -1178,7 +1118,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1223,7 +1163,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Polizia Locale plus 2026 – parte corrente",
       "url": "https://www.lazioeuropa.it/bandi/polizia-locale-plus-2026-parte-corrente/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -1268,7 +1208,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Istituzione e potenziamento dei Centri per uomini autori o potenziali autori di violenza (C.U.A.V.)",
       "url": "https://www.lazioeuropa.it/bandi/istituzione-e-potenziamento-dei-centri-per-uomini-autori-o-potenziali-autori-di-violenza-c-u-a-v/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-24",
         "stato": "confermato",
@@ -1313,7 +1253,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi Culturali – inserimento in O.B.R., O.M.R. e O.A.R. – Anno 2027",
       "url": "https://www.lazioeuropa.it/bandi/servizi-culturali-inserimento-in-o-b-r-o-m-r-e-o-a-r-anno-2027/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -1361,7 +1301,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-28",
         "stato": "confermato",
@@ -1406,7 +1346,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1453,7 +1393,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1498,7 +1438,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1545,7 +1485,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-10-30",
         "stato": "confermato",
@@ -1590,7 +1530,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Aiuto alle aziende agricole zootecniche per l’acquisto di riproduttori",
       "url": "https://www.lazioeuropa.it/bandi/aiuto-alle-aziende-agricole-zootecniche-per-lacquisto-di-riproduttori/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2026-01-19",
         "stato": "confermato",
@@ -1635,7 +1575,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1682,7 +1622,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1727,7 +1667,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1774,7 +1714,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1819,7 +1759,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1868,7 +1808,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1913,7 +1853,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1958,7 +1898,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-10-20",
+      "data_lettura": "2026-10-21",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
