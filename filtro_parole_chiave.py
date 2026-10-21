@@ -20,13 +20,13 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-19"
+VERSIONE = "parole-chiave-20"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
 SSH = re.compile(r"\bdemocra\w+|\bequality\b|\binclusive[\s-]*societ\w+|\bsocial[\s-]*sciences?\b|\bhumanities\b|\bcyberviolence\b|\bdisinformation\b", re.I)
 ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
-NUOVI = {"ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
+NUOVI = {"neuro_segnali", "ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
 RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
 GENERICO = re.compile(r"ricerca industriale|sviluppo sperimentale|organismi di ricerca|progetti di ricerca e sviluppo", re.I)
 VICINANZA = 200  # caratteri entro cui deve comparire un termine di salute
@@ -40,6 +40,7 @@ TEMI = {
     "imaging": [(r"\bimage[\s-]*(?:analysis|processing|reconstruction|segmentation)\b|\bimaging\b|\belaborazione[\s-]*(?:di[\s-]*)?immagini\b|\banalisi[\s-]*(?:di[\s-]*)?immagini\b|\bmicroscop\w+|\bremote[\s-]*sensing\b|\btelerilevamento\b", False, False)],
     "digitale_dati": [(r"\bdigital[\s-]*twins?\b|\bgemell\w+[\s-]*digital\w+|\bdata[\s-]*driven\b|\bsignal[\s-]*processing\b|\belaborazione[\s-]*(?:dei[\s-]*)?segnali\b|\bhigh[\s-]*performance[\s-]*computing\b|\bcalcolo[\s-]*ad[\s-]*alte[\s-]*prestazioni\b|\bHPC\b", False, True)],
     "analisi_dati": [(r"\bdata[\s-]*(?:analysis|analytics|science|mining)\b|\bbig[\s-]*data\b|\banalisi[\s-]*(?:dei[\s-]*)?dati\b|\bscienza[\s-]*dei[\s-]*dati\b|\bpredictive[\s-]*model\w*|\bmodelli[\s-]*predittiv\w+|\bstatistical[\s-]*model\w*|\bmodellistica\b|\bnumerical[\s-]*simulation\w*|\binternet[\s-]*of[\s-]*things\b|\bIoT\b|\bsmart[\s-]*sensors?\b", False, True)],
+    "neuro_segnali": [(r"\bEEG\b|\belectroencephalograph\w+|\belettroencefalograf\w+|\beye[\s-]*tracking\b|\bneuro[\s-]*marketing\b|\bconsumer[\s-]*neuroscience\b|\bneuro[\s-]*ergonomics?\b|\baffective[\s-]*computing\b|\bemotion[\s-]*recognition\b|\bcognitive[\s-]*(?:load|state|workload)\b|\bbrain[\s-]*computer[\s-]*interfaces?\b|\bneuro[\s-]*technolog\w+|\bbio[\s-]*signals?\b|\bphysiological[\s-]*signals?\b|\belectrodermal\b|\bgalvanic[\s-]*skin\b|\bdry[\s-]*electrodes?\b|\bwearable[\s-]*(?:EEG|sensors?)\b", False, False)],
     "sensoristica": [(r"\bbiosensor\w*", False, False),
                      (r"\bwearables?\b", True, False),
                      (r"\bsensoristica\b|\bsensors?\b|\bsensori\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bsensor[\s-]*arrays?\b|\barray[\s-]*di[\s-]*sensori\b", True, True)],
