@@ -42,7 +42,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -87,7 +87,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -132,7 +132,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -177,7 +177,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -222,7 +222,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -267,7 +267,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -312,7 +312,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -357,7 +357,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -402,7 +402,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -447,7 +447,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "industria_elettronica"
         ]
@@ -494,7 +494,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -539,11 +539,9 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "salute",
           "agrifood",
-          "ambiente_acqua",
           "energia_mobilita",
           "industria_elettronica"
         ]
@@ -600,10 +598,9 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "salute",
-          "industria_elettronica"
+          "salute"
         ]
       }
     },
@@ -648,7 +645,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -693,7 +690,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "salute"
         ]
@@ -740,7 +737,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -785,7 +782,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "agrifood"
         ]
@@ -832,7 +829,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -877,7 +874,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -922,7 +919,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -967,7 +964,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "edilizia_infrastrutture"
         ]
@@ -1014,7 +1011,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1059,7 +1056,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "ambiente_acqua",
           "industria_elettronica"
@@ -1107,10 +1104,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "edilizia_infrastrutture"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1154,7 +1149,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1199,7 +1194,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1244,7 +1239,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1289,10 +1284,9 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "patrimonio_culturale",
-          "edilizia_infrastrutture"
+          "patrimonio_culturale"
         ]
       }
     },
@@ -1337,7 +1331,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1382,7 +1376,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "ambiente_acqua"
         ]
@@ -1429,7 +1423,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1474,10 +1468,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "salute"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1521,7 +1513,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1566,7 +1558,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1611,10 +1603,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "agrifood"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1658,7 +1648,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1703,10 +1693,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "salute"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1750,7 +1738,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1795,12 +1783,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "agrifood",
-          "edilizia_infrastrutture",
-          "energia_mobilita"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1844,7 +1828,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1889,7 +1873,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1934,10 +1918,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "industria_elettronica"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     }
   ]

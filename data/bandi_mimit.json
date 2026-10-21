@@ -47,7 +47,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -96,7 +96,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "salute"
         ]
@@ -147,7 +147,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "edilizia_infrastrutture"
         ]
@@ -198,7 +198,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "industria_elettronica"
         ]
@@ -249,9 +249,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "edilizia_infrastrutture",
           "industria_elettronica"
         ]
       }
@@ -301,7 +300,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "edilizia_infrastrutture",
           "energia_mobilita"
@@ -353,10 +352,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "industria_elettronica"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -404,9 +401,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "agrifood",
           "energia_mobilita"
         ]
       }
@@ -452,7 +448,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -501,7 +497,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "energia_mobilita"
         ]
@@ -552,7 +548,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "industria_elettronica"
         ]
@@ -605,7 +601,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "salute",
           "agrifood"
@@ -657,10 +653,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "ambiente_acqua"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -704,7 +698,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -749,11 +743,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "salute",
-          "ambiente_acqua",
-          "energia_mobilita"
+          "ambiente_acqua"
         ]
       }
     },
@@ -802,7 +795,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "energia_mobilita"
         ]
@@ -853,7 +846,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -898,7 +891,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -947,7 +940,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -992,10 +985,9 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "energia_mobilita",
-          "industria_elettronica"
+          "energia_mobilita"
         ]
       }
     },
@@ -1044,10 +1036,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
-        "ambiti": [
-          "salute"
-        ]
+        "rubrica": "parole-chiave-18",
+        "ambiti": []
       }
     },
     {
@@ -1097,7 +1087,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": []
       }
     },
@@ -1146,7 +1136,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "energia_mobilita"
         ]
@@ -1199,7 +1189,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
           "salute",
           "industria_elettronica"
@@ -1251,9 +1241,8 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-17",
+        "rubrica": "parole-chiave-18",
         "ambiti": [
-          "salute",
           "energia_mobilita",
           "industria_elettronica"
         ]
