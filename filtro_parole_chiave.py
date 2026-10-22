@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-20"
+VERSIONE = "parole-chiave-21"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -28,6 +28,7 @@ SSH = re.compile(r"\bdemocra\w+|\bequality\b|\binclusive[\s-]*societ\w+|\bsocial
 ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
 NUOVI = {"neuro_segnali", "ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
 RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
+REGIONALE_RI = re.compile(r"\bricerca\b|\binnovazion\w+|\bfiliere?\s+tecnologic\w+|\btecnolog\w+|\bdigital\w*|\bintelligenza\s+artificiale\b|\btrasferimento\s+tecnologico\b|\bstart[\s-]*up\b|\bspin[\s-]*off\b|\bincubat\w+|\bESA\s+BIC\b|\bbrevett\w+|\bHorizon\b|\bdottorat\w+|\bSTEP\b|\bFRI\b", re.I)
 GENERICO = re.compile(r"ricerca industriale|sviluppo sperimentale|organismi di ricerca|progetti di ricerca e sviluppo", re.I)
 VICINANZA = 200  # caratteri entro cui deve comparire un termine di salute
 MIN_CARATTERI = 300
@@ -121,6 +122,16 @@ def valuta(bando):
         p = min(5, 3 + len(deboli))
         mot = ("Solo termini generici o menzioni isolate (" + ", ".join(deboli) + "), che possono comparire di passaggio: "
                "corrispondenza debole, punteggio limitato a 5.")
+    elif (bando.get("ente") or "").startswith("Regione Lazio / Lazio Innova"):
+        g = REGIONALE_RI.search(titolo)
+        if g:
+            p, temi = 5, ["ricerca_innovazione_regionale"]
+            evidenze = [titolo[max(0, g.start() - 40): g.end() + 40]]
+            mot = ("Bando regionale che parla di ricerca, innovazione o tecnologia nel titolo, senza i temi specifici del gruppo: "
+                   "da valutare a mano (spesso rivolto a imprese, con università o organismi di ricerca come partner).")
+        else:
+            p, temi, evidenze = 0, [], []
+            mot = "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...)."
     elif bando.get("ente") == "MIMIT" and GENERICO.search(testo):
         g = GENERICO.search(testo)
         p, temi = 4, ["ricerca_industriale_generica"]
