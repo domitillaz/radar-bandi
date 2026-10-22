@@ -47,9 +47,17 @@ def pulisci(s):
 
 
 def scarica(url):
-    r = requests.get(url, timeout=30, headers={"User-Agent": "radar-bandi/0.1 (ricerca universitaria)"})
-    r.raise_for_status()
-    return r.text
+    """Fino a 3 tentativi: i timeout di connessione sono spesso momentanei (sito lento o irraggiungibile per qualche minuto)."""
+    ultimo = None
+    for tentativo in range(3):
+        try:
+            r = requests.get(url, timeout=(20, 40), headers={"User-Agent": "radar-bandi/0.1 (ricerca universitaria)"})
+            r.raise_for_status()
+            return r.text
+        except (requests.ConnectionError, requests.Timeout) as e:  # ConnectTimeout, ReadTimeout, errori di rete
+            ultimo = e
+            time.sleep(5 * (tentativo + 1))
+    raise ultimo
 
 
 def campo(valore, stato, citazione=None, motivo=None):
@@ -149,7 +157,8 @@ def main():
         pagine += n
         errori += err
     if not schede:
-        raise SystemExit("MIMIT: nessuna scheda trovata negli elenchi: la struttura della pagina potrebbe essere cambiata. "
+        raise SystemExit("MIMIT: nessuna scheda trovata negli elenchi (se compaiono errori di rete la causa è il sito non raggiungibile, non la struttura; "
+                         "altrimenti la struttura potrebbe essere cambiata). "
                          + "; ".join(errori))
     scartati = {"non_ricerca": 0, "scaduto": 0, "chiuso": 0, "non_letta": 0, "oltre_limite": 0}
     bandi = []

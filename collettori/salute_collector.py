@@ -55,7 +55,7 @@ def titolo_pagina(html, titolo_lista):
 
 
 def leggi_lista(url):
-    trovate, errori, visitate = {}, [], set()
+    trovate, errori, visitate, visti_link = {}, [], set(), set()
     coda = [url]
     while coda and len(visitate) < MAX_PAGINE_LISTA:
         u = coda.pop(0)
@@ -75,13 +75,22 @@ def leggi_lista(url):
             path = p.path.rstrip("/")
             parti = [x for x in path.split("/") if x]
             sezione = "/".join(parti[:2])
+            visti_link.add(path)
             if sezione in SEZIONI and p.query and re.search(r"(?:^|&)(?:page|pagina|start|p)=", p.query):
                 coda.append(full)
+            elif parti[:1] == ["notizie"] and len(parti) >= 2 and parti[:2] != ["notizie", "salute"] \
+                    and not path.endswith("index.php"):
+                # i link alle notizie dell'elenco Salute possono stare sotto /notizie/<titolo> oppure /notizie/salute/<titolo>
+                url_s = BASE + path
+                t = M.pulisci(a.get_text())
+                if url_s not in trovate or (t and not trovate[url_s]):
+                    trovate[url_s] = t
             elif sezione in SEZIONI and len(parti) >= 3 and not path.endswith("index.php"):
                 url_s = BASE + path
                 t = M.pulisci(a.get_text())
                 if url_s not in trovate or (t and not trovate[url_s]):
                     trovate[url_s] = t
+    print(f"Salute: elenco {url}: {len(visti_link)} link sul sito, {len(trovate)} pagine candidate; esempi: {sorted(visti_link)[:5]}")
     return trovate, len(visitate), errori
 
 
@@ -94,7 +103,7 @@ def main():
         pagine += n
         errori += err
     if not schede:
-        raise SystemExit("Salute: nessuna pagina trovata negli elenchi: la struttura potrebbe essere cambiata. "
+        raise SystemExit("Salute: nessuna pagina trovata negli elenchi (vedi le righe 'Salute: elenco' sopra: se i link sul sito sono 0 la pagina non è stata letta come previsto). "
                          + "; ".join(errori))
     scartati = {"non_bando": 0, "scaduto": 0, "chiuso": 0, "non_letta": 0, "oltre_limite": 0}
     bandi = []
