@@ -1,0 +1,42 @@
+{
+  "generato": "2026-10-22",
+  "errori": [],
+  "bandi": [
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Filiere Tecnologiche (avviso FESR Lazio 2021-2027)",
+      "url": "https://www.lazioinnova.it/news/presentazione-del-nuovo-bando-filiere-tecnologiche/",
+      "url_scheda": "https://www.lazioinnova.it/app/uploads/2026/10/ST-Filiere-Tecnologiche-6-ottobre-2026.pdf",
+      "data_lettura": "2026-10-22",
+      "inserito_a_mano": true,
+      "apertura": "in arrivo",
+      "scadenza": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Date di apertura e chiusura non indicate nella notizia né nella scheda sintetica: i progetti si presentano dopo la pubblicazione dei Soggetti Cardine. Controllare lazioinnova.it"
+      },
+      "durata": {
+        "valore": "18 mesi dalla concessione",
+        "stato": "da_verificare",
+        "citazione": null,
+        "motivo": "Dalla scheda sintetica (letta tramite sintesi, non copiata alla lettera): progetti conclusi e rendicontati entro 18 mesi"
+      },
+      "budget": {
+        "valore": "55 milioni di euro; contributo massimo 3 milioni per progetto",
+        "stato": "da_verificare",
+        "citazione": null,
+        "motivo": "Letto tramite sintesi della notizia e della scheda: verificare"
+      },
+      "ammissibilita": {
+        "valore": "Soggetti Cardine: grandi imprese o organismi di ricerca del Lazio; progetti realizzati da PMI del Lazio; organismi di ricerca nei progetti fino al 30% delle spese",
+        "stato": "da_verificare",
+        "citazione": null,
+        "motivo": "Le università non sono citate nella scheda: verificare se rientrano tra gli organismi di ricerca ammessi"
+      },
+      "testo_fonte": "Sintesi inserita a mano il 22 ottobre 2026, non testo originale. Bando Filiere Tecnologiche della Regione Lazio e di Lazio Innova: sostegno a progetti di innovazione promossi da grandi imprese o centri di ricerca e realizzati da una filiera di PMI del territorio; settori Biotech, Aerospazio, Digitale e AI (deep tech della Smart Specialization Strategy regionale). Organismi di ricerca ammessi come Soggetto Cardine o partner. Dotazione 55 milioni di euro.",
+      "rilevanza": null
+    }
+  ]
+}
