@@ -50,8 +50,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     }
   ]

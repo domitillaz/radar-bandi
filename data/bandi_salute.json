@@ -47,10 +47,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute"
-        ]
+        ],
+        "cancro": true,
+        "linee": []
       }
     },
     {
@@ -94,10 +96,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -141,11 +145,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute",
           "agrifood"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -189,10 +195,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     }
   ]

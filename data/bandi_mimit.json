@@ -47,8 +47,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -96,10 +98,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -147,10 +151,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "edilizia_infrastrutture"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -198,9 +204,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "industria_elettronica"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -249,9 +259,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "industria_elettronica"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -300,11 +314,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "edilizia_infrastrutture",
           "energia_mobilita"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -352,8 +368,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [
+          "ml"
+        ]
       }
     },
     {
@@ -401,9 +421,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -448,8 +472,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -497,10 +523,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -548,10 +576,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "industria_elettronica"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -601,10 +631,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute",
           "agrifood"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -653,8 +687,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -698,8 +734,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -743,11 +781,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute",
           "ambiente_acqua"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -795,10 +835,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -846,8 +888,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -891,8 +935,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -940,8 +986,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -985,10 +1033,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -1036,8 +1086,10 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": []
       }
     },
     {
@@ -1087,8 +1139,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
-        "ambiti": []
+        "rubrica": "parole-chiave-23",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [
+          "ml"
+        ]
       }
     },
     {
@@ -1136,9 +1192,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -1189,10 +1249,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "salute",
           "industria_elettronica"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
         ]
       }
     },
@@ -1241,11 +1305,13 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-21",
+        "rubrica": "parole-chiave-23",
         "ambiti": [
           "energia_mobilita",
           "industria_elettronica"
-        ]
+        ],
+        "cancro": false,
+        "linee": []
       }
     }
   ]
