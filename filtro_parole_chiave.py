@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-23"
+VERSIONE = "parole-chiave-24"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -49,20 +49,24 @@ TEMI = {
                      (r"\bwearables?\b", True, False),
                      (r"\bsensoristica\b|\bsensors?\b|\bsensori\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bsensor[\s-]*arrays?\b|\barray[\s-]*di[\s-]*sensori\b", True, True)],
     "lab_on_chip": [(r"\blab[\s-]*on[\s-]*(?:a[\s-]*)?chip\b|\bpoint[\s-]*of[\s-]*care\b|\bdielectrophoresis\b|\bopto[\s-]*electronic[\s-]*tweezers\b|\b(?:trans[\s-]*endothelial|TEER)\b|\bblood[\s-]*brain[\s-]*barrier\b|\bimpedance[\s-]*(?:spectroscopy|sensing)\b|\bcell[\s-]*sorting\b", False, False)],
-    "organ_on_chip": [(r"\borgans?[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\b(?:tumou?rs?|cancer|disease|gut|lung|liver|heart|brain|kidney|body|human|muscle|skeletal[\s-]*muscle)[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\bmicrophysiological\b|\bsarcopeni\w*|\borganoid\w*", False, False)],
+    "organ_on_chip": [(r"\borgans?[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\b(?:tumou?rs?|cancer|disease|gut|lung|liver|heart|brain|kidney|body|human|muscle|skeletal[\s-]*muscle)[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\bmicrophysiological\b|\bsarcopeni\w*|\borganoid\w*|\bassembloids?\b|\bhiPSC\w*|\bcardiomyocytes?\b|\bcardiac[\s-]*(?:models?|contractility)\b|\bimplantation[\s-]*on[\s-]*chip\b", False, False)],
     "microfluidica": [(r"\bmicro[\s-]*fluidic\w*|\bmicrofluidica\b", False, False)],
     "elettrodi_mea_grafene": [(r"\blaser[\s-]*induced[\s-]*graphene\b|\bgraphene[\s-]*(?:based[\s-]*)?(?:electrodes?|sensors?)\b|\bgrafene[\s-]*indotto\b|\belettrodi[\s-]*(?:in[\s-]*)?grafene\b|\bmulti[\s-]*electrode[\s-]*arrays?\b|\bmicro[\s-]*electrode[\s-]*arrays?\b|\barray[\s-]*di[\s-]*microelettrodi\b|\bbio[\s-]*electronics?\b|\bbio[\s-]*elettronica\b", False, False)],
     "biologia_computazionale": [(r"\bcomputational[\s-]*biology\b|\bbiologia[\s-]*computazionale\b|\bmulti[\s-]*omics?\b|\bbio[\s-]*informatics?\b|\bbioinformatica\b|\bprecision[\s-]*(?:medicine|oncology)\b|\bpersonali[sz]ed[\s-]*(?:medicine|therap\w+)\b|\bmedicina[\s-]*(?:personalizzata|di[\s-]*precisione)\b", False, False)],
-    "oncologia_immunoterapia": [(r"\bimmuno[\s-]*(?:therap\w+|oncology)\b|\bimmunoterapi\w+|\bcolorectal\b|\bcolon[\s-]*retto\b|\bcancer\b|\boncolog\w+|\bmicrobio(?:ta|me)\b|\btumou?rs?\b|\btumor[ei]\b", False, True)],
-    "tossicita_farmaci": [(r"\bcardio[\s-]*tox\w*|\bcardiotossic\w*|\bdrug[\s-]*induced[\s-]*(?:toxicity|injury|tossicit\w+)|\bnew[\s-]*approach[\s-]*methodolog\w*|\bin[\s-]*vitro[\s-]*toxic\w*|\btossicologia[\s-]*in[\s-]*vitro\b", False, False),
+    "oncologia_immunoterapia": [(r"\bimmuno[\s-]*(?:therap\w+|oncology)\b|\bimmunoterapi\w+|\bcolorectal\b|\bcolon[\s-]*retto\b|\bcancer\b|\boncolog\w+|\bmicrobio(?:ta|me)\b|\btumou?rs?\b|\btumor[ei]\b|\bmelanom\w+|\bbreast[\s-]*cancer\b|\blung[\s-]*cancer\b|\boncolytic\b|\banti[\s-]*PD-?1\b|\bcheckpoint[\s-]*inhibitors?\b", False, True)],
+    "tossicita_farmaci": [(r"\bcardio[\s-]*tox\w*|\bcardiotossic\w*|\bdrug[\s-]*induced[\s-]*(?:toxicity|injury|tossicit\w+)|\bnew[\s-]*approach[\s-]*methodolog\w*|\bin[\s-]*vitro[\s-]*toxic\w*|\bnano[\s-]*toxicolog\w+|\btossicologia[\s-]*in[\s-]*vitro\b", False, False),
                           (r"\bcytotox\w*|\bcitotossic\w*|\bbioactive\b|\bbioattiv\w*|\bnatural[\s-]*compounds?\b", False, True)],
     "algoritmi_bioispirati": [(r"\b(?:bio|nature)[\s-]*inspired[\s-]*(?:algorithms?|optimi[sz]ation|computing)\b|\balgoritmi[\s-]*(?:bio|natura)[\s-]*ispirati\b", False, False)],
+    "bioprinting_biomateriali": [(r"\b(?:3D[\s-]*)?bio[\s-]*print\w*|\bbio[\s-]*inks?\b|\bbio[\s-]*fabrication\b|\btissue[\s-]*engineering\b|\bingegneria[\s-]*tissutale\b|\bhydrogels?\b|\bidrogel\w*|\bscaffolds?\b", False, False)],
+    "sensori_flessibili_wireless": [(r"\bwireless[\s-]*sensors?\b|\bbattery[\s-]*less\b|\bRFID\b|\bflexible[\s-]*(?:electronics?|sensors?)\b|\belettronica[\s-]*flessibile\b|\bepidermal\b|\bwearable[\s-]*(?:devices?|patch\w*|sensors?)\b|\bimplantable[\s-]*(?:devices?|sensors?|antennas?)\b|\bsensori[\s-]*(?:indossabil\w+|wireless)\b|\bsmart[\s-]*patch\w*", False, False)],
+    "diagnostica_ia_clinica": [(r"\bdermoscop\w+|\bpolygraph\w+|\bsleep[\s-]*apno?ea\b|\bapnoea\b|\bHEp-?2\b|\bautoimmun\w+|\bdigital[\s-]*patholog\w+|\bhistopatholog\w+|\bpatologia[\s-]*digitale\b|\bcomputer[\s-]*aided[\s-]*diagnosis\b|\bdiagnosi[\s-]*assistita\b|\bexplainable[\s-]*(?:AI|deep[\s-]*learning)\b", False, False)],
+    "sicurezza_alimentare_sensori": [(r"\baflatoxins?\b|\bmycotoxins?\b|\bmicotossin\w+|\bfood[\s-]*(?:safety|quality|contaminants?)\b|\bsicurezza[\s-]*alimentare\b|\bqualità[\s-]*degli[\s-]*alimenti\b|\bfluorescence[\s-]*imaging\b|\bhyper[\s-]*spectral\b|\biperspettral\w+|\bmulti[\s-]*spectral\b", False, False)],
     "tecnologie_emergenti_biomedicali": [(r"\bmedical[\s-]*devices?\b|\bdispositiv\w*[\s-]*medic\w*|\bin[\s-]*vitro[\s-]*diagnostic\w*|\bdiagnostica[\s-]*in[\s-]*vitro\b|\bmedtech\b|\bscienze\s+della\s+vita\b|\blife\s+sciences?\b|\btime[\s-]*lapse[\s-]*(?:micro|imaging)\w*|\bmicroscopia[\s-]*time[\s-]*lapse\b", False, True)],
 }
 
 
 # Ambito applicativo del bando: serve a separare la salute dagli altri settori in cui il gruppo può lavorare.
-TEMI_SALUTE = {"neuroimaging_segnali_cerebrali", "lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
+TEMI_SALUTE = {"bioprinting_biomateriali", "diagnostica_ia_clinica", "neuroimaging_segnali_cerebrali", "lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
                "biologia_computazionale", "oncologia_immunoterapia", "tossicita_farmaci"}  # temi specificamente biomedici (non ML generico)
 AMBITI = {
     "salute": SALUTE,
@@ -88,10 +92,11 @@ def ambiti(titolo, testo, temi):
 # Marcatura "cancro" (per i partner interessati) e linea di ricerca del gruppo più adatta al bando.
 CANCRO = re.compile(r"\bcancer\w*|\btumou?rs?\b|\btumor[ei]\b|\boncolog\w+|\bneoplas\w+|\bcarcinom\w+|\bleuk(?:a)?emi\w+|\blymphom\w+|\bmelanom\w+|\bmetasta\w+|\bchemotherap\w+|\bchemioterapi\w+|\bimmunotherap\w+|\bimmunoterapi\w+", re.I)
 LINEE = {  # linee di ricerca dal documento del gruppo (23 ottobre 2026) -> temi del filtro che le rappresentano
-    "onchip": {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene", "tossicita_farmaci"},
-    "immagini": {"imaging", "neuroimaging_segnali_cerebrali"},
+    "onchip": {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene", "tossicita_farmaci", "bioprinting_biomateriali"},
+    "immagini": {"imaging", "neuroimaging_segnali_cerebrali", "diagnostica_ia_clinica"},
     "ml": {"ia_ricerca", "ml_dati_biomedici", "analisi_dati", "biologia_computazionale", "digitale_dati"},
-    "sensori_chimici": {"sensori_chimici_enose", "sensoristica"},
+    "sensori_chimici": {"sensori_chimici_enose", "sensoristica", "sicurezza_alimentare_sensori"},
+    "sensori_flessibili": {"sensori_flessibili_wireless"},
     "bioispirata": {"algoritmi_bioispirati"},
     "neuro_emozioni": {"neuro_segnali", "emozioni_voce_segnali"},
 }
