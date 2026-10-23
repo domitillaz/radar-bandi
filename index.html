@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap">
 <style>
 :root{--bg:#eef2f4;--surface:#fff;--ink:#14272e;--mute:#5b6f77;--line:#d5dee2;--accent:#0e6b7a;
---ok:#1d7a4a;--okbg:#e1f3e8;--warn:#8a5a00;--warnbg:#fdf0cf;--none:#5b6f77;--nonebg:#e8edef;--hi:#0e6b7a;
+--ok:#1d7a4a;--okbg:#e1f3e8;--warn:#8a5a00;--warnbg:#fdf0cf;--none:#5b6f77;--nonebg:#e8edef;--hi:#0e6b7a;--urg:#8a1c1c;--urgbg:#fbdcdc;--onc:#5b2a86;--oncbg:#eadcf7;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3}}
-:root[data-theme="dark"]{--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3;--urg:#ffb4b4;--urgbg:#4a1c1c;--onc:#d9b8ff;--oncbg:#3a2152}}
+:root[data-theme="dark"]{--bg:#0e1a1f;--surface:#162830;--ink:#e3eef1;--mute:#93a9b1;--line:#27424c;--accent:#5cc3d3;--ok:#7fd9a3;--okbg:#17382a;--warn:#f0c768;--warnbg:#3b2f10;--none:#93a9b1;--nonebg:#20353d;--hi:#5cc3d3;--urg:#ffb4b4;--urgbg:#4a1c1c;--onc:#d9b8ff;--oncbg:#3a2152}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "Instrument Sans",system-ui,sans-serif}
@@ -37,6 +37,8 @@ tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
 .tag{display:inline-block;border-radius:4px;padding:1px 7px;font-size:12px;font-weight:600;margin-top:3px}
 .confermato{background:var(--okbg);color:var(--ok)}
 .da_verificare{background:var(--warnbg);color:var(--warn)}
+.urg{background:var(--urgbg);color:var(--urg)}
+.onc{background:var(--oncbg);color:var(--onc)}
 .non_presente{background:var(--nonebg);color:var(--none)}
 .det td{background:var(--bg);font-size:13.5px}
 .det dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 14px}
@@ -56,6 +58,9 @@ tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
 <select id="fc" aria-label="Canale"><option value="">Tutti i canali</option><option>Europa</option><option>Nazionale</option><option>Regionale</option><option>Privati</option></select>
 <select id="fs" aria-label="Stato dati"><option value="">Tutti gli stati</option><option value="da_verificare">Con campi da verificare</option><option value="confermato">Solo confermati</option></select>
 <select id="fm" aria-label="Ambito"><option value="">Tutti gli ambiti</option><option value="salute">Salute</option><option value="altri">Altri ambiti (non salute)</option><option value="agrifood">Agrifood e agricoltura</option><option value="ambiente_acqua">Ambiente, acqua e clima</option><option value="patrimonio_culturale">Patrimonio culturale</option><option value="edilizia_infrastrutture">Edilizia e infrastrutture</option><option value="energia_mobilita">Energia e mobilità</option><option value="industria_elettronica">Industria, elettronica e spazio</option></select>
+<select id="fk" aria-label="Cancro"><option value="">Cancro e altri temi</option><option value="si">Solo cancro</option><option value="no">Escludi cancro</option></select>
+<select id="fl" aria-label="Linea di ricerca"><option value="">Tutte le linee di ricerca</option><option value="onchip">Lab-on-chip e organ-on-chip</option><option value="immagini">Analisi di immagini</option><option value="ml">Machine learning e analisi dati</option><option value="sensori_chimici">Sensori chimici e naso elettronico</option><option value="bioispirata">Elaborazione bioispirata</option><option value="neuro_emozioni">Neurosegnali ed emozioni</option></select>
+<select id="ft" aria-label="Scadenza entro"><option value="">Qualsiasi scadenza</option><option value="30">Scade entro 30 giorni</option><option value="90">Scade entro 3 mesi</option><option value="180">Scade entro 6 mesi</option></select>
 <select id="fa" aria-label="Apertura"><option value="">Aperti e in arrivo</option><option value="aperto">Solo aperti ora</option><option value="in arrivo">Solo in arrivo</option></select>
 <label class="e"><input type="checkbox" id="sx"> Mostra anche scaduti</label>
 <label class="e"><input type="checkbox" id="sp"> Mostra anche non pertinenti (0/10)</label>
@@ -66,7 +71,7 @@ tr.row{cursor:pointer}tr.row:hover td{background:var(--bg)}
 <div class="tw"><table>
 <thead><tr>
 <th><button data-k="rel">Rilevanza</button></th><th>Bando</th><th><button data-k="can">Canale</button></th>
-<th><button data-k="sca">Scadenza</button></th><th>Università ammessa?</th><th>Completezza dati</th></tr></thead>
+<th><button data-k="sca">Scadenza</button></th><th>Come possiamo partecipare?</th><th>Completezza dati</th></tr></thead>
 <tbody id="tb"></tbody></table></div>
 <p class="foot">Clicca una riga per vedere la citazione dalla fonte e il link. "Confermato" significa che la citazione è stata trovata parola per parola nella pagina; "da verificare" significa che serve un controllo manuale; "non presente" significa che la fonte non lo dice. La rilevanza è un giudizio del modello, non un dato estratto.</p>
 </div>
@@ -96,6 +101,14 @@ function cell(f,fmt){
  return `${esc(v)}<br><span class="tag ${f.stato}" title="${esc(f.motivo||"")}">${lab[f.stato]}</span>`;
 }
 const NAMB={salute:"salute",agrifood:"agrifood",ambiente_acqua:"ambiente e acqua",patrimonio_culturale:"patrimonio culturale",edilizia_infrastrutture:"edilizia",energia_mobilita:"energia e mobilità",industria_elettronica:"industria ed elettronica"};
+function giorniA(b){const v=b.scadenza&&b.scadenza.valore;if(!v)return null;const d=new Date(v);if(isNaN(d))return null;return Math.ceil((d-now)/day)}
+function badge(b){const g=giorniA(b);if(g==null||g<0||g>180)return "";const dub=b.scadenza.stato!=="confermato";
+ const t=g<=30?"entro 30 giorni":g<=90?"entro 3 mesi":"entro 6 mesi";
+ return `<br><span class="tag ${g<=30?"urg":"da_verificare"}" title="${dub?"Data da verificare: l'avviso potrebbe valere per un'altra scadenza":"Scadenza confermata dalla fonte"}">${t}${dub?" ?":""}</span>`}
+function entro(b,lim){const g=giorniA(b);return g!=null&&g>=0&&g<=lim}
+const NLIN={onchip:"lab-on-chip e organ-on-chip",immagini:"analisi di immagini",ml:"machine learning e dati",sensori_chimici:"sensori chimici",bioispirata:"elaborazione bioispirata",neuro_emozioni:"neurosegnali ed emozioni"};
+function lin(b){return (b.rilevanza&&b.rilevanza.linee)||[]}
+function onc(b){return !!(b.rilevanza&&b.rilevanza.cancro)}
 function zero(b){return !!(b.rilevanza&&b.rilevanza.punteggio===0)}
 function amb(b){return (b.rilevanza&&b.rilevanza.ambiti)||[]}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
@@ -107,17 +120,17 @@ function dati(b){const m=miss(b);return m.length?`<span class="tag da_verificare
 function scad(b){const v=b.scadenza&&b.scadenza.valore;if(!v)return false;const d=new Date(v);return !isNaN(d)&&d<new Date(new Date().setHours(0,0,0,0))}
 function render(){
  const q=$("q").value.toLowerCase(),c=$("fc").value,s=$("fs").value,sx=$("sx").checked;
- let r=DATA.filter(b=>(!q||(b.titolo+" "+b.ente+" "+(((b.rilevanza&&b.rilevanza.temi)||[]).join(" "))+" "+((b.trovato_con||[]).join(" "))+" "+((b.rilevanza&&b.rilevanza.evidenze)||[]).join(" ")).toLowerCase().includes(q))&&(!c||b.canale===c)&&(!$("fa").value||b.apertura===$("fa").value)&&(!$("fm").value||($("fm").value==="altri"?amb(b).some(x=>x!=="salute"):amb(b).includes($("fm").value)))&&(sx||!scad(b))&&($("sp").checked||!zero(b))&&
+ let r=DATA.filter(b=>(!q||(b.titolo+" "+b.ente+" "+(((b.rilevanza&&b.rilevanza.temi)||[]).join(" "))+" "+((b.trovato_con||[]).join(" "))+" "+((b.rilevanza&&b.rilevanza.evidenze)||[]).join(" ")).toLowerCase().includes(q))&&(!c||b.canale===c)&&(!$("fa").value||b.apertura===$("fa").value)&&(!$("fm").value||($("fm").value==="altri"?amb(b).some(x=>x!=="salute"):amb(b).includes($("fm").value)))&&(sx||!scad(b))&&($("sp").checked||!zero(b))&&(!$("ft").value||entro(b,+$("ft").value))&&(!$("fk").value||($("fk").value==="si"?onc(b):!onc(b)))&&(!$("fl").value||lin(b).includes($("fl").value))&&
   (!s||(s==="da_verificare"?flds(b).some(f=>f&&f.stato==="da_verificare"):flds(b).every(f=>!f||f.stato==="confermato"))));
  const key={rel:b=>-((b.rilevanza&&b.rilevanza.punteggio)||0),can:b=>b.canale,sca:b=>b.scadenza&&b.scadenza.valore?b.scadenza.valore:"9999"}[sortK];
  r.sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:0)*(asc?1:-1)});
  const nh=DATA.filter(scad).length;const nv=DATA.filter(b=>!scad(b)&&flds(b).some(f=>f&&f.stato==="da_verificare")).length;
- $("sum").innerHTML=`<span><b>${DATA.length-(sx?0:nh)}</b> bandi</span><span><b>${nh}</b> scaduti ${sx?"inclusi":"nascosti"}</span><span><b>${nv}</b> con campi da verificare</span><span><b>${r.length}</b> mostrati</span>`;
+ $("sum").innerHTML=`<span><b>${DATA.length-(sx?0:nh)}</b> bandi</span><span><b>${nh}</b> scaduti ${sx?"inclusi":"nascosti"}</span><span><b>${nv}</b> con campi da verificare</span><span><b>${DATA.filter(b=>!scad(b)&&!zero(b)&&entro(b,180)).length}</b> con scadenza entro 6 mesi</span><span><b>${r.length}</b> mostrati</span>`;
  $("tb").innerHTML=r.length?r.map(b=>{
   const o=open.has(b.id);
   return `<tr class="row" data-id="${b.id}" tabindex="0" aria-expanded="${o}"><td>${b.rilevanza&&b.rilevanza.punteggio!=null?`<span class="sc">${b.rilevanza.punteggio}</span>/10<br><span class="tag non_presente">${({parole_chiave:'parole chiave',programma_noto:'programma noto'})[b.rilevanza.stato]||'stima del modello'}</span>`:b.rilevanza?`<span class="tag da_verificare">da verificare</span>`:`<span class="e">da valutare</span>`}</td>
-  <td><div class="t">${esc(b.titolo)}</div>${b.apertura?`<span class="tag ${b.apertura==='aperto'?'confermato':'da_verificare'}" title="Dedotto dal filtro di stato del portale europeo">${b.apertura}</span> `:""}<div class="e">${esc(b.ente)}${amb(b).length?" · "+amb(b).map(x=>NAMB[x]||x).join(", "):""}</div></td><td>${esc(b.canale)}</td>
-  <td>${cell(b.scadenza,dfmt)}</td><td>${cell(b.ammissibilita)}</td><td>${dati(b)}</td></tr>`+
+  <td><div class="t">${esc(b.titolo)}</div>${onc(b)?`<span class="tag onc" title="Il bando parla di cancro nel titolo o più volte nel testo (corrispondenza lessicale)">cancro</span> `:""}${b.apertura?`<span class="tag ${b.apertura==='aperto'?'confermato':'da_verificare'}" title="Stato dedotto dalla fonte (filtro di stato del portale europeo o pagina del bando)">${b.apertura}</span> `:""}<div class="e">${esc(b.ente)}${amb(b).length?" · "+amb(b).map(x=>NAMB[x]||x).join(", "):""}</div>${lin(b).length?`<div class="e" title="Corrispondenza lessicale con le linee di ricerca del gruppo, non un giudizio">Sezione più inerente: <b>${NLIN[lin(b)[0]]}</b>${lin(b).length>1?" (anche "+lin(b).slice(1,3).map(x=>NLIN[x]).join(", ")+")":""}</div>`:""}</td><td>${esc(b.canale)}</td>
+  <td>${cell(b.scadenza,dfmt)}${badge(b)}</td><td>${cell(b.ammissibilita)}</td><td>${dati(b)}</td></tr>`+
   (o?`<tr class="det"><td colspan="6"><dl>
   <dt>Rilevanza</dt><dd>${b.rilevanza?esc(b.rilevanza.motivazione)+(b.rilevanza.evidenze||[]).map(x=>'<br><q>'+esc(x)+'</q>').join(''):'non ancora valutata'}</dd>${b.rilevanza&&b.rilevanza.destinatari&&b.rilevanza.destinatari.valore!=='non_indicato'?`<dt>Destinatari</dt><dd>${esc(b.rilevanza.destinatari.valore.replace('_',' '))}${b.rilevanza.destinatari.citazione?': <q>'+esc(b.rilevanza.destinatari.citazione)+'</q>':''}</dd>`:''}
   ${[["Scadenza",b.scadenza],["Ammissibilità",b.ammissibilita]].map(([n,f])=>`<dt>${n}</dt><dd>${f&&f.citazione?`<q>${esc(f.citazione)}</q>`+(f.motivo?` <span class="e">${esc(f.motivo)}</span>`:""):f&&f.motivo?esc(f.motivo):"nessuna citazione disponibile"}</dd>`).join("")}
@@ -126,7 +139,7 @@ function render(){
 }
 $("tb").addEventListener("click",e=>{const t=e.target.closest("tr.row");if(!t||e.target.closest("a"))return;const i=+t.dataset.id;open.has(i)?open.delete(i):open.add(i);render()});
 $("tb").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){const t=e.target.closest("tr.row");if(t){e.preventDefault();t.click()}}});
-["q","fc","fs","fa","fm","sx","sp"].forEach(i=>$(i).addEventListener("input",render));
+["q","fc","fs","fa","fm","ft","fk","fl","sx","sp"].forEach(i=>$(i).addEventListener("input",render));
 document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=>{const k=b.dataset.k;asc=sortK===k?!asc:true;sortK=k;render()}));
 $("theme").addEventListener("click",()=>{const d=document.documentElement,dark=getComputedStyle(d).getPropertyValue("--bg").trim()==="#0e1a1f";d.dataset.theme=dark?"light":"dark"});
 $("file").addEventListener("change",async e=>{

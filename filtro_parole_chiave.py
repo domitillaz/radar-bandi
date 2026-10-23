@@ -20,13 +20,13 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-21"
+VERSIONE = "parole-chiave-23"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
 SSH = re.compile(r"\bdemocra\w+|\bequality\b|\binclusive[\s-]*societ\w+|\bsocial[\s-]*sciences?\b|\bhumanities\b|\bcyberviolence\b|\bdisinformation\b", re.I)
 ISOLABILI = {"ia_ricerca", "imaging"}  # temi senza vincolo di salute: una sola menzione in un testo lungo conta come debole
-NUOVI = {"neuro_segnali", "ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
+NUOVI = {"sensori_chimici_enose", "emozioni_voce_segnali", "neuro_segnali", "ia_ricerca", "imaging", "digitale_dati", "analisi_dati"}
 RICERCA_HINT = re.compile(r"universit\w+|organismi?\s+di\s+ricerca|enti\s+di\s+ricerca|ricerca\s+industriale|ricerca\s+e\s+sviluppo|research|\bgrants?\b|\bERC\b|\bMSCA\b", re.I)
 REGIONALE_RI = re.compile(r"\bricerca\b|\binnovazion\w+|\bfiliere?\s+tecnologic\w+|\btecnolog\w+|\bdigital\w*|\bintelligenza\s+artificiale\b|\btrasferimento\s+tecnologico\b|\bstart[\s-]*up\b|\bspin[\s-]*off\b|\bincubat\w+|\bESA\s+BIC\b|\bbrevett\w+|\bHorizon\b|\bdottorat\w+|\bSTEP\b|\bFRI\b", re.I)
 GENERICO = re.compile(r"ricerca industriale|sviluppo sperimentale|organismi di ricerca|progetti di ricerca e sviluppo", re.I)
@@ -37,15 +37,18 @@ SALUTE = re.compile(r"\b(scienze\s+della\s+vita|life\s+sciences?|health\w*|medic
 # (espressione, richiede un termine di salute nel testo, debole). In ogni tema le regole forti vengono prima.
 TEMI = {
     "ml_dati_biomedici": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bapprendimento[\s-]*automatico\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b", True, False)],
-    "ia_ricerca": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b|\bcomputer[\s-]*vision\b|\bvisione[\s-]*artificiale\b|\bfoundation[\s-]*models?\b|\bgenerative[\s-]*AI\b|\blarge[\s-]*language[\s-]*models?\b|\btrustworthy[\s-]*AI\b|\bexplainable[\s-]*AI\b|\bAI[\s-]*models?\b", False, False)],
-    "imaging": [(r"\bimage[\s-]*(?:analysis|processing|reconstruction|segmentation)\b|\bimaging\b|\belaborazione[\s-]*(?:di[\s-]*)?immagini\b|\banalisi[\s-]*(?:di[\s-]*)?immagini\b|\bmicroscop\w+|\bremote[\s-]*sensing\b|\btelerilevamento\b", False, False)],
+    "ia_ricerca": [(r"\bmachine[\s-]*learning\b|\bdeep[\s-]*learning\b|\bartificial[\s-]*intelligence\b|\bintelligenza[\s-]*artificiale\b|\bneural[\s-]*networks?\b|\breti[\s-]*neurali\b|\bcomputer[\s-]*vision\b|\bvisione[\s-]*artificiale\b|\bfoundation[\s-]*models?\b|\bgenerative[\s-]*AI\b|\blarge[\s-]*language[\s-]*models?\b|\btrustworthy[\s-]*AI\b|\bexplainable[\s-]*AI\b|\bAI[\s-]*models?\b|\bpattern[\s-]*recognition\b|\briconoscimento[\s-]*di[\s-]*pattern\b|\bartificial[\s-]*immune[\s-]*systems?\b|\bsistemi[\s-]*immunitari[\s-]*artificial\w+|\btransfer[\s-]*entropy\b|\bensemble[\s-]*(?:classif\w+|learning)\b", False, False)],
+    "imaging": [(r"\bimage[\s-]*(?:analysis|processing|reconstruction|segmentation)\b|\bimaging\b|\belaborazione[\s-]*(?:di[\s-]*)?immagini\b|\banalisi[\s-]*(?:di[\s-]*)?immagini\b|\bmicroscop\w+|\bremote[\s-]*sensing\b|\btelerilevamento\b|\bsuper[\s-]*resolution\b|\bsemantic[\s-]*segmentation\b|\bmammograph\w+|\bmedical[\s-]*images?\b|\bimmagini[\s-]*biomedic\w+|\bbright[\s-]*field\b|\btime[\s-]*lapse\b", False, False)],
     "digitale_dati": [(r"\bdigital[\s-]*twins?\b|\bgemell\w+[\s-]*digital\w+|\bdata[\s-]*driven\b|\bsignal[\s-]*processing\b|\belaborazione[\s-]*(?:dei[\s-]*)?segnali\b|\bhigh[\s-]*performance[\s-]*computing\b|\bcalcolo[\s-]*ad[\s-]*alte[\s-]*prestazioni\b|\bHPC\b", False, True)],
     "analisi_dati": [(r"\bdata[\s-]*(?:analysis|analytics|science|mining)\b|\bbig[\s-]*data\b|\banalisi[\s-]*(?:dei[\s-]*)?dati\b|\bscienza[\s-]*dei[\s-]*dati\b|\bpredictive[\s-]*model\w*|\bmodelli[\s-]*predittiv\w+|\bstatistical[\s-]*model\w*|\bmodellistica\b|\bnumerical[\s-]*simulation\w*|\binternet[\s-]*of[\s-]*things\b|\bIoT\b|\bsmart[\s-]*sensors?\b", False, True)],
     "neuro_segnali": [(r"\bEEG\b|\belectroencephalograph\w+|\belettroencefalograf\w+|\beye[\s-]*tracking\b|\bneuro[\s-]*marketing\b|\bconsumer[\s-]*neuroscience\b|\bneuro[\s-]*ergonomics?\b|\baffective[\s-]*computing\b|\bemotion[\s-]*recognition\b|\bcognitive[\s-]*(?:load|state|workload)\b|\bbrain[\s-]*computer[\s-]*interfaces?\b|\bneuro[\s-]*technolog\w+|\bbio[\s-]*signals?\b|\bphysiological[\s-]*signals?\b|\belectrodermal\b|\bgalvanic[\s-]*skin\b|\bdry[\s-]*electrodes?\b|\bwearable[\s-]*(?:EEG|sensors?)\b", False, False)],
+    "sensori_chimici_enose": [(r"\belectronic[\s-]*nos(?:e|es)\b|\be[\s-]*nose\b|\bnaso[\s-]*elettronic\w+|\bgas[\s-]*sensors?\b|\bsensori[\s-]*di[\s-]*gas\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bvolatile[\s-]*organic[\s-]*compounds?\b|\bVOCs?\b|\bcomposti[\s-]*organici[\s-]*volatili\b|\bodou?r(?:s)?[\s-]*(?:recognition|detection|sensing)\b|\bolfaction\b|\bolfatt\w+|\bbreath[\s-]*(?:analysis|test|biomarkers?)\b|\bmetal[\s-]*oxide[\s-]*(?:semiconductor\w*|sensors?)\b|\bsensor[\s-]*drift\b|\bsensor[\s-]*arrays?\b", False, False)],
+    "neuroimaging_segnali_cerebrali": [(r"\bmagnetoencephalograph\w+|\bneuro[\s-]*imaging\b|\bfunctional[\s-]*connectivity\b|\bbrain[\s-]*activity\b|\battività[\s-]*cerebral\w+|\bfMRI\b|\bAlzheimer\w*|\bneurodegenerat\w+", False, True)],
+    "emozioni_voce_segnali": [(r"\bspeech[\s-]*emotion\w*|\bemotion[\s-]*(?:recognition|estimation|detection)\b|\bemotions?[\s-]*from[\s-]*speech\b|\bspeech[\s-]*(?:analysis|recognition|processing)\b|\baffective[\s-]*(?:computing|state\w*)\b|\briconoscimento[\s-]*(?:delle[\s-]*)?emozioni\b", False, False)],
     "sensoristica": [(r"\bbiosensor\w*", False, False),
                      (r"\bwearables?\b", True, False),
                      (r"\bsensoristica\b|\bsensors?\b|\bsensori\b|\bchemical[\s-]*sensors?\b|\bsensori[\s-]*chimici\b|\bsensor[\s-]*arrays?\b|\barray[\s-]*di[\s-]*sensori\b", True, True)],
-    "lab_on_chip": [(r"\blab[\s-]*on[\s-]*(?:a[\s-]*)?chip\b|\bpoint[\s-]*of[\s-]*care\b", False, False)],
+    "lab_on_chip": [(r"\blab[\s-]*on[\s-]*(?:a[\s-]*)?chip\b|\bpoint[\s-]*of[\s-]*care\b|\bdielectrophoresis\b|\bopto[\s-]*electronic[\s-]*tweezers\b|\b(?:trans[\s-]*endothelial|TEER)\b|\bblood[\s-]*brain[\s-]*barrier\b|\bimpedance[\s-]*(?:spectroscopy|sensing)\b|\bcell[\s-]*sorting\b", False, False)],
     "organ_on_chip": [(r"\borgans?[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\b(?:tumou?rs?|cancer|disease|gut|lung|liver|heart|brain|kidney|body|human|muscle|skeletal[\s-]*muscle)[\s-]*on[\s-]*(?:a[\s-]*)?chips?\b|\bmicrophysiological\b|\bsarcopeni\w*|\borganoid\w*", False, False)],
     "microfluidica": [(r"\bmicro[\s-]*fluidic\w*|\bmicrofluidica\b", False, False)],
     "elettrodi_mea_grafene": [(r"\blaser[\s-]*induced[\s-]*graphene\b|\bgraphene[\s-]*(?:based[\s-]*)?(?:electrodes?|sensors?)\b|\bgrafene[\s-]*indotto\b|\belettrodi[\s-]*(?:in[\s-]*)?grafene\b|\bmulti[\s-]*electrode[\s-]*arrays?\b|\bmicro[\s-]*electrode[\s-]*arrays?\b|\barray[\s-]*di[\s-]*microelettrodi\b|\bbio[\s-]*electronics?\b|\bbio[\s-]*elettronica\b", False, False)],
@@ -59,12 +62,12 @@ TEMI = {
 
 
 # Ambito applicativo del bando: serve a separare la salute dagli altri settori in cui il gruppo può lavorare.
-TEMI_SALUTE = {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
+TEMI_SALUTE = {"neuroimaging_segnali_cerebrali", "lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene",
                "biologia_computazionale", "oncologia_immunoterapia", "tossicita_farmaci"}  # temi specificamente biomedici (non ML generico)
 AMBITI = {
     "salute": SALUTE,
     "agrifood": re.compile(r"\bagricultur\w+|\bagri[\s-]*food\b|\bagroaliment\w+|\bfood\b|\balimentar\w+|\bfarming\b|\bcrops?\b|\bviticultur\w+|\baquaculture\b|\bfisher(?:y|ies)\b|\bpesca\b|\bagricolt\w+", re.I),
-    "ambiente_acqua": re.compile(r"\bwater\b|\bacqua\b|\bacque\b|\bidric\w+|\bambient\w+|\benvironmental\b|\bclimate\b|\bclima\w*|\bbiodiversit\w+|\binquinament\w+|\bpollution\b|\bmarine\b|\bocean\w*|\bcircular[\s-]*economy\b|\beconomia[\s-]*circolare\b|\bwaste\b|\brifiuti\b", re.I),
+    "ambiente_acqua": re.compile(r"\bwater\b|\bacqua\b|\bacque\b|\bidric\w+|\bambient\w+|\benvironmental\b|\bclimate\b|\bclima\w*|\bbiodiversit\w+|\binquinament\w+|\bpollution\b|\bmarine\b|\bocean\w*|\bair[\s-]*quality\b|\bqualità[\s-]*dell.aria\b|\batmospher\w+|\bemissions?\b|\bcircular[\s-]*economy\b|\beconomia[\s-]*circolare\b|\bwaste\b|\brifiuti\b", re.I),
     "patrimonio_culturale": re.compile(r"\bcultural[\s-]*heritage\b|\bpatrimonio[\s-]*cultural\w+|\bbeni[\s-]*cultural\w+|\barchaeolog\w+|\barcheolog\w+|\bmuseum\w*|\bmusei\b|\bmuseo\b", re.I),
     "edilizia_infrastrutture": re.compile(r"\bconstruction\b|\bedilizia\b|\bbuilt[\s-]*environment\b|\bbuilding[\s-]*(?:sector|renovation|stock|construction|materials?)\b|\bedific\w+|\binfrastruttur\w+|\bcivil[\s-]*engineering\b|\burbanistic\w+|\burban[\s-]*(?:planning|areas?|development)\b", re.I),
     "energia_mobilita": re.compile(r"\benerg(?:y|ia)\b|\bhydrogen\b|\bidrogeno\b|\bbatter(?:y|ies|ie)\b|\bmobilit\w+|\bautomotive\b|\btransport\w*|\btrasport\w+|\bsmart[\s-]*grid\b", re.I),
@@ -80,6 +83,28 @@ def ambiti(titolo, testo, temi):
         if pat.search(titolo) or n >= 3 or (nome == "salute" and TEMI_SALUTE & set(temi)):
             out.append(nome)
     return out
+
+
+# Marcatura "cancro" (per i partner interessati) e linea di ricerca del gruppo più adatta al bando.
+CANCRO = re.compile(r"\bcancer\w*|\btumou?rs?\b|\btumor[ei]\b|\boncolog\w+|\bneoplas\w+|\bcarcinom\w+|\bleuk(?:a)?emi\w+|\blymphom\w+|\bmelanom\w+|\bmetasta\w+|\bchemotherap\w+|\bchemioterapi\w+|\bimmunotherap\w+|\bimmunoterapi\w+", re.I)
+LINEE = {  # linee di ricerca dal documento del gruppo (23 ottobre 2026) -> temi del filtro che le rappresentano
+    "onchip": {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene", "tossicita_farmaci"},
+    "immagini": {"imaging", "neuroimaging_segnali_cerebrali"},
+    "ml": {"ia_ricerca", "ml_dati_biomedici", "analisi_dati", "biologia_computazionale", "digitale_dati"},
+    "sensori_chimici": {"sensori_chimici_enose", "sensoristica"},
+    "bioispirata": {"algoritmi_bioispirati"},
+    "neuro_emozioni": {"neuro_segnali", "emozioni_voce_segnali"},
+}
+
+
+def cancro(titolo, testo, bando):
+    return bool(CANCRO.search(titolo) or len(CANCRO.findall(testo)) >= 3 or PROGRAMMI_NOTI.search(bando.get("titolo", "")))
+
+
+def linee(temi):
+    """Linee di ricerca ordinate per numero di temi trovati (la prima è la più inerente). Corrispondenza lessicale."""
+    punti = {k: len(set(temi) & v) for k, v in LINEE.items()}
+    return [k for k, n in sorted(punti.items(), key=lambda x: -x[1]) if n]
 
 
 def da_verificare(motivo):
@@ -160,7 +185,7 @@ def valuta(bando):
                "Pertinenza da valutare a mano.")
     return {"punteggio": p, "stato": stato, "motivazione": mot, "temi": temi, "evidenze": evidenze,
             "destinatari": {"valore": "non_indicato", "citazione": None}, "rubrica": VERSIONE,
-            "ambiti": ambiti(titolo, testo, temi)}
+            "ambiti": ambiti(titolo, testo, temi), "cancro": cancro(titolo, testo, bando), "linee": linee(temi)}
 
 
 def main():
