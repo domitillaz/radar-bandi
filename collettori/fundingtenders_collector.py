@@ -34,7 +34,12 @@ PAROLE = ["organ-on-chip", "lab-on-chip", "microfluidic", "biosensor", "medical 
           "remote sensing machine learning",
           # neurosegnali, comportamento e interazione uomo-macchina (EEG, eye tracking, neuroergonomia)
           "EEG", "eye tracking", "wearable EEG", "brain-computer interface", "neurotechnology", "affective computing emotion recognition",
-          "cognitive load human-machine interaction", "consumer behaviour neuroscience", "sensors monitoring environment", "AI energy manufacturing"]
+          "cognitive load human-machine interaction", "consumer behaviour neuroscience",
+          # linee di ricerca del gruppo (elenco del 23 ottobre): naso elettronico, VOC, immagini, MEG, emozioni
+          "electronic nose", "gas sensors volatile organic compounds", "breath analysis sensors", "air quality sensors",
+          "food quality sensors", "emotion recognition speech", "magnetoencephalography neuroimaging",
+          "time-lapse microscopy deep learning", "dielectrophoresis cell sorting", "blood-brain barrier on chip",
+          "Alzheimer early diagnosis artificial intelligence", "pattern recognition sensors", "sensors monitoring environment", "AI energy manufacturing"]
 MAX_DETTAGLI = 150  # quante pagine di dettaglio leggere al massimo per esecuzione
 DURATA_RE = re.compile(r"(?:duration|lasting|last)[^.\n]{0,80}?(\d+)\s*(months|years)", re.I)
 

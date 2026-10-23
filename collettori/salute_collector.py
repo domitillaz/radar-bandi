@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup
 import mimit_collector as M  # stessa cartella: funzioni comuni (scadenza, testo_pagina, campo, pulisci)
 
 BASE = "https://regione.lazio.it"
+RSS = BASE + "/rss"
 LISTE = [BASE + "/notizie/salute"]  # /enti/salute elenca pagine di sezione (reti, servizi), non avvisi
 SEZIONI = ("notizie/salute",)
 MAX_PAGINE_LISTA = 10
@@ -52,6 +53,32 @@ def titolo_pagina(html, titolo_lista):
         if c.lower() not in TITOLI_NO and len(c) > 8:
             return c
     return titolo_lista or "(titolo non letto)"
+
+
+def leggi_rss(url):
+    """Le notizie dell'elenco /notizie/salute non compaiono nell'HTML scaricato (95 link, tutti di menu): si usa il feed RSS
+    del sito (https://regione.lazio.it/rss). Gestisce RSS 2.0 e Atom. Restituisce {url: titolo}."""
+    import xml.etree.ElementTree as ET
+    out, errori = {}, []
+    try:
+        radice = ET.fromstring(M.scarica(url).lstrip("\ufeff").encode("utf-8"))
+    except (requests.RequestException, ET.ParseError) as e:
+        return out, [f"Salute: feed RSS non letto ({type(e).__name__}): {url}"]
+    for el in radice.iter():
+        nome = el.tag.split("}")[-1]
+        if nome not in ("item", "entry"):
+            continue
+        titolo, link = "", ""
+        for c in el:
+            n = c.tag.split("}")[-1]
+            if n == "title":
+                titolo = M.pulisci(c.text or "")
+            elif n == "link":
+                link = (c.get("href") or c.text or "").strip()
+        if link and urlparse(link).netloc.endswith("regione.lazio.it"):
+            out[BASE + urlparse(link).path.rstrip("/")] = titolo
+    print(f"Salute: feed RSS {url}: {len(out)} voci; esempi: {list(out)[:3]}")
+    return out, errori
 
 
 def leggi_lista(url):
@@ -102,6 +129,9 @@ def main():
         schede.update({k: v for k, v in t.items() if k not in schede or (v and not schede[k])})
         pagine += n
         errori += err
+    rss, err_rss = leggi_rss(RSS)
+    errori += err_rss
+    schede.update({k: v for k, v in rss.items() if k not in schede})
     if not schede:
         raise SystemExit("Salute: nessuna pagina trovata negli elenchi (vedi le righe 'Salute: elenco' sopra: se i link sul sito sono 0 la pagina non è stata letta come previsto). "
                          + "; ".join(errori))
