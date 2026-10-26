@@ -50,10 +50,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     }
   ]

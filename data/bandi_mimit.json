@@ -47,10 +47,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -98,12 +100,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -151,12 +155,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "edilizia_infrastrutture"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -204,13 +210,20 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "industria_elettronica"
         ],
         "cancro": false,
         "linee": [
           "ml"
+        ],
+        "ruolo": "supporto",
+        "contributi": [
+          {
+            "contributo": "IA e machine learning, valutazione di affidabilità e bias",
+            "citazione": "Si prevede che l'IPCEI favorirà il progresso tecnologico in molti settori, tra cui le comunicazioni (5G e 6G), la guida autonoma, l'intelligenza artificiale e l'informatica quantistica."
+          }
         ]
       }
     },
@@ -259,14 +272,16 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "industria_elettronica"
         ],
         "cancro": false,
         "linee": [
           "ml"
-        ]
+        ],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -314,13 +329,15 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "edilizia_infrastrutture",
           "energia_mobilita"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -368,12 +385,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
         "linee": [
           "ml"
-        ]
+        ],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -421,14 +440,16 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita"
         ],
         "cancro": false,
         "linee": [
           "ml"
-        ]
+        ],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -472,10 +493,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -523,12 +546,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -576,12 +601,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "industria_elettronica"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -631,7 +658,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute",
           "agrifood"
@@ -639,6 +666,17 @@
         "cancro": false,
         "linee": [
           "ml"
+        ],
+        "ruolo": "supporto",
+        "contributi": [
+          {
+            "contributo": "Elaborazione di segnali e dati",
+            "citazione": "Come funziona L’intervento agevolativo verrà attuato secondo una procedura valutativa negoziale, prevista per gli Accordi per l’innovazione, ai sensi del decreto ministeriale 24 maggio 2017 (pdf), per i progetti con costi ammissibili compresi tra 5 e 40 milioni di euro nell’ambito delle aree tecnologiche “Fabbrica intelligente” , “Agrifood”, “Scienze della vita” e “Calcolo ad alte prestazioni”."
+          },
+          {
+            "contributo": "Tecnologie biomedicali emergenti",
+            "citazione": "52 milioni di euro al settore “Scienze della vita”, di cui 18 milioni riservati agli interventi da realizzare nelle regioni \"ex obiettivo convergenza\":"
+          }
         ]
       }
     },
@@ -687,10 +725,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -734,10 +774,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -781,13 +823,15 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute",
           "ambiente_acqua"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -835,12 +879,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -888,10 +934,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -935,10 +983,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -986,10 +1036,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -1033,12 +1085,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -1086,10 +1140,12 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -1139,12 +1195,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [],
         "cancro": false,
         "linee": [
           "ml"
-        ]
+        ],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -1192,14 +1250,16 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita"
         ],
         "cancro": false,
         "linee": [
           "ml"
-        ]
+        ],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -1249,7 +1309,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute",
           "industria_elettronica"
@@ -1257,6 +1317,13 @@
         "cancro": false,
         "linee": [
           "ml"
+        ],
+        "ruolo": "supporto",
+        "contributi": [
+          {
+            "contributo": "IA e machine learning, valutazione di affidabilità e bias",
+            "citazione": "PMI che operano o prevedono di operare in ambiti tecnologici di interesse strategico nazionale, con priorità per le tecnologie healthcare, l’information technology, il settore della green economy e il deep tech (additive manufacturing, nanotecnologie, nuovi materiali, robotica, intelligenza artificiale)."
+          }
         ]
       }
     },
@@ -1305,13 +1372,15 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "energia_mobilita",
           "industria_elettronica"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     }
   ]

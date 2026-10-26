@@ -47,12 +47,19 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute"
         ],
         "cancro": true,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": [
+          {
+            "contributo": "Modelli e dati oncologici",
+            "citazione": "Apri il nuovo sito Rimani sul sito Home / ENTI-SALUTE / ENTI-SALUTE-RETE ONCOLOGICA LAZIO / ENTI-SALUTE-RETE-ONCOLOGICA-LAZIO-GOVERNANCE Governance Condividi Facebook Twitter La Governance della Rete Oncologica Regionale prevede un livello regionale e uno aziendale."
+          }
+        ]
       }
     },
     {
@@ -96,12 +103,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     },
     {
@@ -149,7 +158,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute",
           "agrifood"
@@ -157,6 +166,13 @@
         "cancro": false,
         "linee": [
           "sensori_chimici"
+        ],
+        "ruolo": "supporto",
+        "contributi": [
+          {
+            "contributo": "Sensori e imaging per la sicurezza alimentare",
+            "citazione": "Allo Stato spettano: compiti di indirizzo generali e coordinamento in materia di sicurezza alimentare; l’elaborazione e l’adozione dei piani pluriennali di controllo; la supervisione e il controllo sulle attività degli organismi che esercitano le funzioni conferite dallo Stato (Regioni e Province Autonome e Aziende Sanitarie Locali)."
+          }
         ]
       }
     },
@@ -201,12 +217,14 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-24",
+        "rubrica": "parole-chiave-26",
         "ambiti": [
           "salute"
         ],
         "cancro": false,
-        "linee": []
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
       }
     }
   ]
