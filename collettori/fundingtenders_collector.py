@@ -95,6 +95,19 @@ def cerca(parola, pagina=1, stati=STATI):
     return r.json()
 
 
+def apertura_data(r):
+    """Data di apertura delle domande, letta dai metadati del portale (startDate / plannedOpeningDate / openingDate).
+    Se nessuno di questi campi è nel record resta "non_presente": non viene dedotta."""
+    for nome in ("startDate", "plannedOpeningDate", "openingDate"):
+        for s_ in meta(r, nome):
+            try:
+                d = dt.date.fromisoformat(str(s_)[:10])
+            except ValueError:
+                continue
+            return campo(d.isoformat(), "confermato", f"{nome}: {s_}")
+    return campo(None, "non_presente", None, "Il record del portale non contiene una data di apertura")
+
+
 def scadenza(r, grezzo):
     raw = meta(r, "deadlineDate")
     date = []
@@ -191,6 +204,7 @@ def main(debug=False):
             "trovato_con": v["parole"],
             "apertura": v["apertura"],  # "aperto" o "in arrivo", dedotto dal filtro di stato del portale
             "scadenza": scad,
+            "apertura_data": apertura_data(r),
             "durata": durata(r),
             # Da implementare: budgetOverview ha una struttura annidata da verificare
             "budget": campo(None, "non_presente", None, "Estrazione del budget non ancora implementata"),
