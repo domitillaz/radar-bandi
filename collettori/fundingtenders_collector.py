@@ -95,6 +95,35 @@ def cerca(parola, pagina=1, stati=STATI):
     return r.json()
 
 
+TIPI_AZIONE = {
+    "HORIZON-RIA": "Research and Innovation Action (ricerca e innovazione)",
+    "HORIZON-IA": "Innovation Action (innovazione, vicina al mercato)",
+    "HORIZON-CSA": "Coordination and Support Action (reti, coordinamento, supporto)",
+    "HORIZON-COFUND": "Cofinanziamento di programmi (COFUND)",
+    "HORIZON-PCP": "Appalto pre-commerciale (PCP)",
+    "HORIZON-PPI": "Appalto pubblico di soluzioni innovative (PPI)",
+    "HORIZON-TMA-MSCA": "Azione Marie Curie (MSCA)",
+    "HORIZON-ERC": "Azione ERC",
+    "HORIZON-EIC": "Azione EIC",
+}
+
+
+def tipo_azione(grezzo, testo):
+    """Il tipo di azione è letto dal record del portale (codici HORIZON-RIA, HORIZON-IA, ...), mai dedotto dal titolo.
+    Se il record ne contiene più di uno, vale il più frequente e lo stato è "da_verificare"."""
+    cand = re.findall(r"HORIZON-(?:RIA|IA|CSA|COFUND|PCP|PPI|TMA-MSCA[A-Z-]*|ERC[A-Z-]*|EIC[A-Z-]*)(?![A-Z0-9])", grezzo + " " + testo)
+    if not cand:
+        return campo(None, "non_presente", None, "Il record del portale non indica il tipo di azione")
+    conta = {}
+    for c in cand:
+        conta[c] = conta.get(c, 0) + 1
+    scelto = max(conta, key=conta.get)
+    chiave = next((k for k in TIPI_AZIONE if scelto.startswith(k)), None)
+    nome = TIPI_AZIONE.get(chiave, scelto)
+    return campo(nome, "confermato" if len(conta) == 1 else "da_verificare", scelto,
+                 None if len(conta) == 1 else "Più tipi di azione nel record: verificare")
+
+
 def apertura_data(r):
     """Data di apertura delle domande, letta dai metadati del portale (startDate / plannedOpeningDate / openingDate).
     Se nessuno di questi campi è nel record resta "non_presente": non viene dedotta."""
@@ -205,6 +234,7 @@ def main(debug=False):
             "apertura": v["apertura"],  # "aperto" o "in arrivo", dedotto dal filtro di stato del portale
             "scadenza": scad,
             "apertura_data": apertura_data(r),
+            "tipo_azione": tipo_azione(grezzo, testo),
             "durata": durata(r),
             # Da implementare: budgetOverview ha una struttura annidata da verificare
             "budget": campo(None, "non_presente", None, "Estrazione del budget non ancora implementata"),
