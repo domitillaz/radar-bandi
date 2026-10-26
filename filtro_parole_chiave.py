@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-24"
+VERSIONE = "parole-chiave-26"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -117,6 +117,74 @@ def da_verificare(motivo):
             "temi": [], "evidenze": [], "destinatari": None}
 
 
+# Correzioni di ruolo (26 ottobre 2026): bandi dove il gruppo non può candidarsi o può avere solo un ruolo marginale.
+PCP = re.compile(r"pre[\s-]*commercial[\s-]*procurement|\bPCP\b|appalto[\s-]*pre[\s-]*commerciale", re.I)
+BIOTECH_COMMERCIALE = re.compile(r"cell[\s-]*free[\s-]*protein|production[\s-]*of[\s-]*biologicals|\bbiologicals?\b|commerciali[sz]ation|commercializzazione|scale[\s-]*up\b", re.I)
+SUPPORTO_RE = re.compile(r"remote[\s-]*sensing|satellite|earth[\s-]*observation|biodiversity|biodiversit\w+|ecosystems?|clinical[\s-]*trials?|sperimentazion\w+[\s-]*clinic\w+|microbiome|microbioma|\bGMP\b|first[\s-]*in[\s-]*human|neurodegenerat\w+", re.I)
+CORE = {"lab_on_chip", "organ_on_chip", "microfluidica", "elettrodi_mea_grafene", "sensori_chimici_enose", "sensoristica",
+        "imaging", "neuro_segnali", "algoritmi_bioispirati", "bioprinting_biomateriali", "sensori_flessibili_wireless",
+        "diagnostica_ia_clinica", "emozioni_voce_segnali", "tossicita_farmaci"}
+
+
+def ruolo(titolo, testo, forti, p):
+    """Ruolo probabile del gruppo: stima lessicale, da verificare leggendo il bando."""
+    if PCP.search(titolo):
+        return "non_candidabile"
+    if SUPPORTO_RE.search(titolo) or not (set(forti) & CORE):
+        return "supporto"
+    return "centrale"
+
+
+# "Dove potreste contribuire": frasi del bando che chiedono attività vicine ai temi del gruppo. La frase è citata alla lettera;
+# l'etichetta del contributo è scritta a mano per tema e non è un giudizio sul bando.
+CONTRIBUTO = {
+    "ml_dati_biomedici": "Analisi dati e machine learning",
+    "ia_ricerca": "IA e machine learning, valutazione di affidabilità e bias",
+    "imaging": "Analisi di immagini e microscopia",
+    "digitale_dati": "Elaborazione di segnali e dati",
+    "analisi_dati": "Analisi dei dati e modelli predittivi",
+    "neuro_segnali": "Neurosegnali, EEG e segnali fisiologici",
+    "sensori_chimici_enose": "Sensori chimici e naso elettronico",
+    "neuroimaging_segnali_cerebrali": "Segnali e imaging cerebrale",
+    "emozioni_voce_segnali": "Riconoscimento di emozioni da segnali",
+    "sensoristica": "Biosensori e sensoristica",
+    "lab_on_chip": "Lab-on-chip e diagnostica",
+    "organ_on_chip": "Modelli organ-on-chip e tumor-on-chip",
+    "microfluidica": "Microfluidica",
+    "elettrodi_mea_grafene": "Elettrodi, MEA e grafene indotto da laser",
+    "biologia_computazionale": "Biologia computazionale e medicina personalizzata",
+    "oncologia_immunoterapia": "Modelli e dati oncologici",
+    "tossicita_farmaci": "Tossicità e risposta ai farmaci in vitro",
+    "algoritmi_bioispirati": "Algoritmi bioispirati",
+    "bioprinting_biomateriali": "Bioprinting microfluidico e biomateriali",
+    "sensori_flessibili_wireless": "Sensori flessibili, wireless e indossabili",
+    "diagnostica_ia_clinica": "IA spiegabile per la diagnostica clinica",
+    "sicurezza_alimentare_sensori": "Sensori e imaging per la sicurezza alimentare",
+    "tecnologie_emergenti_biomedicali": "Tecnologie biomedicali emergenti",
+}
+AZIONE = re.compile(r"\b(?:should|must|shall|will|include[sd]?|develop\w*|design\w*|deliver\w*|validat\w*|activit\w+|required|expected|needs?|aim\w*)\b"
+                    r"|\b(?:devono|deve|dovrebbero|dovrebbe|sviluppare|realizzare|attivit\w+|richiest\w+|previst\w+)\b", re.I)
+
+
+def contributi(testo, temi, massimo=4):
+    frasi = [f.strip() for f in re.split(r"(?<=[.;:])\s+(?=[A-Z0-9“\"(•])", testo) if 40 <= len(f.strip()) <= 420]
+    ordine = sorted(temi, key=lambda t: (t not in CORE, t))
+    out, usate = [], set()
+    for tema in ordine:
+        if tema not in CONTRIBUTO:
+            continue
+        for pat, _, _ in TEMI[tema]:
+            cand = [f for f in frasi if f not in usate and re.search(pat, f, re.I)]
+            trovata = next((f for f in cand if AZIONE.search(f)), None) or (cand[0] if cand else None)
+            if trovata:
+                usate.add(trovata)
+                out.append({"contributo": CONTRIBUTO[tema], "citazione": trovata})
+                break
+        if len(out) >= massimo:
+            break
+    return [o for o in out if o["citazione"] in testo]
+
+
 def valuta(bando):
     titolo = " ".join((bando.get("titolo", "") + ". " + (bando.get("descrizione") or "")).split())
     fonte = " ".join((bando.get("testo_fonte") or "").split())
@@ -188,9 +256,19 @@ def valuta(bando):
         p, stato = 6, "programma_noto"
         mot = ("Topic della Missione Cancro, stesso programma di un progetto già finanziato al gruppo (ARTURO). "
                "Pertinenza da valutare a mano.")
+    if PCP.search(titolo):
+        p = min(p, 3)
+        mot += " Appalto pre-commerciale: i richiedenti sono gruppi di enti compratori e il bando non finanzia direttamente la ricerca; il gruppo può solo rispondere a gare successive. Punteggio limitato a 3."
+    elif BIOTECH_COMMERCIALE.search(titolo):
+        p = min(p, 4)
+        mot += " Bando di biotecnologia industriale o di commercializzazione: i temi del gruppo compaiono solo di contorno. Punteggio limitato a 4."
+    r = ruolo(titolo, testo, forti, p)
+    if r == "supporto" and SUPPORTO_RE.search(titolo) and p > 6:
+        p = 6
+        mot += " Il titolo indica un tema dove il gruppo avrebbe un ruolo di supporto (telerilevamento, biodiversità, sperimentazioni cliniche, microbioma...): punteggio limitato a 6."
     return {"punteggio": p, "stato": stato, "motivazione": mot, "temi": temi, "evidenze": evidenze,
             "destinatari": {"valore": "non_indicato", "citazione": None}, "rubrica": VERSIONE,
-            "ambiti": ambiti(titolo, testo, temi), "cancro": cancro(titolo, testo, bando), "linee": linee(temi)}
+            "ambiti": ambiti(titolo, testo, temi), "cancro": cancro(titolo, testo, bando), "linee": linee(temi), "ruolo": r, "contributi": contributi(fonte, temi)}
 
 
 def main():
