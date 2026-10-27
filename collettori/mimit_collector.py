@@ -115,6 +115,12 @@ def scadenza(testo):
     return campo(ultima.isoformat(), "da_verificare", cit, "Più date nel testo: verificare quale vale"), ultima
 
 
+def datato_vecchio(testo, oggi, anni=2):
+    """Scheda senza scadenza le cui date nel testo sono tutte di più di 2 anni fa (misure del 2019 rimaste in elenco)."""
+    ds = [d for _, _, d in date_nel_testo(testo)]
+    return bool(ds) and max(ds) < oggi.replace(year=oggi.year - anni)
+
+
 def leggi_lista(url):
     trovate, errori, visitate = {}, [], set()
     coda, provato_semplice = [url + "?limit=100"], False
@@ -160,7 +166,7 @@ def main():
         raise SystemExit("MIMIT: nessuna scheda trovata negli elenchi (se compaiono errori di rete la causa è il sito non raggiungibile, non la struttura; "
                          "altrimenti la struttura potrebbe essere cambiata). "
                          + "; ".join(errori))
-    scartati = {"non_ricerca": 0, "scaduto": 0, "chiuso": 0, "non_letta": 0, "oltre_limite": 0}
+    scartati = {"non_ricerca": 0, "scaduto": 0, "chiuso": 0, "non_letta": 0, "oltre_limite": 0, "vecchio": 0}
     bandi = []
     for i, (url, titolo_lista) in enumerate(schede.items()):
         if i >= MAX_SCHEDE:
@@ -181,6 +187,9 @@ def main():
         scad, ultima = scadenza(testo)
         if ultima and ultima < oggi:
             scartati["scaduto"] += 1
+            continue
+        if ultima is None and datato_vecchio(testo, oggi):
+            scartati["vecchio"] += 1
             continue
         if ultima is None and CHIUSO.search(testo):
             scartati["chiuso"] += 1
