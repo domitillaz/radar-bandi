@@ -1,12 +1,12 @@
 {
-  "generato": "2026-10-23",
+  "generato": "2026-10-27",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -55,7 +55,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -104,7 +104,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -153,7 +153,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-04",
         "stato": "confermato",
@@ -202,7 +202,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -251,7 +251,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -300,7 +300,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -349,7 +349,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-22",
         "stato": "confermato",
@@ -396,60 +396,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Partecipazione a Più Libri Più Liberi 2026",
-      "url": "https://www.lazioinnova.it/laziointernational/2026/10/13/manifestazione-interesse-plpl-2026/",
-      "data_lettura": "2026-10-23",
-      "scadenza": {
-        "valore": "2026-10-23",
-        "stato": "confermato",
-        "citazione": "ioni d’interesse entro le ore 12.00 del 23 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "€ 300.000,00",
-        "stato": "da_verificare",
-        "citazione": " manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "L’allestimento e l’organizzazione delle attività all’interno del Rights Centre è sostenuta in quota parte da Regione Lazio con i Fondi PR FESR Lazio 2021-2027 REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: L’opportunità d",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "Bandi e Finanziamenti / Fiere e Iniziative Internazionali / Network / 13 Ottobre 2026 Selezione di 12 case editrici del Lazio. Candidature entro le ore 12.00 di venerdì 23 ottobre 2026 La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , con il supporto dell’ Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche, promuovono la partecipazione a Più Libri Più Liberi – Fiera Nazionale della Piccola e Media Editoria , che si svolgerà dal 4 all’8 dicembre 2026 presso il Centro Congressi La Nuvola. In occasione della manifestazione fieristica è intenzione degli Enti promotori organizzare uno spazio espositivo per ospitare gratuitamente fino a n. 12 imprese rappresentative dell’industria dell’editoria del Lazio. La partecipazione di n. 1 impresa è sostenuta con il contributo del PR FESR Lazio 2021-2027 ; la partecipazione delle restanti 11 imprese è sostenuta dalla Camera di Commercio di Roma. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori, che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale alla Fiera in oggetto e/o di modificarne le caratteristiche e i servizi offerti. Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. Più Libri Più Liberi, giunta alla sua 25ª edizione, è la prima fiera italiana dedicata esclusivamente all’editoria indipendente: cinque giornate dove scoprire le novità e i cataloghi di oltre 500 editori, incontrare autori, assistere a performance musicali, reading e dibattiti. Un’occasione da non perdere per lettori e addetti ai lavori. La manifestazione è, negli anni, diventata un momento di riferimento in ambito culturale nazionale non solo per il mondo editoriale, ma per l’intera industria dei contenuti, ed è cresciuta negli anni fino a raggiungere i numeri record. La 25ª edizione prende forma intorno a una domanda: “Se guardi meglio, cosa vedi?” La Fiera è luogo di incontro sia per gli operatori professionali – per discutere le problematiche del settore e individuare le strategie da sviluppare – sia per i lettori – per incontrare gli autori e assistere a reading e performance musicali, offerti dal ricchissimo programma. Gli Enti promotori daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. CATEGORIA AMMESSA Edizione di libri – Codice ATECO 58.11.00 Le case editrici ed altre attività editoriali partecipanti alla collettiva regionale NON dovranno: avere un fatturato netto relativo all’anno 2025 superiore ai 10 milioni di euro; avere capitale sociale appartenente in misura superiore al 25% a Case Editrici o Gruppi Editoriali con fatturati netti relativi all’anno 2025 superiori ai 10 milioni di euro. SPAZIO ESPOSITIVO E SERVIZI L’iniziativa della Regione Lazio e della Camera di Commercio di Roma prevede l’allestimento di uno spazio espositivo collettivo di circa 100 mq dove sarà ospitata una selezione di massimo 12 realtà del Lazio, ciascuna delle quali avrà gratuitamente a disposizione: n° 1 tavolo 120×60 n° 2 sedie n° 4 mensole 30×95 n° 1 cartello logo azienda n° 1 multipresa ogni 2 aziende n° 1 cestino gettacarte ogni 2 aziende quota d’iscrizione. La quota di iscrizione include , per ogni impresa partecipante, la connessione wi-fi, la pulizia giornaliera dell’area espositiva, l’assicurazione secondo i termini indicati nell’art. 11 del regolamento generale della manifestazione, l’inserimento sul catalogo digitale della manifestazione, n. 1 pass ingresso, 5 biglietti omaggio, servizio di carico, nonché il deposito e la consegna presso lo stand del materiale da esporre. La vendita di libri in Fiera , secondo il regolamento della manifestazione, è riservata alle Case Editrici ammesse a partecipare e, solo relativamente a libri editi dal marchio editoriale iscritto. Oltre a far parte della collettiva del Lazio, alle imprese selezionate è data l’opportunità di beneficiare delle iniziative di Networking e-Business matching internazionale all’interno dell’Area Rights Centre . Queste attività saranno condotte in collaborazione con EDISER (Società di servizi di AIE – Associazione Editori Italiani), che coinvolgerà operatori e buyer stranieri in appuntamenti che si svolgeranno nel suggestivo ambiente de La Nuvola. Il Rights Centre , grazie al sostegno di ICE – Agenzia per la promozione all’estero e l’internazionalizzazione delle imprese italiane, ospiterà operatori provenienti da Paesi europei ed extraeuropei che il 4 e il 5 dicembre incontreranno le case editrici di PLPL in appuntamenti one-to-one finalizzati allo scambio diritti. L’allestimento e l’organizzazione delle attività all’interno del Rights Centre è sostenuta in quota parte da Regione Lazio con i Fondi PR FESR Lazio 2021-2027 REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: L’opportunità di prendere parte a Più Libri Più Liberi 2026 è riservata a imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere regolarmente iscritti nel Registro delle Imprese della C.C.I.A.A. competente per territorio ed essere in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni, escluso il corrente) e con la dichiarazione dell’attività esercitata; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore; non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non essere sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) e ogni altra procedura concorsuale né avere in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non essere state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica Amministrazione; non avere Amministratori e/o Legali Rappresentanti che siano stati condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comuni",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-26",
-        "ambiti": [
-          "industria_elettronica"
-        ],
-        "cancro": false,
-        "linee": [],
-        "ruolo": "supporto",
-        "contributi": []
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -498,7 +447,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "ESA BIC Lazio, seconda finestra 2026",
       "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-18",
         "stato": "confermato",
@@ -555,7 +504,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -604,7 +553,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -659,7 +608,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -708,7 +657,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -757,9 +706,58 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Il teatro nelle scuole",
+      "url": "https://www.lazioeuropa.it/bandi/il-teatro-nelle-scuole/",
+      "data_lettura": "2026-10-27",
+      "scadenza": {
+        "valore": "2026-11-10",
+        "stato": "confermato",
+        "citazione": " domande via PEC entro le ore 23:59 del 10 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Il teatro nelle scuole Aperto Bandi Regionali La Regione, nell’ambito delle politiche di promozione dell’inclusione scolastica e sociale, intende realizzare in collaborazione con gli ETS (enti del Terzo settore) l’iniziativa “Il teatro nelle scuole”, progetto sociale e digitalizzazione dello spettacolo dal vivo col quale si intende promuovere l’inclusione degli alunni e degli studenti diversamente abili e favorire la loro partecipazione alla vita scolastica. I progetti selezionati potranno ottenere un contributo in misura non superiore all’80% del costo complessivo dello stesso. Dovranno prevedere la realizzazione di laboratori teatrali integrati all’interno delle istituzioni scolastiche e la produzione di uno spettacolo teatrale accessibile e inclusivo, e avvalersi della collaborazione con esperti IT. Per queste finalità potranno utilizzare una vasta gamma di strumenti tecnologici per migliorare l’esperienza teatrale e rendere lo spettacolo accessibile a tutti: dalle tecniche per audiodescrizione alla LIS, dalla realtà aumentata e virtuale a scenografie digitali, a riprese e streaming per la fruizione dello spettacolo prodotto. Potranno prevedere inoltre attività di formazione e assistenza al personale scolastico per l’utilizzo delle tecnologie implementate.ù Possono partecipare al presente avviso gli Enti del Terzo settore iscritti al Registro Unico Nazionale del Terzo Settore. I progetti devono prevedere lo svolgimento di un programma di attività, nel periodo compreso tra il 23 ottobre ed il 31 dicembre 2026, da realizzare nelle scuole dell’infanzia, primarie, secondarie di primo e secondo grado e nelle istituzioni formative di cui all’articolo 7 della legge regionale 5/2015 (Disposizioni sul sistema educativo regionale di istruzione e formazione professionale) e sm. La domanda di contributo completa della documentazione allegata di cui all’articolo 6 dell’avviso, deve essere inviata obbligatoriamente ed esclusivamente mediante posta elettronica certificata (PEC) al seguente indirizzo: spettacolodalvivo@pec.regione.lazio.it , entro le ore 23:59 del 10 novembre 2026 . Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-26",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetti operativi di promozione turistica finalizzati alla celebrazione del Santo Natale",
       "url": "https://www.lazioeuropa.it/bandi/progetti-operativi-di-promozione-turistica-finalizzati-alla-celebrazione-del-santo-natale/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -808,7 +806,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi allo spettacolo dal vivo (2027)",
       "url": "https://www.lazioeuropa.it/bandi/contributi-allo-spettacolo-dal-vivo-2027/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -857,7 +855,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget",
       "url": "https://www.lazioeuropa.it/bandi/lazio-next-generation-sostegno-a-opere-cinematografiche-e-audiovisive-low-budget/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-04",
         "stato": "confermato",
@@ -906,7 +904,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Smart Map. bando per i piccoli Comuni",
       "url": "https://www.lazioeuropa.it/bandi/smart-map-bando-per-i-piccoli-comuni/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-09",
         "stato": "confermato",
@@ -957,7 +955,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1006,7 +1004,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1058,7 +1056,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -1107,7 +1105,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1156,7 +1154,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Polizia Locale plus 2026 – parte corrente",
       "url": "https://www.lazioeuropa.it/bandi/polizia-locale-plus-2026-parte-corrente/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -1203,58 +1201,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Istituzione e potenziamento dei Centri per uomini autori o potenziali autori di violenza (C.U.A.V.)",
-      "url": "https://www.lazioeuropa.it/bandi/istituzione-e-potenziamento-dei-centri-per-uomini-autori-o-potenziali-autori-di-violenza-c-u-a-v/",
-      "data_lettura": "2026-10-23",
-      "scadenza": {
-        "valore": "2026-10-24",
-        "stato": "confermato",
-        "citazione": " istanze via PEC entro le ore 12:00 del 24 ottobre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "testo_fonte": "Sicurezza Istituzione e potenziamento dei Centri per uomini autori o potenziali autori di violenza (C.U.A.V.) Aperto Bandi Regionali Approvato e pubblicato l’ Avviso pubblico per l’erogazione dei contributi finalizzati all’istituzione e al potenziamento dei Centri per Uomini Autori o potenziali autori di violenza (C.U.A.V.) . L’intervento mira a consolidare sul territorio regionale una rete di strutture capaci di offrire percorsi di recupero e riabilitazione. Ai fini dell’ammissibilità al finanziamento, gli enti richiedenti devono risultare già iscritti o aver presentato domanda di iscrizione nell’elenco regionale dei C.U.A.V. , istituito in conformità con l’Intesa del 14 settembre 2022 (Rep. atti n.184/CSR). Le istanze di partecipazione, corredate dalla documentazione integrale, dovranno pervenire entro le ore 12:00 del 24 ottobre 2026 , a pena di esclusione dal bando. La trasmissione dei documenti è consentita esclusivamente per via telematica, tramite Posta Elettronica Certificata (PEC), all’indirizzo dedicato: cuav.laziocrea@pec.laziocrea.it . Il testo integrale dell’avviso, il modello per la domanda e gli allegati ufficiali sono consultabili e scaricabili direttamente sul portale istituzionale di LAZIOcrea – Apertura Avviso CUAV . Documentazione di riferimento",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-26",
-        "ambiti": [],
-        "cancro": false,
-        "linee": [],
-        "ruolo": "supporto",
-        "contributi": []
-      }
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi Culturali – inserimento in O.B.R., O.M.R. e O.A.R. – Anno 2027",
       "url": "https://www.lazioeuropa.it/bandi/servizi-culturali-inserimento-in-o-b-r-o-m-r-e-o-a-r-anno-2027/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -1305,7 +1254,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-28",
         "stato": "confermato",
@@ -1354,7 +1303,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1405,7 +1354,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1454,7 +1403,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1503,7 +1452,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-10-30",
         "stato": "confermato",
@@ -1552,7 +1501,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Aiuto alle aziende agricole zootecniche per l’acquisto di riproduttori",
       "url": "https://www.lazioeuropa.it/bandi/aiuto-alle-aziende-agricole-zootecniche-per-lacquisto-di-riproduttori/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2026-01-19",
         "stato": "confermato",
@@ -1601,7 +1550,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1650,7 +1599,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1699,7 +1648,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1748,7 +1697,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1797,7 +1746,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1846,7 +1795,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1895,7 +1844,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1944,7 +1893,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-10-23",
+      "data_lettura": "2026-10-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
