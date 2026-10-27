@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-26"
+VERSIONE = "parole-chiave-27"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -185,6 +185,21 @@ def contributi(testo, temi, massimo=4):
     return [o for o in out if o["citazione"] in testo]
 
 
+# Titoli di IA generica, cybersicurezza e calcolo quantistico (27 ottobre 2026): temi del gruppo solo di contorno.
+CYBER = re.compile(r"cyber[\s-]*secur\w*|cybersicurezza|\bcyber\b", re.I)
+IA_FRONTIERA = re.compile(r"frontier[\s-]*(?:AI|Artificial[\s-]*Intelligence)|scaling[\s-]*(?:laws?|frameworks?)|high[\s-]*performance[\s-]*AI|large[\s-]*language[\s-]*models?|\bAI[\s-]*factor\w+|\bAI[\s-]*gigafactor\w+", re.I)
+QUANTISTICO = re.compile(r"\bquantum\b|quantistic\w+", re.I)
+
+
+def esclusi_da_file(percorso):
+    """Righe di bandi_esclusi.txt nella stessa cartella del file di dati: frammenti di indirizzo (URL) di bandi da non mostrare."""
+    import os
+    f = os.path.join(os.path.dirname(os.path.abspath(percorso)), "bandi_esclusi.txt")
+    if not os.path.exists(f):
+        return []
+    return [r.strip() for r in open(f, encoding="utf-8") if r.strip() and not r.startswith("#")]
+
+
 def valuta(bando):
     titolo = " ".join((bando.get("titolo", "") + ". " + (bando.get("descrizione") or "")).split())
     fonte = " ".join((bando.get("testo_fonte") or "").split())
@@ -262,6 +277,15 @@ def valuta(bando):
     elif BIOTECH_COMMERCIALE.search(titolo):
         p = min(p, 4)
         mot += " Bando di biotecnologia industriale o di commercializzazione: i temi del gruppo compaiono solo di contorno. Punteggio limitato a 4."
+    if CYBER.search(titolo):
+        p = min(p, 3)
+        mot += " Bando di cybersicurezza: l'IA è lo strumento e non il tema del gruppo. Punteggio limitato a 3."
+    elif IA_FRONTIERA.search(titolo):
+        p = min(p, 5)
+        mot += " Bando di IA generale (modelli di frontiera, scalabilità): tema lontano dalle linee del gruppo. Punteggio limitato a 5."
+    elif QUANTISTICO.search(titolo):
+        p = min(p, 6)
+        mot += " Bando di calcolo quantistico: il gruppo potrebbe portare solo casi d'uso e dati di confronto. Punteggio limitato a 6."
     r = ruolo(titolo, testo, forti, p)
     if r == "supporto" and SUPPORTO_RE.search(titolo) and p > 6:
         p = 6
@@ -276,6 +300,12 @@ def main():
     ap.add_argument("files", nargs="+")
     for f in ap.parse_args().files:
         dati = json.load(open(f, encoding="utf-8"))
+        esclusi = esclusi_da_file(f)
+        if esclusi:
+            prima = len(dati["bandi"])
+            dati["bandi"] = [b for b in dati["bandi"] if not any(x in (b.get("url") or "") for x in esclusi)]
+            if len(dati["bandi"]) < prima:
+                print(f"{f}: {prima - len(dati['bandi'])} bandi esclusi da bandi_esclusi.txt")
         for b in dati["bandi"]:
             b["rilevanza"] = valuta(b)
         json.dump(dati, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
