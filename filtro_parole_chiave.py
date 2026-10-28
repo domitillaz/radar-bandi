@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-27"
+VERSIONE = "parole-chiave-29"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -200,6 +200,16 @@ def esclusi_da_file(percorso):
     return [r.strip() for r in open(f, encoding="utf-8") if r.strip() and not r.startswith("#")]
 
 
+# Educazione, Creative Europe e IA su dati analitici di alimenti (28 ottobre 2026).
+EDUCAZIONE = re.compile(r"\b(?:pre[\s-]*primary|primary[\s-]*education|secondary[\s-]*education|learning[\s-]*environments?|teachers?|pupils?|schools?|classroom\w*|istruzione|scuol\w+|didattic\w+)\b", re.I)
+CREATIVE = re.compile(r"\bCREA-(?:CROSS|CULT|MEDIA)\b|creative[\s-]*innovation[\s-]*lab|\baudiovisual\w*|\bcreative[\s-]*sectors?\b", re.I)
+FOODOMA = re.compile(r"foodom\w+|\bfood[\s-]*(?:chemicals?|compounds?|metabolom\w+)\b", re.I)
+
+
+# Medicina rigenerativa e terapie avanzate (28 ottobre 2026): bioprinting con produzione GMP e studi sull'uomo, fuori dalle linee del gruppo.
+RIGENERATIVA = re.compile(r"regenerative[\s-]*medicine|medicina[\s-]*rigenerativa|\btransplant\w*|advanced[\s-]*therapy|advanced[\s-]*therapies|\bATMPs?\b|living[\s-]*cells?\b.*\bprint\w*|bio[\s-]*print\w*[\s-]*of[\s-]*living", re.I)
+
+
 def valuta(bando):
     titolo = " ".join((bando.get("titolo", "") + ". " + (bando.get("descrizione") or "")).split())
     fonte = " ".join((bando.get("testo_fonte") or "").split())
@@ -277,7 +287,19 @@ def valuta(bando):
     elif BIOTECH_COMMERCIALE.search(titolo):
         p = min(p, 4)
         mot += " Bando di biotecnologia industriale o di commercializzazione: i temi del gruppo compaiono solo di contorno. Punteggio limitato a 4."
-    if CYBER.search(titolo):
+    if EDUCAZIONE.search(titolo):
+        p = min(p, 2)
+        mot += " Bando su educazione e scuola (scienze sociali e umanistiche): l'IA è l'oggetto di studio. Punteggio limitato a 2."
+    elif CREATIVE.search(titolo) or CREATIVE.search(bando.get("url", "")):
+        p = min(p, 2)
+        mot += " Bando di Creative Europe per il settore audiovisivo e creativo, non di ricerca. Punteggio limitato a 2."
+    elif FOODOMA.search(titolo):
+        p = min(p, 5)
+        mot += " Bando di IA su dati analitici di alimenti (spettrometria, risonanza): il gruppo sarebbe partner di IA. Punteggio limitato a 5."
+    elif RIGENERATIVA.search(titolo) and not CANCRO.search(titolo):
+        p = min(p, 5)
+        mot += " Bando di medicina rigenerativa: richiede produzione a norma GMP e studi sull'uomo, il gruppo potrebbe essere solo partner tecnico. Punteggio limitato a 5."
+    elif CYBER.search(titolo):
         p = min(p, 3)
         mot += " Bando di cybersicurezza: l'IA è lo strumento e non il tema del gruppo. Punteggio limitato a 3."
     elif IA_FRONTIERA.search(titolo):
