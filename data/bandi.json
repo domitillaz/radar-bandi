@@ -1,12 +1,12 @@
 {
-  "generato": "2026-10-27",
+  "generato": "2026-10-28",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -55,7 +55,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -104,7 +104,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -153,7 +153,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-04",
         "stato": "confermato",
@@ -202,7 +202,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -251,7 +251,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -300,7 +300,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -347,9 +347,107 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Partecipazione a MOACASA 2026",
+      "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-moacasa-2026/",
+      "data_lettura": "2026-10-28",
+      "scadenza": {
+        "valore": "2026-11-06",
+        "stato": "confermato",
+        "citazione": "ioni d’interesse entro le ore 10.00 del 6 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "€ 300.000,00",
+        "stato": "da_verificare",
+        "citazione": " manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "10 biglietti omaggio assicurazione REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE PARTECIPANTI ALLA MANIFESTAZIONE DI INTERESSE: L’opportunità di prendere parte a “MOA CASA 2026” è riservata ad imprese in possesso dei seguenti requisiti: sede le",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a MOACASA 2026 Aperto Altri fondi FESR La Regione Lazio , per il tramite del soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , con il supporto dell’Azienda Speciale Sviluppo e Territorio, nell’ambito della Convenzione per la partecipazione congiunta a manifestazioni fieristiche finalizzata a sostenere il tessuto economico regionale, selezionano N. 42 imprese del Lazio interessate a prendere parte a Moacasa 2026, che si svolgerà dal 21 al 29 novembre 2026 presso la Fiera di Roma. La partecipazione di 19 imprese delle 42 selezionate è sostenuta con il contributo del PR FESR Lazio 2021 – 2027, mentre la partecipazione delle restanti 23 imprese è sostenuta dalla Camera di Commercio di Roma. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti Promotori, che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale alla Fiera in oggetto e/o di modificarne le caratteristiche e i servizi offerti. Gli Enti promotori daranno opportuna diffusione sui rispettivi siti istituzionali e canali di comunicazione utilizzati per promuovere le iniziative. PERCHÉ PARTECIPARE MOACASA è l’evento di design che rappresenta un punto di riferimento nel mondo dell’arredo in Italia.. Un incontro irrinunciabile per gli appassionati del design, dove tradizione e innovazione si fondono per offrire una vetrina unica delle ultime tendenze e creazioni. MOACASA raggruppa i diversi settori che compongono il mondo dell’arredamento e del design. Le diverse aree espositive tutte diverse ma complementari tra loro accompagneranno ogni visitatore in un percorso studiato per ridisegnare o aggiornare i propri spazi: Arredamento, Cucine, Bagni, Outdoor, Ristrutturazione, Artigianato. CATEGORIE DI RIFERIMENTO Carta da parati; Complementi d’arredo; Complementi per la cucina; Tendaggi; Tessuti e rivestimento d’arredo; Restauro; Infissi; Impiantistica; Ristrutturazione; Climatizzazione SPAZIO ESPOSITIVO E SERVIZI OFFERTI Lo spazio espositivo e i relativi servizi previsti per ogni azienda sono i seguenti: stand di mq. 12 allestito con pannellatura perimetrale e moquette; scritta centrale con insegna espositore e loghi dei partner istituzionali; impianto elettrico (4 spot da 100 watt e 1 presa 16A); oneri per la sicurezza; N. 1 pass auto N. 2 tessere espositore N. 10 biglietti omaggio assicurazione REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE PARTECIPANTI ALLA MANIFESTAZIONE DI INTERESSE: L’opportunità di prendere parte a “MOA CASA 2026” è riservata ad imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio e in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (Il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore; non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non siano sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) ed ogni altra procedura concorsuale né abbiano in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non siano state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica Amministrazione; non avere Amministratori e/o Legali Rappresentanti che siano stati condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comunità che incidono sulla moralità professionale (è comunque causa di esclusione la condanna, con sentenza passata in giudicato, per reati di partecipazione ad un’organizzazione criminale, corruzione, frode, riciclaggio); non avere Amministratori e/o Legali Rappresentanti che si siano resi colpevoli di false dichiarazioni nei rapporti con la Pubblica Amministrazione; essere in regola con il versamento dei contributi previdenziali e assistenziali, accertabile mediante acquisizione del DURC, ovvero non essere soggetti agli obblighi in materia di regolarità contributiva e, quindi, non essere tenuti all’iscrizione presso alcun Ente previdenziale o assistenziale; Il possesso dei requisiti è attestato mediante dichiarazioni rese al momento della partecipazione attraverso il modulo di manifestazione di interesse. Tali dichiarazioni potranno essere verificate, così come stabilito dall’art. 71 comma 1 del D.P.R. 445 del 28.12.2000, come modificato dall’art. 264 del D.L. 19 maggio 2020 n. 34, con applicazione, nel caso di dichiarazioni mendaci, della decadenza dai benefici e delle sanzioni penali, rispettivamente previste dagli artt. 75 e 76 del medesimo D.P.R., come da ultimo rese più severe per effetto del citato articolo 264. MODALITÀ DI PRESENTAZIONE DELLA DOMANDA DI PARTECIPAZIONE: Le aziende interessate a partecipare alla collettiva regionale dovranno effettuare i seguenti adempimenti, pena la non ammissibilità della domanda entro e non oltre le ore 10:00 del 6 novembre 2026 : compilare il Form di registrazione al link: https://www.lazioinnova.it/laziointernational/partecipazione-moacasa-2026/ compilare il modulo Manifestazione di interesse, disponibile al medesimo link, firmarlo digitalmente o in maniera olografica, in tal caso, allegando copia di un documento valido di identità e trasmetterlo via PEC al seguente indirizzo: internazionalizzazione@pec.lazioinnova.it indicando nell’oggetto della PEC la seguente dicitura: “MOA CASA 2026”. CRITERI DI AMMISSIBILITÀ GENERALI correttezza dell’iter amministrativo di presentazione della manifestazione di interesse (rispetto delle modalità e dei tempi); completezza della domanda di partecipazione. NUCLEO DI VALUTAZIONE La selezione avverrà a cura di un Nucleo di Valutazione composto da: un rappresentante di Regione Lazio; un rappresentante di Lazio Innova; un rappresentante del Sistema Camerale di Roma SELEZIONE E COMUNICAZIONE DI AMMISSIONE Gli spazi espositivi saranno assegnati alle imprese sulla base della graduatoria elaborata attraverso l’applicazione dei seguenti criteri di selezione: priorità in graduatoria alle imprese che non hanno partec",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-27",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Partecipazione a Roma Arte in Nuvola",
+      "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-roma-arte-in-nuvola/",
+      "data_lettura": "2026-10-28",
+      "scadenza": {
+        "valore": "2026-11-06",
+        "stato": "confermato",
+        "citazione": "ioni d’interesse entro le ore 10.00 del 6 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "€ 300.000,00",
+        "stato": "da_verificare",
+        "citazione": " manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: L’opportunità di prendere parte a Roma Arte in Nuvola 2026 è riservata ad imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio;",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a Roma Arte in Nuvola Aperto Altri fondi FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , con il supporto dell’ Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche e allo scopo di sostenere il tessuto economico regionale, promuovono la partecipazione fino a un numero massimo di 14 imprese a Roma Arte in Nuvola – Fiera Internazionale dell’arte Moderna e Contemporanea che si svolgerà dal 19 al 22 Novembre 2026 presso il Centro Congressi La Nuvola . La partecipazione di 5 di queste è sostenuta con il contributo del PR FESR Lazio 2021-2027 , mentre quella delle restanti n . 9 è sostenuta dalla Camera di Commercio di Roma. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale alla Fiera in oggetto e/o di modificarne le caratteristiche e i servizi offerti. Roma Arte in Nuvola , giunta alla sua sesta edizione, ha ormai sancito il suo ruolo di manifestazione espositiva di qualità dalla forte impronta divulgativa che riunisce gallerie nazionali e internazionali, affiancando alla proposta espositiva un’ampia offerta di mostre ed eventi, dalla pittura alle installazioni, dalla scultura alle performance, dalla video arte alla digital art fino alla street art, in cui anche le istituzioni sono chiamate a partecipare attivamente con progetti concepiti per la prestigiosa location della Nuvola di Fuksas. È proprio questo dialogo tra mercato, cultura e istituzioni che rende Roma Arte in Nuvola un evento unico e originale nel panorama nazionale. La fiera si configura anche come spazio di riflessione e sperimentazione grazie a un programma di talk ed eventi speciali che coinvolgono artisti, critici e curatori in un confronto sui temi più attuali dell’arte e della società contemporanea. Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. CATEGORIE AMMESSE 1 Gallerie d’arte ALTRE CATEGORIE AMMISSIBILI SOLO NEL CASO IN CUI GLI SPAZI NON SIANO TOTALMENTE ATTRIBUITI ALLE IMPRESE DI CUI AL PUNTO 1. 2 Editori specializzati nei settori dell’arte, dell’archeologia e delle mostre SPAZIO ESPOSITIVO E SERVIZI L’area dedicata alle imprese selezionate sarà collocata presso due aree limitrofe e ciascuna impresa avrà a disposizione un proprio stand da 14 mq così allestito: allestimento perimetrale con pannelli ignifughi omologati in colore bianco; moquette; impianto elettrico (faretti di illuminazione e presa elettrica); targa espositori con i loghi dei partner istituzionali; 1 tavolo, 2 sedie, 1 cestino gettacarte; assicurazione RC, assicurazione all risk delle opere per un valore complessivo pari a € 100.000,00; servizio di scarico delle opere e accompagnamento presso lo stand; deposito degli imballi delle opere presso il magazzino deputato; assistenza tecnica per tutta la durata dell’evento; presenza sul sito web della manifestazione; n. 6 pass espositori per ogni impresa; n. 70 biglietti omaggio per ogni impresa; n. 6 VIP card per ogni impresa. L’area complessiva della collettiva delle imprese del Lazio, dotata di due portali d’accesso recanti i loghi istituzionali, sarà allestita con moquette e grafica interna e esterna sulle pareti laterali delle due aree. Le imprese, inoltre, avranno a disposizione un monitor da 55’’ dove sarà possibile inserire video ad hoc. Inoltre presso il piano Nuvola saranno previsti una serie di incontri (talk workshop per la presentazione di libri) su varie tematiche legate al mondo dell’arte che vedono protagonisti diversi attori: gallerie, artisti, collezionisti e imprese. REQUISITI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: L’opportunità di prendere parte a Roma Arte in Nuvola 2026 è riservata ad imprese in possesso dei seguenti requisiti: sede legale e/o operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio e in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il corrente) e con la dichiarazione dell’attività esercitata; esercitare, in relazione alla sede laziale, un’attività economica coerente con il settore; non essere beneficiarie di agevolazioni pubbliche relative alla partecipazione alla manifestazione fieristica in questione né aver presentato domande di agevolazione per partecipare alla medesima manifestazione; non aver superato, negli ultimi tre anni, l’importo massimo di € 300.000,00 delle agevolazioni in regime “de minimis” ai sensi del Regolamento (UE) n. 2831 del 13 dicembre 2023 relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione Europea agli aiuti “de minimis”, e, in ogni caso, di disporre di un margine sufficiente alla concessione dell’aiuto indiretto relativo alla presente manifestazione come evidenziato nel seguente paragrafo “Aiuto de minimis”; essere nel pieno e libero esercizio dei propri diritti, attive e non essere sottoposte né essere state sottoposte, nei cinque anni precedenti, a procedure di liquidazione volontaria, liquidazione coatta, fallimento, concordato preventivo (ad eccezione del concordato preventivo con continuità aziendale) e ogni altra procedura concorsuale né avere in corso un procedimento per la dichiarazione di una delle suddette situazioni; possedere capacità di contrarre ovvero non essere state oggetto di sanzione interdittiva o altra sanzione che comporti il divieto di contrarre con la Pubblica Amministrazione; non avere Amministratori e/o Legali Rappresentanti che siano stati condannati con sentenza passata in giudicato ovvero nei cui confronti sia stato emesso decreto penale di condanna divenuto irrevocabile o sentenza di applicazione della pena su richiesta, ai sensi dell’art. 444 c.p.p., per reati gravi in danno dello Stato o della Comunità che incidono sulla moralità professionale (è comunque causa di esclusione la condanna, con sentenza passata in giudicato, per reati di partecipazione ad un’organizzazione criminale, corruzione, frode, riciclaggio); non avere Amministratori e/o Legali Rappresentanti che si siano resi colpevoli di false dichiarazioni nei rapporti con la Pubblica Amministrazione; essere in regola con il versamento dei contributi previdenziali e assistenziali, accertabile mediante acquisizione del DURC, ovvero non essere soggetti agli obblighi in materia di regolarità contributiva e, quindi, non essere tenuti all’iscrizione presso alcun Ente previdenziale o assistenziale. Il possesso dei requisiti è attestato mediante dichiarazioni rese al momento della partecipazione attraverso il modulo di manifestazione di interesse. Tali dichiarazioni potranno essere verificate, così come stabilito dall’art. 71 comma 1 del D.P.R. 445 del 28.12.2000, come modificato dall’ar",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-27",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      }
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-22",
         "stato": "confermato",
@@ -398,7 +496,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -447,7 +545,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "ESA BIC Lazio, seconda finestra 2026",
       "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-18",
         "stato": "confermato",
@@ -504,7 +602,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -553,7 +651,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -608,7 +706,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -657,7 +755,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -708,7 +806,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Il teatro nelle scuole",
       "url": "https://www.lazioeuropa.it/bandi/il-teatro-nelle-scuole/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-10",
         "stato": "confermato",
@@ -757,7 +855,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetti operativi di promozione turistica finalizzati alla celebrazione del Santo Natale",
       "url": "https://www.lazioeuropa.it/bandi/progetti-operativi-di-promozione-turistica-finalizzati-alla-celebrazione-del-santo-natale/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -806,7 +904,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi allo spettacolo dal vivo (2027)",
       "url": "https://www.lazioeuropa.it/bandi/contributi-allo-spettacolo-dal-vivo-2027/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -855,7 +953,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget",
       "url": "https://www.lazioeuropa.it/bandi/lazio-next-generation-sostegno-a-opere-cinematografiche-e-audiovisive-low-budget/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-04",
         "stato": "confermato",
@@ -904,7 +1002,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Smart Map. bando per i piccoli Comuni",
       "url": "https://www.lazioeuropa.it/bandi/smart-map-bando-per-i-piccoli-comuni/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-09",
         "stato": "confermato",
@@ -955,7 +1053,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1004,7 +1102,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1056,7 +1154,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -1105,7 +1203,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1154,7 +1252,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Polizia Locale plus 2026 – parte corrente",
       "url": "https://www.lazioeuropa.it/bandi/polizia-locale-plus-2026-parte-corrente/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-29",
         "stato": "confermato",
@@ -1203,7 +1301,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi Culturali – inserimento in O.B.R., O.M.R. e O.A.R. – Anno 2027",
       "url": "https://www.lazioeuropa.it/bandi/servizi-culturali-inserimento-in-o-b-r-o-m-r-e-o-a-r-anno-2027/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-31",
         "stato": "confermato",
@@ -1254,7 +1352,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-28",
         "stato": "confermato",
@@ -1303,7 +1401,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1354,7 +1452,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1379,7 +1477,7 @@
         "citazione": "Beneficiari Beneficiari del contributo sono le PMI che: hanno presentato la manifestazione di interesse ai sensi dell’Invito a manifestare l’interesse a partecipare all’operazione Basket Bond Lazio e che hanno superato la relativa fase di a",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "ACCESSO AL CREDITO E ALLE GARANZIE PER LE IMPRESE Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili Aperto Bandi Regionali Documentazione Determinazione n. G16555 del 7 dicembre 2023 - Approvazione avviso pubblico Avviso pubblico Scheda sintetica Modulistica e istruzioni Uso di GeCoWEB Plus Obblighi dei beneficiari in materia di trasparenza e comunicazione Loghi e manuale Coesione 2021-27 per Beneficiari FAQ Determinazione n. G03517 del 21 marzo 2025 - Primo elenco domande ammissibili Determinazione n. G05086 del 24 aprile 2025 - Secondo elenco domande ammissibili Determinazione n. G06370 del 22 maggio 2025 - Concessione contributo Determinazione n. G11841 del 17 settembre 2025 - Concessione contributo Determinazione n. G01850 del 16 febbraio 2026 - Concessione del contributo Determinazione n. G08886 del 30 giugno 2026 - Concessione dei contributi Avvertenza: gli indirizzi PEC della Regione Lazio sono cambiati rispetto a quelli indicati nelle Appendici dell’Avviso Pubblico e nell’Informativa sul Trattamento dei dati personali. In caso di necessità utilizzare: protocollo@pec.regione.lazio.it dpo@pec.regione.lazio.it urp@pec.regione.lazio.it Dotazione : 2 milioni di euro di risorse regionali (la determinazione n. G09608 del 20 luglio 2022 prevede che i contributi previsti dall’Avviso potranno essere inseriti nel Programma Regionale FESR 2021-2027 con successivi atti dell’Autorità di Gestione). Obiettivo La finalità del contributo è ampliare la platea potenziale delle PMI Emittenti, riducendo l’incidenza dei costi fissi connessi all’emissione di obbligazioni e rendendo quindi più conveniente l’emissione di Minibond anche per tagli più modesti, adatti ad imprese di minori dimensioni. Il contributo a fondo perduto copre in parte alcuni costi di emissione di Minibond che le PMI devono affrontare per partecipare all’operazione Basket Bond Lazio garantita dal Fondo di Garanzia Minibond costituito con le risorse del Programma Regionale FESR 2021-2027. Beneficiari Beneficiari del contributo sono le PMI che: hanno presentato la manifestazione di interesse ai sensi dell’Invito a manifestare l’interesse a partecipare all’operazione Basket Bond Lazio e che hanno superato la relativa fase di ammissibilità formale; hanno una sede operativa nel Lazio risultante dal Registro delle Imprese; si trovano alternativamente in uno dei due casi: aver emesso il Minibond nel contesto dell’operazione Basket Bond Lazio, oppure avere ricevuto il diniego all’ammissione al portafoglio da parte degli Investitori, pur avendo superato l’ammissibilità formale. hanno già sostenuto i costi ammissibili oggetto del contributo, con l’eccezione disciplinata nell’Avviso per i costi di prima certificazione del bilancio. Devono inoltre rispettare i requisiti di ammissibilità generale indicati nell’Avviso. Natura ed entità del contributo Il contributo è a fondo perduto, è calcolato nella misura massima del 50% dei costi ammessi ed effettivamente sostenuti alla data di presentazione della Domanda ed è un Aiuto di Stato concesso: ai sensi dell’art. 18 del RGE, con riferimento ai costi i cui impegni giuridicamente vincolanti sono stati assunti dopo la presentazione della manifestazione di interesse a partecipare all’operazione Basket Bond Lazio; ai sensi del De Minimis, con riferimento ai costi i cui impegni giuridicamente sono stati assunti prima della presentazione della manifestazione di interesse, fermo restando che devono essere assunti successivamente alla data di pubblicazione dell’Invito Costi ammissibili Sono Costi ammissibili: a) il costo sostenuto dalla PMI Beneficiaria per la commissione spettante all’Arranger dell’operazione Basket Bond Lazio, quantificato in misura pari al 2,74% dell’importo del Minibond emesso; si precisa che le PMI che presentano domanda avendo ricevuto il diniego all’ammissione al portafoglio da parte degli Investitori non avranno sostenuto né sosterranno tale costo; b) il costo per l’ottenimento del primo Rating di credito della PMI beneficiaria rilasciato da una agenzia di rating ECAI, a condizione che il rating ottenuto sia pari o superiore a BB- (su scala S&P equivalente) e che l’impresa non disponga già di altri rating di credito validi. Non sono ammissibili i costi sostenuti per il monitoraggio e il rinnovo periodico del rating di credito; c) il costo per la prima certificazione del bilancio della PMI beneficiaria; è ammissibile solo il costo iniziale (una tantum) e il contributo massimo concedibile con riferimento a questa voce di costo è pari a 7.500,00 euro. I costi di cui alle lettere b e c sono riconosciuti: a condizione che i relativi impegni giuridicamente vincolanti (incarico, contratto o documento analogo) siano assunti in data compresa fra data di pubblicazione sul BUR Lazio dell’Invito a manifestare l’interesse a partecipare all’operazione Basket Bond Lazio e la data di emissione del Minibond o di comunicazione del diniego da parte degli Investitori; anche nel caso in cui la PMI Beneficiaria non proceda all’emissione del Minibond, ma esclusivamente se la mancata emissione è dovuta al diniego da parte degli Investitori. Presentazione delle domande e procedura istruttoria Il procedimento di concessione del contributo è a sportello. L’invio della domanda potrà essere effettuato on-line tramite la piattaforma GeCoWEB Plus dalle ore 12.00 del 23 gennaio 2024 . Le domande devono essere presentate entro 90 giorni dalla data di emissione del Minibond o di comunicazione del diniego da parte degli Investitori. Le domande sono avviate ad istruttoria seguendo l’ordine cronologico di presentazione. L’esame istruttorio di ammissibilità della domanda è effettuato da Lazio Innova che verifica la correttezza e la completezza della richiesta in coerenza con le finalità e le indicazioni dell’Avviso. Modalità di erogazione L’erogazione del contributo avviene di norma in un’unica soluzione, fatto salvo il caso in cui il costo della prima certificazione del bilancio non sia stato ancora sostenuto alla scadenza dei termini per la presentazione della Domanda, nel qual caso avverrà in due tranche. Il Beneficiario deve presentare apposita richiesta di erogazione mediante la piattaforma GeCoWEB Plus entro 30 giorni dalla firma dell’Atto di Impegno. Nel caso in cui il costo della prima certificazione del bilancio non sia stato ancora sostenuto alla scadenza dei termini per la presentazione della Domanda, la prima erogazione sarà parziale in quanto non includerà la quota di contributo a valere su tale costo. La richiesta di erogazione a saldo relativa alla seconda quota di contributo deve essere presentata comunque entro il termine massimo di 24 mesi dalla data di Concessione, caricando sulla piattaforma GeCoWEB Plus la documentazione comprovante l’avvenuto pagamento del costo per la prima certificazione del bilancio. Informazioni www.lazioinnova.it www.lazioeuropa.it E-mail: infobandi@lazioinnova.it Numero verde 800 98 97 96",
+      "testo_fonte": "ACCESSO AL CREDITO E ALLE GARANZIE PER LE IMPRESE Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili Aperto Bandi Regionali Documentazione Determinazione n. G16555 del 7 dicembre 2023 - Approvazione avviso pubblico Avviso pubblico Scheda sintetica Modulistica e istruzioni Uso di GeCoWEB Plus Obblighi dei beneficiari in materia di trasparenza e comunicazione Loghi e manuale Coesione 2021-27 per Beneficiari FAQ Determinazione n. G03517 del 21 marzo 2025 - Primo elenco domande ammissibili Determinazione n. G05086 del 24 aprile 2025 - Secondo elenco domande ammissibili Determinazione n. G06370 del 22 maggio 2025 - Concessione contributo Determinazione n. G11841 del 17 settembre 2025 - Concessione contributo Determinazione n. G01850 del 16 febbraio 2026 - Concessione del contributo Determinazione n. G08886 del 30 giugno 2026 - Concessione dei contributi Determinazione n. G14578 del 22 ottobre 2026 - Concessione del contributo Avvertenza: gli indirizzi PEC della Regione Lazio sono cambiati rispetto a quelli indicati nelle Appendici dell’Avviso Pubblico e nell’Informativa sul Trattamento dei dati personali. In caso di necessità utilizzare: protocollo@pec.regione.lazio.it dpo@pec.regione.lazio.it urp@pec.regione.lazio.it Dotazione : 2 milioni di euro di risorse regionali (la determinazione n. G09608 del 20 luglio 2022 prevede che i contributi previsti dall’Avviso potranno essere inseriti nel Programma Regionale FESR 2021-2027 con successivi atti dell’Autorità di Gestione). Obiettivo La finalità del contributo è ampliare la platea potenziale delle PMI Emittenti, riducendo l’incidenza dei costi fissi connessi all’emissione di obbligazioni e rendendo quindi più conveniente l’emissione di Minibond anche per tagli più modesti, adatti ad imprese di minori dimensioni. Il contributo a fondo perduto copre in parte alcuni costi di emissione di Minibond che le PMI devono affrontare per partecipare all’operazione Basket Bond Lazio garantita dal Fondo di Garanzia Minibond costituito con le risorse del Programma Regionale FESR 2021-2027. Beneficiari Beneficiari del contributo sono le PMI che: hanno presentato la manifestazione di interesse ai sensi dell’Invito a manifestare l’interesse a partecipare all’operazione Basket Bond Lazio e che hanno superato la relativa fase di ammissibilità formale; hanno una sede operativa nel Lazio risultante dal Registro delle Imprese; si trovano alternativamente in uno dei due casi: aver emesso il Minibond nel contesto dell’operazione Basket Bond Lazio, oppure avere ricevuto il diniego all’ammissione al portafoglio da parte degli Investitori, pur avendo superato l’ammissibilità formale. hanno già sostenuto i costi ammissibili oggetto del contributo, con l’eccezione disciplinata nell’Avviso per i costi di prima certificazione del bilancio. Devono inoltre rispettare i requisiti di ammissibilità generale indicati nell’Avviso. Natura ed entità del contributo Il contributo è a fondo perduto, è calcolato nella misura massima del 50% dei costi ammessi ed effettivamente sostenuti alla data di presentazione della Domanda ed è un Aiuto di Stato concesso: ai sensi dell’art. 18 del RGE, con riferimento ai costi i cui impegni giuridicamente vincolanti sono stati assunti dopo la presentazione della manifestazione di interesse a partecipare all’operazione Basket Bond Lazio; ai sensi del De Minimis, con riferimento ai costi i cui impegni giuridicamente sono stati assunti prima della presentazione della manifestazione di interesse, fermo restando che devono essere assunti successivamente alla data di pubblicazione dell’Invito Costi ammissibili Sono Costi ammissibili: a) il costo sostenuto dalla PMI Beneficiaria per la commissione spettante all’Arranger dell’operazione Basket Bond Lazio, quantificato in misura pari al 2,74% dell’importo del Minibond emesso; si precisa che le PMI che presentano domanda avendo ricevuto il diniego all’ammissione al portafoglio da parte degli Investitori non avranno sostenuto né sosterranno tale costo; b) il costo per l’ottenimento del primo Rating di credito della PMI beneficiaria rilasciato da una agenzia di rating ECAI, a condizione che il rating ottenuto sia pari o superiore a BB- (su scala S&P equivalente) e che l’impresa non disponga già di altri rating di credito validi. Non sono ammissibili i costi sostenuti per il monitoraggio e il rinnovo periodico del rating di credito; c) il costo per la prima certificazione del bilancio della PMI beneficiaria; è ammissibile solo il costo iniziale (una tantum) e il contributo massimo concedibile con riferimento a questa voce di costo è pari a 7.500,00 euro. I costi di cui alle lettere b e c sono riconosciuti: a condizione che i relativi impegni giuridicamente vincolanti (incarico, contratto o documento analogo) siano assunti in data compresa fra data di pubblicazione sul BUR Lazio dell’Invito a manifestare l’interesse a partecipare all’operazione Basket Bond Lazio e la data di emissione del Minibond o di comunicazione del diniego da parte degli Investitori; anche nel caso in cui la PMI Beneficiaria non proceda all’emissione del Minibond, ma esclusivamente se la mancata emissione è dovuta al diniego da parte degli Investitori. Presentazione delle domande e procedura istruttoria Il procedimento di concessione del contributo è a sportello. L’invio della domanda potrà essere effettuato on-line tramite la piattaforma GeCoWEB Plus dalle ore 12.00 del 23 gennaio 2024 . Le domande devono essere presentate entro 90 giorni dalla data di emissione del Minibond o di comunicazione del diniego da parte degli Investitori. Le domande sono avviate ad istruttoria seguendo l’ordine cronologico di presentazione. L’esame istruttorio di ammissibilità della domanda è effettuato da Lazio Innova che verifica la correttezza e la completezza della richiesta in coerenza con le finalità e le indicazioni dell’Avviso. Modalità di erogazione L’erogazione del contributo avviene di norma in un’unica soluzione, fatto salvo il caso in cui il costo della prima certificazione del bilancio non sia stato ancora sostenuto alla scadenza dei termini per la presentazione della Domanda, nel qual caso avverrà in due tranche. Il Beneficiario deve presentare apposita richiesta di erogazione mediante la piattaforma GeCoWEB Plus entro 30 giorni dalla firma dell’Atto di Impegno. Nel caso in cui il costo della prima certificazione del bilancio non sia stato ancora sostenuto alla scadenza dei termini per la presentazione della Domanda, la prima erogazione sarà parziale in quanto non includerà la quota di contributo a valere su tale costo. La richiesta di erogazione a saldo relativa alla seconda quota di contributo deve essere presentata comunque entro il termine massimo di 24 mesi dalla data di Concessione, caricando sulla piattaforma GeCoWEB Plus la documentazione comprovante l’avvenuto pagamento del costo per la prima certificazione del bilancio. Informazioni www.lazioinnova.it www.lazioeuropa.it E-mail: infobandi@lazioinnova.it Numero verde 800 98 97 96",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -1403,7 +1501,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1452,7 +1550,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-10-30",
         "stato": "confermato",
@@ -1501,7 +1599,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Aiuto alle aziende agricole zootecniche per l’acquisto di riproduttori",
       "url": "https://www.lazioeuropa.it/bandi/aiuto-alle-aziende-agricole-zootecniche-per-lacquisto-di-riproduttori/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2026-01-19",
         "stato": "confermato",
@@ -1550,7 +1648,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1599,7 +1697,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1648,7 +1746,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1697,7 +1795,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1746,7 +1844,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1795,7 +1893,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1844,7 +1942,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1893,7 +1991,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-10-27",
+      "data_lettura": "2026-10-28",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
