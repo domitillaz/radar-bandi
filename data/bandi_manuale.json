@@ -37,9 +37,9 @@
       },
       "testo_fonte": "Sintesi inserita a mano il 22 ottobre 2026, non testo originale. Bando Filiere Tecnologiche della Regione Lazio e di Lazio Innova: sostegno a progetti di innovazione promossi da grandi imprese o centri di ricerca e realizzati da una filiera di PMI del territorio; settori Biotech, Aerospazio, Digitale e AI (deep tech della Smart Specialization Strategy regionale). Organismi di ricerca ammessi come Soggetto Cardine o partner. Dotazione 55 milioni di euro.",
       "rilevanza": {
-        "punteggio": 5,
-        "stato": "parole_chiave",
-        "motivazione": "Bando regionale che parla di ricerca, innovazione o tecnologia nel titolo, senza i temi specifici del gruppo: da valutare a mano (spesso rivolto a imprese, con università o organismi di ricerca come partner).",
+        "punteggio": 10,
+        "stato": "manuale",
+        "motivazione": "Punteggio indicato dal gruppo: il gruppo parteciperà a questo bando. (Parole chiave trovate: ricerca_innovazione_regionale.)",
         "temi": [
           "ricerca_innovazione_regionale"
         ],
@@ -50,7 +50,7 @@
           "valore": "non_indicato",
           "citazione": null
         },
-        "rubrica": "parole-chiave-29",
+        "rubrica": "parole-chiave-31",
         "ambiti": [],
         "cancro": false,
         "linee": [],
@@ -58,7 +58,11 @@
         "contributi": []
       },
       "prima_visto": "2026-10-29",
-      "iniziale": true
+      "iniziale": true,
+      "punteggio_manuale": {
+        "valore": 10,
+        "motivo": "il gruppo parteciperà a questo bando"
+      }
     }
   ]
 }
