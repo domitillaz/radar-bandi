@@ -20,7 +20,7 @@ import argparse
 import json
 import re
 
-VERSIONE = "parole-chiave-29"
+VERSIONE = "parole-chiave-31"
 PROGRAMMI_NOTI = re.compile(r"HORIZON-MISS-\d{4}-CANCER", re.I)  # Missione Cancro: programma di ARTURO (verificato su CORDIS)
 PROMUOVI_IN_TITOLO = {"sensoristica", "tecnologie_emergenti_biomedicali"}  # un termine debole nel titolo vale come forte
 SANITA_RICERCA = re.compile(r"ricerca\s+(?:biomedica|sanitaria)|malattie\s+(?:croniche|rare)|progetti\s+di\s+ricerca\s+sanitaria", re.I)
@@ -210,7 +210,7 @@ FOODOMA = re.compile(r"foodom\w+|\bfood[\s-]*(?:chemicals?|compounds?|metabolom\
 RIGENERATIVA = re.compile(r"regenerative[\s-]*medicine|medicina[\s-]*rigenerativa|\btransplant\w*|advanced[\s-]*therapy|advanced[\s-]*therapies|\bATMPs?\b|living[\s-]*cells?\b.*\bprint\w*|bio[\s-]*print\w*[\s-]*of[\s-]*living", re.I)
 
 
-def valuta(bando):
+def _valuta(bando):
     titolo = " ".join((bando.get("titolo", "") + ". " + (bando.get("descrizione") or "")).split())
     fonte = " ".join((bando.get("testo_fonte") or "").split())
     testo = titolo + ". " + fonte
@@ -238,17 +238,14 @@ def valuta(bando):
         if set(forti) <= NUOVI and SSH.search(testo) and not (TEMI_SALUTE & set(temi)):
             p = min(p, 5)
             mot += " Bando di scienze sociali e umanistiche in cui l'IA è l'oggetto di studio e non lo strumento: punteggio limitato a 5."
-        if solo_nuovi and bando.get("canale") != "Europa" and not RICERCA_HINT.search(testo):
-            p = min(p, 5)
-            mot += " Tema IA/imaging senza segni di ricerca nel testo (bando probabilmente per imprese): punteggio limitato a 5."
     elif deboli:
-        p = min(5, 3 + len(deboli))
+        p = 3 if len(deboli) == 1 else 4
         mot = ("Solo termini generici o menzioni isolate (" + ", ".join(deboli) + "), che possono comparire di passaggio: "
-               "corrispondenza debole, punteggio limitato a 5.")
+               "corrispondenza debole: punteggio basso (3-4), nascosto di default.")
     elif (bando.get("ente") or "").startswith("Regione Lazio / Lazio Innova"):
         g = REGIONALE_RI.search(titolo)
         if g:
-            p, temi = 5, ["ricerca_innovazione_regionale"]
+            p, temi = (8 if RICERCA_ORG.search(testo) else 6), ["ricerca_innovazione_regionale"]
             evidenze = [titolo[max(0, g.start() - 40): g.end() + 40]]
             mot = ("Bando regionale che parla di ricerca, innovazione o tecnologia nel titolo, senza i temi specifici del gruppo: "
                    "da valutare a mano (spesso rivolto a imprese, con università o organismi di ricerca come partner).")
@@ -262,13 +259,13 @@ def valuta(bando):
         mot = ("Misura di ricerca e sviluppo per imprese, tema non specifico: l'università può essere partner di ricerca. "
                "Punteggio fisso, da valutare a mano.")
     elif bando.get("ente") == "MUR" and re.match(r"\s*bando\s+(prin|fis|synergy)", bando.get("titolo", ""), re.I):
-        p, temi = 6, ["bando_generalista_ricerca"]
+        p, temi = 7, ["bando_generalista_ricerca"]
         evidenze = []
         mot = ("Bando di ricerca aperto a tutti i settori (PRIN/FIS/Synergy): il tema del gruppo non compare nel testo, "
                "ma il gruppo può candidarsi. Punteggio fisso, da valutare a mano.")
     elif bando.get("ente", "").startswith("Regione Lazio (Salute") and SANITA_RICERCA.search(testo):
         g = SANITA_RICERCA.search(testo)
-        p, temi = 6, ["ricerca_biomedica_sanitaria"]
+        p, temi = 7, ["ricerca_biomedica_sanitaria"]
         evidenze = [testo[max(0, g.start() - 60): g.end() + 60]]
         mot = ("Avviso regionale per la ricerca sanitaria/biomedica (spesso rivolto a enti del SSN, con l'università come partner). "
                "Punteggio fisso, da valutare a mano.")
@@ -285,8 +282,8 @@ def valuta(bando):
         p = min(p, 3)
         mot += " Appalto pre-commerciale: i richiedenti sono gruppi di enti compratori e il bando non finanzia direttamente la ricerca; il gruppo può solo rispondere a gare successive. Punteggio limitato a 3."
     elif BIOTECH_COMMERCIALE.search(titolo):
-        p = min(p, 4)
-        mot += " Bando di biotecnologia industriale o di commercializzazione: i temi del gruppo compaiono solo di contorno. Punteggio limitato a 4."
+        p = min(p, 3)
+        mot += " Bando di biotecnologia industriale o di commercializzazione: i temi del gruppo compaiono solo di contorno. Punteggio limitato a 3."
     if EDUCAZIONE.search(titolo):
         p = min(p, 2)
         mot += " Bando su educazione e scuola (scienze sociali e umanistiche): l'IA è l'oggetto di studio. Punteggio limitato a 2."
@@ -294,17 +291,17 @@ def valuta(bando):
         p = min(p, 2)
         mot += " Bando di Creative Europe per il settore audiovisivo e creativo, non di ricerca. Punteggio limitato a 2."
     elif FOODOMA.search(titolo):
-        p = min(p, 5)
-        mot += " Bando di IA su dati analitici di alimenti (spettrometria, risonanza): il gruppo sarebbe partner di IA. Punteggio limitato a 5."
+        p = min(p, 4)
+        mot += " Bando di IA su dati analitici di alimenti (spettrometria, risonanza): il gruppo sarebbe partner di IA. Punteggio limitato a 4."
     elif RIGENERATIVA.search(titolo) and not CANCRO.search(titolo):
-        p = min(p, 5)
-        mot += " Bando di medicina rigenerativa: richiede produzione a norma GMP e studi sull'uomo, il gruppo potrebbe essere solo partner tecnico. Punteggio limitato a 5."
+        p = min(p, 4)
+        mot += " Bando di medicina rigenerativa: richiede produzione a norma GMP e studi sull'uomo, il gruppo potrebbe essere solo partner tecnico. Punteggio limitato a 4."
     elif CYBER.search(titolo):
         p = min(p, 3)
         mot += " Bando di cybersicurezza: l'IA è lo strumento e non il tema del gruppo. Punteggio limitato a 3."
     elif IA_FRONTIERA.search(titolo):
-        p = min(p, 5)
-        mot += " Bando di IA generale (modelli di frontiera, scalabilità): tema lontano dalle linee del gruppo. Punteggio limitato a 5."
+        p = min(p, 3)
+        mot += " Bando di IA generale (modelli di frontiera, scalabilità): tema lontano dalle linee del gruppo. Punteggio limitato a 3."
     elif QUANTISTICO.search(titolo):
         p = min(p, 6)
         mot += " Bando di calcolo quantistico: il gruppo potrebbe portare solo casi d'uso e dati di confronto. Punteggio limitato a 6."
@@ -315,6 +312,35 @@ def valuta(bando):
     return {"punteggio": p, "stato": stato, "motivazione": mot, "temi": temi, "evidenze": evidenze,
             "destinatari": {"valore": "non_indicato", "citazione": None}, "rubrica": VERSIONE,
             "ambiti": ambiti(titolo, testo, temi), "cancro": cancro(titolo, testo, bando), "linee": linee(temi), "ruolo": r, "contributi": contributi(fonte, temi)}
+
+
+RICERCA_ORG = re.compile(r"organismi\s+di\s+ricerca|universit\w+|centri\s+di\s+ricerca|enti\s+di\s+ricerca|research\s+organi[sz]ations?", re.I)
+
+
+def priorita_da_file(percorso):
+    """Righe di priorita.txt nella cartella dei dati: 'frammento di URL | punteggio | motivo'. Un bando a cui il gruppo
+    partecipa o che segue di sicuro riceve il punteggio indicato, qualunque sia il risultato delle parole chiave."""
+    import os
+    f = os.path.join(os.path.dirname(os.path.abspath(percorso)), "priorita.txt")
+    out = []
+    if os.path.exists(f):
+        for r in open(f, encoding="utf-8"):
+            if r.strip() and not r.startswith("#"):
+                parti = [x.strip() for x in r.split("|")]
+                if len(parti) >= 2 and parti[1].isdigit():
+                    out.append((parti[0], min(10, int(parti[1])), parti[2] if len(parti) > 2 else ""))
+    return out
+
+
+def valuta(bando):
+    r = _valuta(bando)
+    man = bando.get("punteggio_manuale")
+    if man and isinstance(man.get("valore"), int):
+        r = dict(r)
+        r["punteggio"], r["stato"] = man["valore"], "manuale"
+        r["motivazione"] = ("Punteggio indicato dal gruppo" + (": " + man["motivo"] if man.get("motivo") else "") +
+                            ". (Parole chiave trovate: " + (", ".join(r.get("temi") or []) or "nessuna") + ".)")
+    return r
 
 
 def main():
@@ -328,7 +354,12 @@ def main():
             dati["bandi"] = [b for b in dati["bandi"] if not any(x in (b.get("url") or "") for x in esclusi)]
             if len(dati["bandi"]) < prima:
                 print(f"{f}: {prima - len(dati['bandi'])} bandi esclusi da bandi_esclusi.txt")
+        prio = priorita_da_file(f)
         for b in dati["bandi"]:
+            b.pop("punteggio_manuale", None)
+            for frammento, valore, motivo in prio:
+                if frammento and frammento in (b.get("url") or ""):
+                    b["punteggio_manuale"] = {"valore": valore, "motivo": motivo}
             b["rilevanza"] = valuta(b)
         json.dump(dati, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         print(f"{f}: {len(dati['bandi'])} bandi valutati per parole chiave")
