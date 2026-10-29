@@ -1,0 +1,3 @@
+# Un bando per riga:  frammento di indirizzo (URL) | punteggio da 0 a 10 | motivo
+# Serve per i bandi a cui il gruppo partecipa o che segue di sicuro: il punteggio indicato vale anche se le parole chiave dicono altro.
+presentazione-del-nuovo-bando-filiere-tecnologiche | 10 | il gruppo parteciperà a questo bando
