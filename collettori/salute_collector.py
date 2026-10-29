@@ -147,6 +147,9 @@ def main():
         except requests.RequestException:
             scartati["non_letta"] += 1
             continue
+        if "/notizie/" not in urlparse(url).path:  # pagine di sezione/ente (es. /enti/...) non sono avvisi
+            scartati["non_bando"] += 1
+            continue
         titolo = titolo_pagina(html, titolo_lista)
         testo = M.testo_pagina(html)
         if ESITO.search(titolo):  # notizia su progetti già finanziati / graduatoria: non è un bando aperto

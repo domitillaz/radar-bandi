@@ -169,11 +169,16 @@ def main():
                     scheda = testo_pagina(scarica(link))
                     if scad["stato"] == "non_presente" and not PREANNUNCIO.search(titolo):
                         scad = verifica(scadenza(titolo, scheda), scheda)
-                except requests.RequestException:
-                    pass
+                except requests.RequestException as e:
+                    print(f"MUR dettaglio non letto ({type(e).__name__}): {link}")
+            print(f"MUR | {titolo[:60]} | snippet {len(resto)} car. | scheda {len(scheda)} car.")
             v = scad["valore"]
             if v and dt.date.fromisoformat(v) < oggi:
                 scartati["scaduto"] += 1
+                continue
+            if nome == "prin" and not v:
+                # la pagina PRIN elenca anche le edizioni passate (PRIN 2015, 2022...): senza una scadenza futura non è un bando aperto
+                scartati["non_bando"] += 1
                 continue
             if not v and pub and (oggi - pub).days > GIORNI_VECCHIO:
                 scartati["vecchio"] += 1
