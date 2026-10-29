@@ -60,6 +60,10 @@ jobs:
             python ../filtro_parole_chiave.py bandi*.json || echo "rilevanza" >> falliti.txt
           fi
 
+      - name: Novità (bandi comparsi per la prima volta)
+        working-directory: data
+        run: python ../novita.py bandi*.json || echo "novita" >> falliti.txt
+
       - name: Digest e stato
         id: digest
         run: python digest.py
@@ -85,7 +89,7 @@ jobs:
       - name: Prepara il sito
         run: |
           mkdir site && cp index.html site/ && cp -r data site/
-          rm -f site/data/rilevanza_cache.json site/data/visti.json site/data/falliti.txt
+          rm -f site/data/rilevanza_cache.json site/data/visti.json site/data/storico.json site/data/falliti.txt
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
