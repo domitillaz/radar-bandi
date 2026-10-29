@@ -49,7 +49,7 @@ aperti = [b for b in bandi if giorni(b) is None or giorni(b) >= 0]
 rilevanti = [b for b in aperti if (punteggio(b) or -1) >= SOGLIA]
 
 urgenti = [b for b in rilevanti if giorni(b) in GIORNI_ALLERTA]
-nuovi = [b for b in rilevanti if chiave(b) not in visti]
+nuovi = [b for b in rilevanti if b.get("prima_visto") == oggi.isoformat() and not b.get("iniziale")]
 da_ver = [b for b in rilevanti if giorni(b) is None]
 non_val = [b for b in aperti if punteggio(b) is None]
 
