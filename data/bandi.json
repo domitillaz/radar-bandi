@@ -1,12 +1,62 @@
 {
-  "generato": "2026-11-03",
+  "generato": "2026-11-04",
   "bandi": [
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Luci del Varietà – Cinema, territorio e giovani",
+      "url": "https://www.lazioeuropa.it/?post_type=bandi&p=22014",
+      "data_lettura": "2026-11-04",
+      "scadenza": {
+        "valore": "2026-11-20",
+        "stato": "confermato",
+        "citazione": "zione sul BUR ed entro le ore 17:00 del 20 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Luci del Varietà – Cinema, territorio e giovani Prossima Apertura FSE / FSE+ La Regione Lazio ha approvato l’Avviso Pubblico “Luci del Varietà, Cinema territorio e giovani” per la promozione di laboratori creativi e viaggi esperienziali per la valorizzazione del Lazio in favore degli studenti delle scuole primarie e secondarie di primo e secondo grado pubbliche e paritarie e della Iefp L’Avviso prevede l’organizzazione di laboratori formativi, localizzati sul territorio della Regione Lazio, realizzati dalle Scuole statali/paritarie (scuola secondaria di primo o secondo grado) oppure Enti del sistema educativo regionale dell’istruzione e formazione professionale di cui alla legge regionale 20 aprile 2015, n. 5, in ATI/ATS. L’intento è quello di sostenere progetti integrati di qualità che, da un lato, mirino a promuovere la realizzazione e la diffusione di attività in ambito del cinema e audiovisivo, per lo sviluppo delle pratiche didattiche che, valorizzino le differenti attitudini di ciascuno, mirando a favorire l’apprendimento di tutti gli alunni e a stimolare interesse relativamente alle professioni del settore cinematografico e, dall’altro, realizzino laboratori di turismo esperienziale finalizzati alla valorizzazione del territorio regionale anche attraverso la produzione di video, podcast, creazione di mappe interattive, ecc. L’iniziativa prevede i seguenti ambiti di intervento: Azione 1 . Laboratori di cinema e audiovisivo Azione 2 . Turismo esperienziale e valorizzazione del territorio Laziale Azione 3 . Evento finale (Cinema e Territorio) Le proposte progettuali devono essere presentate esclusivamente attraverso la procedura telematica accessibile dal sito https://sicer.regione.lazio.it/sigem-gestione-21-27 attraverso il sistema pubblico SPID, a partire dalle ore 9:30 del giorno successivo alla pubblicazione dell’Avviso sul Bollettino Ufficiale della Regione Lazio, prevista per giovedì 5 novembre 2026, e non oltre le ore 17:00 del 20 novembre 2026. Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-04"
+    },
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -57,7 +107,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -108,7 +158,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -159,11 +209,11 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
-        "valore": "2026-12-04",
+        "valore": "2027-04-30",
         "stato": "confermato",
-        "citazione": " online su SiGeM entro le ore 12:00 del 4 dicembre 2026",
+        "citazione": "nza prorogata alle ore 17:00 di venerdì 30 aprile 2027",
         "motivo": null
       },
       "durata": {
@@ -184,7 +234,7 @@
         "citazione": "Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento SALGO e che as",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Bonus occupazionale SALGO Aperto FSE / FSE+ L’Assessorato Lavoro, Scuola, Formazione, Ricerca, Merito e Urbanistica, tramite la Direzione Regionale Istruzione, Formazione e Politiche per l’Occupazione, ha approvato un nuovo avviso pubblico a valere sul PR FSE+ Lazio, attraverso il quale si prevede la concessione dei bonus assunzionali per le imprese che hanno ospitato i tirocini come previsto dalla Linea B dell’avviso Pubblico SALGO finanziato nell’ambito del PR FSE+ 2021-2027 . L’obiettivo è quello di finalizzare gli strumenti messi a disposizione dall’Amministrazione regionale, per sostenere l’inserimento lavorativo di giovani (tra i 18 e i 35 anni) disoccupati che hanno partecipato alla precedente iniziativa regionale denominata SALGO. Gli importi riconosciuti a titolo di bonus occupazionale sono: 12.000,00 euro, nel caso di assunzione con contratto full time di lavoro subordinato a tempo indeterminato, ivi compreso il contratto di apprendistato e in somministrazione, elevati a 14.000,00 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000,00 euro, nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo indeterminato, ivi compreso il contratto di somministrazione, elevati a 7.000,00 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000,00 euro, nel caso di assunzione con contratto full time di lavoro subordinato a tempo determinato di almeno 12 mesi, ivi compreso il contratto di somministrazione, elevati a 7.000,00 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 3.000,00 euro, nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo determinato di almeno 12 mesi, ivi compreso il contratto di somministrazione, elevati a 3.500,00 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999. Le tipologie di incentivi possono essere richieste a scelta delle imprese, ai sensi: del Regolamento (UE) n. 2023/2831 della Commissione Europea del 13 dicembre 2023, relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione europea agli aiuti “de minimis” che, a partire dal 1° gennaio 2024, sostituisce il regolamento della Commissione (UE) 1407/2013 – d’ora in poi “de minimis”; del Regolamento (UE) n. 651/2014 della Commissione del 17 giugno 2014, che dichiara alcune categorie di aiuti compatibili con il mercato interno in applicazione degli articoli 107 e 108 del trattato (Regolamento Generale di Esenzione per Categoria), pubblicato sulla GUUE L 187 del 26 giugno 2014 – d’ora in poi “Reg. n. 651/2014”. Si raccomanda di porre attenzione al dettaglio delle disposizioni previste dall’avviso (in particolare agli Articoli 3,5 e 6), per la concessione dei diversi incentivi all’occupazione, in relazione alle singole casistiche delle imprese interessate . Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento SALGO e che assumono, nel rispetto di quanto previsto dall’art. 3 dell’avviso, i tirocinanti entro 3 mesi dalla conclusione del tirocinio. La richiesta dell’incentivo dovrà essere presentata dai soggetti ospitanti dei tirocini entro 45 giorni dall’assunzione del tirocinante. anteriormente all’apertura dello sportello, proceduto all’assunzione di tirocinanti a valere sull’intervento SALGO, a seguito della conclusione, anche anticipata, del periodo di tirocinio, nel rispetto di quanto previsto dall’articolo 3 dell’avviso. Per le assunzioni effettuate antecedentemente alla data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica (si vedano le specifiche definite dall’art 6 dell’avviso). Destinatari I destinatari degli incentivi sono i soggetti che hanno terminato l’esperienza di tirocinio oppure che hanno concluso anticipatamente il tirocinio in quanto assunti dal soggetto ospitante nell’ambito dell’iniziativa SALGO. Le imprese richiedenti il contributo devono dichiarare nell’Allegato 1 dell’avviso (ai sensi del DPR 445/2000), di aver verificato lo stato di disoccupazione dei destinatari al momento dell’assunzione, conformemente alla normativa nazionale vigente. Se stranieri extracomunitari, i destinatari devono essere in possesso di regolare permesso di soggiorno in corso di validità che consenta l’esercizio di un’attività lavorativa. Si precisa che in caso di opzione per il regime di aiuti in esenzione ai sensi del Reg. UE n. 651/2014 devono essere, inoltre, rispettati per i lavoratori assunti i requisiti descritti nell’art. 5 dell’avviso. Modalità di presentazione delle proposte progettuali Le domande di incentivo devono essere presentate, con le modalità “a sportello”, a partire dalle ore 9:30 del 17 febbraio 2026 e fino alle ore 12:00 del 4 dicembre 2026 e comunque fino ad esaurimento delle risorse disponibili . La data di chiusura dello sportello per esaurimento delle risorse verrà comunicata dall’Amministrazione mediante pubblicazione sul sito istituzionale della Regione Lazio. La domanda di erogazione del contributo deve essere presentata singolarmente per ogni lavoratore assunto. Ciascuna impresa può presentare tante domande di contributo quanti sono i tirocinanti ospitati nell’ambito dell’iniziativa SALGO, fermo restando che le domande verranno istruite secondo i criteri previsti dall’art. 12 dell’avviso e finanziate sino ad esaurimento risorse. Le domande di erogazione del contributo devono essere presentate, a pena di esclusione, entro 45 giorni solari dalla data di assunzione del tirocinante a fronte di assunzioni avvenute al massimo entro 3 mesi dalla conclusione del tirocinio, attraverso la procedura telematica accessibile dal sito https://sicer.regione.lazio.it/sigem-gestione-21-27/ . In deroga a quanto previsto dal capoverso precedente, esclusivamente per le assunzioni effettuate antecedentemente alla data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica, fermo restando il rispetto di tutte le ulteriori condizioni di ammissibilità previste dall’avviso. Si rimanda alle specifiche contenute negli Artt. 9 e 10 dell’avviso . Selezione Le domande di incentivo pervenute sono istruite mensilmente, secondo finestre temporali di 45 giorni solari seguendo l’ordine cronologico di trasmissione registrato sulla piattaforma dedicata. A seguito della presentazione delle domande di ammissione, la Direzione Istruzione, Formazione e Politiche per l’Occupazione – Area Predisposizione degli interventi e Comunicazione procede all’istruttoria delle domande pervenute, per le singole tipologie di incentivo, verificandone l’ammissibilità e accertando la sussistenza dei presupposti per l’accesso alla concessione degli incentivi. Gli elenchi delle domande ammesse e di quelle non ammesse, o di quelle eventualmente ammissibili ma non finanziabili per esaurimento delle risorse, con le relative motivazioni, sono approvati con apposite determinazioni dirigenziali e pubblicati sul Bollettino Ufficiale Regionale della Regione Lazio (BURL) sul portale istituzionale, sezione “documenti correlati” nella pagina dell’avviso pubblico corrispondente, e ai seguenti indirizzi: Risorse finanziarie La dotazione finanziaria complessiva stanziata per la realizzazione delle attività previste dal presente avviso è pari a € 7.000.000 a valere sul PR FSE+ 2021-2027 Priorità 4 “Giovani”. Si precisa che, rispetto alla dotazione finanziaria complessiva, è prevista una riserva minima del 60% delle risorse messe a bando a favore delle PMI, di cui il 25",
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Bonus occupazionale SALGO Aperto FSE / FSE+ L’Assessorato Lavoro, Scuola, Formazione, Ricerca, Merito e Urbanistica, tramite la Direzione Regionale Istruzione, Formazione e Politiche per l’Occupazione, ha approvato un nuovo avviso pubblico a valere sul PR FSE+ Lazio, attraverso il quale si prevede la concessione dei bonus assunzionali per le imprese che hanno ospitato i tirocini come previsto dalla Linea B dell’avviso Pubblico SALGO finanziato nell’ambito del PR FSE+ 2021-2027 . L’obiettivo è quello di finalizzare gli strumenti messi a disposizione dall’Amministrazione regionale, per sostenere l’inserimento lavorativo di giovani (tra i 18 e i 35 anni) disoccupati che hanno partecipato alla precedente iniziativa regionale denominata SALGO. Gli importi riconosciuti a titolo di bonus occupazionale sono: 12.000,00 euro, nel caso di assunzione con contratto full time di lavoro subordinato a tempo indeterminato, ivi compreso il contratto di apprendistato e in somministrazione, elevati a 14.000,00 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000,00 euro, nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo indeterminato, ivi compreso il contratto di somministrazione, elevati a 7.000,00 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000,00 euro, nel caso di assunzione con contratto full time di lavoro subordinato a tempo determinato di almeno 12 mesi, ivi compreso il contratto di somministrazione, elevati a 7.000,00 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 3.000,00 euro, nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo determinato di almeno 12 mesi, ivi compreso il contratto di somministrazione, elevati a 3.500,00 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999. Le tipologie di incentivi possono essere richieste a scelta delle imprese, ai sensi: del Regolamento (UE) n. 2023/2831 della Commissione Europea del 13 dicembre 2023, relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione europea agli aiuti “de minimis” che, a partire dal 1° gennaio 2024, sostituisce il regolamento della Commissione (UE) 1407/2013 – d’ora in poi “de minimis”; del Regolamento (UE) n. 651/2014 della Commissione del 17 giugno 2014, che dichiara alcune categorie di aiuti compatibili con il mercato interno in applicazione degli articoli 107 e 108 del trattato (Regolamento Generale di Esenzione per Categoria), pubblicato sulla GUUE L 187 del 26 giugno 2014 – d’ora in poi “Reg. n. 651/2014”. Si raccomanda di porre attenzione al dettaglio delle disposizioni previste dall’avviso (in particolare agli Articoli 3,5 e 6), per la concessione dei diversi incentivi all’occupazione, in relazione alle singole casistiche delle imprese interessate . Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento SALGO e che assumono, nel rispetto di quanto previsto dall’art. 3 dell’avviso, i tirocinanti entro 3 mesi dalla conclusione del tirocinio. La richiesta dell’incentivo dovrà essere presentata dai soggetti ospitanti dei tirocini entro 45 giorni dall’assunzione del tirocinante. anteriormente all’apertura dello sportello, proceduto all’assunzione di tirocinanti a valere sull’intervento SALGO, a seguito della conclusione, anche anticipata, del periodo di tirocinio, nel rispetto di quanto previsto dall’articolo 3 dell’avviso. Per le assunzioni effettuate antecedentemente alla data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica (si vedano le specifiche definite dall’art 6 dell’avviso). Destinatari I destinatari degli incentivi sono i soggetti che hanno terminato l’esperienza di tirocinio oppure che hanno concluso anticipatamente il tirocinio in quanto assunti dal soggetto ospitante nell’ambito dell’iniziativa SALGO. Le imprese richiedenti il contributo devono dichiarare nell’Allegato 1 dell’avviso (ai sensi del DPR 445/2000), di aver verificato lo stato di disoccupazione dei destinatari al momento dell’assunzione, conformemente alla normativa nazionale vigente. Se stranieri extracomunitari, i destinatari devono essere in possesso di regolare permesso di soggiorno in corso di validità che consenta l’esercizio di un’attività lavorativa. Si precisa che in caso di opzione per il regime di aiuti in esenzione ai sensi del Reg. UE n. 651/2014 devono essere, inoltre, rispettati per i lavoratori assunti i requisiti descritti nell’art. 5 dell’avviso. Modalità di presentazione delle proposte progettuali Le domande di incentivo devono essere presentate, con le modalità “a sportello”, a partire dalle ore 9:30 del 17 febbraio 2026 e fino alle ore 17:00 di venerdì 30 aprile 2027 (termine prorogato con Determinazione n. G15155 del 2 novembre 2026 ), comunque fino ad esaurimento delle risorse disponibili . La data di chiusura dello sportello per esaurimento delle risorse verrà comunicata dall’Amministrazione mediante pubblicazione sul sito istituzionale della Regione Lazio. La domanda di erogazione del contributo deve essere presentata singolarmente per ogni lavoratore assunto. Ciascuna impresa può presentare tante domande di contributo quanti sono i tirocinanti ospitati nell’ambito dell’iniziativa SALGO, fermo restando che le domande verranno istruite secondo i criteri previsti dall’art. 12 dell’avviso e finanziate sino ad esaurimento risorse. Le domande di erogazione del contributo devono essere presentate, a pena di esclusione, entro 45 giorni solari dalla data di assunzione del tirocinante a fronte di assunzioni avvenute al massimo entro 3 mesi dalla conclusione del tirocinio, attraverso la procedura telematica accessibile dal sito https://sicer.regione.lazio.it/sigem-gestione-21-27/ . In deroga a quanto previsto dal capoverso precedente, esclusivamente per le assunzioni effettuate antecedentemente alla data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica, fermo restando il rispetto di tutte le ulteriori condizioni di ammissibilità previste dall’avviso. Si rimanda alle specifiche contenute negli Artt. 9 e 10 dell’avviso . Selezione Le domande di incentivo pervenute sono istruite mensilmente, secondo finestre temporali di 45 giorni solari seguendo l’ordine cronologico di trasmissione registrato sulla piattaforma dedicata. A seguito della presentazione delle domande di ammissione, la Direzione Istruzione, Formazione e Politiche per l’Occupazione – Area Predisposizione degli interventi e Comunicazione procede all’istruttoria delle domande pervenute, per le singole tipologie di incentivo, verificandone l’ammissibilità e accertando la sussistenza dei presupposti per l’accesso alla concessione degli incentivi. Gli elenchi delle domande ammesse e di quelle non ammesse, o di quelle eventualmente ammissibili ma non finanziabili per esaurimento delle risorse, con le relative motivazioni, sono approvati con apposite determinazioni dirigenziali e pubblicati sul Bollettino Ufficiale Regionale della Regione Lazio (BURL) sul portale istituzionale, sezione “documenti correlati” nella pagina dell’avviso pubblico corrispondente, e ai seguenti indirizzi: Risorse finanziarie La dotazione finanziaria complessiva stanziata per la realizzazione delle attività previste dal presente avviso è pari a € 7.000.000 a valere sul PR FSE+ 2021-2027 Priorità 4 “Giovani”. Si precisa che, rispetto alla dotazione finanziaria complessiva, è prevista una riserva ",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -210,7 +260,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -235,7 +285,7 @@
         "citazione": "Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento RI-SALGO e che",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Bonus occupazionale RI-SALGO Aperto FSE / FSE+ L’Assessorato Lavoro, Scuola, Formazione, Ricerca, Merito e Urbanistica, tramite la Direzione Regionale Istruzione, Formazione e Politiche per l’Occupazione, ha approvato un nuovo avviso pubblico a valere sul PR FSE+ Lazio, attraverso il quale si prevede la concessione dei bonus assunzionali per le imprese che hanno ospitato i tirocini come previsto dalla Linea B dell’avviso pubblico RI-SALGO finanziato nell’ambito del PR FSE+ 2021-2027 . L’obiettivo è finalizzare gli strumenti messi a disposizione dall’Amministrazione regionale, per sostenere l’inserimento lavorativo degli adulti disoccupati che hanno terminato con esito positivo l’esperienza formativa e di orientamento svolta con il tirocinio extracurriculare nell’ambito delle iniziative citate oppure che hanno concluso anticipatamente l’esperienza di tirocinio in quanto sono stati assunti dal soggetto ospitante, a tempo indeterminato o a tempo determinato. Gli importi riconosciuti a titolo di bonus occupazionale sono: 12.000 euro , nel caso di assunzione con contratto full time di lavoro subordinato a tempo indeterminato , ivi compreso il contratto di apprendistato e in somministrazione, elevati a 14.000 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000 euro , nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo indeterminato , ivi compreso il contratto di somministrazione, elevati a 7.000 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000 euro , nel caso di assunzione con contratto full time di lavoro subordinato a tempo determinato di almeno 12 mesi , ivi compreso il contratto di somministrazione, elevati a 7.000 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999 ; 3.000 euro , nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo determinato di almeno 12 mes i, ivi compreso il contratto di somministrazione, elevati a 3.500 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999. Le tipologie di incentivi possono essere richieste a scelta delle imprese, ai sensi: del Regolamento (UE) n. 2023/2831 della Commissione Europea del 13 dicembre 2023, relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione europea agli aiuti “de minimis” che, a partire dal 1° gennaio 2024, sostituisce il regolamento della Commissione (UE) 1407/2013 – d’ora in poi “de minimis”; del Regolamento (UE) n. 651/2014 della Commissione del 17 giugno 2014, che dichiara alcune categorie di aiuti compatibili con il mercato interno in applicazione degli articoli 107 e 108 del trattato (Regolamento Generale di Esenzione per Categoria), pubblicato sulla GUUE L 187 del 26 giugno 2014 – d’ora in poi “Reg. n. 651/2014”. Si raccomanda di porre attenzione al dettaglio delle disposizioni previste dal presente avviso, per la concessione dei diversi incentivi all’occupazione, in relazione alle singole casistiche delle imprese interessate. Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento RI-SALGO e che assumono, nel rispetto di quanto previsto dall’art. 3 dell’avviso, i tirocinanti entro 3 mesi dalla conclusione del tirocinio. La richiesta dell’incentivo dovrà essere presentata dai soggetti ospitanti dei tirocini entro 45 giorni dall’assunzione del tirocinante. anteriormente all’apertura dello sportello, proceduto all’assunzione di tirocinanti a valere sull’intervento RI-SALGO, a seguito della conclusione, anche anticipata, del periodo di tirocinio, nel rispetto di quanto previsto dall’articolo 3 dell’avviso. Per le assunzioni effettuate prima della data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica (si vedano le specifiche definite dall’art 6 dell’avviso). Destinatari I destinatari degli incentivi sono i soggetti che hanno terminato l’esperienza di tirocinio oppure che hanno concluso anticipatamente il tirocinio in quanto assunti dal soggetto ospitante nell’ambito dell’iniziativa RI-SALGO. Le imprese richiedenti il contributo devono dichiarare nell’Allegato 1 dell’avviso (ai sensi del DPR 445/2000), di aver verificato lo stato di disoccupazione dei destinatari al momento dell’assunzione, conformemente alla normativa nazionale vigente. Se stranieri extracomunitari, i destinatari devono essere in possesso di regolare permesso di soggiorno in corso di validità che consenta l’esercizio di un’attività lavorativa. Si precisa che in caso di opzione per il regime di aiuti in esenzione ai sensi del Reg. UE n. 651/2014 devono essere, inoltre, rispettati per i lavoratori assunti i requisiti descritti nell’art. 5 dell’Avviso Modalità di presentazione delle proposte progettuali Le domande di incentivo devono essere presentate, con le modalità “a sportello”, a partire dalle ore 9:30 del 10 febbraio 2026 e fino alle ore 12:00 del 27 novembre 2026 e comunque fino ad esaurimento delle risorse disponibili. La data di chiusura dello sportello per esaurimento delle risorse verrà comunicata dall’Amministrazione mediante pubblicazione sul sito istituzionale della Regione Lazio. La domanda di erogazione del contributo deve essere presentata singolarmente per ogni lavoratore assunto. Ciascuna impresa può presentare tante domande di contributo quanti sono i tirocinanti ospitati nell’ambito dell’iniziativa RI-SALGO, fermo restando che le domande verranno istruite secondo i criteri previsti dall’art. 12 dell’Avviso e finanziate sino ad esaurimento risorse. Le domande di erogazione del contributo devono essere presentate, a pena di esclusione, entro 45 giorni solari dalla data di assunzione del tirocinante a fronte di assunzioni avvenute al massimo entro 3 mesi dalla conclusione del tirocinio, attraverso la procedura telematica accessibile dal sito https://sicer.regione.lazio.it/sigem-gestione-21-27/ . Si rimanda alle specifiche contenute negli Artt. 9 e 10 dell’avviso. Selezione Le domande di incentivo pervenute sono istruite mensilmente, secondo finestre temporali di 45 giorni solari seguendo l’ordine cronologico di trasmissione registrato sulla piattaforma dedicata. A seguito della presentazione delle domande di ammissione, la Direzione Istruzione, Formazione e Politiche per l’Occupazione – Area Predisposizione degli interventi e Comunicazione procede all’istruttoria delle domande pervenute, per le singole tipologie di incentivo, verificandone l’ammissibilità e accertando la sussistenza dei presupposti per l’accesso alla concessione degli incentivi. Le domande presentate, suddivise per tipologia di incentivo (come indicato nell’art. 3 dell’avviso), sono esaminate ogni 45 giorni, secondo l’ordine cronologico di presentazione. Gli elenchi delle domande ammesse e di quelle non ammesse, o di quelle eventualmente ammissibili ma non finanziabili per esaurimento delle risorse, con le relative motivazioni, sono approvati con apposite determinazioni dirigenziali e pubblicati sul Bollettino Ufficiale Regionale della Regione Lazio (BURL) sul portale istituzionale, sezione “documenti correlati” nella pagina dell’avviso pubblico corrispondente. Risorse finanziarie La dotazione finanziaria complessiva stanziata per la realizzazione delle attività previste dal presente avviso è pari a € 3.000.000 a valere sul PR FSE+ 2021-2027 Priorità 1 “Occupazione”. Si precisa che, rispetto alla dotazione finanziaria complessiva, è prevista una riserva minima del 60% delle risorse messe a bando a favore delle PMI, di cui il 25% a favore delle micro o piccole imprese. La Regione increm",
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Bonus occupazionale RI-SALGO Aperto FSE / FSE+ L’Assessorato Lavoro, Scuola, Formazione, Ricerca, Merito e Urbanistica, tramite la Direzione Regionale Istruzione, Formazione e Politiche per l’Occupazione, ha approvato un nuovo avviso pubblico a valere sul PR FSE+ Lazio, attraverso il quale si prevede la concessione dei bonus assunzionali per le imprese che hanno ospitato i tirocini come previsto dalla Linea B dell’avviso pubblico RI-SALGO finanziato nell’ambito del PR FSE+ 2021-2027 . L’obiettivo è finalizzare gli strumenti messi a disposizione dall’Amministrazione regionale, per sostenere l’inserimento lavorativo degli adulti disoccupati che hanno terminato con esito positivo l’esperienza formativa e di orientamento svolta con il tirocinio extracurriculare nell’ambito delle iniziative citate oppure che hanno concluso anticipatamente l’esperienza di tirocinio in quanto sono stati assunti dal soggetto ospitante, a tempo indeterminato o a tempo determinato. Gli importi riconosciuti a titolo di bonus occupazionale sono: 12.000 euro , nel caso di assunzione con contratto full time di lavoro subordinato a tempo indeterminato , ivi compreso il contratto di apprendistato e in somministrazione, elevati a 14.000 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000 euro , nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo indeterminato , ivi compreso il contratto di somministrazione, elevati a 7.000 in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999; 6.000 euro , nel caso di assunzione con contratto full time di lavoro subordinato a tempo determinato di almeno 12 mesi , ivi compreso il contratto di somministrazione, elevati a 7.000 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999 ; 3.000 euro , nel caso di assunzione con contratto di lavoro subordinato, part time con impegno pari almeno al 50%, a tempo determinato di almeno 12 mes i, ivi compreso il contratto di somministrazione, elevati a 3.500 euro in caso di lavoratore disabile iscritto/a nelle liste del collocamento mirato ex legge 68/1999. Le tipologie di incentivi possono essere richieste a scelta delle imprese, ai sensi: del Regolamento (UE) n. 2023/2831 della Commissione Europea del 13 dicembre 2023, relativo all’applicazione degli articoli 107 e 108 del trattato sul funzionamento dell’Unione europea agli aiuti “de minimis” che, a partire dal 1° gennaio 2024, sostituisce il regolamento della Commissione (UE) 1407/2013 – d’ora in poi “de minimis”; del Regolamento (UE) n. 651/2014 della Commissione del 17 giugno 2014, che dichiara alcune categorie di aiuti compatibili con il mercato interno in applicazione degli articoli 107 e 108 del trattato (Regolamento Generale di Esenzione per Categoria), pubblicato sulla GUUE L 187 del 26 giugno 2014 – d’ora in poi “Reg. n. 651/2014”. Si raccomanda di porre attenzione al dettaglio delle disposizioni previste dal presente avviso, per la concessione dei diversi incentivi all’occupazione, in relazione alle singole casistiche delle imprese interessate. Soggetti proponenti Sono beneficiarie degli incentivi previsti dall’avviso, le imprese che hanno: ospitato tirocinanti che hanno concluso positivamente il loro percorso di formazione e orientamento nell’ambito dell’intervento RI-SALGO e che assumono, nel rispetto di quanto previsto dall’art. 3 dell’avviso, i tirocinanti entro 3 mesi dalla conclusione del tirocinio. La richiesta dell’incentivo dovrà essere presentata dai soggetti ospitanti dei tirocini entro 45 giorni dall’assunzione del tirocinante. anteriormente all’apertura dello sportello, proceduto all’assunzione di tirocinanti a valere sull’intervento RI-SALGO, a seguito della conclusione, anche anticipata, del periodo di tirocinio, nel rispetto di quanto previsto dall’articolo 3 dell’avviso. Per le assunzioni effettuate prima della data di apertura dello sportello, il termine di 45 giorni solari per la presentazione della domanda di incentivo decorre dalla data di apertura della procedura telematica (si vedano le specifiche definite dall’art 6 dell’avviso). Destinatari I destinatari degli incentivi sono i soggetti che hanno terminato l’esperienza di tirocinio oppure che hanno concluso anticipatamente il tirocinio in quanto assunti dal soggetto ospitante nell’ambito dell’iniziativa RI-SALGO. Le imprese richiedenti il contributo devono dichiarare nell’Allegato 1 dell’avviso (ai sensi del DPR 445/2000), di aver verificato lo stato di disoccupazione dei destinatari al momento dell’assunzione, conformemente alla normativa nazionale vigente. Se stranieri extracomunitari, i destinatari devono essere in possesso di regolare permesso di soggiorno in corso di validità che consenta l’esercizio di un’attività lavorativa. Si precisa che in caso di opzione per il regime di aiuti in esenzione ai sensi del Reg. UE n. 651/2014 devono essere, inoltre, rispettati per i lavoratori assunti i requisiti descritti nell’art. 5 dell’Avviso Modalità di presentazione delle proposte progettuali Le domande di incentivo devono essere presentate, con le modalità “a sportello”, a partire dalle ore 9:30 del 10 febbraio 2026 e fino alle ore 17:00 del 30 aprile 2027 (scadenza prorogata con Determinazione n. G15141 del 2 novembre 2026 ), comunque fino ad esaurimento delle risorse disponibili. La data di chiusura dello sportello per esaurimento delle risorse verrà comunicata dall’Amministrazione mediante pubblicazione sul sito istituzionale della Regione Lazio. La domanda di erogazione del contributo deve essere presentata singolarmente per ogni lavoratore assunto. Ciascuna impresa può presentare tante domande di contributo quanti sono i tirocinanti ospitati nell’ambito dell’iniziativa RI-SALGO, fermo restando che le domande verranno istruite secondo i criteri previsti dall’art. 12 dell’Avviso e finanziate sino ad esaurimento risorse. Le domande di erogazione del contributo devono essere presentate, a pena di esclusione, entro 45 giorni solari dalla data di assunzione del tirocinante a fronte di assunzioni avvenute al massimo entro 3 mesi dalla conclusione del tirocinio, attraverso la procedura telematica accessibile dal sito https://sicer.regione.lazio.it/sigem-gestione-21-27/ . Si rimanda alle specifiche contenute negli Artt. 9 e 10 dell’avviso. Selezione Le domande di incentivo pervenute sono istruite mensilmente, secondo finestre temporali di 45 giorni solari seguendo l’ordine cronologico di trasmissione registrato sulla piattaforma dedicata. A seguito della presentazione delle domande di ammissione, la Direzione Istruzione, Formazione e Politiche per l’Occupazione – Area Predisposizione degli interventi e Comunicazione procede all’istruttoria delle domande pervenute, per le singole tipologie di incentivo, verificandone l’ammissibilità e accertando la sussistenza dei presupposti per l’accesso alla concessione degli incentivi. Le domande presentate, suddivise per tipologia di incentivo (come indicato nell’art. 3 dell’avviso), sono esaminate ogni 45 giorni, secondo l’ordine cronologico di presentazione. Gli elenchi delle domande ammesse e di quelle non ammesse, o di quelle eventualmente ammissibili ma non finanziabili per esaurimento delle risorse, con le relative motivazioni, sono approvati con apposite determinazioni dirigenziali e pubblicati sul Bollettino Ufficiale Regionale della Regione Lazio (BURL) sul portale istituzionale, sezione “documenti correlati” nella pagina dell’avviso pubblico corrispondente. Risorse finanziarie La dotazione finanziaria complessiva stanziata per la realizzazione delle attività previste dal presente avviso è pari a € 3.000.000 a valere sul PR FSE+ 2021-2027 Priorità 1 “Occupazione”. Si precisa che, rispetto alla dotazione finanziaria complessiva, è prevista una riserva minima del 60% delle risorse messe a bando a favore delle PMI, di ",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -261,7 +311,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -312,7 +362,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -363,7 +413,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti con provvista BEI e contributo in conto interessi",
       "url": "https://www.lazioinnova.it/bandi/finanziamenti-con-provvista-bei-e-contributo-in-conto-interessi/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2028-10-03",
         "stato": "confermato",
@@ -414,9 +464,69 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Partecipazione a New Space Economy European Expoforum 2026",
+      "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-new-space-economy-european-expoforum-2026/",
+      "data_lettura": "2026-11-04",
+      "scadenza": {
+        "valore": "2026-11-12",
+        "stato": "confermato",
+        "citazione": "26 : candidature entro le ore 10.00 del 12 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "ARENA : L’area di presentazione aziendale riservata alle esigenze dimostrative degli espositori: situata al centro del padiglione espositivo, è concepita come un hub dinamico dove istituzioni, aziende, ricercatori e innovatori si incontrano",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a New Space Economy European Expoforum 2026 Aperto Altri fondi FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , per il tramite del soggetto attuatore Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche internazionali, selezionano 29 imprese e startup del Lazio per la partecipazione a NSE – New Space Economy European Expoforum 2026, in programma presso la Fiera di Roma dal 25 al 27 novembre 2026 . Nell’ambito della manifestazione internazionale, organizzata da Fiera Roma in collaborazione con ASI – Agenzia Spaziale Italiana, e realizzata con l’endorsement dell’ITA-Italian Trade Agency e di importanti istituzioni della ricerca (CNR, ENEA, INAF e INGV), gli Enti promotori intendono organizzare uno spazio espositivo per ospitare fino ad un massimo di 29 aziende del Lazio operative nel settore dell’Aerospazio e Difesa e dell’Economia dello Spazio. La partecipazione di n. 22 PMI è sostenuta con il contributo del PR FESR Lazio 2021-2027 , mentre quella delle restanti n. 7 si avvale delle risorse della Camera di Commercio di Roma / Sviluppo e Territorio. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori, che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale alla Fiera in oggetto e/o di modificarne le caratteristiche e i servizi offerti. Tema dell’ottava edizione è Space Reloaded: Recreating the Future e il fulcro è la conferenza tecnico-scientifica di alto livello, curata da un comitato scientifico di primo piano. NSE è un appuntamento annuale che si rivolge all’industria spaziale europea, che racconterà l’evoluzione delle tecnologie spaziali, la loro ricaduta sui grandi temi globali, i recenti cambiamenti del quadro regolatorio, il ruolo dell’Italia nel panorama globale europeo e internazionale degli attori istituzionali e industriali dell’economia spaziale. In particolare, NSE intende promuovere e sviluppare la nuova Economia dello Spazio con il duplice scopo di: far conoscere anche al grande pubblico le potenzialità delle tecnologie e delle applicazioni spaziali; far incontrare enti ed aziende, del settore, grandi attori internazionali, PMI innovative, start up, investitori, centri di ricerca e mondo accademico, agenzie spaziali, istituzioni e organizzazioni internazionali. L’ottava edizione di NSE metterà in mostra, altresì, la crescente importanza delle tecnologie spaziali in settori chiave come sostenibilità, trasformazione digitale, ricerca, sicurezza e infrastrutture . L’Italia svolge un ruolo fondamentale in questo ecosistema in evoluzione, contribuendo in ogni fase della catena del valore, dall’osservazione della Terra e dalle telecomunicazioni ai sistemi di lancio e all’esplorazione spaziale umana e robotica. La manifestazione si articolerà nelle seguenti 4 aree principali: AREA EXHIBITION: Il padiglione espositivo ospiterà gli stand di aziende, startup, istituzioni e varie organizzazioni collegate ai più ampi settori della nuova economia spaziale; AREA CONFERENCE: Elemento centrale di NSE 2026 è la sua conferenza scientifica di alto livello, curata da un illustre comitato scientifico; Istituzioni, esperti e professionisti affronteranno i temi più rilevanti legati alla Nuova Economia Spaziale. AREA NETWORKING AND B2B , concepita per favorire connessioni e collaborazioni sempre nuove nel settore spaziale e non solo. Animata dalla partecipazione di rappresentanti aziendali e istituzioni internazionali, rappresenta un’opportunità unica per espandere il proprio business contribuendo attivamente allo sviluppo della New Space Economy. ARENA : L’area di presentazione aziendale riservata alle esigenze dimostrative degli espositori: situata al centro del padiglione espositivo, è concepita come un hub dinamico dove istituzioni, aziende, ricercatori e innovatori si incontrano per discutere e collaborare sulle ultime novità e sfide della New Space Economy. Ospiterà conferenze, workshop, presentazioni scientifiche e molto altro. NSE 2026 si rivolgerà a un pubblico di visitatori e partecipanti composto da: LSI/PMI/Startups Accelerators / Incubators / Business Angels Academia / Research and Development Institutions Technological Clusters and Science Parks Investors / Venture Capital Funds Governments / Local Authorities Associations / Foundations Il Progetto regionale intende selezionare PMI e Startup che svolgono la propria attività almeno in uno dei seguenti ambiti: Advanced manufacturing Aerospace systems associations and no profit Artificial intelligence, machine learning, internet of things Business services Climate solutions Space Communication Satellite Navigation Applications Consulting services Cybersecurity and Robotics Space Education and Training, special courses Environment protection and governance Earth observation, precision agriculture and monitoring Human systems integration EEE components (electrical, electronic, electromechanical) applicable in the Space field IT/software engineering Engineering and fast prototyping in the Space field Research and development in the Space field Satellite systems Advanced Technologies (e.g. propulsion, materials and additive manufacturing, AOCS – attitude and orbit control system, etc.) Technologies for Optical Systems and SAR Smart city services and monitoring Space service providers Spaceports and spaceport service providers SPAZIO ESPOSITIVO Ciascuna azienda ammessa avrà a disposizione uno stand di 9 mq con la seguente dotazione: pannelli di fondo, parete laterale, ripostiglio, moquette ignifuga a terra 1 desk graficizzato 1 sgabello, 1 tavolo, 2 sedie 1 cestino, appendiabiti 1 pannello graficizzato mq. 2 impianto elettrico con 1 multiprese pulizia stand nei tre giorni di evento quota di iscrizione, comprensiva di installazione della potenza elettrica fino a 2kw/220 assicurazione R.C.T – R.C.O. e INCENDIO (quota base) inserimento nel Catalogo Ufficiale di Manifestazione 3 tessere Exhibitor 1 pass auto all’interno del Quartiere Fieristico. La manifestazione si doterà di piattaforma on-line che avrà la funzione di coordinamento delle agende B2B con stakeholder impossibilitati a partecipare in presenza. Alla manifestazione sarà presente la Rete Enterprise Europe Network – EEN , la piattaforma di brokeraggio europea gestita e coordinata dalla rete europea operativa anche attraverso gli sportelli EEN di Lazio Innova e Sviluppo e Territorio. Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. REQUISITI GENERALI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: sede operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio ed essere in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il ",
+      "rilevanza": {
+        "punteggio": 7,
+        "stato": "parole_chiave",
+        "motivazione": "Trovati termini dei temi: ia_ricerca, analisi_dati. Corrispondenza lessicale, non un giudizio sul contenuto.",
+        "temi": [
+          "ia_ricerca",
+          "analisi_dati"
+        ],
+        "evidenze": [
+          " manufacturing Aerospace systems associations and no profit Artificial intelligence, machine learning, internet of things Business services Cli",
+          "ns and no profit Artificial intelligence, machine learning, internet of things Business services Climate solutions Space Communication Sat"
+        ],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [
+          "industria_elettronica"
+        ],
+        "cancro": false,
+        "linee": [
+          "ml"
+        ],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-04"
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione ad Artigiano in Fiera 2026",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-ad-artigiano-in-fiera-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-10",
         "stato": "confermato",
@@ -469,7 +579,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a MOACASA 2026",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-moacasa-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -520,7 +630,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione a Roma Arte in Nuvola",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-roma-arte-in-nuvola/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -571,12 +681,12 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
-        "valore": "2026-10-22",
-        "stato": "confermato",
-        "citazione": "Presentazione delle domande Apertura GeCoWEB Plus : dalle 12:00 del 22 ottobre 2026",
-        "motivo": null
+        "valore": "2027-11-10",
+        "stato": "da_verificare",
+        "citazione": "12 del 10 novembre 2026 alle ore 17 del 10 novembre 2027",
+        "motivo": "Più date nel testo: verificare quale è la chiusura"
       },
       "durata": {
         "valore": null,
@@ -596,7 +706,7 @@
         "citazione": null,
         "motivo": null
       },
-      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Giovani Attività Professionali 2026 Prossima Apertura FESR Documentazione Determinazione n. G14308 del 19 ottobre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Uso di GeCoWEB Plus e documenti per la rendicontazione Modello 1 – Proponente privo di relazioni rilevanti con altre Imprese Modello 2 – Proponente che ha relazioni rilevanti con altre Imprese 3 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 1.3 – Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi Obiettivi La Regione Lazio sostiene le attività professionali, mediante la concessione di contributi a fondo perduto per la realizzazione di progetti di investimento per lo sviluppo di nuove attività professionali e l’ampliamento, la ristrutturazione o l’ammodernamento di quelle avviate di recente, anche mediante l’adozione di soluzioni digitali. I progetti devono avere costi ammissibili da rendicontare non inferiori a 8.000,00 euro ed essere conclusi e rendicontati entro 9 mesi dalla data di concessione. Beneficiari I Beneficiari del sostegno sono i Giovani Professionisti del Lazio, vale a dire le persone fisiche che: siano iscritti a uno dei 18 Ordini, Collegi o Albi professionali di seguito elencati: Agronomi Architetti Attuari Avvocati Biologi Chimici Commercialisti ed esperti contabili Consulenti del lavoro Consulenti in proprietà industriale Fisici Geologi Geometri Ingegneri Notai Periti agrari Periti industriali Spedizionieri doganali Tecnologi Alimentari non abbiano compiuto il quarantesimo anno di età alla data della Domanda; non abbiano un reddito nell’anno 2025 superiore a 66.300,00 euro; esercitino la propria attività professionale nella regione Lazio. I Giovani Professionisti del Lazio possono ricevere direttamente il contributo, sostenendo le Spese Ammissibili come lavoratori autonomi, oppure mediante Associazioni Professionali o Società Tra Professionisti in cui risultino maggioritari. Contributo e Costi Ammissibili Il contributo previsto dall’Avviso è a fondo perduto ed è concesso a titolo di De Minimis. Il contributo è concesso nella percentuale del 70% delle spese ammissibili del progetto (somma delle spese ammissibili da rendicontare e dei costi forfettari) e non può superare l’importo: di 20.000,00 euro per ciascun Beneficiario che è un Giovane Professionista Autonomo; tale contributo massimo corrisponde a 28.572,00 euro di Spese Ammesse complessive, e pertanto a 23.810,00 euro di Spese Ammesse da rendicontare e poi correttamente rendicontate; di 40.000,00 euro per ciascun Beneficiario che è un’Associazione Professionale Giovanile o una Società Tra Professionisti Giovanile, a condizione che tra gli associati o i soci ci siano almeno due Giovani Professionisti. Sono ammissibili i seguenti costi: spese da rendicontare per investimenti materiali, immateriali e per canoni per l’adozione di nuove soluzioni digitali erogate in modalità SaaS, IaaS o PaaS; spese da rendicontare per lavori di adeguamento strutturale e arredamento dei locali adibiti a Sede Operativa, nel limite massimo del 30% delle spese per investimenti di cui al punto a); spese da rendicontare per servizi qualificati e strategici, aventi carattere una tantum (formazione, promozione e pubblicità, certificazioni di processo o di prodotto, adozione di nuove soluzioni digitali, commerciali, tecnologiche, legali e finanziarie, altro) nel limite massimo del 30% delle spese per investimenti di cui al punto a); costi del personale, generali, amministrativi e indiretti calcolati nella misura forfettaria del 20% del totale delle spese da rendicontare di cui alle voci a), b) e c). Presentazione delle domande Apertura GeCoWEB Plus : dalle 12:00 del 22 ottobre 2026 Presentazione domande : dalle 12:00 del 3 novembre 2026 alle 17:00 del 3 novembre 2027 (salvo esaurimento risorse) Modalità di Selezione La procedura di selezione avviene seguendo l’ordine cronologico di presentazione delle Domande. Lazio Innova verifica l’ammissibilità formale delle Domande, da presentarsi tramite GeCoWEB Plus. La Commissione di Valutazione valuta la coerenza del progetto con le previsioni dell’Avviso e la sua adeguatezza rispetto a entrambi i seguenti criteri di valutazione: validità tecnica, economica e finanziaria (sostenibilità del progetto), anche in termini di economicità, di coerenza dimensionale e di compatibilità degli obiettivi di mercato con la struttura aziendale dell’impresa proponente; utilizzo di soluzioni in linea con i migliori standard tecnologici diffusi sul mercato. I progetti ritenuti formalmente ammissibili, coerenti e adeguati sono finanziati fino a esaurimento della dotazione finanziaria. Modalità di Erogazione L’erogazione avviene in un’unica soluzione a fronte della rendicontazione delle spese sostenute per la realizzazione del progetto. OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui . Informazioni Siti www.lazioinnova.it e www.lazioeuropa.it e-mail infobandi@lazioinnova.it Numero verde 800 98 97 96",
+      "testo_fonte": "INNOVAZIONE, COMPETITIVITÀ, INDUSTRIA 4.0 Giovani Attività Professionali 2026 Prossima Apertura FESR Documentazione Determinazione n. G15181 del 2 novembre 2026 - Parziale modifica avviso pubblico e proroga dei termini Avviso pubblico modificato Modulistica e istruzioni (3 novembre 2026) Determinazione n. G14308 del 19 ottobre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Uso di GeCoWEB Plus e documenti per la rendicontazione Modello 1 – Proponente privo di relazioni rilevanti con altre Imprese Modello 2 – Proponente che ha relazioni rilevanti con altre Imprese La determinazione n. G15181 del 2 novembre 2026 ha parzialmente modificato l’avviso pubblico e ha prorogato il termine di presentazione delle domande. Dettagli nel testo che segue. 3 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 1.3 – Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi Obiettivi La Regione Lazio sostiene le attività professionali, mediante la concessione di contributi a fondo perduto per la realizzazione di progetti di investimento per lo sviluppo di nuove attività professionali e l’ampliamento, la ristrutturazione o l’ammodernamento di quelle avviate di recente, anche mediante l’adozione di soluzioni digitali. I progetti devono avere costi ammissibili da rendicontare non inferiori a 8.000,00 euro ed essere conclusi e rendicontati entro 9 mesi dalla data di concessione. Beneficiari I Beneficiari del sostegno sono i Giovani Professionisti del Lazio, vale a dire le persone fisiche che: siano iscritti a uno dei 18 Ordini, Collegi o Albi professionali di seguito elencati: Agronomi e Dottori forestali (modifica introdotta con la determinazione n. G15181 del 2 novembre 2026 ) Agrotecnici (modifica introdotta con la determinazione n. G15181 del 2 novembre 2026 ) Architetti Attuari Avvocati Biologi Chimici Commercialisti ed esperti contabili Consulenti del lavoro Consulenti in proprietà industriale Fisici Geologi Geometri Ingegneri Notai Periti agrari Periti industriali Spedizionieri doganali Tecnologi Alimentari non abbiano compiuto il quarantesimo anno di età alla data della Domanda; non abbiano un reddito nell’anno 2025 superiore a 66.300,00 euro; esercitino la propria attività professionale nella regione Lazio. I Giovani Professionisti del Lazio possono ricevere direttamente il contributo, sostenendo le Spese Ammissibili come lavoratori autonomi, oppure mediante Associazioni Professionali o Società Tra Professionisti in cui risultino maggioritari. Contributo e Costi Ammissibili Il contributo previsto dall’Avviso è a fondo perduto ed è concesso a titolo di De Minimis. Il contributo è concesso nella percentuale del 70% delle spese ammissibili del progetto (somma delle spese ammissibili da rendicontare e dei costi forfettari) e non può superare l’importo: di 20.000,00 euro per ciascun Beneficiario che è un Giovane Professionista Autonomo; tale contributo massimo corrisponde a 28.572,00 euro di Spese Ammesse complessive, e pertanto a 23.810,00 euro di Spese Ammesse da rendicontare e poi correttamente rendicontate; di 40.000,00 euro per ciascun Beneficiario che è un’Associazione Professionale Giovanile o una Società Tra Professionisti Giovanile, a condizione che tra gli associati o i soci ci siano almeno due Giovani Professionisti. Sono ammissibili i seguenti costi: spese da rendicontare per investimenti materiali, immateriali e per canoni per l’adozione di nuove soluzioni digitali erogate in modalità SaaS, IaaS o PaaS; spese da rendicontare per lavori di adeguamento strutturale e arredamento dei locali adibiti a Sede Operativa, nel limite massimo del 30% delle spese per investimenti di cui al punto a); spese da rendicontare per servizi qualificati e strategici, aventi carattere una tantum (formazione, promozione e pubblicità, certificazioni di processo o di prodotto, adozione di nuove soluzioni digitali, commerciali, tecnologiche, legali e finanziarie, altro) nel limite massimo del 30% delle spese per investimenti di cui al punto a); costi del personale, generali, amministrativi e indiretti calcolati nella misura forfettaria del 20% del totale delle spese da rendicontare di cui alle voci a), b) e c). Presentazione delle domande Apertura GeCoWEB Plus : dalle 12:00 del 22 ottobre 2026 Presentazione domande : dalle ore 12:00 del 10 novembre 2026 alle ore 17:00 del 10 novembre 2027, salvo esaurimento risorse (modifica introdotta con la determinazione n. G15181 del 2 novembre 2026 ) Modalità di Selezione La procedura di selezione avviene seguendo l’ordine cronologico di presentazione delle Domande. Lazio Innova verifica l’ammissibilità formale delle Domande, da presentarsi tramite GeCoWEB Plus. La Commissione di Valutazione valuta la coerenza del progetto con le previsioni dell’Avviso e la sua adeguatezza rispetto a entrambi i seguenti criteri di valutazione: validità tecnica, economica e finanziaria (sostenibilità del progetto), anche in termini di economicità, di coerenza dimensionale e di compatibilità degli obiettivi di mercato con la struttura aziendale dell’impresa proponente; utilizzo di soluzioni in linea con i migliori standard tecnologici diffusi sul mercato. I progetti ritenuti formalmente ammissibili, coerenti e adeguati sono finanziati fino a esaurimento della dotazione finanziaria. Modalità di Erogazione L’erogazione avviene in un’unica soluzione a fronte della rendicontazione delle spese sostenute per la realizzazione del progetto. OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati qui . Informazioni Siti www.lazioinnova.it e www.lazioeuropa.it e-mail infobandi@lazioinnova.it Numero verde 800 98 97 96",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -622,7 +732,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -673,7 +783,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "ESA BIC Lazio, seconda finestra 2026",
       "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-18",
         "stato": "confermato",
@@ -732,7 +842,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -783,7 +893,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Digitalizzazione Pmi 2026",
       "url": "https://www.lazioeuropa.it/bandi/voucher-digitalizzazione-pmi-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-05",
         "stato": "confermato",
@@ -840,7 +950,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -891,7 +1001,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -944,7 +1054,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Il teatro nelle scuole",
       "url": "https://www.lazioeuropa.it/bandi/il-teatro-nelle-scuole/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-10",
         "stato": "confermato",
@@ -995,7 +1105,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi allo spettacolo dal vivo (2027)",
       "url": "https://www.lazioeuropa.it/bandi/contributi-allo-spettacolo-dal-vivo-2027/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-09",
         "stato": "confermato",
@@ -1044,60 +1154,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget",
-      "url": "https://www.lazioeuropa.it/bandi/lazio-next-generation-sostegno-a-opere-cinematografiche-e-audiovisive-low-budget/",
-      "data_lettura": "2026-11-03",
-      "scadenza": {
-        "valore": "2026-11-04",
-        "stato": "confermato",
-        "citazione": " domande via PEC entro le ore 17:00 del 4 novembre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "€ 3.000.000,00.",
-        "stato": "da_verificare",
-        "citazione": " Indipendente come definito all’articolo 3 dell’Avviso. Dotazione finanziaria : € 3.000.000,00.",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "Beneficiari : PMI e produttori indipendenti, anche non rientranti nella definizione di PMI, titolari dei diritti di sfruttamento dell’opera almeno per il territorio italiano e in possesso della qualifica di Produttore Indipendente come defi",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA Lazio Next Generation – sostegno a opere cinematografiche e audiovisive low budget Aperto Bandi Regionali Finalità : la Regione Lazio intende sostenere la realizzazione di opere cinematografiche e audiovisive low budget, allo scopo di promuovere i nuovi talenti e le giovani imprese di produzione, di rafforzare la crescita delle opere inedite e della filiera audiovisiva regionale e di valorizzare il patrimonio culturale e territoriale del Lazio, favorendo lo sviluppo dell’occupazione e dell’indotto del settore. Beneficiari : PMI e produttori indipendenti, anche non rientranti nella definizione di PMI, titolari dei diritti di sfruttamento dell’opera almeno per il territorio italiano e in possesso della qualifica di Produttore Indipendente come definito all’articolo 3 dell’Avviso. Dotazione finanziaria : € 3.000.000,00. Modalità di presentazione delle domande : Le richieste di contributo devono essere presentate esclusivamente a mezzo PEC all’indirizzo cinemaaudiovisivo@pec.regione.lazio.it . Termini per la presentazione delle domande : a partire dalle ore 12:00 del 15 ottobre 2026 e fino alle ore 17:00 del 4 novembre 2026, seguendo la procedura indicata nell’Avviso. Per informazioni : scrivere a strinca@regione.lazio.it . Documentazione di riferimento",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-31",
-        "ambiti": [],
-        "cancro": false,
-        "linee": [],
-        "ruolo": "supporto",
-        "contributi": []
-      },
-      "prima_visto": "2026-10-29",
-      "iniziale": true
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Smart Map. bando per i piccoli Comuni",
       "url": "https://www.lazioeuropa.it/bandi/smart-map-bando-per-i-piccoli-comuni/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-09",
         "stato": "confermato",
@@ -1150,7 +1209,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1201,7 +1260,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1255,7 +1314,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Servizi in Rete – sostegno alle gestioni comunali associate (2026)",
       "url": "https://www.lazioeuropa.it/bandi/servizi-in-rete-sostegno-alle-gestioni-comunali-associate-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-06",
         "stato": "confermato",
@@ -1306,7 +1365,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1357,7 +1416,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1410,7 +1469,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2026-11-16",
         "stato": "confermato",
@@ -1461,7 +1520,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1512,7 +1571,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1563,7 +1622,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2027-02-26",
         "stato": "confermato",
@@ -1614,7 +1673,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1665,7 +1724,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1716,7 +1775,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1767,7 +1826,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1818,7 +1877,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1869,7 +1928,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1920,7 +1979,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1971,7 +2030,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",

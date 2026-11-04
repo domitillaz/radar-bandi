@@ -1,13 +1,67 @@
 {
-  "generato": "2026-11-03",
+  "generato": "2026-11-04",
   "errori": [],
   "bandi": [
     {
       "canale": "Nazionale",
       "ente": "MUR",
+      "titolo": "Bando congiunto JPI Oceans “Ocean Oxygen Loss” 2026: preinformazione",
+      "url": "http://www.ricercainternazionale.mur.gov.it/notizie/2026/bando-congiunto-jpi-oceans-“ocean-oxygen-loss”-2026-preinformazione.aspx",
+      "data_lettura": "2026-11-04",
+      "data_pubblicazione": "2026-11-04",
+      "scadenza": {
+        "valore": null,
+        "stato": "da_verificare",
+        "citazione": null,
+        "motivo": "Preannuncio: la data nel testo è di pubblicazione, non di scadenza"
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratta"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Non estratto"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Il testo letto non indica i destinatari"
+      },
+      "testo_fonte": "Ricerca Internazionale Navigazione principale Motore di ricerca interno Menu dei contenuti Contenuti Piede pagina Salta menu Navigazione principale Ricerca Internazionale Spazio Europeo della Ricerca Accordi bilaterali e multilaterali Ricerca Spaziale Salta il Motore di Ricerca Interno Home » 2026 » Bando congiunto JPI Oceans “Ocean Oxygen Loss” 2026: preinformazione Bando congiunto JPI Oceans “Ocean Oxygen Loss” 2026: preinformazione Spazio Europeo della Ricerca La partnership JPI Oceans ha annunciato il lancio di un bando congiunto dedicato alla perdita di ossigeno negli oceani (Ocean Oxygen Loss), con l'obiettivo di finanziare progetti di ricerca volti a migliorare la comprensione delle cause, degli impatti e delle possibili strategie di mitigazione e adattamento al fenomeno della deossigenazione marina. L'apertura del bando è prevista per il 18 novembre 2026 , con scadenza per la presentazione delle proposte il 1° marzo 2027 . Il bando sosterrà progetti che analizzino il ruolo dei cambiamenti climatici e dell'eutrofizzazione nella diminuzione dell'ossigeno marino, nonché gli effetti sugli ecosistemi, sulla biodiversità e sui servizi ecosistemici. Saranno inoltre finanziate attività finalizzate a migliorare il monitoraggio, la previsione e la definizione di misure di adattamento e mitigazione. Il MUR parteciperà al bando insieme ad altri enti finanziatori di Norvegia, Romania, Irlanda e Canada, con un contributo in-kind del Regno Unito e Grecia. I progetti dovranno coinvolgere partner finanziati da almeno tre enti finanziatori (di tre paesi diversi), partecipanti al bando. L'avvio dei progetti selezionati è previsto entro il 1° dicembre 2027 . Per maggiori informazioni consultare: https://jpi-oceans.eu/en/joint-call-ocean-oxygen-loss-pre-announced Salta il menu dei Contenuti del sito Evidenza Protocolli di intesa Programmazione congiunta Normativa prog. internazionali Infrastrutture di ricerca EU partnership 2021-27 Novità Dall'Italia Dall'Europa Dal mondo Servizi Glossario Contatti Richiesta pubblicazione Pagina a cura di: Direzione generale dell’internazionalizzazione e della comunicazione - Ufficio III Largo Antonio Ruberti n. 1 – 00153 Roma Privacy",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine dei temi nel testo.",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [
+          "ambiente_acqua",
+          "industria_elettronica"
+        ],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-04"
+    },
+    {
+      "canale": "Nazionale",
+      "ente": "MUR",
       "titolo": "SBEP - Preannuncio quarta call transazionale 2026",
       "url": "http://www.ricercainternazionale.mur.gov.it/notizie/2026/sbep-preannuncio-quarta-call-transazionale-2026.aspx",
-      "data_lettura": "2026-11-03",
+      "data_lettura": "2026-11-04",
       "data_pubblicazione": "2026-07-27",
       "scadenza": {
         "valore": null,
