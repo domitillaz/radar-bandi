@@ -1,12 +1,12 @@
 {
-  "generato": "2026-11-11",
+  "generato": "2026-11-12",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Luci del Varietà – Cinema, territorio e giovani",
       "url": "https://www.lazioeuropa.it/?post_type=bandi&p=22014",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-20",
         "stato": "confermato",
@@ -56,7 +56,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -107,7 +107,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -158,7 +158,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -209,7 +209,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2027-04-30",
         "stato": "confermato",
@@ -260,7 +260,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -311,7 +311,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -362,7 +362,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -413,7 +413,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti con provvista BEI e contributo in conto interessi",
       "url": "https://www.lazioinnova.it/bandi/finanziamenti-con-provvista-bei-e-contributo-in-conto-interessi/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2028-10-03",
         "stato": "confermato",
@@ -464,69 +464,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Partecipazione a New Space Economy European Expoforum 2026",
-      "url": "https://www.lazioeuropa.it/bandi/partecipazione-a-new-space-economy-european-expoforum-2026/",
-      "data_lettura": "2026-11-11",
-      "scadenza": {
-        "valore": "2026-11-12",
-        "stato": "confermato",
-        "citazione": "26 : candidature entro le ore 10.00 del 12 novembre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "ammissibilita": {
-        "valore": "Solo imprese (probabile)",
-        "stato": "da_verificare",
-        "citazione": "ARENA : L’area di presentazione aziendale riservata alle esigenze dimostrative degli espositori: situata al centro del padiglione espositivo, è concepita come un hub dinamico dove istituzioni, aziende, ricercatori e innovatori si incontrano",
-        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
-      },
-      "testo_fonte": "INTERNAZIONALIZZAZIONE Partecipazione a New Space Economy European Expoforum 2026 Aperto Altri fondi FESR La Regione Lazio , attraverso il soggetto attuatore Lazio Innova , e la Camera di Commercio di Roma , per il tramite del soggetto attuatore Azienda Speciale Sviluppo e Territorio , nell’ambito della Convenzione per la partecipazione congiunta a iniziative e manifestazioni fieristiche internazionali, selezionano 29 imprese e startup del Lazio per la partecipazione a NSE – New Space Economy European Expoforum 2026, in programma presso la Fiera di Roma dal 25 al 27 novembre 2026 . Nell’ambito della manifestazione internazionale, organizzata da Fiera Roma in collaborazione con ASI – Agenzia Spaziale Italiana, e realizzata con l’endorsement dell’ITA-Italian Trade Agency e di importanti istituzioni della ricerca (CNR, ENEA, INAF e INGV), gli Enti promotori intendono organizzare uno spazio espositivo per ospitare fino ad un massimo di 29 aziende del Lazio operative nel settore dell’Aerospazio e Difesa e dell’Economia dello Spazio. La partecipazione di n. 22 PMI è sostenuta con il contributo del PR FESR Lazio 2021-2027 , mentre quella delle restanti n. 7 si avvale delle risorse della Camera di Commercio di Roma / Sviluppo e Territorio. Nelle more del completamento dell’iter amministrativo di approvazione dell’intervento, il presente Avviso per manifestazione di interesse si intende NON VINCOLANTE per la Regione Lazio e per gli altri Enti promotori, che si riservano, in qualsiasi momento, di poter annullare, qualora le circostanze lo richiedessero, l’organizzazione della collettiva regionale alla Fiera in oggetto e/o di modificarne le caratteristiche e i servizi offerti. Tema dell’ottava edizione è Space Reloaded: Recreating the Future e il fulcro è la conferenza tecnico-scientifica di alto livello, curata da un comitato scientifico di primo piano. NSE è un appuntamento annuale che si rivolge all’industria spaziale europea, che racconterà l’evoluzione delle tecnologie spaziali, la loro ricaduta sui grandi temi globali, i recenti cambiamenti del quadro regolatorio, il ruolo dell’Italia nel panorama globale europeo e internazionale degli attori istituzionali e industriali dell’economia spaziale. In particolare, NSE intende promuovere e sviluppare la nuova Economia dello Spazio con il duplice scopo di: far conoscere anche al grande pubblico le potenzialità delle tecnologie e delle applicazioni spaziali; far incontrare enti ed aziende, del settore, grandi attori internazionali, PMI innovative, start up, investitori, centri di ricerca e mondo accademico, agenzie spaziali, istituzioni e organizzazioni internazionali. L’ottava edizione di NSE metterà in mostra, altresì, la crescente importanza delle tecnologie spaziali in settori chiave come sostenibilità, trasformazione digitale, ricerca, sicurezza e infrastrutture . L’Italia svolge un ruolo fondamentale in questo ecosistema in evoluzione, contribuendo in ogni fase della catena del valore, dall’osservazione della Terra e dalle telecomunicazioni ai sistemi di lancio e all’esplorazione spaziale umana e robotica. La manifestazione si articolerà nelle seguenti 4 aree principali: AREA EXHIBITION: Il padiglione espositivo ospiterà gli stand di aziende, startup, istituzioni e varie organizzazioni collegate ai più ampi settori della nuova economia spaziale; AREA CONFERENCE: Elemento centrale di NSE 2026 è la sua conferenza scientifica di alto livello, curata da un illustre comitato scientifico; Istituzioni, esperti e professionisti affronteranno i temi più rilevanti legati alla Nuova Economia Spaziale. AREA NETWORKING AND B2B , concepita per favorire connessioni e collaborazioni sempre nuove nel settore spaziale e non solo. Animata dalla partecipazione di rappresentanti aziendali e istituzioni internazionali, rappresenta un’opportunità unica per espandere il proprio business contribuendo attivamente allo sviluppo della New Space Economy. ARENA : L’area di presentazione aziendale riservata alle esigenze dimostrative degli espositori: situata al centro del padiglione espositivo, è concepita come un hub dinamico dove istituzioni, aziende, ricercatori e innovatori si incontrano per discutere e collaborare sulle ultime novità e sfide della New Space Economy. Ospiterà conferenze, workshop, presentazioni scientifiche e molto altro. NSE 2026 si rivolgerà a un pubblico di visitatori e partecipanti composto da: LSI/PMI/Startups Accelerators / Incubators / Business Angels Academia / Research and Development Institutions Technological Clusters and Science Parks Investors / Venture Capital Funds Governments / Local Authorities Associations / Foundations Il Progetto regionale intende selezionare PMI e Startup che svolgono la propria attività almeno in uno dei seguenti ambiti: Advanced manufacturing Aerospace systems associations and no profit Artificial intelligence, machine learning, internet of things Business services Climate solutions Space Communication Satellite Navigation Applications Consulting services Cybersecurity and Robotics Space Education and Training, special courses Environment protection and governance Earth observation, precision agriculture and monitoring Human systems integration EEE components (electrical, electronic, electromechanical) applicable in the Space field IT/software engineering Engineering and fast prototyping in the Space field Research and development in the Space field Satellite systems Advanced Technologies (e.g. propulsion, materials and additive manufacturing, AOCS – attitude and orbit control system, etc.) Technologies for Optical Systems and SAR Smart city services and monitoring Space service providers Spaceports and spaceport service providers SPAZIO ESPOSITIVO Ciascuna azienda ammessa avrà a disposizione uno stand di 9 mq con la seguente dotazione: pannelli di fondo, parete laterale, ripostiglio, moquette ignifuga a terra 1 desk graficizzato 1 sgabello, 1 tavolo, 2 sedie 1 cestino, appendiabiti 1 pannello graficizzato mq. 2 impianto elettrico con 1 multiprese pulizia stand nei tre giorni di evento quota di iscrizione, comprensiva di installazione della potenza elettrica fino a 2kw/220 assicurazione R.C.T – R.C.O. e INCENDIO (quota base) inserimento nel Catalogo Ufficiale di Manifestazione 3 tessere Exhibitor 1 pass auto all’interno del Quartiere Fieristico. La manifestazione si doterà di piattaforma on-line che avrà la funzione di coordinamento delle agende B2B con stakeholder impossibilitati a partecipare in presenza. Alla manifestazione sarà presente la Rete Enterprise Europe Network – EEN , la piattaforma di brokeraggio europea gestita e coordinata dalla rete europea operativa anche attraverso gli sportelli EEN di Lazio Innova e Sviluppo e Territorio. Gli Enti promotori, Lazio Innova e Sviluppo e Territorio daranno opportuna diffusione sui rispettivi siti istituzionali e su tutti i canali di comunicazione utilizzati per promuovere le iniziative. REQUISITI GENERALI DI AMMISSIBILITÀ PER LE IMPRESE INVITATE A PARTECIPARE: sede operativa nella Regione Lazio; coerenza dell’attività dell’azienda con il settore o i settori economici cui la manifestazione è rivolta; essere MPMI, come classificate nell’Allegato I del Regolamento (UE) n. 651/2014, in forma singola o associata in Consorzi, Società Consortili o Reti di imprese con personalità giuridica (Reti-soggetto), definite ai sensi dei commi 4-ter e 4-quater dell’art. 3 del Decreto-legge n. 5 del 10 febbraio 2009, convertito, con modificazioni, nella Legge n. 33 del 09 Aprile 2009 e ss.mm.ii., al momento della presentazione della manifestazione di interesse; essere regolarmente iscritte nel Registro delle Imprese della C.C.I.A.A. competente per territorio ed essere in regola, al momento della presentazione della manifestazione di interesse o comunque entro i termini di chiusura di presentazione della stessa, con il pagamento del diritto annuale (il controllo sulla regolarità del diritto annuale si estende agli ultimi cinque anni escluso il ",
-      "rilevanza": {
-        "punteggio": 7,
-        "stato": "parole_chiave",
-        "motivazione": "Trovati termini dei temi: ia_ricerca, analisi_dati. Corrispondenza lessicale, non un giudizio sul contenuto.",
-        "temi": [
-          "ia_ricerca",
-          "analisi_dati"
-        ],
-        "evidenze": [
-          " manufacturing Aerospace systems associations and no profit Artificial intelligence, machine learning, internet of things Business services Cli",
-          "ns and no profit Artificial intelligence, machine learning, internet of things Business services Climate solutions Space Communication Sat"
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-31",
-        "ambiti": [
-          "industria_elettronica"
-        ],
-        "cancro": false,
-        "linee": [
-          "ml"
-        ],
-        "ruolo": "supporto",
-        "contributi": []
-      },
-      "prima_visto": "2026-11-04"
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2027-11-10",
         "stato": "da_verificare",
@@ -577,7 +517,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -628,7 +568,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "ESA BIC Lazio, seconda finestra 2026",
       "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-18",
         "stato": "confermato",
@@ -687,7 +627,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -738,7 +678,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -789,7 +729,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -842,7 +782,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Presepi 2026",
       "url": "https://www.lazioeuropa.it/bandi/presepi-2026/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-30",
         "stato": "confermato",
@@ -892,11 +832,11 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
-        "valore": "2026-11-13",
+        "valore": "2026-11-23",
         "stato": "confermato",
-        "citazione": ": domande online entro le ore 12.00 del 13 novembre 2026",
+        "citazione": ", scadenza prorogata alle ore 12.00 del 23 novembre 2026",
         "motivo": null
       },
       "durata": {
@@ -917,7 +857,7 @@
         "citazione": null,
         "motivo": null
       },
-      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26) Aperto Bandi Regionali Con Determinazione n. G13947 del 13 ottobre 2026 è stato approvato l’avviso pubblico “Contributi alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie primarie e secondarie di primo e secondo grado per le spese sostenute relative al sostegno scolastico – nell’a.s.2025/26. Legge Regionale n. 22 del 30 dicembre 2024 e s.m.i. art. 13 commi 70 – 73”. Attraverso l’Avviso, la Regione intende concedere alle famiglie degli alunni e degli studenti con disabilità che frequentano, rispettivamente, le scuole paritarie primarie e secondarie di primo e secondo grado , con reddito ISEE annuo (2026) non superiore a euro 40.000,00 , un contributo per le spese effettivamente sostenut e dalla famiglia ovvero dall’Istituzione scolastica paritaria che abbia anticipato il relativo costo del sostegno (L.R. n. 22/2024 e s.m.i.- art. 13 co 71) nell’ anno scolastico 2025/26 . Le domande potranno essere presentate sulla apposita piattaforma esclusivamente tramite la procedura online, sul sito della Regione Lazio a questo indirizzo , dalle ore 12.00 del 16 ottobre 2026 fino alle ore 12.00 del 13 novembre 2026. L’accesso alla piattaforma avverrà tramite SPID (ovvero CIE ovvero CNS). I soggetti non ancora registrati sulla piattaforma di cui sopra che dovranno prima accedere alla sezione https://portalebandiavvisi.regione.lazio.it/ per la registrazione e completare il “ Profilo personale ” e solo successivamente potranno accedere al link per la compilazione della domanda. Al momento dell’invio della domanda i candidati riceveranno, via e-mail, una conferma della presentazione della domanda, contenente anche il numero di protocollo che sarà considerato come codice identificativo della stessa . Documentazione di riferimento",
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26) Aperto Bandi Regionali Con Determinazione n. G13947 del 13 ottobre 2026 è stato approvato l’avviso pubblico “Contributi alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie primarie e secondarie di primo e secondo grado per le spese sostenute relative al sostegno scolastico – nell’a.s.2025/26. Legge Regionale n. 22 del 30 dicembre 2024 e s.m.i. art. 13 commi 70 – 73”. Attraverso l’Avviso, la Regione intende concedere alle famiglie degli alunni e degli studenti con disabilità che frequentano, rispettivamente, le scuole paritarie primarie e secondarie di primo e secondo grado , con reddito ISEE annuo (2026) non superiore a euro 40.000,00 , un contributo per le spese effettivamente sostenut e dalla famiglia ovvero dall’Istituzione scolastica paritaria che abbia anticipato il relativo costo del sostegno (L.R. n. 22/2024 e s.m.i.- art. 13 co 71) nell’ anno scolastico 2025/26 . Le domande potranno essere presentate sulla apposita piattaforma esclusivamente tramite la procedura online, sul sito della Regione Lazio a questo indirizzo , dalle ore 12.00 del 16 ottobre 2026 fino alle ore 12.00 del 23 novembre 2026 (termine prorogato con Determinazione n. G15690 del 10 novembre 2026 ). L’accesso alla piattaforma avverrà tramite SPID (ovvero CIE ovvero CNS). I soggetti non ancora registrati sulla piattaforma di cui sopra che dovranno prima accedere alla sezione https://portalebandiavvisi.regione.lazio.it/ per la registrazione e completare il “ Profilo personale ” e solo successivamente potranno accedere al link per la compilazione della domanda. Al momento dell’invio della domanda i candidati riceveranno, via e-mail, una conferma della presentazione della domanda, contenente anche il numero di protocollo che sarà considerato come codice identificativo della stessa . Documentazione di riferimento",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -943,7 +883,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Spazio Argento",
       "url": "https://www.lazioeuropa.it/bandi/spazio-argento/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -997,7 +937,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Nuove iscrizioni all’Elenco regionale delle Scuole d’arte (2026)",
       "url": "https://www.lazioeuropa.it/bandi/nuove-iscrizioni-allelenco-regionale-delle-scuole-darte-2026/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-13",
         "stato": "confermato",
@@ -1048,7 +988,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1101,7 +1041,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Valore Artigiano 2026",
       "url": "https://www.lazioeuropa.it/bandi/valore-artigiano-2026/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2026-11-16",
         "stato": "confermato",
@@ -1152,7 +1092,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1203,7 +1143,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1254,7 +1194,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2027-02-26",
         "stato": "confermato",
@@ -1305,7 +1245,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1356,7 +1296,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1407,7 +1347,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1458,7 +1398,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1509,7 +1449,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1560,7 +1500,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1611,7 +1551,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progettazione di Piani Formativi per integrazione e potenziamento degli interventi del PAR GOL (GOL 4)",
       "url": "https://www.lazioeuropa.it/bandi/progettazione-di-piani-formativi-per-integrazione-e-potenziamento-degli-interventi-del-par-gol-gol-4/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1662,7 +1602,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-11-11",
+      "data_lettura": "2026-11-12",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
