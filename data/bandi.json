@@ -1,12 +1,12 @@
 {
-  "generato": "2026-11-18",
+  "generato": "2026-11-19",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Luci del Varietà – Cinema, territorio e giovani",
       "url": "https://www.lazioeuropa.it/?post_type=bandi&p=22014",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-11-20",
         "stato": "confermato",
@@ -56,7 +56,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -107,7 +107,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -158,7 +158,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -209,7 +209,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-04-30",
         "stato": "confermato",
@@ -260,7 +260,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-11-27",
         "stato": "confermato",
@@ -311,7 +311,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -362,7 +362,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -411,9 +411,63 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Filiere Tecnologiche",
+      "url": "https://www.lazioinnova.it/bandi/filiere-tecnologiche/",
+      "data_lettura": "2026-11-19",
+      "scadenza": {
+        "valore": "2027-03-02",
+        "stato": "confermato",
+        "citazione": "2:00 del 1° febbraio alle ore 17:00 del 2 marzo 2027",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "3 milioni di euro, 20 milioni di euro",
+        "stato": "da_verificare",
+        "citazione": "’anticipo. A ciascun Progetto può essere concesso un contributo non superiore a 3 milioni di euro",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": "Solo imprese (probabile)",
+        "stato": "da_verificare",
+        "citazione": "Beneficiari I Beneficiari sono le Imprese e gli OdR che realizzano i Progetti ammessi e impiegano proprio personale presso sedi operative ubicate nel Lazio per almeno l’80% dell’impegno complessivo di personale previsto dal Progetto.",
+        "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
+      },
+      "testo_fonte": "Prossima Apertura giovedì 19 Novembre 2026 Documentazione Determinazione n. G16164 del 17 novembre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Modulistica in formato editabile Mod. 1 - Manifestazione di interesse da parte del Soggetto Cardine 55 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Specifico 1.1 – 26.820.917,14 euro Sviluppare e rafforzare le capacità di ricerca e di innovazione e l’introduzione di tecnologie avanzate Obiettivi Specifici 1.6 – 19.043.497,00 euro – e 2.9 – 9.125.585,86 euro Sostenere gli investimenti che contribuiscono agli obiettivi STEP (piattaforma per le tecnologie strategiche per l’Europa di cui al Reg. (UE) 2024/795) Obiettivi La Regione intende sostenere lo sviluppo e il consolidamento di filiere strategiche negli ambiti tecnologici individuati dalle Aree di Specializzazione (AdS) della Strategia regionale di specializzazione intelligente (RIS3) e nelle tecnologie e negli ambiti critici per l’Unione individuati dall’articolo 2 del Reg. (UE) 2024/795, istitutivo della Piattaforma per le tecnologie strategiche per l’Europa (STEP), come modificato dal Reg. (UE) 2025/2653. L’obiettivo è sostenere la competitività delle imprese laziali, in particolare delle PMI, favorendone la capacità di operare in contesti internazionali alla frontiera dell’innovazione. La modalità attuativa dell’intervento prevede l’individuazione di soggetti che svolgano un ruolo di coordinamento di più Progetti di Sviluppo Sperimentale (Insieme di Progetti). Tali soggetti sono definiti “Soggetti Cardine” e possono essere Grandi Imprese o Organismi di Ricerca (OdR) del Lazio in grado di raccogliere e soddisfare le esigenze di innovazione delle imprese relative a una o più AdS o a una o più tecnologie o ambiti critici STEP. Ciascun Soggetto Cardine, inteso come entità legale, dovrà sviluppare e raccogliere un solo Insieme di Progetti. I Progetti dovranno essere realizzati da PMI del Lazio, individualmente oppure in effettiva collaborazione con il Soggetto Cardine ed eventuali altre Imprese o OdR. Il Soggetto Cardine: deve assumere il ruolo di interlocutore tecnico unico nei confronti di Lazio Innova e della Regione Lazio per tutti i Progetti del proprio Insieme. A tal fine, deve individuare e mettere a disposizione un Coach, ossia la figura incaricata di seguire tutti i Progetti dell’Insieme; può inoltre assumere il ruolo di interlocutore legale unico (Mandatario) nei confronti di Lazio Innova e della Regione Lazio per tutti i Progetti del proprio Insieme, con le conseguenti prerogative, anche di carattere finanziario. I soggetti interessati a svolgere la funzione di Soggetto Cardine devono formalmente rappresentare alla Regione le modalità con cui intendono raccogliere le proposte progettuali entro il 9 dicembre 2026, secondo un format prestabilito. La Regione pubblica tali modalità nella pagina dedicata all’Avviso, al solo fine di consentire la partecipazione più ampia e informata dei soggetti potenzialmente interessati a realizzare Progetti. Ciascun Insieme di Progetti deve: comprendere almeno 4 Progetti valutati idonei; prevedere, per il totale dei Progetti valutati idonei, Spese Ammissibili pari ad almeno 5 milioni di euro. Progetti ammissibili I Progetti di Sviluppo Sperimentale ammissibili devono riguardare tecnologie che abbiano già raggiunto almeno il TRL 4 e che siano valutate in grado di completare il TRL 7. Devono inoltre essere conclusi e rendicontati entro 18 mesi dalla data di concessione del contributo. Ciascun Progetto deve rientrare in una delle seguenti due tipologie: Progetti realizzati individualmente da PMI del Lazio: devono avere Spese Ammissibili almeno pari a 200.000,00 euro; Progetti realizzati in effettiva collaborazione tra PMI, il Soggetto Cardine ed eventualmente un massimo di 2 altri soggetti (Imprese o OdR). Le Spese Ammissibili di tali Progetti: devono essere almeno pari a 400.000,00 euro; devono essere sostenute dalle PMI nella misura minima del 30%; Il Soggetto Cardine e gli OdR non possono sostenere, direttamente o indirettamente, più del 30% delle Spese Ammissibili di ciascun Progetto. Contributo A sostegno dei Progetti è riconosciuto un contributo a fondo perduto. Per le imprese, il contributo è calcolato applicando l’intensità di aiuto prevista dall’art. 25 del Reg. (UE) 651/2014; per gli Organismi di Ricerca è prevista una percentuale di sostegno dell’80%, come indicato nella seguente tabella: Tipologia di Progetto Imprese Organismi di Ricerca Micro e Piccole Medie Grandi Sviluppo Sperimentale individuale (*) 45% 35% 25% (**) 80% (**) Sviluppo Sperimentale in Effettiva Collaborazione 60% 50% 40% 80% (*) Si applica, inoltre, la maggiorazione del 5% prevista dall’art. 25 del Reg. (UE) 651/2014 per le imprese ubicate nelle Zone Assistite. (**) In caso di Progetti realizzati dalle PMI individualmente, il contributo per le Grandi Imprese e gli Organismi di Ricerca riguarda solo le spese sostenute in qualità di Soggetti Cardine per il Coach ed eventualmente per il premio della fideiussione a garanzia dell’anticipo. A ciascun Progetto può essere concesso un contributo non superiore a 3 milioni di euro; per ciascun Insieme di Progetti, l’importo complessivo dei contributi concessi non può superare 20 milioni di euro. Spese Ammissibili Sono ammissibili le seguenti Spese da rendicontare: i costi per il personale direttamente impegnato nel progetto (costi orari standard); le spese per l’acquisto di brevetti e di know-how, per la ricerca contrattuale e per altri servizi utilizzati esclusivamente per il progetto; la quota direttamente imputabile al progetto del costo (ammortamento, noleggio o leasing) per l’utilizzo di beni durevoli, quali strumentazione, attrezzature e beni immobili; il costo sostenuto dal Soggetto Cardine per il Coach; il Soggetto Cardine è pertanto beneficiario del contributo per tutti i Progetti del proprio Insieme; il premio per la Fideiussione. Sono inoltre riconosciute spese forfettarie, nella misura del 20% dei costi da rendicontare di cui alle lettere a, b e c (art. 25 (3) (e) del Reg. UE 651/2014), per le altre spese e gli altri costi di esercizio, compresi i costi dei materiali, delle forniture e di prodotti analoghi direttamente imputabili all’attività, nonché i costi generali, amministrativi e indiretti. Tra i costi da rendicontare non sono ammissibili le spese sostenute nei confronti del Soggetto Cardine per lo svolgimento dei compiti di interlocutore con Lazio Innova e la Regione Lazio, poiché tali costi si intendono inclusi nei costi forfettari. Beneficiari I Beneficiari sono le Imprese e gli OdR che realizzano i Progetti ammessi e impiegano proprio personale presso sedi operative ubicate nel Lazio per almeno l’80% dell’impegno complessivo di personale previsto dal Progetto. Il Soggetto Cardine che non partecipa ad alcun Progetto, sostenendo esclusivamente le spese per il Coach ed eventualmente per il premio della Fideiussione, può anche non avere alcuna sede operativa nel Lazio. Se il Soggetto Cardine assume il ruolo di Mandatario per tutti i Progetti del proprio Insieme, esso deve disporre di una capacità finanziaria proporzionata all’importo complessivo di tutti i Progetti dell’Insieme. In mancanza il Mandatario è la PMI che realizza il singolo Progetto in forma individuale o uno dei soggetti che realizza il Progetto in effettiva collaborazione, e deve disporre di una capacità finanziaria proporzionata all’importo del singolo Progetto. Tutti i Beneficiari devono inoltre possedere i requisiti previsti per contrarre con la Pubblica Amministrazione. Presentazione delle domande Le domande devono essere presentate utilizzando la piattaforma GeCoWEB Plus dalle ore 12:00 del 1° febbraio 2027 alle ore 17:00 del 2 marzo 2027. Il Formulario è disponibile on line a partire dalle ore 12:00 del 7 gennaio 2027. Modalità di selezione La selezione avviene mediante una procedura a graduatoria a seguito della presentazione dei singoli Progetti. La graduatoria ordin",
+      "rilevanza": {
+        "punteggio": 8,
+        "stato": "parole_chiave",
+        "motivazione": "Bando regionale che parla di ricerca, innovazione o tecnologia nel titolo, senza i temi specifici del gruppo: da valutare a mano (spesso rivolto a imprese, con università o organismi di ricerca come partner).",
+        "temi": [
+          "ricerca_innovazione_regionale"
+        ],
+        "evidenze": [
+          "Filiere Tecnologiche."
+        ],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-19"
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Internazionalizzazione Pmi 2027",
       "url": "https://www.lazioinnova.it/bandi/voucher-internazionalizzazione-pmi-2027/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-01-21",
         "stato": "confermato",
@@ -465,7 +519,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti con provvista BEI e contributo in conto interessi",
       "url": "https://www.lazioinnova.it/bandi/finanziamenti-con-provvista-bei-e-contributo-in-conto-interessi/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2028-10-03",
         "stato": "confermato",
@@ -518,7 +572,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-11-10",
         "stato": "da_verificare",
@@ -569,7 +623,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -618,68 +672,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "ESA BIC Lazio, seconda finestra 2026",
-      "url": "https://www.lazioinnova.it/innovazione-aperta/iniziativa/esa-bic-lazio/",
-      "data_lettura": "2026-11-18",
-      "scadenza": {
-        "valore": "2026-11-18",
-        "stato": "confermato",
-        "citazione": "da finestra 2026 : candidature entro il 18 novembre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": "60.000 euro",
-        "stato": "da_verificare",
-        "citazione": ", assistenza tecnica e una sede. L'incentivo può ammontare fino a un massimo di 60.000 euro",
-        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "testo_fonte": "ESA BIC Lazio Applications until: November 18, 2026 at 11:59 PM Lazio Innova is launching the new ESA BIC call for applications . The programme, promoted and financed by Italian Space Agency , European Space Agency Commercialization Gateway and Lazio Region , aims to support teams and startups (established for not more five years) in the development of Space Solutions and Businesses . Teams and startups that intend either to apply Space technologies in other sectors (downstream) or propose terrestrial technologies in the Space sector (upstream) are invited to submit their projetc by the DEADLINE specified below . The programme is co-financed under the “Active Space Network Enhancement Project – PR Lazio ERDF 2021-2027 – Specific Objective 1.3 “. Lazio Innova lancia la nuova call per il programma ESA BIC . Il programma, promosso e finanziato dall’ Agenzia Spaziale Italiana , dal dipartimento Commercialization Gateway dell’ Agenzia Spaziale Europea e dalla Regione Lazio , si pone l’obiettivo di aiutare team e startup (costituite da non oltre cinque anni) nello sviluppo di soluzioni e di aziende nell’ambito Spazio . I team e le startup che intendono applicare tecnologie di derivazione spaziale in altri settori (downstream) o proporre tecnologie terrestri in ambito spaziale (upstream) sono invitate a candidare i loro progetti entro la scadenza specificata sotto. Il programma è cofinanziato nell’ambito del “ Progetto Potenziamento rete Spazio Attivo – PR Lazio FESR 2021-2027 – Obiettivo Specifico 1.3 “. Discover ESA BIC Lazio Community Scopri la Community delle Imprese ESA BIC Lazio Who can apply Startups Established for no more than five years. Costituite da non più di 5 anni. Spinoffs University spinoffs. Spinoff universitari. Professionals Researchers, university professors and technical staff of research organizations or universities (public and private). Ricercatori, professori universitari e staff tecnico proveniente da organizzazioni di ricerca o università (pubbliche e private). Teams Informal teams, formed by at least 3 members. Team informali, costituiti da almeno tre membri. Target The project proposals should demonstrate valid Space connections either applying Space systems or Space technologies in a non-space sector (downstream applications) or exploiting new technologies in the Space domain (upstream solutions). More details are available in the downloadable document “ Space Connection Assessment ”. Le proposte devono dimostrare valide ed effettive connessioni con il settore Spazio o attraverso applicazioni che utilizzino sistemi o tecnologie spaziali in ambito non spaziale (downstream) o applicando nuove tecnologie in ambito Spazio (upstream) . Maggiori dettagli sulle applicazioni possibili sono disponibili nel documento “ Space Connection Assessment ”. Focus Possible fields of applications: Aviation Education and Training Energy Environment Finance Food and Agriculture Health In space services Infrastructures and smart cities Maritime and Aquatic Materials Media- Culture and sports Safety and security Satellites Space Exploration Space Transportation Tourism Transport and Logistics Possibili ambiti di applicazione: Aviazione Educazione e formazione Energia Ambiente Finanza Food e agricoltura Salute Servizi nello spazio Infrastrutture e smart cities Economia del mare Materiali Media, cultura e sport Sicurezza Satelliti Esplorazione dello spazio Turismo Trasporti e logistica Apply now Phases Phase 1 Submission of proposal - Invio delle candidature Submit your proposal within the deadline filling the form and uploading the required documents. Candida la tua proposta entro la scadenza completando il form di registrazione e allegando tutti i documenti richiesti. Phase 2 Evaluation of proposals - Valutazione delle proposte presentate For every application compliant with the formal requirements, applicants will be invited to hold a presentation to the ESA BIC Lazio evaluation board, composed by representatives of ESA BIC Lazio from Lazio Innova, ESA, ASI and other experts. The evaluation will typically take place a few weeks after the submission deadline. Per ogni domanda conforme ai requisiti formali, i candidati saranno invitati a tenere una presentazione al comitato di valutazione di ESA BIC Lazio, composto da rappresentanti di ESA BIC Lazio di Lazio Innova, ESA, ASI e altri esperti. La valutazione avverrà di norma alcune settimane dopo la scadenza della presentazione. Phase 3 ESA BIC Lazio Incubation Program ESA BIC Lazio offers to support projects and ideas for business incubation by providing funding, business support, technical assistance and office accommodation. The incentive will amount up to a maximum of EUR 60,000 costs incurred for purpose of prototyping, R&D activities, product development and IPR. ESA BIC Lazio sostiene progetti e idee di incubazione d'impresa fornendo finanziamenti, supporto alle imprese, assistenza tecnica e una sede. L'incentivo può ammontare fino a un massimo di 60.000 euro per i costi sostenuti per la prototipazione, le attività di R&S, lo sviluppo del prodotto e i diritti di proprietà intellettuale. What we offer Incubation programme 24 months incubation programme for the development of the business idea at the Spazio Attivo Roma Tecnopolo - Lazio Innova. Un programma di incubazione di 24 mesi per lo sviluppo dell’idea progettuale presso lo Spazio Attivo Roma Tecnopolo – Lazio Innova. Funding EUR 60.000 for prototyping, product/service development and intellectual property activities. 60.000 € per la prototipazione, lo sviluppo del prodotto servizio e le attività di protezione della proprietà intellettuale. Mentorship Mentorship from Lazio Innova tutors. Mentorship dai tutor di Lazio Innova. Technical support Technical support from qualified experts. Supporto tecnico da esperti qualificati. European network Access to a European network of start-ups and partners. Accesso al network europeo di startup e partners. How to Apply Please download the required application documents from the “ Documents & Links ” box on this page. Once all documents have been completed, applications must be submitted exclusively through the official ESA BIC Italy platform ( www.esabic-italy.it ), by clicking on the “ Apply Now ” button. Scaricare i documenti richiesti per la candidatura dal riquadro “ Documents & Links ” di questa pagina. Una volta compilata e completata la documentazione, la candidatura dovrà essere inviata esclusivamente tramite la piattaforma ufficiale ESA BIC Italy ( www.esabic-italy.it ), cliccando sul pulsante “ Apply Now ” Apply now Partners Documents & Links Permanent Open Call Cover Letter and Requirement Checklist Business Plan Incubation Proposal Space Connection Assessment Innovation Readiness Level Tables & Figures ESA BIC Lazio Incubation Contract_Template Draft Informativa sul Trattamento dei dati personali Dichiarazione di Presa Visione e Consenso al Trattamento dei Dati Personali FAQ 4 dicembre 2024 Contacts esabic@lazioinnova.it",
-      "rilevanza": {
-        "punteggio": 8,
-        "stato": "parole_chiave",
-        "motivazione": "Bando regionale che parla di ricerca, innovazione o tecnologia nel titolo, senza i temi specifici del gruppo: da valutare a mano (spesso rivolto a imprese, con università o organismi di ricerca come partner).",
-        "temi": [
-          "ricerca_innovazione_regionale"
-        ],
-        "evidenze": [
-          "ESA BIC Lazio, seconda finestra 2026."
-        ],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-31",
-        "ambiti": [
-          "agrifood",
-          "energia_mobilita",
-          "industria_elettronica"
-        ],
-        "cancro": false,
-        "linee": [],
-        "ruolo": "supporto",
-        "contributi": []
-      },
-      "prima_visto": "2026-10-29",
-      "iniziale": true
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -730,7 +725,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -781,7 +776,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -832,9 +827,59 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Contributi per il funzionamento degli Istituti culturali iscritti all’albo regionale (ciclo 2026-2027)",
+      "url": "https://www.lazioeuropa.it/bandi/contributi-per-il-funzionamento-degli-istituti-culturali-iscritti-allalbo-regionale-ciclo-2026-2027/",
+      "data_lettura": "2026-11-19",
+      "scadenza": {
+        "valore": "2026-11-25",
+        "stato": "confermato",
+        "citazione": ": domande online entro le ore 16:00 del 25 novembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA Contributi per il funzionamento degli Istituti culturali iscritti all’albo regionale (ciclo 2026-2027) Aperto Bandi Regionali In attuazione del Piano annuale degli interventi 2026 e delle “Linee guida per il sostegno ai servizi culturali regionali” recentemente approvate dalla Giunta regionale, è stato pubblicato l’Avviso finalizzato all’assegnazione a favore degli Istituti culturali iscritti all’albo regionale di contributi per il funzionamento – Ciclo 2026-2027. I contributi, di parte corrente e parte capitale, sono dedicati agli Istituti che presenteranno domanda per il Ciclo 2026 – 2027. Possono presentare istanza, secondo le modalità definite dall’ Avviso pubblico dedicato, gli Istituti culturali iscritti all’albo regionale indicati all’art. 3. Scaduti i termini per la presentazione delle istanze e a conclusione dell’istruttoria delle medesime, la Direzione comunica a ciascun beneficiario l’importo spettante ai sensi degli artt. 6 e 7 dell’Avviso, acquisisce l’atto d’obbligo e dispone con successiva determinazione la concessione e l’impegno di spesa a favore dei singoli beneficiari. L’istanza è presentata dalle ore 8:00 del 18 novembre 2026 alle ore 16:00 del 25 novembre 2026, termine perentorio, con firma digitale del legale rappresentante, tramite la piattaforma regionale per la presentazione delle domande relative a bandi e avvisi https://bandiavvisi.regione.lazio.it . Documentazione di riferimento",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-19"
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Presepi 2026",
       "url": "https://www.lazioeuropa.it/bandi/presepi-2026/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-11-30",
         "stato": "confermato",
@@ -884,7 +929,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo alle famiglie degli alunni e degli studenti con disabilità delle scuole paritarie (a.s. 2025/26)",
       "url": "https://www.lazioeuropa.it/bandi/contributo-alle-famiglie-degli-alunni-e-degli-studenti-con-disabilita-delle-scuole-paritarie-a-s-2025-26/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-11-23",
         "stato": "confermato",
@@ -935,7 +980,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -988,7 +1033,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1039,7 +1084,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1090,7 +1135,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2027-02-26",
         "stato": "confermato",
@@ -1141,7 +1186,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1192,7 +1237,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1243,7 +1288,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1294,7 +1339,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1345,7 +1390,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1396,7 +1441,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1447,7 +1492,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-11-18",
+      "data_lettura": "2026-11-19",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
