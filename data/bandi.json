@@ -1,12 +1,12 @@
 {
-  "generato": "2026-11-26",
+  "generato": "2026-11-27",
   "bandi": [
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Individuazione di soggetti interessati a erogare interventi di formazione nell’ambito di contratti di apprendistato professionalizzante – III edizione",
       "url": "https://www.lazioeuropa.it/bandi/individuazione-di-soggetti-interessati-a-erogare-interventi-di-formazione-nellambito-di-contratti-di-apprendistato-professionalizzante-iii-edizione/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -56,7 +56,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione degli studenti a viaggi di istruzione e a eventi di premiazione per la valorizzazione delle eccellenze (a. s. 2026/2027 e 2027/2028)",
       "url": "https://www.lazioeuropa.it/bandi/partecipazione-degli-studenti-a-viaggi-di-istruzione-e-a-eventi-di-premiazione-per-la-valorizzazione-delle-eccellenze-a-s-2026-2027-e-2027-2028/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-11-03",
         "stato": "confermato",
@@ -107,7 +107,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostegno al Servizio di psicologia scolastica e agli sportelli di ascolto nelle istituzioni scolastiche e formative",
       "url": "https://www.lazioeuropa.it/bandi/sostegno-al-servizio-di-psicologia-scolastica-e-agli-sportelli-di-ascolto-nelle-istituzioni-scolastiche-e-formative/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-01",
         "stato": "confermato",
@@ -158,7 +158,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Adesione e registrazione di soggetti erogatori privati di servizi educativi per la prima infanzia",
       "url": "https://www.lazioeuropa.it/bandi/adesione-e-registrazione-di-soggetti-erogatori-privati-di-servizi-educativi-per-la-prima-infanzia/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -209,7 +209,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-salgo/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-04-30",
         "stato": "confermato",
@@ -260,11 +260,11 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Bonus occupazionale RI-SALGO",
       "url": "https://www.lazioeuropa.it/bandi/bonus-occupazionale-ri-salgo/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
-        "valore": "2026-11-27",
+        "valore": "2027-04-30",
         "stato": "confermato",
-        "citazione": " online su SiGeM entro le ore 12:00 del 27 novembre 2026",
+        "citazione": ", scadenza prorogata alle ore 17:00 del 30 aprile 2027",
         "motivo": null
       },
       "durata": {
@@ -311,7 +311,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Rafforzamento delle capacità manageriali delle imprese",
       "url": "https://www.lazioeuropa.it/bandi/rafforzamento-delle-capacita-manageriali-delle-imprese/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -362,7 +362,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Acchiappa Talenti",
       "url": "https://www.lazioeuropa.it/bandi/acchiappa-talenti-incentivi-alle-imprese-per-linserimento-lavorativo-di-giovani-e-adulti/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-22",
         "stato": "confermato",
@@ -413,7 +413,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Filiere Tecnologiche",
       "url": "https://www.lazioinnova.it/bandi/filiere-tecnologiche/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-03-02",
         "stato": "confermato",
@@ -467,7 +467,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Partecipazione al Consumer Electronics Show 2027",
       "url": "https://www.lazioinnova.it/laziointernational/2026/11/18/consumer-electronics-show-2027/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-11-30",
         "stato": "confermato",
@@ -532,7 +532,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Voucher Internazionalizzazione Pmi 2027",
       "url": "https://www.lazioinnova.it/bandi/voucher-internazionalizzazione-pmi-2027/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-01-21",
         "stato": "confermato",
@@ -557,7 +557,7 @@
         "citazione": "Progetti e Contributi Ciascuna PMI Beneficiaria deve partecipare alle Fiere Internazionali B2B oggetto del contributo con un proprio spazio espositivo fisico, in forza di un contratto diretto con il soggetto organizzatore della Fiera o, nel",
         "motivo": "Il bando sembra riservato a imprese: probabile esclusione delle università"
       },
-      "testo_fonte": "Prossima Apertura giovedì 12 Novembre 2026 Documentazione Determinazione n. G15683 del 10 novembre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Griglia punteggi Uso di GeCoWEB Plus e documenti per la rendicontazione 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 3 – Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi Obiettivi La Regione Lazio, attraverso il presente Avviso, sostiene la Partecipazione a Fiere Internazionali Business to Business (B2B) delle PMI regionali al fine di ampliarne l’accesso ai mercati esteri e favorirne i processi di internazionalizzazione. Progetti e Contributi Ciascuna PMI Beneficiaria deve partecipare alle Fiere Internazionali B2B oggetto del contributo con un proprio spazio espositivo fisico, in forza di un contratto diretto con il soggetto organizzatore della Fiera o, nel caso di Fiere che si svolgono in uno Stato Estero, con agenzie locali specializzate. Non è ammessa la partecipazione tramite spazi espositivi collettivi, anche se in parte riservati alla PMI Beneficiaria, o tramite intermediari italiani. A ciascuna PMI può essere finanziato un unico Progetto, in forma singola, per la Partecipazione fino ad un massimo di tre Fiere Internazionali B2B, che devono tutte iniziare e concludersi nell’anno 2027. La Partecipazione alle Fiere Internazionali B2B oggetto del contributo deve promuovere l’attività imprenditoriale svolta della PMI Beneficiaria in una o più Sedi Operative localizzate nel territorio del Lazio e non riguardare attività imprenditoriali che rientrino nelle Attività Escluse. Il contributo è a fondo perduto (sovvenzione diretta in denaro) ed è concesso a titolo di De Minimis. Il contributo concedibile è pari ad euro 15.240,00 euro per ciascuna singola Fiera Internazionale Business to Business a cui la PMI Beneficiaria partecipa. Tale importo totale e omnicomprensivo è determinato dalla somma: dell’importo di 12.700 euro quale somma forfettaria per la partecipazione alla fiera, determinata sulla base della metodologia adottata dall’Autorità di Gestione e approvata dalla Commissione UE con Decisione C(2023) 5956 final del 30/8/2023, ai sensi del comma 1, lettera c, dell’art. 53 del RDC; del 20% della somma forfettaria di cui alla lettera a), calcolata automaticamente dalla piattaforma GeCoWEB Plus ai sensi del comma 1 dell’art. 55 del RDC (tasso forfettario), per tenere conto dei costi diretti del personale. Beneficiari L’intervento è destinato alle PMI iscritte al Registro delle imprese italiano e con una sede operativa nel Lazio. Sono escluse le imprese prive dei requisiti generali di ammissibilità. Presentazione delle domande Le domande devono essere presentate attraverso la piattaforma GeCoWEB Plus di Lazio Innova. Il formulario è disponibile online dalle ore 12.00 del 3 dicembre 2026. Le domande devono essere inviate dalle ore 12.00 del 10 dicembre 2026 ed entro le ore 17.00 del 21 gennaio 2027. Procedura di selezione Le domande, da presentarsi tramite GeCoWEB Plus, sono avviate ad istruttoria sulla base della graduatoria definita dai punteggi dichiarati dai beneficiari in domanda, in ordine decrescente, sulla base dei seguenti criteri oggettivi (modalità alternativa al “click day”): 1. dimensione internazionale (rapporto tra fatturato estero e fatturato totale) 2. contributi ottenuti sui precedenti Avvisi “Voucher Internazionalizzazione PMI” 3. numero di addetti 4. articolazione del progetto 5. impresa giovanile 6. impresa impegnata nella parità di genere 7. impresa impegnata nella sostenibilità ambientale Modalità di erogazione Il contributo sarà erogato a saldo, in un’unica soluzione, previa richiesta di erogazione da presentarsi al massimo entro il termine di 30 giorni dalla conclusione della ultima Fiera approvata. Se tale conclusione è antecedente la Data di Concessione, il termine per la richiesta di erogazione è di 30 giorni dalla Data di Concessione. La richiesta di erogazione è prodotta da GeCoWEB Plus, dopo aver caricato sulla piattaforma la documentazione di rimborso di seguito indicata: la DSAN attestante la partecipazione alla o alle Fiere Internazionali B2B approvate e l’assenza di altri finanziamenti pubblici; il contratto tra la PMI Beneficiaria e il soggetto organizzatore della Fiera avente ad oggetto la partecipazione di quest’ultima con un proprio spazio espositivo fisico. La partecipazione a Fiere che si svolgono in uno Stato Estero può avvenire tramite una agenzia locale specializzata, nel qual caso oltre al contratto deve essere fornito il company profile di tale agenzia; una relazione descrittiva della partecipazione alla o alle Fiere; la documentazione fotografica o video relativa allo spazio espositivo e al materiale promozionale distribuito. OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati QUI . Informazioni Siti www.lazioinnova.it e www.lazioeuropa.it e-mail infobandi@lazioinnova.it Numero verde 800 98 97 96",
+      "testo_fonte": "Prossima Apertura giovedì 12 Novembre 2026 Documentazione Determinazione n. G15683 del 10 novembre 2026 - Approvazione avviso pubblico Avviso pubblico Modulistica e istruzioni Griglia punteggi Uso di GeCoWEB Plus e documenti per la rendicontazione Determinazione n. G16461 del 23 novembre 2026 - Modifica e integrazione dell'Avviso Pubblico 15 milioni di euro Programma FESR Lazio 2021-2027 Obiettivo Strategico 1 – Europa più competitiva e intelligente Obiettivo Specifico 3 – Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi Obiettivi La Regione Lazio, attraverso il presente Avviso, sostiene la Partecipazione a Fiere Internazionali Business to Business (B2B) delle PMI regionali al fine di ampliarne l’accesso ai mercati esteri e favorirne i processi di internazionalizzazione. Progetti e Contributi Ciascuna PMI Beneficiaria deve partecipare alle Fiere Internazionali B2B oggetto del contributo con un proprio spazio espositivo fisico, in forza di un contratto diretto con il soggetto organizzatore della Fiera o, nel caso di Fiere che si svolgono in uno Stato Estero, con agenzie locali specializzate. Non è ammessa la partecipazione tramite spazi espositivi collettivi, anche se in parte riservati alla PMI Beneficiaria, o tramite intermediari italiani. A ciascuna PMI può essere finanziato un unico Progetto, in forma singola, per la Partecipazione fino ad un massimo di tre Fiere Internazionali B2B, che devono tutte iniziare e concludersi nell’anno 2027. La Partecipazione alle Fiere Internazionali B2B oggetto del contributo deve promuovere l’attività imprenditoriale svolta della PMI Beneficiaria in una o più Sedi Operative localizzate nel territorio del Lazio e non riguardare attività imprenditoriali che rientrino nelle Attività Escluse. Il contributo è a fondo perduto (sovvenzione diretta in denaro) ed è concesso a titolo di De Minimis. Il contributo concedibile è pari ad euro 15.240,00 euro per ciascuna singola Fiera Internazionale Business to Business a cui la PMI Beneficiaria partecipa. Tale importo totale e omnicomprensivo è determinato dalla somma: dell’importo di 12.700 euro quale somma forfettaria per la partecipazione alla fiera, determinata sulla base della metodologia adottata dall’Autorità di Gestione e approvata dalla Commissione UE con Decisione C(2023) 5956 final del 30/8/2023, ai sensi del comma 1, lettera c, dell’art. 53 del RDC; del 20% della somma forfettaria di cui alla lettera a), calcolata automaticamente dalla piattaforma GeCoWEB Plus ai sensi del comma 1 dell’art. 55 del RDC (tasso forfettario), per tenere conto dei costi diretti del personale. Beneficiari L’intervento è destinato alle PMI iscritte al Registro delle imprese italiano e con una sede operativa nel Lazio. Sono escluse le imprese prive dei requisiti generali di ammissibilità. Presentazione delle domande Le domande devono essere presentate attraverso la piattaforma GeCoWEB Plus di Lazio Innova. Il formulario è disponibile online dalle ore 12.00 del 3 dicembre 2026. Le domande devono essere inviate dalle ore 12.00 del 10 dicembre 2026 ed entro le ore 17.00 del 21 gennaio 2027. Procedura di selezione Le domande, da presentarsi tramite GeCoWEB Plus, sono avviate ad istruttoria sulla base della graduatoria definita dai punteggi dichiarati dai beneficiari in domanda, in ordine decrescente, sulla base dei seguenti criteri oggettivi (modalità alternativa al “click day”): 1. dimensione internazionale (rapporto tra fatturato estero e fatturato totale) 2. contributi ottenuti sui precedenti Avvisi “Voucher Internazionalizzazione PMI” 3. numero di addetti 4. articolazione del progetto 5. impresa giovanile 6. impresa impegnata nella parità di genere 7. impresa impegnata nella sostenibilità ambientale Modalità di erogazione Il contributo sarà erogato a saldo, in un’unica soluzione, previa richiesta di erogazione da presentarsi al massimo entro il termine di 30 giorni dalla conclusione della ultima Fiera approvata. Se tale conclusione è antecedente la Data di Concessione, il termine per la richiesta di erogazione è di 30 giorni dalla Data di Concessione. La richiesta di erogazione è prodotta da GeCoWEB Plus, dopo aver caricato sulla piattaforma la documentazione di rimborso di seguito indicata: la DSAN attestante la partecipazione alla o alle Fiere Internazionali B2B approvate e l’assenza di altri finanziamenti pubblici; il contratto tra la PMI Beneficiaria e il soggetto organizzatore della Fiera avente ad oggetto la partecipazione di quest’ultima con un proprio spazio espositivo fisico. La partecipazione a Fiere che si svolgono in uno Stato Estero può avvenire tramite una agenzia locale specializzata, nel qual caso oltre al contratto deve essere fornito il company profile di tale agenzia; una relazione descrittiva della partecipazione alla o alle Fiere; la documentazione fotografica o video relativa allo spazio espositivo e al materiale promozionale distribuito. OBBLIGHI DI COMUNICAZIONE I beneficiari devono dare pubblicità ed evidenza al sostegno ricevuto dai fondi (nel caso specifico, dal FESR), come stabilito dal Regolamento (UE) n. 2021/1060. I loghi da apporre, il kit di applicazione e il Brand Book contenente le Linee guida per il loro impiego , sono pubblicati QUI . Informazioni Siti www.lazioinnova.it e www.lazioeuropa.it e-mail infobandi@lazioinnova.it Numero verde 800 98 97 96",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -584,7 +584,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti con provvista BEI e contributo in conto interessi",
       "url": "https://www.lazioinnova.it/bandi/finanziamenti-con-provvista-bei-e-contributo-in-conto-interessi/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2028-10-03",
         "stato": "confermato",
@@ -637,12 +637,12 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Giovani Attività Professionali 2026",
       "url": "https://www.lazioeuropa.it/bandi/giovani-attivita-professionali-2026/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-11-10",
-        "stato": "da_verificare",
-        "citazione": "12 del 10 novembre 2026 alle ore 17 del 10 novembre 2027",
-        "motivo": "Più date nel testo: verificare quale è la chiusura"
+        "stato": "confermato",
+        "citazione": "nde su GeCoWEB Plus entro le ore 17 del 10 novembre 2027",
+        "motivo": null
       },
       "durata": {
         "valore": null,
@@ -688,7 +688,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Progetto ABC – Atelier dell’Immaginario",
       "url": "https://www.lazioinnova.it/bandi/atelier-dellimmaginario/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-03",
         "stato": "confermato",
@@ -739,7 +739,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Invest in Lazio – Business Opportunities",
       "url": "https://www.lazioeuropa.it/bandi/business-opportunities-manifestazione-dinteresse/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-28",
         "stato": "confermato",
@@ -790,7 +790,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-09-30",
         "stato": "confermato",
@@ -841,7 +841,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Investimenti nelle aziende agricole per la diversificazione in attività non agricole",
       "url": "https://www.lazioeuropa.it/bandi/investimenti-nelle-aziende-agricole-per-la-diversificazione-in-attivita-non-agricole/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-02-05",
         "stato": "confermato",
@@ -892,59 +892,9 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
-      "titolo": "Contributi per il funzionamento degli Istituti culturali iscritti all’albo regionale (ciclo 2026-2027)",
-      "url": "https://www.lazioeuropa.it/bandi/contributi-per-il-funzionamento-degli-istituti-culturali-iscritti-allalbo-regionale-ciclo-2026-2027/",
-      "data_lettura": "2026-11-26",
-      "scadenza": {
-        "valore": "2026-11-25",
-        "stato": "confermato",
-        "citazione": ": domande online entro le ore 16:00 del 25 novembre 2026",
-        "motivo": null
-      },
-      "durata": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": "Durata non trovata nella scheda"
-      },
-      "budget": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "ammissibilita": {
-        "valore": null,
-        "stato": "non_presente",
-        "citazione": null,
-        "motivo": null
-      },
-      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA Contributi per il funzionamento degli Istituti culturali iscritti all’albo regionale (ciclo 2026-2027) Aperto Bandi Regionali In attuazione del Piano annuale degli interventi 2026 e delle “Linee guida per il sostegno ai servizi culturali regionali” recentemente approvate dalla Giunta regionale, è stato pubblicato l’Avviso finalizzato all’assegnazione a favore degli Istituti culturali iscritti all’albo regionale di contributi per il funzionamento – Ciclo 2026-2027. I contributi, di parte corrente e parte capitale, sono dedicati agli Istituti che presenteranno domanda per il Ciclo 2026 – 2027. Possono presentare istanza, secondo le modalità definite dall’ Avviso pubblico dedicato, gli Istituti culturali iscritti all’albo regionale indicati all’art. 3. Scaduti i termini per la presentazione delle istanze e a conclusione dell’istruttoria delle medesime, la Direzione comunica a ciascun beneficiario l’importo spettante ai sensi degli artt. 6 e 7 dell’Avviso, acquisisce l’atto d’obbligo e dispone con successiva determinazione la concessione e l’impegno di spesa a favore dei singoli beneficiari. L’istanza è presentata dalle ore 8:00 del 18 novembre 2026 alle ore 16:00 del 25 novembre 2026, termine perentorio, con firma digitale del legale rappresentante, tramite la piattaforma regionale per la presentazione delle domande relative a bandi e avvisi https://bandiavvisi.regione.lazio.it . Documentazione di riferimento",
-      "rilevanza": {
-        "punteggio": 0,
-        "stato": "parole_chiave",
-        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
-        "temi": [],
-        "evidenze": [],
-        "destinatari": {
-          "valore": "non_indicato",
-          "citazione": null
-        },
-        "rubrica": "parole-chiave-31",
-        "ambiti": [],
-        "cancro": false,
-        "linee": [],
-        "ruolo": "supporto",
-        "contributi": []
-      },
-      "prima_visto": "2026-11-19"
-    },
-    {
-      "canale": "Regionale",
-      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Presepi 2026",
       "url": "https://www.lazioeuropa.it/bandi/presepi-2026/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-11-30",
         "stato": "confermato",
@@ -969,7 +919,7 @@
         "citazione": null,
         "motivo": null
       },
-      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA PRESEPI 2026 Prossima Apertura Bandi Regionali La Regione Lazio , attraverso LAZIOcrea S.p.A. , ha pubblicato l’Avviso pubblico “ PRESEPI 2026 ”, un’iniziativa volta a promuovere la realizzazione e la valorizzazione del Presepe nelle Istituzioni scolastiche del territorio regionale. L’intervento nasce con l’obiettivo di sostenere e diffondere una delle tradizioni più rappresentative del periodo natalizio, riconoscendo al Presepe un valore che va oltre la dimensione religiosa. Esso rappresenta infatti un importante patrimonio storico, culturale e artistico, capace di trasmettere valori di solidarietà, inclusione e comunità, coinvolgendo le nuove generazioni nella scoperta delle proprie radici e delle tradizioni del territorio. Possono presentare domanda di partecipazione al concorso le Istituzioni scolastiche aventi sede nel territorio della Regione Lazio appartenenti alle seguenti categorie: Scuole primarie (elementari), statali e paritarie; Scuole secondarie (medie), statali e paritarie, di primo grado; Scuole secondarie (superiori), statali e paritarie, di secondo grado. Tutte le informazioni relative ai requisiti di partecipazione, alle modalità di presentazione delle domande e ai termini previsti dall’Avviso sono disponibili nella sezione dedicata del sito istituzionale. Data di pubblicazione: 27/10/2026 Data di scadenza: 30/11/2026 Documentazione di riferimento",
+      "testo_fonte": "CREATIVITÀ, CINEMA, TURISMO E CULTURA PRESEPI 2026 Aperto Bandi Regionali La Regione Lazio , attraverso LAZIOcrea S.p.A. , ha pubblicato l’Avviso pubblico “ PRESEPI 2026 ”, un’iniziativa volta a promuovere la realizzazione e la valorizzazione del Presepe nelle Istituzioni scolastiche del territorio regionale. L’intervento nasce con l’obiettivo di sostenere e diffondere una delle tradizioni più rappresentative del periodo natalizio, riconoscendo al Presepe un valore che va oltre la dimensione religiosa. Esso rappresenta infatti un importante patrimonio storico, culturale e artistico, capace di trasmettere valori di solidarietà, inclusione e comunità, coinvolgendo le nuove generazioni nella scoperta delle proprie radici e delle tradizioni del territorio. Possono presentare domanda di partecipazione al concorso le Istituzioni scolastiche aventi sede nel territorio della Regione Lazio appartenenti alle seguenti categorie: Scuole primarie (elementari), statali e paritarie; Scuole secondarie (medie), statali e paritarie, di primo grado; Scuole secondarie (superiori), statali e paritarie, di secondo grado. Tutte le informazioni relative ai requisiti di partecipazione, alle modalità di presentazione delle domande e ai termini previsti dall’Avviso sono disponibili nella sezione dedicata del sito istituzionale. Data di pubblicazione: 27/10/2026 Data di scadenza: 30/11/2026 Documentazione di riferimento",
       "rilevanza": {
         "punteggio": 0,
         "stato": "parole_chiave",
@@ -994,7 +944,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Sostituzione Veicoli Commerciali Inquinanti",
       "url": "https://www.lazioeuropa.it/bandi/sostituzione-veicoli-commerciali-inquinanti/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2026-12-31",
         "stato": "confermato",
@@ -1047,7 +997,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Basket Bond Lazio – Contributo sui costi di emissione sostenuti dalle Pmi ammissibili",
       "url": "https://www.lazioeuropa.it/bandi/basket-bond-lazio-contributo-sui-costi-di-emissione-sostenuti-dalle-pmi-ammissibili/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1098,7 +1048,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di Libertà per le donne che hanno subito violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-subito-violenza/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1149,7 +1099,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Misure per favorire l’inserimento lavorativo delle persone con disabilità",
       "url": "https://www.lazioeuropa.it/bandi/misure-per-favorire-linserimento-lavorativo-delle-persone-con-disabilita/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2027-02-26",
         "stato": "confermato",
@@ -1200,7 +1150,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Grande distribuzione, iniziative di sostegno alle donne vittime di violenza e ai loro figli minori",
       "url": "https://www.lazioeuropa.it/bandi/manifestazioni-di-interesse-a-realizzare-iniziative-di-sostegno-alle-donne-vittime-di-violenza-e-ai-loro-figli-minori/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1251,7 +1201,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributi di cui al Fondo di solidarietà per gli anziani vittime di truffe e furti",
       "url": "https://www.lazioeuropa.it/bandi/contributi-di-cui-al-fondo-di-solidarieta-per-gli-anziani-vittime-di-truffe-e-furti/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1302,7 +1252,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Contributo di libertà per le donne che hanno intrapreso il percorso di fuoriuscita dalla violenza",
       "url": "https://www.lazioeuropa.it/bandi/contributo-di-liberta-per-le-donne-che-hanno-intrapreso-il-percorso-di-fuoriuscita-dalla-violenza/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1353,7 +1303,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Indennizzi per il sostegno alle vittime di usura",
       "url": "https://www.lazioeuropa.it/bandi/avviso_pubblico_per_la_concessione_di_indennizzi_per_il_sostegno_alle_vittime_di_usura-869/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
@@ -1404,7 +1354,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Credito d’imposta sisma",
       "url": "https://www.lazioeuropa.it/bandi/credito_dimposta_sisma-608/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": "2019-12-31",
         "stato": "confermato",
@@ -1455,7 +1405,7 @@
       "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Finanziamenti a tasso agevolato a sostegno di percorsi di adozione internazionale avviati dalle famiglie",
       "url": "https://www.lazioeuropa.it/bandi/finanziamenti-a-tasso-agevolato-a-sostegno-di-percorsi-di-adozione-internazionale-avviati-dalle-famiglie/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "da_verificare",
@@ -1504,9 +1454,59 @@
     {
       "canale": "Regionale",
       "ente": "Regione Lazio / Lazio Innova",
+      "titolo": "Piani Formativi per l’integrazione e il potenziamento degli interventi del PAR GOL (GOL 4 – II Edizione)",
+      "url": "https://www.lazioeuropa.it/bandi/piani-formativi-per-lintegrazione-e-il-potenziamento-degli-interventi-del-par-gol-gol-4-ii-edizione/",
+      "data_lettura": "2026-11-27",
+      "scadenza": {
+        "valore": "2026-12-04",
+        "stato": "confermato",
+        "citazione": " online su SiGeM entro le ore 12.00 del 4 dicembre 2026",
+        "motivo": null
+      },
+      "durata": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": "Durata non trovata nella scheda"
+      },
+      "budget": {
+        "valore": "€ 94.287.998,90",
+        "stato": "da_verificare",
+        "citazione": "amento ipertestuale alla determinazione di approvazione) Dotazione dell’avviso: € 94.287.998,90",
+        "motivo": "Importo letto nel testo: verificare se è totale, per progetto o per impresa"
+      },
+      "ammissibilita": {
+        "valore": null,
+        "stato": "non_presente",
+        "citazione": null,
+        "motivo": null
+      },
+      "testo_fonte": "LAVORO, FORMAZIONE E INCLUSIONE Piani Formativi per l’integrazione e il potenziamento degli interventi del PAR GOL (GOL 4 – II Edizione) Aperto PNRR PNRR – Approvazione Avviso Pubblico per la progettazione di Piani Formativi per l’integrazione e il potenziamento degli interventi del PAR GOL (GOL 4 II Edizione) nell’ambito del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 ” Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU. Prenotazione di impegno di spesa per complessivi € 94.287.998,90, in favore di creditori diversi (c.c. 3805) sui capitoli di uscita U0000F31213, U0000F31214, EF 2026. CODICE SIGEM 26006N. CUP F84C26000170006. Missione : 5 “Inclusione Sociale” Componente : 1 – “Politiche per il Lavoro” Investimento : 1.1 – Politiche Attive del Lavoro e Formazione Atto di riferimento : Determinazione Dirigenziale n. G16639 del 25/11/2026 (inserire collegamento ipertestuale alla determinazione di approvazione) Dotazione dell’avviso: € 94.287.998,90 Finalità : L’Avviso Pubblico, approvato con la determinazione dirigenziale G16639 del 25/11/2026 è emanato con riferimento al Programma di Attuazione Regionale (PAR) del Lazio in attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU – II EDIZIONE . L’Avviso Pubblico si pone in continuità e a integrazione degli avvisi n. 1, n. 2 e n. 3 [1] e degli ulteriori atti programmatori regionali, con l’obiettivo principale di implementare e assicurare per tutti gli utenti aventi diritto la continuità nell’erogazione dei livelli essenziali delle prestazioni in materia di lavoro (LEP), di valorizzare l’integrazione tra le politiche del lavoro e quelle della formazione e di rafforzare l’offerta formativa nei settori maggiormente richiesti dagli operatori del settore e dagli stakeholder del tessuto laziale al fine di favorire in tempi brevi il reinserimento lavorativo dei potenziali beneficiari. [1] Determinazione n. G08845 del 07/07/2022; Determinazione n. G11353 del 26/08/2022; Determinazione n. G03707 del 26/03/2025. Le finalità prioritarie e specifiche dell’Avviso sono: garantire continuità nell’erogazione dei livelli essenziali delle prestazioni in materia di lavoro (LEP) a tutti gli utenti aventi diritto; ottimizzare l’utilizzo delle risorse del Programma GOL; standardizzare l’offerta formativa regionale relativa ai profili professionali maggiormente richiesti a seguito del confronto con gli operatori; rafforzare l’integrazione tra formazione e mercato del lavoro; migliorare l’efficacia e la misurabilità degli interventi in coerenza con i target PNRR. I beneficiari delle misure di politica attiva e le loro caratteristiche sono individuati dal Decreto del Ministero del Lavoro e delle Politiche Sociali del 5 novembre 2021 ss.mm.ii, con cui è stato adottato il Programma nazionale GOL. Nello specifico, sono soggetti residenti/domiciliati nel Lazio, che non stanno già fruendo di altra politica attiva, rispondenti alle seguenti caratteristiche: Beneficiari di ammortizzatori sociali in costanza di rapporto di lavoro : a legislazione vigente, si tratta dei lavoratori per i quali è prevista una riduzione superiore al 50% dell’orario di lavoro, calcolato in un periodo di 12 mesi; Beneficiari di ammortizzatori sociali in assenza di rapporto di lavoro : disoccupati percettori di NASPI, DIS-COLL; Beneficiari di sostegno al reddito di natura assistenziale : percettori dell’Assegno di inclusione (ADI) o Supporto per la Formazione e il Lavoro (SFL), mobilità in deroga; Lavoratori fragili o vulnerabili: giovani NEET (meno di 30 anni), donne in condizioni di svantaggio, persone con disabilità, lavoratori maturi (55 anni e oltre); Disoccupati senza sostegno al reddito : disoccupati da almeno 6 mesi, altri lavoratori con minori opportunità occupazionali (giovani e donne, anche non in condizioni fragilità), lavoratori autonomi che cessano l’attività o con redditi molto bassi; Lavoratori a rischio disoccupazione o con redditi molto bassi (i cosiddetti working poor): il cui reddito da lavoro dipendente o autonomo sia inferiore alla soglia dell’incapienza secondo la disciplina fiscale. I Piani formativi sono articolati in cinque filiere corrispondenti ai Percorsi GOL: 1. Reinserimento occupazionale; 2. Upskilling; 3. Reskilling; 4. Lavoro e inclusione; 5. Ricollocazione collettiva. Le attività comprendono: Presa in carico e Patto di servizio; Orientamento specialistico; Formazione trasversale (Mindset e soft skills); Formazione mirata all’inserimento/reinserimento lavorativo: l’offerta formativa comprende corsi brevi di 40 ore, competenze digitali (100–150 ore), formazione lunga (151–200 ore) e riqualificazione professionale (300–600 ore); I contenuti didattici sono predefiniti dall’Avviso. Accompagnamento al lavoro o all’autoimpiego. Otto i Settori Economico-Professionali (SEP) ammissibili: agricoltura; meccanica e impiantistica; trasporti e logistica; servizi digitali; servizi sociosanitari; servizi alla persona; servizi turistici; area comune. Soggetti erogatori: Associazioni Temporanee di Impresa/Scopo (ATI/ATS), composte da: soggetti accreditati in base ai seguenti riferimenti: Determinazione Dirigenziale n. G13378 del 10/10/2023 per le azioni di presa in carico e stipula del patto di servizio; DGR n. 198/2014 e s.m.i. (APL) per i servizi al lavoro per le azioni di orientamento specialistico e accompagnamento al lavoro; DGR n. 682/2019 per la formazione continua. Le domande di adesione vengono selezionate sulla base di una procedura di istruttoria tesa alla verifica di ammissibilità formale delle domande presentate. Le Determinazioni relative alle domande ammesse e non, sono pubblicate, con valore di notifica per i soggetti interessati, nel Bollettino ufficiale della Regione (BURL), sul sito https://www.regione.lazio.it/enti/formazione ; https://www.regione.lazio.it/enti/lavoro e sul portale https://www.lazioeuropa.it/pnrr-pnc/ Elementi di premialità : Sono stabiliti punteggi premiali che concernono i seguenti elementi oggettivi: Correttezza e completezza della documentazione presentata; Numero di componenti dell’ATI/ATS; Numero di imprese esterne coinvolte nel partenariato; Numerosità delle filiere previste nel Piano formativo. A parità di punteggio, per la definizione della graduatoria è considerato l’ordine cronologico di presentazione della domanda. Spese eleggibili : Il costo del Piano formativo è ricompreso fra un Max di 1.800.000,00€ e un Max di 3.000.000,00€ in dipendenza della numerosità dei componenti l’ATI/ATS. Presa in carico e stipula del Patto di Servizio: Tipologia di prestazione (UCS) : Processo – Costo Standard : UCS a processo, Tariffa oraria: €38,25 per max 3 ore afferenti ai LEP B, C, D. Per il LEP A non è applicabile nessuna UCS in quanto l’attività non è soggetta a remunerazione Orientamento specialistico LEP E : Tipologia di prestazione (UCS): Orientamento specialistico -Tipologia UCS: Processo – Costo Standard: 39,94 euro (Costo orario per persona) Per attività di gruppo 82,27 euro (Costo orario del servizio) Accompagnamento al lavoro e Incontro domanda offerta LEP F1 – LEP F3 : LEP F1 – Tipologia UCS: Processo – Costo Standard: 39,94 euro (Costo orario Per persona) Per attività di gruppo 82,27 euro (Costo orario del servizio) LEP F3 Tipologia UCS: A Risultato Costo Standard: sulla base dell’indice di svantaggio (In Gol corrispondono ai Percorsi) e della tipologia contrattuale (come da Tabella F3 pagina 8 Delibera del Commissario Straordinario del 16 maggio 2022, n.6 – Allegato C – Standard dei servizi di GOL e relative unità di costo s",
+      "rilevanza": {
+        "punteggio": 0,
+        "stato": "parole_chiave",
+        "motivazione": "Nessun termine di ricerca, innovazione o tecnologia nel titolo: bando non pertinente (scuola, cultura, welfare, finanza, fiere...).",
+        "temi": [],
+        "evidenze": [],
+        "destinatari": {
+          "valore": "non_indicato",
+          "citazione": null
+        },
+        "rubrica": "parole-chiave-31",
+        "ambiti": [],
+        "cancro": false,
+        "linee": [],
+        "ruolo": "supporto",
+        "contributi": []
+      },
+      "prima_visto": "2026-11-27"
+    },
+    {
+      "canale": "Regionale",
+      "ente": "Regione Lazio / Lazio Innova",
       "titolo": "Attività di presa in carico della persona: manifestazioni di interesse per la sottoscrizione di convenzioni",
       "url": "https://www.lazioeuropa.it/bandi/attivita-di-presa-in-carico-della-persona-manifestazioni-di-interesse-per-la-sottoscrizione-di-convenzioni/",
-      "data_lettura": "2026-11-26",
+      "data_lettura": "2026-11-27",
       "scadenza": {
         "valore": null,
         "stato": "non_presente",
